@@ -3,6 +3,10 @@ title: "Research Proposal"
 author: "Max Callaghan and Valeria Nieberg"
 date: "October 9, 2015"
 output: html_document
+bibilography: bibliography.bib
 ---
 
 # Research Proposal for Max Callaghan and Valeria Nieberg
+We look into the voting behaviour and appearances in parliament related to the topic of immigration. Perhaps, or something else
+
+# References
