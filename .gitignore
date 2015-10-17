@@ -9,6 +9,7 @@
 vignettes/*.html
 vignettes/*.pdf
 .Rproj.user
+define_keys.R
 <<<<<<< HEAD
 =======
 col_res_proj.Rproj
