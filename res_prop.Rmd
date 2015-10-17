@@ -8,6 +8,25 @@ bibliography: bibliography.bib
 ---
 
 # Research Proposal for Max Callaghan and Valeria Nieberg
-We look into the voting behaviour and appearances in parliament related to the topic of immigration. Perhaps, or something else [@Salomon2015]
+
+- there already is a descriptive overview over twitter reaction to #aGreekment in the     twittersphere (LSE Blog, 5th of October)        http://blogs.lse.ac.uk/eurocrisispress/2015/10/06/agreekment-in-the-twittersphere/
+
+- it looks at twitter as a platform for a europeanized public sphere
+- if our focus is another, then their results could even help us. 
+- do you think this is something we could test? of course more elaborate: Eurocrisis has been going on for over 6 years now. In crisis situation, you would expect more engaged dialog. Over time, interest should decrease (at least for those not affected). Testing different points in time, we will see that this might be the case for some countries, for others not.
+- caveat: "testing points in time" means testing peaks. how do peaks behave? it would be nice to compare non-peak times to peak times.
+
+- please max have a look at those tweets. do you think it is possible to somehow "alayze them"
+- i am very pessimistic about it :(
+
+
+- if we feel unconfortable with working on greece now that there is already a LSE Blog entry we could do something about mobilization via twitter in refugee "crisis"
+
+
+ [@Salomon2015]
+
+
+
+
 
 # References
