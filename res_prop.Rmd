@@ -9,6 +9,11 @@ bibliography: bibliography.bib
 
 # Research Proposal for Max Callaghan and Valeria Nieberg
 
+Body of twitter research has constantly grown over the past years; the platform has emerged as a valuable resource for tapping into the zeitgeist of the internet, its users, and often beyond.  [@Zimmer2014].
+Sentiment in Twitter messages has even been
+used by the financial industry to try to predict short-term performance of the stock
+market (Bollen et al., 2011; Zhang et al., 2011) [@Zimmer2014]
+
 > NOTES
 >  there already is a descriptive overview over twitter reaction to #aGreekment in the    twittersphere (LSE Blog, 5th of October)       http://blogs.lse.ac.uk/eurocrisispress/2015/10/06/agreekment-in-the-twittersphere/
 > it looks at twitter as a platform for a europeanized public sphere
