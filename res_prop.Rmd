@@ -13,6 +13,9 @@ Body of twitter research has constantly grown over the past years; the platform 
 Sentiment in Twitter messages has even been
 used by the financial industry to try to predict short-term performance of the stock
 market (Bollen et al., 2011; Zhang et al., 2011) [@Zimmer2014]
+Content analysis – where text within
+a tweet was used in part of the analysis in some way – was a dominant form of
+analysis (in all studied twitter study from 2007 to 2011), appearing in nearly two-thirds of all studies in the corpus. [@Zimmer2014]
 
 > NOTES
 >  there already is a descriptive overview over twitter reaction to #aGreekment in the    twittersphere (LSE Blog, 5th of October)       http://blogs.lse.ac.uk/eurocrisispress/2015/10/06/agreekment-in-the-twittersphere/
