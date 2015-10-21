@@ -12,8 +12,7 @@ setup_twitter_oauth(
   ACCESS_TOKEN_SECRET
 )
 
-coup <- searchTwitter("#ThisIsaCoup",n=1500)
-
+coup <- searchTwitter("beer",since='2011-01-01',until='2015-08-30')
 coup_text <- sapply(coup, function(x) x$getText())
 coup_text_corpus <- Corpus(VectorSource(coup_text))
 
