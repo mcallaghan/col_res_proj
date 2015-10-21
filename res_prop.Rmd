@@ -17,6 +17,14 @@ Content analysis – where text within
 a tweet was used in part of the analysis in some way – was a dominant form of
 analysis (in all studied twitter study from 2007 to 2011), appearing in nearly two-thirds of all studies in the corpus. [@Zimmer2014]
 
+Twitter use in high-profile mass convergence events and catastrophes differs from more general twitter use. More broadcast-based information sharing activities happen during mass convergence and crisis events, where the user is pushing information out to many users and not directing it toward one specific user. The percentage of tweets containing URLs to be notably lower in the general sample than that of our convention and hurricane data samples. Also twitter usage followed different pattern in natural catastrophes and political top events. E.g. less URLs (information sharing) in politcal conventions than in natural catastrophes [@Hughes2009] 
+ 
+There is something called "crisis informatics" - Huges cites Hagar, 2009; Hughes et al., 2008; Palen et al., 2009, which address social and technological concerns in emergency and crisis response. Might be worth looking into this.
+
+Devin Gaffney tests the degree to which geographic, semantic, and social distances impact
+the frequency of interactions between users (uses information from geolocated tweets). [@Number2012]
+
+
 > NOTES
 >  there already is a descriptive overview over twitter reaction to #aGreekment in the    twittersphere (LSE Blog, 5th of October)       http://blogs.lse.ac.uk/eurocrisispress/2015/10/06/agreekment-in-the-twittersphere/
 > it looks at twitter as a platform for a europeanized public sphere
