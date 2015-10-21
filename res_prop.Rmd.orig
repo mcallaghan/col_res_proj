@@ -16,15 +16,9 @@ bibliography:
 context eurocrisis + timeline negotiations /memorandums
 
 ## Research Question
-What can twitter tell us about pan-European reactions to the European governments' management of the public-debt crisis in Greece?
- 
-* What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular awareness or engagement with the issues?
 
-* What can the content of tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
 
 ## Literature Review
-
-### On Twitter Research
 
 The body of twitter research has constantly grown over the past years; the platform has emerged as a valuable resource for tapping into the zeitgeist of the internet, its users, and often beyond.  [@Zimmer2014].
 Sentiment in Twitter messages has even been
@@ -56,21 +50,21 @@ the frequency of interactions between users (uses information from geolocated tw
 There is research on ethical aspects of twitter research. concerns about creating a permanent archive of tweets have been voiced (whether such archive was aligned with users’ privacy expectations" have been (Zimmer quotes the following papers Vieweg, 2010; Zimmer,
 2010) [@Zimmer2014]
 
-### On the Variance in Awareness and Public Opinion on European Governments' Handling of the Public-Debt Crisis in Greece
+<<<<<<< HEAD
+=======
+## Introduction
 
-* Variance in Awareness 
+## Research Question
+What can twitter tell us about pan-European reactions to the European governments' management of the Euro crisis in Greece?
 
-Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. From these findings we can take that conversatio
+* What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular awareness or engagement with the issues?
+* What can the content of tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis between and within countries?
 
-![](img/Greece-twitter-1.jpg)
-
-* Variance in Opinion 
-
-They looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
-
-![](img/Greece-twitter-2.jpg)
+## Literature Review
 
 
+
+>>>>>>> cdce7818a4cc6c0b9d5568b289c0cab50fd46114
 ## Data Sources
 
 This decrease in the research output and size of datasets analyzed is possibly
