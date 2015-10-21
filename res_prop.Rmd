@@ -39,6 +39,7 @@ the frequency of interactions between users (uses information from geolocated tw
 
 ## Literature Review
 
+
 > I added some PDFs
 
 > ill look at the following books in stabi
@@ -53,6 +54,9 @@ the frequency of interactions between users (uses information from geolocated tw
 
 ## Data Sources
 Two datasets are required for this project. The first is a corpus of tweets relating to the Greek debt crisis and the measures taken to manage the crisis by European institutions. The second is information about the users whose tweets form the body of that corpus.
+
+Zimmer and Proferes identify the Library of Congress' decision to place every tweet since Twitter's inception in 2006 into an archive as validating "the research importance of twitter" [@Zimmer2014,251]. Despite this announcement occuring in 2010, five years later, the archive is still not open to researchers [@politico].
+
 
 Since late 2014, the whole corpus of twitter data has been searchable online [@wired_twitter]. Programmatic access to this archive is, however, more restricted. Twitter's public search API "is not complete index of all Tweets, but instead an index of recent Tweets. At the moment that index includes between 6-9 days of Tweets." [@twitter_search]. Twitter sells access to historical tweets through an API provided by its "enterprise API platform" GNIP [@twitter_full_archive]. This paper will adapt a publicly available program written in Java which scrapes results from Twitter's online search page [@GetOldTweets]. A list of queries involving combinations of keywords to do with the Greek debt crisis will be drawn up, and we will programmatically run through the list, using the GetOldTweets software to scrape the tweets returned by Twitter's comprehensive online search function that are given by each query.
 
