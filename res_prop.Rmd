@@ -68,7 +68,7 @@ Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activ
 
 They looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
 
-![](img/Greece-twitter-2.jpg)
+![](img/Greece-twitter-2.ppg)
 
 
 ## Data Sources
