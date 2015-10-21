@@ -16,7 +16,11 @@ bibliography:
 context eurocrisis + timeline negotiations /memorandums
 
 ## Research Question
+What can twitter tell us about pan-European reactions to the European governments' management of the Euro crisis in Greece?
+ 
+* What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular awareness or engagement with the issues?
 
+* What can the content of tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis between and within countries?
 
 ## Literature Review
 
