@@ -10,13 +10,17 @@ bibliography:
 
 # Research Proposal for Max Callaghan and Valeria Nieberg
 
-Body of twitter research has constantly grown over the past years; the platform has emerged as a valuable resource for tapping into the zeitgeist of the internet, its users, and often beyond.  [@Zimmer2014].
+The body of twitter research has constantly grown over the past years; the platform has emerged as a valuable resource for tapping into the zeitgeist of the internet, its users, and often beyond.  [@Zimmer2014].
 Sentiment in Twitter messages has even been
 used by the financial industry to try to predict short-term performance of the stock
 market (Bollen et al., 2011; Zhang et al., 2011) [@Zimmer2014]
 Content analysis – where text within
 a tweet was used in part of the analysis in some way – was a dominant form of
 analysis (in all studied twitter study from 2007 to 2011), appearing in nearly two-thirds of all studies in the corpus. [@Zimmer2014]
+
+Though the field of Sentiment Analysis (SA) is perhaps most developed in the business world (cite?), an increasing body of literature has developed, focused on retrieving information about political opinions from the Twittersphere. Tumasjan et. al's landmark paper, "Predicting Elections from Twitter: What 140 Characters Reveal about Political Sentiment", analysed the possibility of using twitter data to predict the 2009 German election [@tumasjan2010]. Though the results have come under scrutiny [see @jungherr2012pirate], the authors found that 
+
+>Twitter is indeed used as a platform for political deliberation. The mere number of tweets reflects voter preferences and comes close to traditional election polls, while the sentiment of Twitter messages closely corresponds to political programs, candidate profiles, and evidence from the media coverage of the campaign trail.[@tumasjan2010, 183]
 
 > NOTES
 >  there already is a descriptive overview over twitter reaction to #aGreekment in the    twittersphere (LSE Blog, 5th of October)       http://blogs.lse.ac.uk/eurocrisispress/2015/10/06/agreekment-in-the-twittersphere/
