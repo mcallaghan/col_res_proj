@@ -10,8 +10,6 @@ bibliography:
 
 # Research Proposal for M. Callaghan and V. Nieberg
 
-
-
 ## Introduction
 context eurocrisis + timeline negotiations /memorandums
 
@@ -21,7 +19,7 @@ In our research project we will investigate the following questions:
 
 What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
  
-* What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular awareness or engagement with the issues?
+* What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular engagement with the issues?
 
 * What can the content of tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
 
@@ -63,21 +61,17 @@ There is research on ethical aspects of twitter research. concerns about creatin
 
 ### On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
 
-Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. However, this research has been characterized as rather normative as the "research community has been [...] interested in producing policy recommendation for public sphere-building" [@Trenz2015, 234]. Recent studies seem to put emphasis on an empirical grounding of the debate [@Trenz2015, @Drewski2015]. This development is being mirrored in research on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened 
-during the euro crisis” [@risse2014, 1213]. Testing this hypothesis empirically by looking at newspaper editorials, Drewski found that there was significant difference  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis. [@Drewski2015, 5]
- 
-* Variance in Awareness 
+Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. This research has been characterized as rather normative as the "research community has been [...] interested in producing policy recommendation for public sphere-building" [@Trenz2015, 234]. Hoever, recent studies seem to put emphasis on an empirical grounding of the debate [@Trenz2015, @Drewski2015]. This development is being mirrored in research on the public debate across Europe on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened during the euro crisis” [@risse2014, 1213]. Testing this hypothesis empirically by looking at newspaper editorials in Spain and Germany, Drewski found that there were significant differences  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis [@Drewski2015, 5]. <!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
 
-Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. From these findings we can take that conversatio
+Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
 
 ![](img/Greece-twitter-1.jpg)
+<!--we'd want to name the source of tables) -->
 
-* Variance in Opinion 
-
-They looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
+They further looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
 
 ![](img/Greece-twitter-2.png)
-
+<!--we'd want to name the source of tables) -->
 
 ## Data Sources
 
