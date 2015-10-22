@@ -16,11 +16,16 @@ bibliography:
 context eurocrisis + timeline negotiations /memorandums
 
 ## Research Question
-What can twitter tell us about pan-European reactions to the European governments' management of the public-debt crisis in Greece?
+
+In our research project we will investigate the following questions:
+
+What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
  
 * What can variation across time and space in the volume of tweets regarding the euro crisis tell us about popular awareness or engagement with the issues?
 
 * What can the content of tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
+
+By investigating European public discourse on the Euro crisis the answer to these questions could potentially add to the literature on the emergence of a European public sphere.
 
 ## Literature Review
 
@@ -56,7 +61,10 @@ the frequency of interactions between users (uses information from geolocated tw
 There is research on ethical aspects of twitter research. concerns about creating a permanent archive of tweets have been voiced (whether such archive was aligned with users’ privacy expectations" have been (Zimmer quotes the following papers Vieweg, 2010; Zimmer,
 2010) [@Zimmer2014]
 
-### On the Variance in Awareness and Public Opinion on European Governments' Handling of the Public-Debt Crisis in Greece
+### On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
+
+“there  is  an  emerging  demos  in  the  European  polity  and  it  has  been  strengthened 
+during the euro crisis” (Risse 2014: 1213). 
 
 * Variance in Awareness 
 
