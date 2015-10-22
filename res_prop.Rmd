@@ -1,14 +1,14 @@
 ---
 title: "Research Proposal"
-author: "Max Callaghan and Valeria Nieberg"
-date: "October 9, 2015"
+author: "M. Callaghan and V. Nieberg"
+date: "October 23, 2015"
 output: html_document
 bibliography: 
 - bibliography.bib 
 - RpackageCitations.bib
 ---
 
-# Research Proposal for Max Callaghan and Valeria Nieberg
+# Research Proposal for M. Callaghan and V. Nieberg
 
 
 
@@ -63,9 +63,9 @@ There is research on ethical aspects of twitter research. concerns about creatin
 
 ### On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
 
-“there  is  an  emerging  demos  in  the  European  polity  and  it  has  been  strengthened 
-during the euro crisis” (Risse 2014: 1213). 
-
+Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. However, this research has been characterized as rather normative as the "research community has been [...] interested in producing policy recommendation for public sphere-building" [@Trenz2015, 234]. Recent studies seem to put emphasis on an empirical grounding of the debate [@Trenz2015, @Drewski2015]. This development is being mirrored in research on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened 
+during the euro crisis” [@risse2014, 1213]. Testing this hypothesis empirically by looking at newspaper editorials, Drewski found that there was significant difference  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis. [@Drewski2015, 5]
+ 
 * Variance in Awareness 
 
 Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. From these findings we can take that conversatio
