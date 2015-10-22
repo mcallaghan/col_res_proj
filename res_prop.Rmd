@@ -29,35 +29,20 @@ By investigating European public discourse on the Euro crisis the answer to thes
 
 ### On Twitter Research
 
-The body of twitter research has constantly grown over the past years; the platform has emerged as a valuable resource for tapping into the zeitgeist of the internet, its users, and often beyond.  [@Zimmer2014].
-Sentiment in Twitter messages has even been
-used by the financial industry to try to predict short-term performance of the stock
-market (Bollen et al., 2011; Zhang et al., 2011) [@Zimmer2014]
-Content analysis – where text within
-a tweet was used in part of the analysis in some way – was a dominant form of
-analysis (in all studied twitter study from 2007 to 2011), appearing in nearly two-thirds of all studies in the corpus. [@Zimmer2014]
+The body of twitter research has constantly grown over the past years (for a comprehensive analysis and typology of twitter research up to 2013, see [@Zimmer2014]). Some of the findings with relevance to our research design are discussed here.
 
-Twitter use in high-profile mass convergence events and catastrophes differs from more general twitter use. More broadcast-based information sharing activities happen during mass convergence and crisis events, where the user is pushing information out to many users and not directing it toward one specific user. The percentage of tweets containing URLs to be notably lower in the general sample than that of our convention and hurricane data samples. Also twitter usage followed different pattern in natural catastrophes and political top events. E.g. less URLs (information sharing) in politcal conventions than in natural catastrophes [@Hughes2009] 
- 
-There is something called "crisis informatics" - Huges cites Hagar, 2009; Hughes et al., 2008; Palen et al., 2009, which address social and technological concerns in emergency and crisis response. Might be worth looking into this.
+* **Twitter as Platform for Political Delibaration:** Twitter is used as a platform for political deliberation. In a recent study, Tumasjan et al. found that the mere number of tweets reflects voter preferences and came close to traditional election polls, while the sentiment of Twiter messages closely corresponded to political programs, candidate profiles, and evidence from the media coverage of the campaign trail [@tumasjan2010, 183].
 
-Though the field of Sentiment Analysis (SA) is perhaps most developed in the business world (cite? Sentiment in Twitter messages has even been
-used by the financial industry to try to predict short-term performance of the stock
-market (Bollen et al., 2011; Zhang et al., 2011) [@Zimmer2014]), an increasing body of literature has developed, focused on retrieving information about political opinions from the Twittersphere. Tumasjan et. al's landmark paper, "Predicting Elections from Twitter: What 140 Characters Reveal about Political Sentiment", analysed the possibility of using twitter data to predict the 2009 German election [@tumasjan2010]. Though the results have come under scrutiny [see @jungherr2012pirate], the authors found that 
+* **Twitter Usage in Critical Situations:** Twitter usage in critical situations has been found to differ from general twitter usage. In a study on twitter usage at high-profile mass convergence events and catastrophes Hughes and Palen found that during mass convergence and crisis events, where the user is pushing information out to many users and not directing it toward one specific user, more broadcast-based information sharing activities happen [@Hughes2009, 259]. As for a difference in between natural catastrophes and political events, they found that there was less information sharing (measured by instances of URLs) in politcal conventions than in natural catastrophes [@Hughes2009, 257]. 
+* **Geolocation:** Devin Gaffney tested the degree to which geographic, semantic, and social distances impact the frequency of interactions between users (used information from geolocated tweets). [@Number2012]
+
+
+* **Sentiment Analysis:** Though the field of Sentiment Analysis (SA) is perhaps most developed in the business world [@Zimmer2014, 250], an increasing body of literature has developed, focused on retrieving information about political opinions from the Twittersphere. Tumasjan et. al's landmark paper, "Predicting Elections from Twitter: What 140 Characters Reveal about Political Sentiment", analysed the possibility of using twitter data to predict the 2009 German election [@tumasjan2010]. Though the results have come under scrutiny [see @jungherr2012pirate], the authors found that 
 Sentiment analysis of
 tweets was also a particularly prominent analysis type, with 16 percent of studies (conducted between 2007-2012)
 relying on some form of classification or analysis of affect within tweets [@Zimmer2014, 253]
 
-
->Twitter is indeed used as a platform for political deliberation. The mere number of tweets reflects voter preferences and comes close to traditional election polls, while the sentiment of Twitter messages closely corresponds to political programs, candidate profiles, and evidence from the media coverage of the campaign trail.[@tumasjan2010, 183]
-
-
-
-Devin Gaffney tests the degree to which geographic, semantic, and social distances impact
-the frequency of interactions between users (uses information from geolocated tweets). [@Number2012]
-
-There is research on ethical aspects of twitter research. concerns about creating a permanent archive of tweets have been voiced (whether such archive was aligned with users’ privacy expectations" have been (Zimmer quotes the following papers Vieweg, 2010; Zimmer,
-2010) [@Zimmer2014]
+* **Ethical Aspects:** Finally, there is some studies discuss ethical aspects of twitter research. For example, concerns about creating a permanent archive of tweets have been voiced. These concerns included whether "such archive was aligned with users’ privacy expectations" [@Zimmer2014, 258], [@Zimmer2010]
 
 ### On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
 
