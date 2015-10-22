@@ -71,6 +71,26 @@ They looked at instances of tweets containing #ThisIsACoup, representing a parti
 ![](img/Greece-twitter-2.png)
 
 
+### On Sentiment Analysis
+Grimmer describes how "automated content methods can make possible the previously impossible in political science: the systematic analysis of large-scale text collections without massive funding support" [@grimmer2013,2].
+
+"The goal of building text models is therefore different than model building to make causal inferences" [@grimmer2013, 4].
+
+"Emphasis in evaluations should be placed on helping researchers to assign documents into predetermined categories, discover new and useful categorizytion schemes for texts, or in measuring theoretically relevant quantities from large collections of text." [@grimmer2013, 4].
+
+"For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6].
+
+"We will assume documents are a *bag of words*, where order does not inform our analyses [...] In practice, for common tasks like measuring sentiment, topic modeling, or search, *n-grams* (combinations of words rather than individual words) do little to enhance performance" [@grimmer2013, 6].
+
+"microblogging web-sites are rich sources of data for opinion mining and sentiment analzsis" [@Pak2010,1320].
+
+"SMT systems are mature enough to produce reliably [sic.] training data for languages other than English" [@balahur2012, 58].
+
+"Noisy social media, such as Twitter, are especially interesting for sentiment analysis (SA) and polarity classification tasks, given the amount of data
+and their popularity in different countries, where
+users simultaneously publish opinions about the
+same topic in different languages" [@vilares2015, 2].
+
 ## Data Sources
 
 This decrease in the research output and size of datasets analyzed is possibly
@@ -91,8 +111,21 @@ We can use the R package 'TwitteR' [@R-twitteR] to retrieve more information abo
 
 ## Methodology
 
+- Volumes of topic-relevant tweets will be mapped across space and time, to analyse the distribution of topic-awareness and its relation to political developments in responses to the crisis.
 
+- The distribution of hashtags that clearly represent an opinion on the response to the crisis (e.g. '#ThisIsaCoup', '#ThisIsNotaCoup' *inter alia*) will be similarly mapped in order to represent the distribution of opinion within and between countries over time.
 
+- The twittersphere's validity in representing political opinion will be tested by comparing volumes of tweets containing the hashtags '#ναί' and '#όχι' with the results of the referendum.
+
+- The paper will attempt a sentiment analysis of tweets expressing opinions about the agreed bailout deals using either/or
+
+    - A multilingual EU funded sentiment analysis tool (opeNER)
+    
+    - Machine translation to translate all texts into English and then sentiment analyse them
+    
+    - Sentiment analysis based on emoticons
+
+(citecitecite....)
 
 
 

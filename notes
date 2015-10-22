@@ -3,8 +3,13 @@ max
 ways to analyse sentiment
 - http://sentistrength.wlv.ac.uk/#Java
 - http://liwc.wpengine.com/compare-versions/ 1 month lease for $9.95
+- http://www.opener-project.eu/project/
 
+Can we do SA for different political figures?
 
+Can we perform some validation by comparing results to referendum with "ne" and "oxi" tweets?
+
+Can we sentiment analyse a random corpus of European tweets and check for changes in pos/neg at LSE type peaks/troughs.
 
 
 valerie
