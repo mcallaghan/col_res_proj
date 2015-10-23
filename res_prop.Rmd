@@ -5,9 +5,11 @@ date: "October 23, 2015"
 output: 
   html_document:
     fig_caption: true
+    css: style/style.css
+  pdf_document:
+    fig_caption: true
     latex_engine: xelatex
     keep_tex: true
-    css: style/style.css
 bibliography: 
 - bibliography.bib 
 - RpackageCitations.bib
@@ -40,6 +42,7 @@ Twitter is a Source for Meaningful Information about Engagement with and Opinion
 Twitter is used as a platform for political deliberation. In a recent study on Tweets mentioning parties or politicians before the 2009 German federal election, Tumasjan et al. found that "Twitter is not just used to spread political opinions, but also to discuss these opinions with other users" [@tumasjan2010, 183]. Furthermore, specific patterns of twitter usage have been identifed that correspond with high-profile political events. Hughes and Palen found that, compared to general Twitter usage, more broadcast-based information sharing activities happen [@Hughes2009, 259]. <!--As for a difference in between natural catastrophes and political events, they found that there was less information sharing (measured by instances of URLs) in political conventions than in natural catastrophes [@Hughes2009, 257]. -->
 Moreover, Tumasjan et al. found that it was possible to extact meaningful information about political opinions from both the volumes and the content of these tweets: "the mere number of tweets reflects voter preferences and came close to traditional election polls" [@tumasjan2010, 183]. 
 
+
 Twitter gives information on location of tweets and users, which must be carefully interpreted. Devin Gaffney points out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually tweeting from" [@Graham2014, 1] which must be considered when interepreteing results. <!-- Further research by Gaffney has tested the degree to which geographic, semantic, and social distances impact the frequency of interactions between users [@Number2012]. -->
 
 
@@ -66,14 +69,11 @@ Academic research on the emergence of a European public sphere is not a recent p
 Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
 
 ![Tweet volumes by country on 12-13 July 2015 in European countries [source @LSEtwitter]](img/Greece-twitter-1.jpg)
-<!--we'd want to name the source of tables) -->
+
 
 They further looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
 
 ![Number of tweets containing the #thisisacoup hashtag on 12-13 July 2015 [source @LSEtwitter]](img/Greece-twitter-2.png)
-<!--we'd want to name the source of tables) -->
-
-
 
 ## Data Sources
 
@@ -117,20 +117,3 @@ Option two will be preferred, due to simplicity, and analysis will then be carri
 pkgs <- c('twitteR')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations.bib')
 ```
-
-
-<script type="text/javascript">
-var images = document.getElementsByTagName("img");
-for (i = 0; i < images.length; i++) {
-  var image = images[i];
-  var n = i + 1
-  var caption = 'figure ' + n + ': ' + image.alt;
-  var figcaption = document.createElement('figcaption');
-  var parent = image.parentNode;
-  var figure = document.createElement('figure');
-  parent.replaceChild(figure,image);
-  figure.appendChild(image);
-  figure.appendChild(figcaption);
-  figcaption.innerHTML = caption;
-}
-</script>
