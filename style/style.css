@@ -9,9 +9,9 @@ figcaption {
   font-size: 75%;
 }
 
-figure {
+div.figure {
   width: 675px;
-  margin: 5em auto;
+  margin: 3em auto;
 }
 
 
