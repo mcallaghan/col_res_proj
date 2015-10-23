@@ -1,0 +1,9 @@
+div#header{
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+figcaption {
+  font-weight: bold;
+}

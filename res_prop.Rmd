@@ -7,6 +7,7 @@ output:
     fig_caption: true
     latex_engine: xelatex
     keep_tex: true
+    css: style/style.css
 bibliography: 
 - bibliography.bib 
 - RpackageCitations.bib
@@ -104,14 +105,11 @@ We can use the R package 'TwitteR' [@R-twitteR] to retrieve more information abo
 
     - A multilingual EU funded open-source sentiment analysis tool (opeNER)
     
-    - Machine translation to translate all texts into English and then sentiment analyse them
+    - Machine translation to translate all texts into English before performing sentiment analysis
     
     - Sentiment analysis based on emoticons
 
-(citecitecite....)
-
-
-"We will assume documents are a *bag of words*, where order does not inform our analyses [...] In practice, for common tasks like measuring sentiment, topic modeling, or search, *n-grams* (combinations of words rather than individual words) do little to enhance performance" [@grimmer2013, 6].
+Option two will be preferred, due to simplicity, and analysis will then be carried out using unigrams to indicate polarity through comparison with a lexicon. Following Grimmer, "We will assume documents are a *bag of words*, where order does not inform our analyses" as "In practice, for common tasks like measuring sentiment, topic modeling, or search, *n-grams* (combinations of words rather than individual words) do little to enhance performance" [@grimmer2013, 6]. 
 
 ## References
 
@@ -135,5 +133,4 @@ for (i = 0; i < images.length; i++) {
   figure.appendChild(figcaption);
   figcaption.innerHTML = caption;
 }
-
 </script>
