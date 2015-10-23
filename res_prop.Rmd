@@ -4,16 +4,17 @@ author: "M. Callaghan and V. Nieberg"
 date: "October 23, 2015"
 documentclass: article
 output:
+  html_document:
+    fig_caption: true
+    css: style/style.css
+    toc: true
   pdf_document:
     fig_caption: true
     highlight: zenburn
     latex_engine: xelatex
     keep_tex: true
     toc: true
-  html_document:
-    fig_caption: true
-    css: style/style.css
-    toc: true
+
 
 bibliography: 
 - bibliography.bib 
@@ -41,14 +42,14 @@ By investigating European public discourse on the Euro crisis the answer to thes
 
 ## On Twitter Research
 
-The body of twitter research has constantly grown over the past years [for a comprehensive analysis and typology of twitter research up to 2013, see @Zimmer2014]. Some of the findings with relevance to our research design are discussed below.
+The body of twitter research has grown steadily in recent years [for a comprehensive analysis and typology of twitter research up to 2013, see @Zimmer2014]. Some of the findings relevant to our research design are discussed below.
 
-Twitter is a Source for Meaningful Information about Engagement with and Opinions about Political Topics.
-Twitter is used as a platform for political deliberation. In a recent study on Tweets mentioning parties or politicians before the 2009 German federal election, Tumasjan et al. found that "Twitter is not just used to spread political opinions, but also to discuss these opinions with other users" [@tumasjan2010, 183]. Furthermore, specific patterns of twitter usage have been identifed that correspond with high-profile political events. Hughes and Palen found that, compared to general Twitter usage, more broadcast-based information sharing activities happen [@Hughes2009, 259]. <!--As for a difference in between natural catastrophes and political events, they found that there was less information sharing (measured by instances of URLs) in political conventions than in natural catastrophes [@Hughes2009, 257]. -->
+Twitter is a source of meaningful information about engagement with and opinions about political topics.
+Twitter is also used as a platform for political deliberation. In a recent study on Tweets mentioning parties or politicians before the 2009 German federal election, Tumasjan et al. found that "Twitter is not just used to spread political opinions, but also to discuss these opinions with other users" [@tumasjan2010, 183]. Furthermore, specific patterns of twitter usage have been identifed that correspond with high-profile political events. Hughes and Palen found that, compared to general Twitter usage, more broadcast-based information sharing activities take place [@Hughes2009, 259] during events. <!--As for a difference in between natural catastrophes and political events, they found that there was less information sharing (measured by instances of URLs) in political conventions than in natural catastrophes [@Hughes2009, 257]. -->
 Moreover, Tumasjan et al. found that it was possible to extact meaningful information about political opinions from both the volumes and the content of these Tweets: "the mere number of Tweets reflects voter preferences and came close to traditional election polls" [@tumasjan2010, 183]. 
 
 
-Twitter gives information on location of Tweets and users, which must be carefully interpreted. Devin Gaffney points out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1] which must be considered when interepreteing results. <!-- Further research by Gaffney has tested the degree to which geographic, semantic, and social distances impact the frequency of interactions between users [@Number2012]. -->
+Twitter gives information on the location of Tweets and users, which must be carefully interpreted. Devin Gaffney points out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1] which must be considered when interepreteing results. <!-- Further research by Gaffney has tested the degree to which geographic, semantic, and social distances impact the frequency of interactions between users [@Number2012]. -->
 
 
 Though the field of Sentiment Analysis (SA) is perhaps most developed in the business world [@Zimmer2014, 250], an increasing body of literature has developed, focused on retrieving information about political opinions from the Twittersphere. Though Tumasjan's results have come under scrutiny [see @jungherr2012pirate], the authors found that "the sentiment of Twiter messages closely corresponded to political programs, candidate profiles, and evidence from the media coverage of the campaign trail" [@tumasjan2010, 183].
@@ -76,7 +77,7 @@ Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activ
 ![Tweet volumes by country on 12-13 July 2015 in European countries [source @LSEtwitter]](img/Greece-twitter-1.jpg)
 
 
-They further looked at instances of Tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
+They further looked at instances of Tweets containing #ThisIsACoup, representing a particular opinion on the agreement. They then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
 
 ![Number of Tweets containing the #thisisacoup hashtag on 12-13 July 2015 [source @LSEtwitter]](img/Greece-twitter-2.png)
 
