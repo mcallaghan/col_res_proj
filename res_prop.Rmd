@@ -11,8 +11,7 @@ bibliography:
 # Research Proposal for M. Callaghan and V. Nieberg
 
 ## Introduction
-Twitter has information about the European public sphere, interesting topic.
-The crisis was widely discussed across Europe and presents an interesting point in time to investigate whether European issues are discussed in a common European public sphere. This project will look at the reaction in the Twittersphere to the negotiation between the Troika and Greece leading up to the signing of the three memorandums.
+Twitter is an online social network that allows users to broadcast short posts known as tweets. Since its launch in 2006, the platform has increasingly been used for everyday communication as well as for political debates, crisis communication, marketing, and cultural participation [@weller2013]. The public-debt crisis in Europe is widely discussed across Europe and presents an interesting point in time to investigate whether European issues are discussed in a common European public sphere. This project will do so by looking at data from the communication platform Twitter. It will specifically look at the reaction in the Twittersphere to the negotiation between the Troika and Greece leading up to the signing of the three memorandums.
 
 ## Research Question
 
