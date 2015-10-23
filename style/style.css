@@ -6,4 +6,15 @@ div#header{
 
 figcaption {
   font-weight: bold;
+  font-size: 75%;
+}
+
+figure {
+  width: 675px;
+  margin: 5em auto;
+}
+
+
+body {
+  font-family: "Times New Roman", sans-serif;
 }

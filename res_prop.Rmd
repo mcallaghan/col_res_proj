@@ -65,12 +65,12 @@ Academic research on the emergence of a European public sphere is not a recent p
 
 Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
 
-![Image Caption](img/Greece-twitter-1.jpg)
+![Tweet volumes by country on 12-13 July 2015 in European countries [source @LSEtwitter]](img/Greece-twitter-1.jpg)
 <!--we'd want to name the source of tables) -->
 
 They further looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
 
-![](img/Greece-twitter-2.png)
+![Number of tweets containing the #thisisacoup hashtag on 12-13 July 2015 [source @LSEtwitter]](img/Greece-twitter-2.png)
 <!--we'd want to name the source of tables) -->
 
 
