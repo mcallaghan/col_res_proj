@@ -2,7 +2,11 @@
 title: "Research Proposal"
 author: "M. Callaghan and V. Nieberg"
 date: "October 23, 2015"
-output: html_document
+output: 
+  html_document:
+    fig_caption: true
+    latex_engine: xelatex
+    keep_tex: true
 bibliography: 
 - bibliography.bib 
 - RpackageCitations.bib
@@ -60,7 +64,7 @@ Academic research on the emergence of a European public sphere is not a recent p
 
 Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
 
-![](img/Greece-twitter-1.jpg)
+![Image Caption](img/Greece-twitter-1.jpg)
 <!--we'd want to name the source of tables) -->
 
 They further looked at instances of tweets containing #ThisIsACoup, representing a particular opinion on the agreement. The then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
@@ -116,3 +120,20 @@ pkgs <- c('twitteR')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations.bib')
 ```
 
+
+<script type="text/javascript">
+var images = document.getElementsByTagName("img");
+for (i = 0; i < images.length; i++) {
+  var image = images[i];
+  var n = i + 1
+  var caption = 'figure ' + n + ': ' + image.alt;
+  var figcaption = document.createElement('figcaption');
+  var parent = image.parentNode;
+  var figure = document.createElement('figure');
+  parent.replaceChild(figure,image);
+  figure.appendChild(image);
+  figure.appendChild(figcaption);
+  figcaption.innerHTML = caption;
+}
+
+</script>
