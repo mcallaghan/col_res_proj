@@ -1,0 +1,51 @@
+memoranda 2nd May 2010, 12 March 2012, 14 August 2015 
+
+1 -  15 April - 15 May 2010
+2 - 7th Feb - 31st March 2012
+3 - 1st July-25th August 2015
+
+
+query start end
+#oxi
+#nai
+#oxi
+#nai+greece
+grexit
+#aGreekment
+varoufakis
+tsipras
+merkel+greece
+schäuble+greece
+greece+crisis
+germany+greece
+syriza
+thisisacoup
+thisisnotacoup
+mou+greece
+memorandum+greece
+austerity+greece
+notmyeurope
+bailout
+rescue packages
+2-pac
+3-pac
+athens
+athens+berlin
+eurocrisis
+eucrisis
+eurogroup
+eurogroup+agreement
+euro+summit
+eurosummit
+imf+greece
+economic+adjustment
+greece+reforms
+tax+evasion+greece
+
+
+
+
+Replies to European council President (Rompuy, Tusk)
+Replies to deal tweets
+
+
