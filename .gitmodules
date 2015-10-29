@@ -1,0 +1,3 @@
+[submodule "forkedGetOldTweets"]
+	path = GetOldTweets
+	url = https://github.com/mcallaghan/GetOldTweets.git
