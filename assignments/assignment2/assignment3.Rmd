@@ -1,0 +1,7 @@
+---
+title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about Political Deliberation and Opinions in Europe?'
+author: "M. Callaghan, V. Nieberg"
+date: "November 14, 2015"
+output: html_document
+---
+
