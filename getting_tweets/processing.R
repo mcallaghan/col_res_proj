@@ -27,6 +27,7 @@ get_user_info <- function(df) {
   limit <- 15000
   section <- ceiling(length(users) / limit)
   for (i in c(1:section)) {
+    print(i)
     s <- (i-1)*limit+1
     if (i < section) {
       e <- i*limit
@@ -38,9 +39,7 @@ get_user_info <- function(df) {
     u_info <- parse_u_info(lookup)
     user_info <- rbind(user_info,u_info)
   }
-
-  rm(list="ACCESS_TOKEN","ACCESS_TOKEN_SECRET","CONSUMER_KEY","CONSUMER_SECRET")
-  return(u_info)
+  return(user_info)
 }
 
 parse_u_info <- function(info) {
@@ -66,6 +65,8 @@ parse_u_info <- function(info) {
   }
   return(u_info)
 }
+
+corpus <- read.csv("data/corpus.csv")
 
 minicorpus <- corpus[sample(nrow(corpus),200),]
 
