@@ -13,33 +13,30 @@ output: html_document
 # Data Cleaning  
 
 ```{r}
+library(ggplot2)
+
 files <- list.files("data/GOToutput")
 
-corpus <- data.frame(tweet_id = numeric(), text = character(), username = character(), user_id = numeric(), date = character(), query = character())
+corpus <- data.frame()
 
-for (f in files) {
-  df <- read.table(
-    paste0("data/GOToutput/",f),
-    sep="\t",
-    header=TRUE
-  )
-  df$query = f
+for (file in files) {
+  df <- read.delim(paste0("data/GOToutput/",file),
+                   quote="")
+  query <- strsplit(file,"_")[[1]][1]
+  period <- paste0(strsplit(file,"_")[[1]][2],"-",strsplit(file,"_")[[1]][3])
+  df$query <- query
+  df$period <- period
   corpus <- rbind(corpus,df)
 }
 
+ggplot(corpus,aes(query)) + geom_bar() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
-df < read.delim(
-    "data/GOToutput/#aGreekment_2015-07-01_2015-08-25.txt",
-    sep="\t",
-    quote="",
-    comment.char=""
-)
+ggplot(corpus,aes(query,fill=period)) + 
+  geom_bar() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
-df < scan(
-    "data/GOToutput/varoufakis_2015-07-01_2015-08-25.txt",""
-)
-
-
+users <- unique(corpus$user_id)
 
 ```
 
