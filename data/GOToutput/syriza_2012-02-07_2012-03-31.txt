@@ -1,0 +1,647 @@
+tweet_id	text	username	user_id	date
+185841929190256640	Προσωρινή αναστολή λειτουργίας του ΧΥΤΑ ζητά και ο ΣΥΡΙΖΑ:   Το αίτημα του δήμου Βορείων Τζουμέρκων για προσωρι... http://bit.ly/HtpAox 	IoanninaPress	440781433	2012-03-30 23:32:23
+185833912210165760	O ΣΥΡΙΖΑ Ιωαννίνων για το μεταναστευτικό:   Την αντίθεσή του στη δημιουργία "στρατοπέδων συγκέντρωσης", όπως τα ... http://bit.ly/HqLcmj 	IoanninaPress	440781433	2012-03-30 23:00:31
+185814055808802817	Εντωμεταξύ στο goodοπάρτυ τους δώσανε και goodie bag. Με χάντρες και κλωστές να κάνουν χαϊμαλιά. Από μικρές στο #syriza.	fact_value	405687953	2012-03-30 21:41:37
+185809035067531264	#Greece poll (Public Issue): ND 22.5%, Pasok 15.5%, Syriza 12.5%, DemLeft 12%, KKE 12%, IndepGreeks 8.5%, Xrysh Aygh 5%, Ecologists 3%	EfiEfthimiou	281093434	2012-03-30 21:21:40
+185800753670139904	Τροπολογία για ρύθμιση των κτηνοτροφικών δανείων κατέθεσε η βουλευτής του ΣΥΡΙΖΑ Β’ Θεσσαλονίκης Ευαγγελία... http://fb.me/zGPng06t 	Ammanatidou	539544615	2012-03-30 20:48:46
+185800384407805952	Τροπολογία κατέθεσε η Κ.Ο. του ΣΥΡΙΖΑ και οι ανεξάρτητοι βουλευτές Π. Κουρουμπλής και Σ. Σακοράφα για τις αγορές... http://fb.me/1m9qjKWnL 	Ammanatidou	539544615	2012-03-30 20:47:18
+185675069597556736	SyRizA'nın İskeçe Türk Birliği açıklamasını da Hacıosman'la İlhan Ahmet yazmış olabilir mi acaba? #Yunanistan #Karayusufmeclise	MuCo_Sol	90864882	2012-03-30 12:29:20
+185667693460996096	Ο ΣΥΡΙΖΑ Άρτας για τον συμπατριώτη μας Γιάννη Μπανιά http://bit.ly/H2qqdu 	pathfinderuNews	29189180	2012-03-30 12:00:02
+185660872256012288	Γιατί σαν Καστοριά φοβόμαστε να μιλήσουμε για τη γούνα; http://www.kimonmitalidis.gr/archives/492  #aporia #syriza #dhmar	KimonMitalidis	526833911	2012-03-30 11:32:56
+185638364920299521	ΣΥΡΙΖΑ σχετικά με τη δίκη των συλληφθέντων στη Χαλκίδα για «προσβολή του προσώπου του Προέδρου της Δημοκρατίας» http://www.syriza.gr/index.php?option=com_k2&view=item&id=1627%3A%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%AF%CE%BD%CF%89%CF%83%CE%B7-%CE%B5%CF%80%CE%B9%CF%84%CF%81%CE%BF%CF%80%CE%AE%CF%82-%CE%B4%CE%B9%CE%BA%CE%B1%CE%B9%CF%89%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CF%85%CF%81%CE%B9%CE%B6%CE%B1-%CF%83%CF%87%CE%B5%CF%84%CE%B9%CE%BA%CE%AC-%CE%BC%CE%B5-%CF%84%CE%B7-%CE%B4%CE%AF%CE%BA%CE%B7-%CF%84%CF%89%CE%BD-%CF%83%CF%85%CE%BB%CE%BB%CE%B7%CF%86%CE%B8%CE%AD%CE%BD%CF%84%CF%89%CE%BD-%CF%83%CF%84%CE%B7-%CF%87%CE%B1%CE%BB%CE%BA%CE%AF%CE%B4%CE%B1-%CE%B3%CE%B9%CE%B1-%CF%80%CF%81%CE%BF%CF%83%CE%B2%CE%BF%CE%BB%CE%AE-%CF%84%CE%BF%CF%85-%CF%80%CF%81%CE%BF%CF%83%CF%8E%CF%80%CE%BF%CF%85-%CF%84%CE%BF%CF%85-%CF%80%CF%81%CE%BF%CE%AD%CE%B4%CF%81%CE%BF%CF%85-%CF%84%CE%B7%CF%82-%CE%B4%CE%B7%CE%BC%CE%BF%CE%BA%CF%81%CE%B1%CF%84%CE%AF%CE%B1%CF%82&Itemid=173 …	PDimitras	416903787	2012-03-30 10:03:29
+185494394890240000	Ψήφο εξουσίας διεκδικεί ο «ΣΥΡΙΖΑ - Ενωτικό Κοινωνικό Μέτωπο» http://tvxs.gr/news/ellada/psifo-eksoysias-diekdikei-o-syriza-enotiko-koinoniko-metopo …	Gangelakis	222502948	2012-03-30 00:31:24
+185472043737812992	do {ftaiei_o_syriza=true} while (ftaiei_o_syriza=true);	platitudinous	16275609	2012-03-29 23:02:35
+185452513649111041	" @damomac: (...)Syriza-Unifying Social Front! http://www.athensnews.gr/portal/1/54500 "// GR left parties stress diff between them, but all vote the same @ Plm	escobedoflores	61266229	2012-03-29 21:44:59
+185450410851565568	για τα επεισοδια στην Ισπανία #ftaiei_o_syriza	mpodil	103317494	2012-03-29 21:36:38
+185448329470160896	Η... μαγερική του Αλέξη - Πολύ λάδι αλλά από τηγανίτες …Κουρουμπλής http://bit.ly/H00fAJ  via @addthis	kentrinewsgr	271464249	2012-03-29 21:28:21
+185443710962634752	#TheLifeOfBrian #Greece MT @damomac So Left Coalition Syn is part of Radical Left Coalition Syriza now part of Syriza-Unifying Social Front!	IrateGreek	246941871	2012-03-29 21:10:00
+185433545433546752	GRECE:GD annoncera la mise en place de son groupe parlementaire, puisqu’il compte 10 députés créé par 4 députés provenant du SYRIZA	FidelGavilan	462206857	2012-03-29 20:29:37
+185417909173100544	Σύμφωνα με το #syriza για τους μετανάστες και το λαθρεμπόριο φταίνε οι έλληνες #wtf	C_Papachaviaris	62329978	2012-03-29 19:27:29
+185414874237640705	RT @AthensNewsEU: Syriza transforming into bigger beast and get a new name to boot. http://www.athensnews.gr/portal/1/54500  #syriza #greece	sulpicius	25011877	2012-03-29 19:15:25
+185412952147492865	Greek News Syriza gets growth spurt in time for elections: When the going gets tough, the tough get together and... http://oio.gr//91 	JwForum	39049059	2012-03-29 19:07:47
+185411585420963841	Syriza gets growth spurt in time for elections | Athens News: http://www.athensnews.gr/portal/1/54500  via @AddThis	FemmeDuMidi	307093645	2012-03-29 19:02:21
+185409434510573568	Syriza transforming into bigger beast and get a new name to boot. http://www.athensnews.gr/portal/1/54500  #syriza_more_than_meets_the_eye	AthensNewsEU	59407061	2012-03-29 18:53:48
+185383652308418561	Ψήφο εξουσίας διεκδικεί ο «ΣΥΡΙΖΑ - Ενωτικό Κοινωνικό Μέτωπο» http://dlvr.it/1N7j3L 	tvxs	18834081	2012-03-29 17:11:21
+185381147784654850	Ntropi! O Syriza dernei ton kosmo kai stin Ispania....	TRampias	396414788	2012-03-29 17:01:24
+185376398670704642	#ftaei_o_syriza (εν προκειμένω, διαβάζεται "συρίθα") RT @TsantiriNews ΦΩΤΟ: Καίγεται η Βαρκελώνη http://bit.ly/GVALEe 	xasodikis	21091644	2012-03-29 16:42:32
+185368907165605888	#Grecia edificante: nazi di #Albad'oro hanno aggredito e bastonato studenti delle sinistre Syriza e Nar all'interno di matematica UnivAtene	margherita_dean	28054886	2012-03-29 16:12:46
+185366880578584577	Κρίνοντας από κάποια σχόλια της νεολίμπ ιντελιγκέντσιας, *και* για τον Μπαμπινιώτη με κάποιον τρόπο #ftaei_o_syriza	xasodikis	21091644	2012-03-29 16:04:42
+185344479769804800	«Ενωτικό κοινωνικό μέτωπο» το ψηφοδέλτιο ΣΥΡΙΖΑ: «Εμείς που είμαστε σήμερα εδώ παλεύουμε για τη συγκρότηση ενός ... http://bit.ly/HrbQIL 	ErtSocial	297963914	2012-03-29 14:35:42
+185335951441141760	Aπών ο Θοδωρής Δρίτσας από την αυριανή εκδήλωση του ΣΥΡΙΖΑ http://bit.ly/H0fDRG 	syrostoday	80240977	2012-03-29 14:01:48
+185314758931660800	Η μαμά-Αριστερά http://wp.me/p1RSd4-dz  via @wordpressdotcom #aristera #kke #syriza #syn	2310net	389135009	2012-03-29 12:37:36
+185295008042196994	Ο @syriza_gr έχει ευρωβουλευτή που λέγεται Χουντής. Μένει να κατέβει η Τσολτζόφσκα Λαοκρατία στο Επικρατείας του @Laos_Hellas για να δέσουμε	portokalea	169213697	2012-03-29 11:19:07
+185270235388059648	Death of leftwing leader Yiannis Banias, head of the Renewing Communist Ecological Left, a component of Syriza | http://www.athensnews.gr/portal/8/54408 	AthensNewsEU	59407061	2012-03-29 09:40:40
+185147048721518592	Louka is positively inclined towards SYRIZA or Democratic Left collaboration http://nblo.gs/vJEB3 	lioutastasos	212153212	2012-03-29 01:31:10
+185111303285776385	Σχόλιο του ΣΥΡΙΖΑ Ν.Κιλκίς για τη δημιουργία στρατοπέδων κράτησης μεταναστών http://www.kilkistoday.gr/epikairotita/kilkis/deltia-tupou/8616-sxolia-syriza-kilkis-dimiourgia-stratopedon-kratisis-metanaston …	kilkistoday	45903313	2012-03-28 23:09:08
+185055308836634627	lipiro poy den mporoyn na envuothoun akomh ki tvra oi ellhnes .syriza_kammenos	DaisyBouranta	402894216	2012-03-28 19:26:38
+184961403025764352	Πολιτική: ΣΥΡΙΖΑ: Επισημοποιείται η συνεργασία με πρώην στελέχη του ΠΑΣΟΚ http://bit.ly/HkF3Un 	reportergr	97900385	2012-03-28 13:13:29
+184942682777456640	Κατσέλη: Ανοιχτή στο ΣΥΡΙΖΑ, μνημονιακός ο Κουβέλης http://j.mp/GXu6dx 	alterthess	193199677	2012-03-28 11:59:06
+184941481600094208	protothema news Louka is positive to collaborating with SYRIZA or Democratic Left: Social Agreement president Lο... http://oio.gr//31 	bnogr	16218491	2012-03-28 11:54:19
+184917704233324544	@NChatzinikolaou Ρώτησε τον Παπαδημούλη για ποιούς ερευνητικούς σκοπούς πηγαίνουν τα 550.000€ που πήρε φέτος επιπλέον ο @syriza_gr ?	MichaelKokkinos	15253871	2012-03-28 10:19:50
+184913232916525056	@syriza_gr Παρακαλώ ενημερώστε μας για το είδος των ερευνητικών σκοπών που λαμβάνεται επιπλέον χρηματοδότηση 550.000 € για φέτος	KontraNews_gr	409044737	2012-03-28 10:02:04
+184743480675942400	Οι πέντε άξονες της προγραμματικής πρότασης του ΣΥΡΙΖΑ http://j.mp/HdFPqJ 	politikanea	397968774	2012-03-27 22:47:32
+184732285952729088	Καυγάς ΚΚΕ-ΣΥΡΙΖΑ για τους δημάρχους τους http://wp.me/p2fII5-jv 	mediaoasis	523959147	2012-03-27 22:03:03
+184717367404789761	ΣΥΡΙΖΑ ν. ΚΙΛΚΙΣ: Ανακοίνωση για τη δημιουργία στρατοπέδων κράτησης μεταναστών: Με τα σχέδια δημιουργίας στρατοπέδων... http://dlvr.it/1MlHwH 	Kilkispress	448789295	2012-03-27 21:03:46
+184710806137606144	ΣΥΡΙΖΑ: Mισθό 150 ευρώ θέλει η τρόικα για την Ελλάδα: Με ανακοίνωσή του ο ΣΥΡΙΖΑ, αναφέρεται στην απάντηση που έ... http://bit.ly/HawoD5 	ErtSocial	297963914	2012-03-27 20:37:42
+184702321354223616	ΣΥΡΙΖΑ: Λουκέτο στο δημοτικό συμβούλιο της Αθήνας από τη δημοτική αρχή Καμίνη http://bit.ly/HbMJfK 	Newsplusgr	204114104	2012-03-27 20:03:59
+184678423602528256	Chountis #Syriza stuck it to #Troika - showing they previously projected 2012 growth for Greece and asking how low do they want Greek wages?	paulmurphyAAA	270850017	2012-03-27 18:29:02
+184671593581129728	ΣΥΡΙΖΑ: Άπιαστο όνειρο η αυτοδυναμία για ΠΑΣΟΚ - ΝΔ: Με ανακοίνωσή του, το γραφείο Τύπου του ΣΥΡΙΖΑ, αναφέρεται ... http://bit.ly/HeUj50 	ErtSocial	297963914	2012-03-27 18:01:53
+184647269293891585	Ως είθισται, ο ΣΥΡΙΖΑ περίμενε να δει που θα κάτσει η μπίλια πριν τοποθετηθεί για τα ταξί. Και τελικά δεν είπε τίποτα. http://bit.ly/Ha5S0Q 	nikosalepis	18871499	2012-03-27 16:25:14
+184633569791066114	@portokalea οχι μην τα λες αυτα...απλοι εφηβοι που κανουν διαιτα ή ξεχασιαρηδες... @unfollow_mag @syriza_gr	ntinouli	23734025	2012-03-27 15:30:48
+184620320051838976	ΣΥΡΙΖΑ: Ανάλγητη η ρύθμιση για τα επιδοτούμενα δάνεια του ΟΕΚ http://dlvr.it/1MghwC 	tvxs	18834081	2012-03-27 14:38:09
+184607429961588737	Οι ΠΑΣΟΚογενείς κυριαρχούν στα ψηφοδέλτια του ΣΥΡΙΖΑ http://wp.me/p2fII5-jc 	mediaoasis	523959147	2012-03-27 13:46:55
+184543682773520384	Πολιτική εκδήλωση του ΣΥΡΙΖΑ στη Θήβα http://goo.gl/fb/ESEHg 	exeisminima	14160188	2012-03-27 09:33:37
+184539859342467072	Υποψήφιος με τον ΣΥΡΙΖΑ θα είναι ο Κουρουμπλής http://shar.es/pySjT 	thestival	257402114	2012-03-27 09:18:25
+184518575153881089	Α. Παπαρήγα: Ο ΣΥΡΙΖΑ υποκλίνεται στο σύστημα http://j.mp/HaSPeb 	newsbombgr	200034893	2012-03-27 07:53:51
+184401465744429056	Εν τέλει #ftaiei_o_syriza που στηρίζει τους μετανάστες που φταίνε. Προεκλογική περίοδος με την ακροδεξιά στο προσκήνιο.	Gangelakis	222502948	2012-03-27 00:08:30
+184393113639464960	Μεγάλη δημοσκόπηση του 2310net http://wp.me/p1RSd4-dm  via @wordpressdotcom #pasok #kke #nd #laos #syriza	2310net	389135009	2012-03-26 23:35:18
+184386701848870912	Communist Party boss Papariga has now moved on to leftwing parties. Says Syriza proposals have nothing to do with "reality" (too EU for her)	damomac	20925136	2012-03-26 23:09:50
+184369015618158592	SYRIZA lideri Tsipras T.C. Atina Büyükelçisi Kerim Uras’la görüştü http://fb.me/1xCMc6djc 	azinlikca	202015289	2012-03-26 21:59:33
+184293590183313410	ΣΥΡΙΖΑ: Ζητούμενο των εκλογών η επέμβαση του λαϊκού παράγοντα http://j.mp/Hb96k5 	alterthess	193199677	2012-03-26 16:59:50
+184001530561695744	Aριστεριστής #omorfes_lekseis #ftaiei_o_syriza	TheSaintTeo	382223183	2012-03-25 21:39:18
+183971091381878785	ΣΥΡΙΖΑ: «Τεράστια απόσταση χωρίζει κυβέρνηση από τον λαό»: Η πρωτοφανής αστυνομοκρατία και η δημιουργία «υγειονο... http://bit.ly/GZpB5l 	ErtSocial	297963914	2012-03-25 19:38:20
+183907348107116544	ΣΥΡΙΖΑ: Πρωτοφανής αστυνομοκρατία στις παρελάσεις όλης της Ελλάδας http://bit.ly/H1MsZk 	Newsplusgr	204114104	2012-03-25 15:25:03
+183889784383610881	Ο ΣΥΡΙΖΑ για την «πρωτοφανή αστυνομοκρατία» http://j.mp/H1ziLZ 	newsbombgr	200034893	2012-03-25 14:15:15
+183703744515543040	@Mosxovas ax den toys mporw toys taxa anonymoys toy syriza eleos! eimai apo ta prwta meli toy GHS kai prospathisan oyk oliges fores na	korina_mi	320657536	2012-03-25 00:56:00
+183573667949707265	I am confused! SYRIZA is in favour or against national parades?	thanospan	385727875	2012-03-24 16:19:07
+183540418741411840	ΣΥΡΙΖΑ: Η αστυνομοκρατία δείχνει τη δυσαρμονία μεταξύ κυβέρνησης και λαού http://dlvr.it/1M6923 	Difernews	259617310	2012-03-24 14:07:00
+183467437365272576	#Greece poll (MARC): ND 24.8%, Pasok 18.4%, Communists 10.4%, Dem Left 10.2%, IndepGreeks 9.9%, Syriza 8.4%, Laos 3.5%, XrysAygh 3.2%	EfiEfthimiou	281093434	2012-03-24 09:17:00
+183363730111873024	ο ΣΥΡΙΖΑ Λευκάδας για την επέτειο της 25ης Μαρτίου http://goo.gl/fb/xlI5y 	nikoslefkas	42760762	2012-03-24 02:24:54
+183310633062772736	Ίσως και γενικότερα η αριστερά RT @xasodikis Είναι σαφές ότι για το λάθος του Πρίντεζη #ftaiei_o_syriza.	lycourgus	324280623	2012-03-23 22:53:55
+183275973838503937	Καταγγελία του ΣΥΡΙΖΑ Δράμας, για την κατάργηση της δωρεάν μετακίνησης των μαθητών του Νομού μας http://fb.me/YNFrtx6n 	DRAMANIAgr	460110914	2012-03-23 20:36:11
+183269885776891905	#Greece will have elections either April 29th or May 6th. PM #Papademos met with the leaders of two leftist parties #KKE and #SYRIZA today	NickBarnets	330575788	2012-03-23 20:12:00
+183260507082461185	MARC for ethnos: pasok 13.2, nd 17.8, kke 8.6, syriza 6, laos 2.5, demleft 7.35, indgrks 7.1, xrysavg 2.3, greens 1.9, demall 2.15,	dianalizia	40202517	2012-03-23 19:34:44
+183198610501009410	#Greece poll (K-R): ND 18.1%, Pasok 14.3%, Communists 8.2%, Independent Greeks 7.2%, Syriza 6%, DemLeft 4.9%, Laos 3.6%, Xrysh Aygh 3.4%	EfiEfthimiou	281093434	2012-03-23 15:28:47
+183178966381768704	Η ανασυγκρότηση της Δεξιάς http://2310net.wordpress.com/2012/03/23/anasygkrotisi-tis-dexias/ … #aristera #syriza #kke #nd #pasok	2310net	389135009	2012-03-23 14:10:43
+183178079705903104	για πολλά #ftaiei_o_syriza αλλά τουλάχιστον για έλλειψη χιούμορ δε μπορείς να κατηγορήσεις, ε http://failgreece.tumblr.com/post/19778812953/via …	dark_tyler	27900134	2012-03-23 14:07:12
+183162392073613312	ΣΥΡΙΖΑ: Παρελάσεις σε κλίμα τρομολαγνείας: Στο θέμα των παρελάσεων αναφέρεται ο ΣΥΡΙΖΑ, με ανακοίνωση που εξέδωσ... http://bit.ly/GQbDkZ 	ErtSocial	297963914	2012-03-23 13:04:51
+183158296604188673	papademos-papariga meeting over; PM will meet tsipras at 4pm when syriza ldr expected to demand election date	dianalizia	40202517	2012-03-23 12:48:35
+183155269029732353	Αμαζόνες και Ομορφάντρες.Ο σκοπός (μεγαλύτερη εκλογική επιδότηση) αγιάζει τα μέσα (ακατάσχετη παροχολογία) http://goo.gl/e5d7e  #syriza	c_progiopoulos	22170025	2012-03-23 12:36:33
+183139883416690689	ΣΥΜΒΑΙΝΕΙ ΤΩΡΑ: Διαμαρτυρία του ΣΥΡΙΖΑ στην Τράπεζα της Ελλάδος http://shar.es/pe723 	thestival	257402114	2012-03-23 11:35:25
+183123111800082432	ΣΥΡΙΖΑ Αιτ/νιας: "Δεν ανταποκρίνεται στην πραγματικότητα η ονοματολογία των υποψηφίων για το νομό" http://aerasfm.gr/aitolokarnania/16320-syriza-onomatologia-ypopsifion-den-isxyei …	AerasNews	419063996	2012-03-23 10:28:46
+183122957026070528	Μήνυμα ΣΥΡΙΖΑ για την επέτειο της 25ης Μαρτίου:  Η επέτειος της 25ης Μαρτίου αποτελεί διαχρονικά μέρα μνήμης και... http://dlvr.it/1LsXXs 	Kilkispress	448789295	2012-03-23 10:28:09
+183122842701926400	Önümüzdeki seçimlerde, SyRizA Rodop Milletvekili Adayı Ayhan Karayusuf'u destekleyenler,Pazar 8'de Cris&Eve'de toplanıyor. #karayusufmeclise	MuCo_Sol	90864882	2012-03-23 10:27:42
+183028675464265728	Hahaha" @AmandaYasminM: Mesti kepek RT @mfananda30: Biyen goleki" @AmandaYasminM: Ngaaaaps RT @mfananda30: Tuh syriza	mfananda30	155903028	2012-03-23 04:13:31
+183027186775764993	Biyen goleki" @AmandaYasminM: Ngaaaaps RT @mfananda30: Tuh syriza nda" @AmandaYasminM: Salah mention kamu RT @mfananda30: @syahrizaSF"	mfananda30	155903028	2012-03-23 04:07:36
+182960496188735488	Papademos will have separate meetings tomorrow with Communists leader Papariga and Syriza leader Tsipras #Greece	EfiEfthimiou	281093434	2012-03-22 23:42:36
+182958729715658752	http://www.inews.gr/98/samos-sakorafa---dourou-parousiasan-to-programma-tou-syriza.htm …	renadourou	21100986	2012-03-22 23:35:35
+182913439444905985	Παραβιάσεις της εργατικής νομοθεσίας στο Praktiker Ιωαννίνων καταγγέλλει ο ΣΥΡΙΖΑ:   Το θέμα των εργασιακών σχέσ... http://bit.ly/GRxHtW 	IoanninaPress	440781433	2012-03-22 20:35:36
+182895862198960128	Τρελό γέλιο στο @skaigr . Ότι να 'ναι η συζήτηση. Όλοι μιλάνε, αλλά κανείς δε λέει τίποτα. Ειδικά ο #Syriza , για τρελές κλωτσιές!!!	Maliagros	18425964	2012-03-22 19:25:46
+182888517817470976	#Greece,Mit Syriza zurück zur Pasok: Die "linken" Parteien in Griechenland und ihre Unterstützung des EU-Diktat. http://bit.ly/GGIXg3 	gleichheit	32947823	2012-03-22 18:56:35
+182833507071041536	Τα μηνύματα ΚΚΕ-ΣΥΡΙΖΑ για την 25η Μαρτίου http://www.taneasou.net/?p=28123  #syriza #kke #grpolitics	taneasou	434470805	2012-03-22 15:17:59
+182831348665430016	Ultima ecuesta de Grecia: DemoCristiano28%,Nazi4%,PASOK11%,Comunist11%,Newdemocratileft15%,Syriza(+izquierda)12%,Greens4% @miguelteh	MGGguerra	362939579	2012-03-22 15:09:25
+182751976239534080	Για τα "μαϊμού" αναπηρικά επιδόματα ξεκάθαρα #ftaiei_o_syriza	diama15	19198347	2012-03-22 09:54:01
+182741057560260608	Griechenland: Mit SYRIZA zurück zur PASOK http://www.wsws.org/de/2012/mar2012/grie-m22.shtml … http://fb.me/1lrUXso7m 	HellasChannel	398624324	2012-03-22 09:10:37
+182700283544092672	<<pasok 12.5%, nd 22.5, kke 12.5, laos 3, syriza 12, greens 2.5, dem alliance 2, dem left, 11.5, antarsya 1.5, xrysi avgi 3.5, ind greeks 11	dianalizia	40202517	2012-03-22 06:28:36
+182568805724196864	Αποχώρηση του Βουλευτή του ΣΥΡΙΖΑ Δ. Παπαδημούλη http://dlvr.it/1LXfb5 	synpeka	229817947	2012-03-21 21:46:09
+182566738641166337	#Grècia NOVA ENQUESTA: Esquerra Democràtica 11'5% - KKE 12'5% - SYRIZA 12%. Un 1% per sobre del bipartidisme.	dvdbou	335223244	2012-03-21 21:37:57
+182553586323046400	@usama_bilal KKE, Syriza y DIMAR, segun el ultimo sondeo, hacen juntos más que Nea y PASOK :D	denantes	16087047	2012-03-21 20:45:41
+182550511055142912	MT @YanniKouts #Greece poll: ΝD 22,5%, PASOK 12,5%, Commies 12,5%, SYRIZA 12%, DemLeft 11,5%, IndGreeks 11%, LAOS 3%, Greens 2,5% #rbnews	IrateGreek	246941871	2012-03-21 20:33:28
+182548381154017280	Παρουσιάζεται η νέα σειρά γιαουρτιών της ΦΑΓΕ για τους εορτασμούς της 25ης Μαρτίου #SYRIZA pic.twitter.com/DEQ8Q3KN	georgiemark	319778079	2012-03-21 20:25:01
+182545775849504770	Jeeze what a mess. RT @EfiEfthimiou: #Greece poll: ND 22.5%, Pasok 12.5%, Communists 12.5%, Syriza 12%, Demo Left 11.5%, Indepnt Greeks 11%	SpiegelPeter	410070653	2012-03-21 20:14:39
+182534622465368064	Το λόγο έχει ο Τ. Κουράκης του @syriza_gr #diafania http://www.ecogreens-gr.org/webtv/  @Ecogreens	Ecogreens	27052329	2012-03-21 19:30:19
+182521781477847040	Ο ΣΥΡΙΖΑ για το κέντρο της Αθήνας http://j.mp/GESA8u 	alterthess	193199677	2012-03-21 18:39:18
+182512534773972992	#Greece poll (VPRC):ND 22.5%, Pasok 12.5%, Communists 12.5%, Syriza 12%, Democr Left 11.5%, Independent Greeks 11%, Xrysh Aygh 3.5%, Laos 3%	EfiEfthimiou	281093434	2012-03-21 18:02:33
+182432021627412481	@KellyUncut Well that rules out PASOK, New Democracy, Democratic Alliance & Democratic Left. Leaves KKE, SYRIZA & tiny neo-nazi party.	teacherdude	10257602	2012-03-21 12:42:38
+182388572769357824	Πόσο μεγάλο είναι το βήμα από την “Λαϊκή Πολιτοφυλακή” στον “Επαναστατικό Στρατό”; http://enosy.blogspot.com/2012/03/blog-post_21.html … #ppGR #antarsya #nar #KKE #syriza	enosi	36096270	2012-03-21 09:49:59
+182068094917812224	Χουντής: «Παράνομος ο εξωδικαστικός συμβιβασμός» http://shar.es/p5slf 	spnewsgr	80805455	2012-03-20 12:36:31
+182003817062219776	Με τον ΣΥΡΙΖΑ «κατεβαίνουν» Κουρουμπλής, Μητρόπουλος, Κοτζιάς http://j.mp/GBrBMx 	NewsbombEconomy	200035724	2012-03-20 08:21:06
+181985315920162816	Ο ΣΥΡΙΖΑ για τη "μαύρη" επέτειο της επίσκεψης Παπανδρέου στη Σύρο http://www.cyclades24.gr/syros/epikairotita/1287-o-syriza-gia-th-mayrh-epeteio-ths-episkepshs-papandreou-sth-syro …	cyclades24	470178739	2012-03-20 07:07:35
+181882983106621440	Οι πασοκοι κ οι νεοδημοκράτες έχουν ίδιο non paper με επιχειρήματα κατα #syriza πλάκα έχουν #astadiala	kinimatongrafos	134720091	2012-03-20 00:20:57
+181866615296638976	Μερικά απλά συμπεράσματα καθώς παρακολουθούμε ΝΕΤ http://2310net.wordpress.com/2012/03/20/merika_apla_symperasmata/ … #NET #pasok #kke #dimar #syriza	2310net	389135009	2012-03-19 23:15:54
+181844033742712833	ΣΥΡΙΖΑ: Βατοπαίδι Νο2 το φωτοβολταϊκό πάρκο στο όρος Πεντελικό http://dlvr.it/1L5LMP 	Difernews	259617310	2012-03-19 21:46:10
+181788269955137536	Με τον ΣΥΡΙΖΑ «κατεβαίνουν» Κουρουμπλής, Μητρόπουλος, Κοτζιάς http://j.mp/wGypZE 	politikanea	397968774	2012-03-19 18:04:35
+181781798626410496	Να ξαναβρούμε το νόημα της δημοκρατίας - Εκδήλωση Τετάρτη 21.04 http://www.ecogreens-gr.org/cms/index.php?option=com_jevents&task=icalrepeat.detail&evid=330&Itemid=1&year=2012&month=03&day=21&title=----------------&uid=b1be5370a1e44139361f2a49e2cfdbb6 … @syriza_gr	Ecogreens	27052329	2012-03-19 17:38:52
+181740292267978752	ΣΥΡΙΖΑ: Δίκαιη και αναγκαία η απεργία της Π.Ν.Ο.: Στο θέμα της απεργίας των ναυτεργατών, παρεμβαίνει ο ΣΥΡΙΖΑ, μ... http://bit.ly/wRzbsN 	ErtSocial	297963914	2012-03-19 14:53:56
+181710347630166017	Bu seçimlerde, azınlık, SyRizA'da birleşecek; tosunlar, itler, mongollar, tetikçiler çatlayıp patlayacak!!! Aha yazıyorum!!!	MuCo_Sol	90864882	2012-03-19 12:54:57
+181664041490579456	My week on twitter: #pasok, #nd, #gia_ola_ftaiei_o_syriza, #hondro_benny etc. The same old shits.	giopso	44691098	2012-03-19 09:50:57
+181637535527743489	Ο #Pangalos κατήγγειλε ότι πίσω από τα επεισόδια στο #OAKA βρίσκεται ο #SYRIZA.	pikresalithies	523197172	2012-03-19 08:05:37
+181505383494459392	Από πού ψωνίζεις δημοκρατία ρε Πάγκαλε, να αγοράσουμε κι εμείς λίγη; http://youtu.be/mGFCA7JQmH4  #Ftaiei_o_SYRIZA	SalataTV	103034091	2012-03-18 23:20:30
+181475172929376256	Τσεκάρετε πότε είναι η τελευταία ενημέρωση στο κάθε1 http://syriza-achaias.blogspot.com/  http://syn-achaias.pblogs.gr/  Λέν για ενότητα&ούτε μεταξύ τους δεν το έχουν	OzMa13	346475142	2012-03-18 21:20:27
+181472787255406592	Καταδικαζουμε τη βια, απ οποια θυρα (του ΠΑΟ) κι αν προερχεται!!!! #syriza	kefteskedeftes	73618312	2012-03-18 21:10:58
+181471074968535040	Οι επιθέσεις σε όσους εκπροσωπούν το βαθύ τουίτα είναι υποκινούμενες απο το ΣΥΡΙΖΑ #ftaiei_o_syriza	Treli_t_Kastrou	239399600	2012-03-18 21:04:10
+181458531281674241	Επεισόδια στο ΟΑΚΑ .Ο ΣΥΡΙΖΑ κ ο Τσίπρας τα καταδικάζουν?Είδα σε κινητό μήνυμα που έλεγε "Κάντε το ΟΑΚΑ Κούβα" Βάγγος ο σαγιονάρας. #syriza	kefteskedeftes	73618312	2012-03-18 20:14:19
+181444590291791872	Χαιρετισμός εκδήλωσης ΣΥΡΙΖΑ http://goo.gl/fb/NmmZa 	nikoslefkas	42760762	2012-03-18 19:18:56
+181443515342000129	Ο Τσίπρας για συνεργασίες (video) http://shar.es/psidh 	sirmatsis	299501508	2012-03-18 19:14:39
+181439526714097667	Θ. Πάγκαλος: Τραμπούκοι του ΣΥΡΙΖΑ μου επιτέθηκαν http://www.thestival.gr/policy/item/26034-th-pagkalos3a-trampoykoi-toy-syriza-moy-epitethikan …	thestival	257402114	2012-03-18 18:58:48
+181437044134920192	ΣΥΡΙΖΑ: Καμία προοπτική απ' αυτούς που ισοπέδωσαν τη χώρα http://j.mp/yagpt4 	alterthess	193199677	2012-03-18 18:48:56
+181432594670428161	Θ. Πάγκαλος: Τραμπούκοι του ΣΥΡΙΖΑ μού επιτέθηκαν: Για «τραμπούκους» του ΣΥΡΙΖΑ έκανε λόγο ο Θόδωρος Πάγκαλος, α... http://bit.ly/xZofDk 	pulse_gr	142215074	2012-03-18 18:31:16
+181415122705727490	σατανικό το σχέδιο τ Τρόικας να βγάζει σκάνδαλα στη φόρα γιανα περάσει τ αντιλαικά της σχέδια #do_it_like_syriza #mazita_fagamistas_ole	psaranto	140776478	2012-03-18 17:21:50
+181401842046074880	Πάγκαλος: Οι τραμπούκοι του ΣΥΡΙΖΑ ξαναχτυπούν http://j.mp/AiXt4j 	alterthess	193199677	2012-03-18 16:29:04
+181356723930542081	Newscode.gr - Πολιτική - Κοντά σε συνεργασία ΣΥΡΙΖΑ – Δημαράς http://shar.es/pqLgw 	greektrans	35435756	2012-03-18 13:29:47
+181356455201472512	«Τραμπούκους του ΣΥΡΙΖΑ» κατήγγειλε ο Πάγκαλος: Σε «τραμπούκους του ΣΥΡΙΖΑ», κατά την διατύπωσή του, απέδωσε ο Θ... http://bit.ly/y2ZloV 	pulse_gr	142215074	2012-03-18 13:28:43
+181350375528476672	@syriza_gr Θα πιέσετε για την θέσπιση της ΑΟΖ ; Πιστεύετε ότι είναι στρατηγική λύση;	ermidou	259687829	2012-03-18 13:04:33
+181350231076642817	Στον Σύριζα το 'Αρμα πολιτών και ο Γιάννης Δημαράς http://i.inews.gr/4gkst 	inewsgr	46244449	2012-03-18 13:03:59
+181332137985847296	Θ.Πάγκαλος: «Τραμπούκοι του ΣΥΡΙΖΑ» αυτοί που με αποδοκίμασαν http://dlvr.it/1KnqlF 	tvxs	18834081	2012-03-18 11:52:05
+181328060417708032	Για «τραμπούκους του ΣΥΡΙΖΑ» κάνει λόγο ο Θ. Πάγκαλος http://www.taneasou.net/?p=26605  #syriza #pagkalos	taneasou	434470805	2012-03-18 11:35:53
+181325678824787968	Α. Τσίπρας: "Η πρόταση του ΣΥΡΙΖΑ" http://j.mp/FPLiD9 	alterthess	193199677	2012-03-18 11:26:25
+181323639029891073	Ο Πάγκαλος αν δει κανένα βράδυ κανά εφιάλτη, θα ξυπνήσει και θα πει #ftaei_o_syriza	kbrin_	95417521	2012-03-18 11:18:19
+181321190881755136	Κοντά σε συνεργασία ΣΥΡΙΖΑ – Δημαράς http://j.mp/wR4JJT 	politikanea	397968774	2012-03-18 11:08:35
+181318727508312064	Συγχαρητήρια στην κ.Δούρου και στον @syriza_gr για τις προοδευτικές προτάσεις απο την μια Χρηματοδοτησεις και απο την άλλη δοσιλογοι...	karounos	5546982	2012-03-18 10:58:48
+181292044730376192	Also Economists is recycling hoary (not to mention unsupported) claim by Greece's Right that SYRIZA and KKE is behind social unrest.	teacherdude	10257602	2012-03-18 09:12:46
+181279801536028673	Ξέσπασε «πόλεμος» Λοβέρδου - ΣΥΡΙΖΑ http://fb.me/1SYgbSHxp 	westviewgr	292984546	2012-03-18 08:24:07
+181204933033467904	http://RTnews.eu  RT “L’oracle de Naxos”, Manolis Glezos - Manolis Glezos est un homme politique membre de la SYRIZA ......	albertoxic	33084611	2012-03-18 03:26:37
+181106485189804033	#SYRIZA via http://fro.gy/1u993 	kefteskedeftes	73618312	2012-03-17 20:55:25
+181103018568200192	Ολόκληρη η κοινωνία τους φτύνει, κ στο ΠΑΣΟΚ ακόμα ζητάνε πιστοποιητικά κοινωνικών φρονημάτων. Στον κόσμο τους... http://www.alterthess.gr/content/na-katadikasei-tin-antisygkentrosi-ybriston-kalei-o-aloberdos-ton-syriza …	SalataTV	103034091	2012-03-17 20:41:39
+181097401065553920	Όποιος αποδοκιμάζει πολιτικό είναι μέλος του #syriza #eleos	pgiannakopoulos	82641912	2012-03-17 20:19:19
+181046844355395584	#ftaiei_o_SYRIZA. Thank god.RT @alterthess Διακόπτει τις δραστηριότητές της η "Ελληνική Πολιτοφυλακή" http://j.mp/FOBTsZ 	yX__	330866199	2012-03-17 16:58:26
+181021818545639425	ΣΥΡΙΖΑ: ΠΑΣΟΚ και ΝΔ ετοιμάζουν προβοκάτσιες http://tinyurl.com/7ak52zk  via @newsbombgr	greektrans	35435756	2012-03-17 15:18:59
+181021057627602945	Λοβέρδος κατά ΣΥΡΙΖΑ για τις αντισυγκεντρώσεις http://tinyurl.com/87egp48  via @newsbombgr	greektrans	35435756	2012-03-17 15:15:58
+181020947048964096	Η απάντηση του ΣΥΡΙΖΑ στον Α. Λοβέρδο http://www.taneasou.net/?p=26318  #syriza #loverdos	taneasou	434470805	2012-03-17 15:15:31
+181014509853491200	"Πόλεμος" Λοβέρδου-ΣΥΡΙΖΑ για ένα email: Διαβάστε για ποιο λόγο ο υπουργός Υγείας Ανδρέας Λοβέρδος κατηγορεί τον... http://bit.ly/yD0vvV 	pulse_gr	142215074	2012-03-17 14:49:56
+181011388028829696	χαχαχαχαχα μα τι πίνει; γενόσημα; "Να καταδικάσει την αντισυγκέντρωση υβριστών" καλεί ο Α.Λοβέρδος τον ΣΥΡΙΖΑ http://j.mp/FOM0Pg 	xanthk	226885974	2012-03-17 14:37:32
+181009655835795458	Λοβέρδος κατά ΣΥΡΙΖΑ για τις αντισυγκεντρώσεις http://j.mp/zS3eNW 	newsbombgr	200034893	2012-03-17 14:30:39
+180989628621398016	Ο ΣΥΡΙΖΑ αρνείται τις κατηγορίες του Ανδρέα Λοβέρδου για «τραμπουκισμό» http://dlvr.it/1KdRPF 	Difernews	259617310	2012-03-17 13:11:04
+180977978858151937	Λοβέρδος εναντίον ΣΥΡΙΖΑ http://www.taneasou.net/?p=26274  #loverdos #syriza	taneasou	434470805	2012-03-17 12:24:47
+180975565778583553	Λοβέρδος κατά ΣΥΡΙΖΑ: Να αποδοκιμάσει την αντισυγκέντρωση «υβριστών και τραμπούκων&raquo ... http://bit.ly/ytdrRM 	pulse_gr	142215074	2012-03-17 12:15:11
+180955486735179777	Αύριο ο Τσίπρας στην Κοκκινιά #syriza http://yfrog.com/5p0fgcj 	kefteskedeftes	73618312	2012-03-17 10:55:24
+180951259132604416	Συνέλαβαν τον Κλουνει και ftaiei_o_syriza που ήταν μέλος του	SYNaristera	20778851	2012-03-17 10:38:36
+180919900565549056	Όταν ο ΣΥΡΙΖΑ είχε 17.9% στις δημοσκοπήσεις! http://i.inews.gr/4g9ff 	inewsgr	46244449	2012-03-17 08:34:00
+180790641800908800	Peiling Griekenland: ND 25% (to 28% in februari) ; PASOK 11% ; KKE 11,5% ; LAOS 4% ; SYRIZA 12% ; democratisch links 15,5%	FidelGavilan	462206857	2012-03-17 00:00:22
+180775610476527616	@syriza Κανέναν πιο συντηρητικό από τον Παπαδημούλη δεν έχετε να βγάζετε? Πολύ αριστερός είναι αυτός μωρέ, και τρομάζει τον κόσμο #fail #not	blacktom1961	90836754	2012-03-16 23:00:38
+180713028046692355	Σημερα πηρα αυξηση στο μισθο.. το αφεντικο μου ειναι αριστερος #ftaiei_o_syriza	AnonOpGreece	167826483	2012-03-16 18:51:58
+180685651249856513	Εκτός αν ο Κλούνεϋ είναι σύριζα! “ @odysseasgp: Δεν #ftaiei_o_syriza τελικα. Ο #clooney φταίει!”	menacius	45086371	2012-03-16 17:03:10
+180685363839385600	Δεν #ftaiei_o_syriza τελικα. Ο #clooney φταίει!	odysseasgp	20262872	2012-03-16 17:02:02
+180679474327724033	Άψογο: "unreconstructed communists (KKE), hardline radicals (Syriza) and spendthrift socialists (Democratic Left)" http://www.economist.com/node/21550332 	CostasPap	43708646	2012-03-16 16:38:38
+180624462549487617	Ο ΣΥΡΙΖΑ Λήμνου σας προσκαλεί σε εκδήλωση-συζήτηση http://bit.ly/zXZQ69 	pathfinderuNews	29189180	2012-03-16 13:00:02
+180607448552443906	Ο ΣΥΡΙΖΑ Λήμνου σας προσκαλεί την ΔΕΥΤΕΡΑ 19/3/2012, ώρα 8,00 μμ στο ξενοδοχείο ΔΙΑΜΑΝΤΙΔΗ http://bit.ly/A9XJrl  #pblogs	sofko	15711451	2012-03-16 11:52:25
+180606718814859264	Ερώτηση ΣΥΡΙΖΑ “Διαγραφή χρεών των νοικοκυριών από τις τράπεζες” http://kanali.wordpress.com/2012/03/16/syriza-eper542/ …	kanaliotis	371330388	2012-03-16 11:49:31
+180555876711665664	Ποιος πιστεύετε πως κάνει καλύτερη αντιπολίτευση σήμερα? (public issue) ο ΣΥΡΙΖΑ πρώτος με διαφορά και σταθερά ανοδικός.Τιμή μας!!! #SYRIZA	SYNaristera	20778851	2012-03-16 08:27:30
+180550423239864321	#Greece PublicIssue poll 9 party parliament:ND 25%,DemLeft 15.5,SYRIZA 12,Comm 11.5,PASOK 11,IndyGreeks 6.5,LAOS 4,Greens 3.5,Golden Dawn 3	YiannisMouzakis	342705072	2012-03-16 08:05:50
+180529466420887552	and (drum roll) barometer's phone survey on potential voting strength: pasok 11%, nd 25, kke 11.5, laos 4, syriza 12, greens 3.5 >>	dianalizia	40202517	2012-03-16 06:42:33
+180529155484549120	again, compared to feb 2012 barometer, pasok approval rating up 5 pts, nd down, kke up 1, laos up 1, syriza up 6	dianalizia	40202517	2012-03-16 06:41:19
+180355139801067520	ΚΚΕ και ΣΥΡΙΖΑ κατά Βενιζέλου http://j.mp/xsmTxo 	politikanea	397968774	2012-03-15 19:09:50
+180350549986775041	Στην Κορινθία η βουλευτής του ΣΥΡΙΖΑ Ηρώ Διώτη. http://tinyurl.com/7aqbgtf 	ekorinthos	168692546	2012-03-15 18:51:36
+180332367842508800	SYRIZA: Türk uzlaşmazlığı yüzünden Kıbrıs’ta çözüm olanakları azalıyor! http://fb.me/1MeT4M6xt 	azinlikca	202015289	2012-03-15 17:39:21
+180293611248812032	IN MY NAME RT @rebel_70 Ο Καρτέσιος θύμωσε.. http://kartesios.com/?p=78609  cc @aloverdos @EVenizelos @tpangalos @neademokratia @KKEGreece @syriza_gr	elenacou	315185209	2012-03-15 15:05:21
+180261599620235264	MT @AthensNewsEU:poll ND 17%, Pasok 10, KKE & Syriza 9.5each, DemocraticLeft8, IndependentGreeks5 GoldenDawn3.5, Laos http://bit.ly/wEFi7b 	MariaKaramitsos	143966984	2012-03-15 12:58:09
+180261499850330114	Διαμαρτυρία του ΣΥΡΙΖΑ στον ΟΑΕΔ Βόλου αύριο http://fb.me/1DzqcgUX6 	thisisvolos	111070690	2012-03-15 12:57:45
+180259241909690368	Greek News Radical Left Coalition wants proportional representation: The Radical Left Coalition (Syriza) has tab... http://oio.gr//91 	JwForum	39049059	2012-03-15 12:48:46
+180252075236655104	The Radical Left Coalition (Syriza) tables a bill calling for proportional representation | http://www.athensnews.gr/portal/8/54107 	AthensNewsEU	59407061	2012-03-15 12:20:18
+180245615769427968	@vivian_e η ασυλία της αριστεράς φταίει για τους φρονιμήτες!! #ftaiei_o_syriza #to_vrikame_pali	_LaScapigliata	23478516	2012-03-15 11:54:38
+180238690046578688	Parties at the left of Pasok really should unite... RT @AthensNewsEU New poll: ND 17%, Pasok 10, KKE and Syriza 9.5 each, Democratic Left 8	anarettruffade	297249786	2012-03-15 11:27:07
+180236300941668352	New poll: ND 17%, Pasok 10, KKE and Syriza 9.5 each, Democratic Left 8, Independent Greeks 5, Golden Dawn 3.5, Laos 3 | http://www.athensnews.gr/portal/8/54057 	AthensNewsEU	59407061	2012-03-15 11:17:37
+180222753264250881	ΣΥΡΙΖΑ: «Χυδαία πρόκληση οι αυξήσεις σε συμβούλους υπουργών http://j.mp/A2kWti 	alterthess	193199677	2012-03-15 10:23:47
+180177849678954496	SYRIZA’dan Kıbrıs’a 2 günlük resmi ziyaret http://www.azinlikca.net/bati-trakya-haber/syriza-kibris-ziyareti-3142012.html …	azinlikca	202015289	2012-03-15 07:25:21
+180044434497486848	γιατί αποποιείσαι την ταυτότητα σου @Stavrula_ ; say it loud, I' m syriza and I' m proud #not	silentcrossing	251035534	2012-03-14 22:35:12
+180000873039151106	Απλή αναλογική ζητούν ΣΥΡΙΖΑ, Σακοράφα, Κουρουμπλής http://dlvr.it/1K3gq7 	tvxs	18834081	2012-03-14 19:42:07
+179995409094152196	#o_syriza_ftaiei	mpodil	103317494	2012-03-14 19:20:24
+179988577063665664	Latest poll (Pulse): ND 17%, Pasok 10%, Communists 9.5%, Syriza 9.5%, Dem.Left 8%, Independent Greeks 5%, Xrysh Aygh 3.5%, Laos 3% #Greece	EfiEfthimiou	281093434	2012-03-14 18:53:15
+179985505310613504	SYRIZA lideri Tsipras Xalaraaaa: http://youtu.be/JY5Hmm8MyjE 	evrendede	80445162	2012-03-14 18:41:03
+179979374504853504	SYRIZA’dan Kıbrıs’a 2 günlük resmi ziyaret http://fb.me/1RpGw06fM 	azinlikca	202015289	2012-03-14 18:16:41
+179978360171151360	ΟΙ ΕΘΝΟΠΡΟΔΟΤΕΣ ΤΟΥ ΣΥΡΙΖΑ ΗΘΕΛΑΝ ΑΝΑΓΝΩΡΙΣΗ ΤΗΣ "ΤΟΥΡΚΙΚΗΣ ΕΝΩΣΗΣ ΞΑΝΘΗΣ"!! http://bit.ly/zsBfdi  #pblogs	filostratos	94644873	2012-03-14 18:12:39
+179968748160163841	Εκδήλωση για την εναλλακτική πρόταση του ΣΥΡΙΖΑ στην Τριανδρία http://j.mp/zZissi 	alterthess	193199677	2012-03-14 17:34:27
+179959971801337856	ΣΥΡΙΖΑ: Ισχνή μειοψηφία οι υποστηρικτές του αντιδημοκρατικού νόμου Διαμαντοπούλου-'Αδωνι http://j.mp/xvQg3A 	alterthess	193199677	2012-03-14 16:59:35
+179958368365056000	#Greece Left-wing #SYRIZA and 2 independent MPs proposed to parliament a strictly proportional electoral law via @doleross #rbnews	IrateGreek	246941871	2012-03-14 16:53:13
+179949533294366720	Μετά το ΠΑΣΟΚ και τη ΝΔ, απλήρωτοι και οι εργαζόμενοι στον ΣΥΡΙΖΑ... http://dlvr.it/1K1f13 	synpeka	229817947	2012-03-14 16:18:06
+179942908533805056	Βέλη ΣΥΡΙΖΑ εναντίον Βενιζέλου-Σαμαρά http://www.taneasou.net/?p=25351  #syriza	taneasou	434470805	2012-03-14 15:51:47
+179901249225900032	Ο ΣΥΡΙΖΑ για Βενιζέλο, Σαμαρά και νέα μέτρα: Επίθεση κατά των Βενιζέλου- Σαμαρά εξαπολύει ο ΣΥΡΙΖΑ με ανακοίνωση... http://bit.ly/wcnqwG 	ErtSocial	297963914	2012-03-14 13:06:14
+179897328239525889	SYRIZA'dan İskeçe Türk Birliği davası hakkında açıklama http://www.azinlikca.net/bati-trakya-haber/syriza-iskece-turk-birligi-aciklama-3132012.html …	azinlikca	202015289	2012-03-14 12:50:40
+179891614540513280	Το ότι αυτό με την μπριζόλα και την πίπα πέφτει σαρακοστή, δεν μου κάνει και πολύ Ορθόδοξο #o_syriza_ftaiei	indictos	251152337	2012-03-14 12:27:57
+179621263126441984	ΣΥΡΙΖΑ: Στηρίζουμε τις κινητοποιήσεις της ΠΟΕ ΟΤΑ: Στο πλευρό της ΠΟΕ – ΟΤΑ, δηλώνει ότι βρίσκεται ο ΣΥΡΙΖΑ με α... http://bit.ly/zETTLU 	ErtSocial	297963914	2012-03-13 18:33:40
+179616126857252865	Εξόρμηση του ΣΥΡΙΖΑ στη Σύρο για την υγεία http://bit.ly/xAjbK0 	syrostoday	80240977	2012-03-13 18:13:16
+179610714548350976	Τη διάλυση των δομών δημόσιας Υγείας καταγγέλλει ο ΣΥΡΙΖΑ Ιωαννίνων:   Αντιπροσωπεία του ΣΥΡΙΖΑ Ιωαννίνων επισκέ... http://bit.ly/yQGJMk 	IoanninaPress	440781433	2012-03-13 17:51:46
+179537603329134592	Δεσμεύσεις ΚΚΕ, ΣΥΡΙΖΑ και Δημοκρατικής Συμμαχίας για τους συντελεστές ΦΠΑ http://bit.ly/A08ObO 	syrostoday	80240977	2012-03-13 13:01:14
+179506237543694336	"Εξω από το ευρώ" και όχι μόνο... η ακροδεξιά της Ευρώπης http://enosy.blogspot.com/2012/03/blog-post_13.html … #rbnews #greekrevolution #ppGR #antarsya #nar #KKE #syriza	enosi	36096270	2012-03-13 10:56:36
+179485228857954304	http://2310net.wordpress.com/2012/03/13/%CE%B7-%CF%80%CE%B1%CF%81%CE%AD%CE%BB%CE%B1%CF%83%CE%B7-%CF%84%CE%B7%CF%82-%CE%B5%CF%80%CE%B1%CE%BD%CE%AC%CF%83%CF%84%CE%B1%CF%83%CE%B7%CF%82/ … #parelasi #syn #syriza #epanastasi #syntagma	2310net	389135009	2012-03-13 09:33:07
+179262798885433347	ΔΕΛΤΙΟ ΤΥΠΟΥ ΣΥΡΙΖΑ ΓΙΑ ΤΗΝ ΥΓΕΙΑ http://bit.ly/xRu2MK  #pblogs	sofko	15711451	2012-03-12 18:49:16
+179262201482317824	Καταγγέλω το Bloomberg, ως οργανο του SYRIZA ΡΤ @BloombergView Greece will suffer less if it leaves the euro now | http://bloom.bg/xBMLFy 	thegreatrobbery	371883049	2012-03-12 18:46:54
+179220684684271616	Αλ. Τσίπρας: Συγκυβέρνηση Σαμαρά- Βενιζέλου ή ισχυρός ΣΥΡΙΖΑ; http://dlvr.it/1JZ5DY 	tvxs	18834081	2012-03-12 16:01:55
+178958668233048065	O Theodorakis diafhmizei thn Ellada sta pelatakia tou Syriza kai tou Laos. Kaneis allos den mporei na psonisei.	BourounisK	13999192	2012-03-11 22:40:46
+178869942098202625	@syriza_gr Πρόσκληση προς τα πολιτικά κόμματα να συμπληρώσουν το ερωτηματολόγιο του πολιτικού χάρτη http://politicalmap.gr/polparties.php 	PoliticalMapGr	516941464	2012-03-11 16:48:12
+178814974179819520	#SYRIZA verklagt #BILD (junge Welt 10.03.) #Greece #WeAreAllGreeks http://www.jungewelt.de/2012/03-10/036.php …	tal_initiativen	129585636	2012-03-11 13:09:46
+178806960576139264	«Συγκυβέρνηση ΠΑΣΟΚ-ΣΥΡΙΖΑ- ΔΗΜΑΡ» http://tinyurl.com/7r4vbr7 	enikos_gr	373909732	2012-03-11 12:37:56
+178582663035236352	Αν ο παππούς που γιαούρτωσε τον Βενιζέλο δεν είχε κάρτα συνέδρου στο πασοκ, θα τον είχαν ήδη πει συριζαίο. #syriza_under_cover	thesspirit	149090656	2012-03-10 21:46:39
+178579392501518336	δεν μ'ενοχλεί να βγουν και τα τανξ στο δρόμο αν δεν χρεωκωπήσει με τον τρόπο που θέλουν τα @nouriel & @syriza_gr #economics μα τον Αλάχ αμήν	feressiadis	161349527	2012-03-10 21:33:39
+178523200592945152	Αρκετά με το #ftaiei_o_syriza. Bάρκιζα τέλος, το νέο hashtag-πασπαρτού θα είναι το #ftaiei_pou_ston_sfyriza	sp_der	144779404	2012-03-10 17:50:22
+178504050982141954	#kke #syn #syriza #antarsya Περι ενότητας της Αριστεράς http://2310net.wordpress.com/2012/03/10/%CF%80%CE%B5%CF%81%CE%AF-%CE%B5%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1%CF%82-%CF%84%CE%B7%CF%82-%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B5%CF%81%CE%AC%CF%82/ …	2310net	389135009	2012-03-10 16:34:16
+178443877437538304	#SPcongress12 Alec Thraves commenting on Greece: Strategically #Syriza must unite left -- #KKE must drop its sectarianism	CUSocialists	382461743	2012-03-10 12:35:10
+178442588498575361	Ανακοίνωση ΣΥΡΙΖΑ για "περίεργα" δημοσιεύματα http://bit.ly/x1OGzI 	pathfinderuNews	29189180	2012-03-10 12:30:03
+178251364172959744	SYRIZA Leader Alexis Tsipras Files Lawsuit Against German "Bild" For Libel - http://ow.ly/1I3YgI 	GreekReporter	38090709	2012-03-09 23:50:11
+178232187802492929	@lympouridis @syriza_gr και ΠΑΣΟΚ ΝΔ βαφτίζανε προδότη όποιον μιλούσε για μη αποπληρωμή ομολόγων... αυτό θα πει συνέπεια	gpapay	259418957	2012-03-09 22:33:59
+178173241947471872	@lympouridis @syriza_gr άσε αυτοί δεν ξέρουν ούτε τι λένε ούτε τι θέλουν....ζητούσαν κούρεμα του χρέους και τώρα που έγινε το βρίζουν.	dotnetstories	38231240	2012-03-09 18:39:45
+178171293819080707	ΑΝΑΚΟΙΝΩΣΗ ΣΥΡΙΖΑ ΓΙΑ "ΠΕΡΙΕΡΓΑ" ΔΗΜΟΣΙΕΥΜΑΤΑ http://bit.ly/ztjVMf  #pblogs	sofko	15711451	2012-03-09 18:32:01
+178149568234520578	Συνάντηση Αμμανατίδου με γονείς ΑμεΑ http://shar.es/gTr5k 	spnewsgr	80805455	2012-03-09 17:05:41
+178140240807075840	Ο Αλ. Τσίπρας από το φλερτ με την δραχμή πέρασε στην καλύτερη διαπραγμάτευση κ μετά θα μας πει "λεφτά υπάρχουν"-να 'ναι καλά η Bild. #syriza	Mary_Papalouka	228178112	2012-03-09 16:28:37
+178133025329119232	Εκδήλωση του ΣΥΡΙΖΑ με Σακοράφα και Κουράκη στην Ελιά της Βέροιας την Κυριακή - Νέα: http://bit.ly/xfL2Ad  via @AddThis	eleytheriadhs	173442203	2012-03-09 15:59:57
+178126093889449984	«Στήνουν» σκηνικό έντασης για την επίσκεψη Σαμαρά λέει ο ΣΥΡΙΖΑ! http://www.messiniaportal.gr/news/781/stinoyn-skiniko-entasis-gia-tin-episkepsi-samara-leei-o-syriza … #Samaras #syriza #Kalamata	MessiniaPortal	478468024	2012-03-09 15:32:24
+178110399625969664	@nikosalepis @potmos @syriza_gr Σωστά. Δίκιο είχαν όσοι εις μάτην φώναζαν όταν δημιουργούνταν το χρέος, όχι όσοι ωρύονται τώρα που έσκασε.	lympouridis	47345669	2012-03-09 14:30:03
+178110156817707008	@potmos @lympouridis @syriza_gr ...Τα δάνεια δεν είχαν ληφθεί εν κρυπτώ, απλώς είχαμε επιλέξει να ασχολούμαστε με lifestyle και παραπολιτική	nikosalepis	18871499	2012-03-09 14:29:05
+178109714561908736	@potmos @lympouridis @syriza_gr Για μένα η θεωρία του επαχθούς χρέους έμπαζε: Το έκαναν δημοκρατικά εκλεγμένες (πλην κακές) κυβερνήσεις...	nikosalepis	18871499	2012-03-09 14:27:19
+178107759978491904	@lympouridis @nikosalepis εντάξει, ο @syriza_gr είναι ό,τι νά 'ναι σε άλλα, αλλά αυτό που λέτε θα το ζήλευε ο Γκαίμπελς.	potmos	50222449	2012-03-09 14:19:33
+178106910699028480	@lympouridis @syriza_gr μαθαίνει σιγά σιγά...	Public_Enemy_GR	360674637	2012-03-09 14:16:11
+178067032300986368	Προβοκάτσια καταγγέλλει ο ΣΥΡΙΖΑ Μεσσηνίας http://www.taneasou.net/?p=23415  #syriza #grpolitics	taneasou	434470805	2012-03-09 11:37:43
+178058516626538496	Να τα λέμε όλα. http://fb.me/1IHltskrD 	KATHIGITIS1969	286091839	2012-03-09 11:03:53
+178057582345334784	«Προβοκατόρικο σκηνικό έντασης» καταγγέλλει ο ΣΥΡΙΖΑ http://dlvr.it/1HxF25 	tvxs	18834081	2012-03-09 11:00:10
+178054793900728320	@syriza_gr μα να πεί ο Αρχηγός τον ύπαρχο, ύπαρχο ε όχι μου τον στενοχωρήσατε	psychotherapygr	38683796	2012-03-09 10:49:05
+178047453235388416	@tsapanidou πίσω από κάθε αντίδραση κατά των επενδύσεων βρίσκεται ο #syriza τυχαίο;	C_Papachaviaris	62329978	2012-03-09 10:19:55
+178044853253443584	koutroumanis, replying to syriza qtn about cut in uenemployment benefit, responds that it's linked to wages [which have been cut]	dianalizia	40202517	2012-03-09 10:09:35
+177842439149715456	Με αγωγή απάντησε στην Bild ο Τσίπρας http://wp.me/p2erf-93h  via @wordpressdotcom	panos2222	361324807	2012-03-08 20:45:16
+177827120976900096	http://ekathimerini.com  | SYRIZA chief to sue Bild http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_08/03/2012_431883 … via @ekathimerini	ReformWatch	458693472	2012-03-08 19:44:24
+177826266790113280	Οριστε. Μετα το κουρεμα τωρα και οι γερμανικες αποζημιωσεις. #Its_a_syriza_world	_Euripides_	48354581	2012-03-08 19:41:00
+177815277889781762	Καλύτερα να μου βγει το μάτι #o_syriza_ftaei (κομματάκι απλοϊκό το τεστ του http://www.politicalmap.gr ) pic.twitter.com/fc97BWWj	galaxyarchis	120460544	2012-03-08 18:57:21
+177789925066944512	@syriza_gr leader Alexis Tsipras to sue German tabloid BILD for branding him a 'half-criminal'. Ouch. http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_08/03/2012_431883 … via @ekathimerini	Finisterre67	506027447	2012-03-08 17:16:35
+177789846440513536	RT Leader of #Greece's leftist SYRIZA party aptly suing Germany's #Bild tabloid, reports @ekathimerini http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_08/03/2012_431883 …	jbaetz	224604544	2012-03-08 17:16:17
+177788978085380096	Leiter der Radikalen Linken Griechenlands (SYRIZA) verklagt die Bild, sucht 1 Mio. € Entschädigung.	petercoles44	76361878	2012-03-08 17:12:50
+177788648245301248	Leader of leftist SYRIZA to sue Bild. Maybe newspaper can give him its 2 Greek bonds as compensation. http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_08/03/2012_431883 … via @ekathimerini	NickMalkoutzis	279642533	2012-03-08 17:11:31
+177777689086803970	Leader of Greece's Radical Left Coalition (SYRIZA) sues Bild, seeks €1m compensation - via @ekathimerini http://bit.ly/Avyw5x 	OpenEurope	65322179	2012-03-08 16:27:58
+177776769053638658	SYRIZA chief to sue Bild http://dlvr.it/1Hn65s 	ekathimerini	242704372	2012-03-08 16:24:19
+177761542325018625	ΣΥΡΙΖΑ: Παράνομη η παρακράτηση μισθοδοσίας από τράπεζες http://j.mp/yGAHrI 	alterthess	193199677	2012-03-08 15:23:49
+177743919340204032	Ο ΣΥΡΙΖΑ θα πληρώνει τους μισθούς 5.500 http://dlvr.it/1Hljgk 	synpeka	229817947	2012-03-08 14:13:47
+177707188725362688	Αγωγή ΣΥΡΙΖΑ κατά της Bild http://j.mp/xuKkE3 	newsbombgr	200034893	2012-03-08 11:47:50
+177688678204837888	ΣΥΡΙΖΑ: Συνολική η επίθεση στην Αριστερά http://j.mp/ADUdMR 	alterthess	193199677	2012-03-08 10:34:16
+177683435769430017	ΣΥΡΙΖΑ: Καταχρηστική και παράνομη η παρακράτηση μισθού http://dlvr.it/1HjF0J 	Difernews	259617310	2012-03-08 10:13:26
+177673779156234240	Προγραμματική συνέλευση του ΣΥΡΙΖΑ στο Βόλο την ερχόμενη Κυριακή http://fb.me/1eeA79HcX 	thisisvolos	111070690	2012-03-08 09:35:04
+177590522586738688	Sondage GRECE: ND (conserv.) : 28% ; Gauche Démocratique : 16% ; PASOK (socialist): 11% ; KKE (communist): 11% ; SYRIZA : 12%	FidelGavilan	462206857	2012-03-08 04:04:14
+177537525706002432	@annzabel Σε συμβουλεύω να το ξανασκεφτείς. Μήπως να δοκίμαζες το τεστάκι μια φορά ακόμα; #gia_ola_ftaiei_o_syriza	albist	20849208	2012-03-08 00:33:39
+177473891923537920	@syriza_gr RT @WSMIreland: Detailed account of #Shell's prosecution of 19 more people for ongoing resistance in Erris http://www.wsm.ie/c/account-shell-prosecution-resistance-erris …	feressiadis	161349527	2012-03-07 20:20:47
+177410351728570369	'Να σταματήσει η κατεδάφιση της Παιδείας' http://shar.es/g9uav 	spnewsgr	80805455	2012-03-07 16:08:18
+177389182916894720	syriza's lafazanis, spkg during debate on stockbreeding bill, calls pension fund participation in PSI 'robbery'	dianalizia	40202517	2012-03-07 14:44:11
+177173487738306560	@FinkRafa @dvdbou Syriza es más de izquierdas. Dimar es más moderada, tirando a socialdemócrata.	miky_co	249709485	2012-03-07 00:27:05
+177172744109170689	@FinkRafa @miky_corregidor Syriza es la IU española,1gran coalición q abarca multitud de grupos.Dimar es escisión del PASOK d nueva creación	dvdbou	335223244	2012-03-07 00:24:08
+177105237407039489	#ftaiei_o_syriza RT @papachatzis Ο κόσμος αντιλαμβάνεται τοΠΑΣΟΚ σαν κεντροδεξιό γιατι έχει εντύπωση ότι ο ΣΥΡΙΖΑ είναι κέντροαριστερό κόμμα	EpanXwrisAsteia	509098086	2012-03-06 19:55:53
+177012689304956929	Γ.Αμοιρίδης (ανεξ. βουλευτής): Θα επιδιώξω να έρθω σε επαφή με ΔΗΜΑΡ και ΣΥΡΙΖΑ. http://bit.ly/y0k4cl 	stokokkino1055	197347851	2012-03-06 13:48:08
+176794433214365696	Pisw apo to giaourtwma tou Ntalara htan omada tou syriza h to soi tou Panousi?	amerlemi	36312870	2012-03-05 23:20:52
+176726441310961665	ΣΥ.ΡΙΖ.Α:"τρομοκρατική σύλληψη" http://tinyurl.com/7nfmlzo 	enikos_gr	373909732	2012-03-05 18:50:41
+176717210981642240	Ο ΣΥΡΙΖΑ για τη σύλληψη του προέδρου του Σωματείου Χαλυβουργίας http://j.mp/yPkDzq 	politikanea	397968774	2012-03-05 18:14:01
+176696381317189633	ΣΥΡΙΖΑ: Συνειδητοποιημένο και καλά οργανωμένο κίνημα ανυπακοής http://shar.es/gKEFZ 	spnewsgr	80805455	2012-03-05 16:51:14
+176695020949225474	" Ο θαυμαστός κόσμος του ΣΥΡΙΖΑ... http://www.tovima.gr/opinions/article/?aid=446786 … @syriza_gr "	karounos	5546982	2012-03-05 16:45:50
+176667038268395522	Υπέρ του κινήματος της πατάτας ο ΣΥΡΙΖΑ: Διαβάστε την ανακοίνωση του ΣΥΡΙΖΑ για το κίνημα της πατάτας . Αιχμές γ... http://bit.ly/wpHkbL 	pulse_gr	142215074	2012-03-05 14:54:38
+176662905264152577	"Il est très important pour l'Europe de soutenir @melenchon2012" - Alexis Tsipras (Synapismos - coalition de la Gauche grecque SYRIZA)	AstroChemia	287846672	2012-03-05 14:38:13
+176660341378396160	Message de soutien d'Alexis Tsipras (Syriza) à @melenchon2012 http://dai.ly/ypn2Vn 	AstroChemia	287846672	2012-03-05 14:28:02
+176654770700947456	Κριτική ΣΥΡΙΖΑ στο ΚΚΕ για το «κίνημα της πατάτας» http://j.mp/xbf2sc 	politikanea	397968774	2012-03-05 14:05:54
+176653407287914499	KKE και ΣΥΡΙΖΑ: ποτέιτος εντ ποτάτος! #kke #syriza	dpapangel	56812543	2012-03-05 14:00:29
+176648160461066240	ΣΥΡΙΖΑ: Ο Μ. Ντράγκι δεν απαντά για το κούρεμα των ελληνικών ομολόγων που κατέχει η ΕΚΤ http://bit.ly/xgLwtg 	Newsplusgr	204114104	2012-03-05 13:39:38
+176645429604261889	@kaxypoptkotsidi What options do u have? KKE?They r not Democrats. Syriza? They r pro-violence. DIMAR? A newly formed party that is a joke.	ntalia_77	426464754	2012-03-05 13:28:46
+176637643168301056	#Greek elections on 29/4 or 6/6. Stats show ND 28%, DIM.AR. 16%, SYRIZA 12%, PASOK 11%, KKE 11%, LAOS 4%. http://news.in.gr/greece/article/?aid=1231184569 …	Finisterre67	506027447	2012-03-05 12:57:50
+176620455535452160	Όλοι δουλεύουν για το @syriza_gr & @PanosKammenos . To KKE με την πατάτα,η Ντόρα με το μύριο, η ΔΗ.ΜΑΡ με τις ΠΑΣΟΚικές μεταγραφές κοκ	Soub_Lee	81554270	2012-03-05 11:49:32
+176407426361344000	Ο ΣΥΡΙΖΑ για αποφάσεις ΣτΕ για χαράτσι και διακοπές ΔΕΗ: «Η απόφαση του ΣτΕ που κρίνει αντισυνταγματική τη διακο... http://bit.ly/zHsnzp 	komotinipress	274981884	2012-03-04 21:43:02
+176381811360935936	ΝΔ-ΠΑΣΟΚ δεν θα διστάσουν να εκβιάσουν, να τρομοκρατήσουν για να χειραγωγήσουν την ψήφο των πολιτών http://tinyurl.com/7vah5m6  via @newsbombgr	pskourl	408566492	2012-03-04 20:01:15
+176320438937464833	Πυρά ΣΥΡΙΖΑ σε ΝΔ, ΠΑΣΟΚ και Πάγκαλο http://j.mp/ybea4o 	newsbombgr	200034893	2012-03-04 15:57:23
+176235800323829760	Poll has New Democracy on 28%, Dem Left 16, SYRIZA 12, Communists & PASOK 11, LAOS, Ind Greeks & Greens on 4, Golden Dawn 3.5. A pot pourri.	NickMalkoutzis	279642533	2012-03-04 10:21:03
+176151802713096192	Face à l'austérité, la Grèce souffre en partie de la division entre le KKE et Syriza http://scichm.eu/xCa2Gu 	AstroChemia	287846672	2012-03-04 04:47:17
+176043503158181891	A GANAR EL PARLAMENTO! @Kenybell: #Grecia. intención de voto. En % PASOK 11, ND 28, KKE 11, LAOS 4, SYRIZA 12, GREEN 4 http://tl.gd/g82bt2 	manelmarquez	247705940	2012-03-03 21:36:56
+176041158550634496	public issue/kathimerini: pasok11%, nd 28, kke 11, laos 4, syriza 12, greens4, demleft 16, demalliance 2, x/avgi 3.5, ind grks 4, others 4.5	dianalizia	40202517	2012-03-03 21:27:37
+176016145177001984	Απορώ με όσους καταναλώνουν φαιά ουσία για να κραξουν #kke και #syriza. Ειλικρινά ρε σεις....Who cares???	MrEKAthens	260888067	2012-03-03 19:48:13
+175948519906095104	Ο ΣΥΡΙΖΑ για το «Κίνημα της πατάτας» http://j.mp/A1hz3R 	politikanea	397968774	2012-03-03 15:19:30
+175925900980928512	ΣΥΡΙΖΑ: Κολαφός για την κυβέρνηση η απόφαση του ΣτΕ για το χαράτσι http://j.mp/ykxIHO 	alterthess	193199677	2012-03-03 13:49:37
+175877462830489600	#construyendoalternativas Interviene Panaiota Maniou, Comité Central de Syriza, Synaspismos de Grecia.	IUCanaria	390907024	2012-03-03 10:37:09
+175874258445152256	Πατάτες από το κίνημα πατάτα.Δηλαδή ότι κινείται είναι κίνημα.Πως λέμε ότι κινείται γαμείται,έτσι είναι η polyxromi ARISTERA του SYRIZA.	to_kleisame	300911549	2012-03-03 10:24:25
+175855839092027392	Η πρόταση του Σύριζα είναι να γίνομαι Βόρειος Κορέα http://tvxs.gr/news/egrapsan-eipan/oi-deka-aksones-toy-syriza-gia-kybernisi-tis-aristeras …	nviorres	17150546	2012-03-03 09:11:13
+175669054839853056	Οι δέκα άξονες του ΣΥΡΙΖΑ για κυβέρνηση της Αριστεράς | TVXS - TV Χωρίς Σύνορα http://tvxs.gr/news/egrapsan-eipan/oi-deka-aksones-toy-syriza-gia-kybernisi-tis-aristeras …	blacktom1961	90836754	2012-03-02 20:49:01
+175623765869334528	ΣΥΡΙΖΑ: Καμία σχέση με την πραγματικότητα η αισιοδοξία της κυβέρνησης http://dlvr.it/1GZdjM 	tvxs	18834081	2012-03-02 17:49:03
+175607213484810240	ΣΥΡΙΖΑ: Η έξοδος απ΄την κρίση είναι αδύνατη με ευχολόγια και ψέματα http://j.mp/AdChRM 	alterthess	193199677	2012-03-02 16:43:16
+175559849155887106	Οι δέκα άξονες του ΣΥΡΙΖΑ για κυβέρνηση της Αριστεράς http://dlvr.it/1GX4S5 	tvxs	18834081	2012-03-02 13:35:04
+175511232361668608	Οποιος τα βαλε με τον #Syriza εξαφανίζεται σιγα σιγα..πάει και ο Βελόπουλος!!!(Μπακογιάννη-Κακλαμάνης-Γεωργιάδης...) ο επόμενος...	kefteskedeftes	73618312	2012-03-02 10:21:53
+175472702411386880	Μήπως ο Γιούνκερ είναι ΣΥΡΙΖΑ; http://www.aixmi.gr/index.php/mipos-o-junker-einai-syriza/ …	aixmigr	229942655	2012-03-02 07:48:47
+175340004606881793	Και φυσικά, το καταλάβατε έτσι; Πάλι φταίει ο #syriza #netx2	HarrisXan	20785332	2012-03-01 23:01:29
+175321370836738048	Και για τις αποδοκιμασίες προς τον Σαρκοζί, μήπως #ftaiei_o_syriza ; http://tvxs.gr/news/kosmos/fygadeytike-en-meso-apodokimasion-o-sarkozi …	Gangelakis	222502948	2012-03-01 21:47:26
+175298661717262336	@giopso ne me quitte pas SYRIZA #Sarko	TelosTaFroufrou	404833073	2012-03-01 20:17:12
+175279840876953600	Ο ΣΥΡΙΖΑ για το επίπεδο- ρεκόρ του 10,7% της ανεργίας στην ευρωζώνη τον Ιανουάριο http://j.mp/A8FmUb 	alterthess	193199677	2012-03-01 19:02:25
+175251589173477377	@syriza_gr Αιτουμαστε την μειωση κατα 2/3 των συνολικων αποδοχων των βουλευτων. Κάντε μας follow & RT, ενδυναμωστε το αιτημα μας.	Reducecostinpar	501105256	2012-03-01 17:10:09
+175243354337054720	Pour toute faute SYRIZA! #sarkozi	giopso	44691098	2012-03-01 16:37:26
+175171322786217985	newsplus | ΣΥΡΙΖΑ: Γιατί η κυβέρνηση κωλυσιεργεί την υπογραφή διμερούς συμφωνίας με την Ελβετία; - Ελλάδα, πολιτική http://bit.ly/xvzvDD 	SYNaristera	20778851	2012-03-01 11:51:12
+174874294466265088	"Ο δρόμος της Αριστεράς…":   Η απόφαση της Πανελλαδικής Συντονιστικής Επιτροπής του ΣΥΡΙΖΑ, 18 και 19 Φεβρουαρίο... http://bit.ly/zUNYEf 	IoanninaPress	440781433	2012-02-29 16:10:55
+174829716161822723	President of SYRIZA (radical left party), @atsipras, requested that the householder's bank debt should be erased #Greece @GUENGL	modestospk	218295764	2012-02-29 13:13:47
+174818596646694913	@taslanous @lumpenproletar εξαφανισμένος ο #syriza ? μηπως μιλαμε για αλλο πραγμα??	kefteskedeftes	73618312	2012-02-29 12:29:36
+174787604322062337	Φανταστείτε για λίγο το ελληνικά MME, αν στη θέση του Ισίδωρου ήταν η Περιστέρα. #o_syriza_ftaiei	galaxyarchis	120460544	2012-02-29 10:26:26
+174757608517935104	Οσοι τα εχουν βάλει με τον #Syriza εξαφανίζονται ενας-ενας Καρατζαφέρης-Ντόρα-Κακλαμάνης...	kefteskedeftes	73618312	2012-02-29 08:27:15
+174563611149213697	#ftaiei_o_syriza που ''φταίει η αριστερά''	nkoukour	227241742	2012-02-28 19:36:22
+174548862583844865	@Real_gr Πως τολμάτε και λέτε οτι οι Αθίγγανοι στήνουν κυνομαχίες. Ρατσιστές. Ντροπή. #syriza	C_Papachaviaris	62329978	2012-02-28 18:37:46
+174544262581587968	ΣΥΡΙΖΑ: «Κολασμένες μέρες» για την κοινωνία: Ανακοίνωση για τα νέα μέτρα, εξέδωσε το γραφείο Τύπου του ΣΥΡΙΖΑ. Σ... http://bit.ly/w4GYOP 	ErtSocial	297963914	2012-02-28 18:19:29
+174462314253262848	«Νίκη των πολιτών ενάντια στο χαράτσι η μη διακοπή της ηλεκτροδότησης» http://fb.me/15AIX3GkG 	Dea_org	380274986	2012-02-28 12:53:51
+174273535546630146	ΣΥΡΙΖΑ: Πανευρωπαϊκή ημέρα δράσης των συνδικάτων 29/2 - Νέα συγκέντρωση στο Σύνταγμα http://bit.ly/yRiY8z 	Newsplusgr	204114104	2012-02-28 00:23:43
+174172457941479426	ΣΥΡΙΖΑ: Τα νέα μέτρα οδηγούν στη χρεοκοπία της χώρας και τη φτωχοποίηση του λαού http://bit.ly/xLpaWP 	Newsplusgr	204114104	2012-02-27 17:42:04
+174166131974742016	Ο αετος μου δεν πεταει!!! #ftaiei_o_syriza	Treli_t_Kastrou	239399600	2012-02-27 17:16:56
+174059227118190592	Ερώτηση ΣΥΡΙΖΑ προς Παπουτσή για την αστυνομική βία και αυθαιρεσία των ΜΑΤ και για το Μ. Κυπραίο. http://tinyurl.com/chvzllo  @EmanuelKipreos	LSaklabanis	450513661	2012-02-27 10:12:08
+174036272178925568	ΣΥΡΙΖΑ: Τι θα κάνετε κ. Παπουτσή για την αυθαιρεσία των ΜΑΤ; http://tinyurl.com/chvzllo  via @newsbombgr	AnonOpGreece	167826483	2012-02-27 08:40:55
+173839284342767617	ΣΥΡΙΖΑ: Ο Σαμαράς στηρίζει τη φτωχοποίηση του λαού http://j.mp/yTHCkJ 	djidjikas	244955108	2012-02-26 19:38:09
+173750904418340864	Τσίπρας: «Θα βάλω την Τρόικα σε ένα αεροπλάνο και θα τη στείλω… σπίτι της» η πιο σοβαρή πρόταση για την ανασύνταξη της χώρας... @syriza_gr	karounos	5546982	2012-02-26 13:46:58
+173746287546601474	#Greece most trusted politicians: Andonis Samaras (ND), Fotis Kouvelis (Dimar Left), Alexis Tsipras (SYRIZA Left).., etc.	AMiloshoski	251354084	2012-02-26 13:28:37
+173745084867690496	#Greece pools: Nea Dimokratia 31%• Democratic Left 18• Communist KKE 12,5• Syriza 12• PASOK 8• LAOS 5• Ikologi Green 3,5• Chrysi Avgi 3%.	AMiloshoski	251354084	2012-02-26 13:23:50
+173573522990448641	http://bit.ly/wkg74u 	minasiak	38143293	2012-02-26 02:02:07
+173458732192251908	Κουβέλης: Όχι σε κοινή κάθοδο με ΣΥΡΙΖΑ http://j.mp/zMF771 	alterthess	193199677	2012-02-25 18:25:59
+173332323843047424	«Επικίνδυνη» η κατάργηση του αυτόφωρου στους ένστολους εν ώρα υπηρεσίας | TVXS - TV Χωρίς Σύνορα http://tvxs.gr/news/ellada/syriza-epikindyni-ekseliksi-i-katargisi-toy-aytoforoy-stoys-enstoloys-en-ora-ypiresias … via @tvxs	gournis	89688760	2012-02-25 10:03:41
+173157347458420738	Grécia: Syriza adverte que governo não tem legitimidade para assinar acordos http://www.esquerda.net/artigo/gr%C3%A9cia-syriza-adverte-que-governo-n%C3%A3o-tem-legitimidade-para-assinar-acordos#.T0f_yHL_yy4.twitter … via @AddThis	csemblano	341232752	2012-02-24 22:28:23
+173102004216934401	Vorsitzender der linken Partei SYRIZA A.Tsipras will die "Bild" anzeigen http://wp.me/p2bnTK-7Q 	matthiasgr	18740155	2012-02-24 18:48:28
+173085739133833220	@millanfernandez grandes resultados conxunturais, como os do NPA francés, o Bloco de Esquerda en PT ou Syriza en Grecia #BorrallaSistemica	contradiscurso	21080946	2012-02-24 17:43:50
+173070724905451520	Ομιλία του Προέδρου της Κ.Ο. του ΣΥΡΙΖΑ, Αλέξη Τσίπρα, στην εκδήλωση του ΣΥΡΙΖΑ ΚΑΒΑΛΑΣ. http://bit.ly/z7qvFz  #pblogs	sofko	15711451	2012-02-24 16:44:10
+173007615507431424	Πολιτικα: ΣΥΡΙΖΑ. «Επικίνδυνη» η κατάργηση του αυτόφωρου στους ένστολους εν ώρα υπηρεσίας http://tvxs.gr/news/ellada/syriza-epikindyni-ekseliksi-i-katargisi-toy-aytoforoy-stoys-enstoloys-en-ora-ypiresias …	peri_oikonomias	276663931	2012-02-24 12:33:24
+172999026088738816	Ο ΣΥΡΙΖΑ ΓΙΑ ΤΗΝ ΑΤΙΜΩΡΗΣΙΑ ΤΩΝ ΚΑΤΑΣΤΑΛΤΙΚΩΝ ΜΗΧΑΝΙΣΜΩΝ http://tvxs.gr/news/ellada/syriza-epikindyni-ekseliksi-i-katargisi-toy-aytoforoy-stoys-enstoloys-en-ora-ypiresias …	nifni	53997916	2012-02-24 11:59:16
+172980287603617792	[Κατάργηση αυτόφωρου αστυνομ. αδικημάτων] ΣΥΡΙΖΑ: Η κυβέρνηση προστατεύει τα εκτελεστικά της όργανα που αυθαιρετούν http://bit.ly/w7nfbn  ][	omadeon	146555961	2012-02-24 10:44:49
+172973497964965888	Veni to Tripras (Syriza): PSI has nothing to do with the pensions cuts #Greece	EfiEfthimiou	281093434	2012-02-24 10:17:50
+172970273790902273	Την κατάργηση του αυτόφωρου για τους αστυνομικούς καταγγέλλει ο ΣΥΡΙΖΑ http://fb.me/11VyXtgUX 	thisisvolos	111070690	2012-02-24 10:05:01
+172828122427826177	-: Grécia: Syriza adverte que governo não tem legitimidade para assinar acordos http://bit.ly/zLCoeR 	correiodobrasil	53477804	2012-02-24 00:40:10
+172805355670216704	η Apple δεν αγοράζει την Ελλάδα #ftaiei_o_syriza κ #pligma_gia_ton_tourismo	moumouris	17941645	2012-02-23 23:09:42
+172718789203476480	ΣΥΡΙΖΑ κατά ΕΛ.ΑΣ. για τις φωτογραφίες υπόπτων http://dlvr.it/1Dvzj6 	tvxs	18834081	2012-02-23 17:25:42
+172709573218680832	Βενιζέλος: ΣΥΡΙΖΑ και ΚΚΕ θα μας κάνουν Μολδαβία http://j.mp/xgh3UY 	alterthess	193199677	2012-02-23 16:49:05
+172656008294965248	Εκεί στο #syriza ούτε τα προσχήματα δεν κρατάνε πλέον!! http://www.ethnos.gr/article.asp?catid=22768&subid=2&pubid=63621028 …	panospap74	35784609	2012-02-23 13:16:14
+172653496447926272	Επίθεση ΣΥΡΙΖΑ στην ΕΛΑΣ, για τη δημοσίευση φωτογραφιών http://j.mp/A7n6S0 	alterthess	193199677	2012-02-23 13:06:15
+172612318444785664	Οι κουλάκοι του Α. Τσίπρα http://bit.ly/wlN0H4  #ftaiei_o_SyRizA	canislibertatis	10942042	2012-02-23 10:22:38
+172606043426275328	Α! Σαν ορθοδόξους με καθολικούς! " @xanthk: Πρόσεχε Αλέκα μην μολυνθείς! "Σε κοινή συνέντευξη τύπου ΚΚΕ και ΣΥΡΙΖΑ;" http://j.mp/woLkA5 "	menacius	45086371	2012-02-23 09:57:42
+172603897481932800	Ενωμένη; Αριστερά; Βαλε το ερωτηματικό όπου θες. αυτά τα "μαγαζάκια" έπρεπε να καούν πρώτα... http://bit.ly/wS8Uf4 	fayum_gr	49562049	2012-02-23 09:49:10
+172603120755544065	Σε κοινή συνέντευξη τύπου ΚΚΕ και ΣΥΡΙΖΑ; http://j.mp/woLkA5 	alterthess	193199677	2012-02-23 09:46:05
+172528646895046657	MP's jumping ship from PASOK and ND are flooding into Dimar as a more center option to KKE and Syriza	CoveringDelta	19951102	2012-02-23 04:50:09
+172528264185782272	The Democratic Left party has come out of nowhere to overtake Syriza and KKE from the left flank - http://twitpic.com/8ngyna 	CoveringDelta	19951102	2012-02-23 04:48:38
+172419199266852864	Ο Σύριζα για τη δανεική σύμβαση και τη ρατσιστική επίθεση. http://tinyurl.com/7xgdeoz 	ekorinthos	168692546	2012-02-22 21:35:15
+172377589648859136	discussion on pasok motion for inquiry into 2009 deficit ending: nd agst (not the time), syriza won't vote for (bcz won't be followed thru)	dianalizia	40202517	2012-02-22 18:49:54
+172308407573938176	Grèce - Grèce: la crise économique bouleverse l’échiquier politique grec http://rfi.my/zJCUDL 	RFI	32861321	2012-02-22 14:15:00
+172284635374559232	Για την υποβάθμιση της Ελλάδας από την Fitch #ftaiei_o_Syriza	thesspirit	149090656	2012-02-22 12:40:32
+172275438649999360	Bild-Spiegel: Ο Τσίπρας είναι άξεστος εκβιαστής και ...το ΣΥΡΙΖΑ τρομοκράτες http://i.inews.gr/47zxx 	inewsgr	46244449	2012-02-22 12:03:59
+172265734766985218	SYRIZA bu sefer de Başbakan Lukas Papadimos’a saldırdı http://www.azinlikca.net/bati-trakya-haber/syriza-yunanistan-loukas-papademos-2212012.html …	azinlikca	202015289	2012-02-22 11:25:26
+172255092785938432	SPIEGEL εναντίον Τσίπρα http://ow.ly/9dkDJ 	spnewsgr	80805455	2012-02-22 10:43:09
+172251684410626049	ΣΥΡΙΖΑ: Το Ευρωπαϊκό Συμβούλιο θεσμοθετεί στενότερη επιτροπεία των ελληνικών δημόσιων οικονομικών http://bit.ly/zW57nA 	Newsplusgr	204114104	2012-02-22 10:29:36
+172243491542409216	Επίθεση στον ΣΥΡΙΖΑ ετοιμάζει η ΝΔ http://ow.ly/9diqw 	spnewsgr	80805455	2012-02-22 09:57:03
+172243488258277376	Επίθεση στον ΣΥΡΙΖΑ ετοιμάζει η ΝΔ http://ow.ly/9diqv 	sirmatsis	299501508	2012-02-22 09:57:02
+172160965700370432	Syriza manda aviso para a União Europeia http://luizsilveira.tumblr.com/post/18050579495/syriza-manda-aviso-para-a-uniao-europeia-como-eu …	luizgsilveira	42996773	2012-02-22 04:29:07
+172105683234332673	Mais tarde eu vou postar no meu Tumblr, a carta do bloco de esquerda grego Syriza para a União Europeia, a tradução evolui. #aguardem	luizgsilveira	42996773	2012-02-22 00:49:27
+172084700674932736	Tsipras, leader of Syriza (Greek left party): Very soon the sovereign people will regain their sovereignty --- http://www.telegraph.co.uk/finance/comment/ambroseevans_pritchard/9097005/Greek-debt-accord-hostage-to-political-passions.html …	goksor	148374688	2012-02-21 23:26:04
+172073121988345856	"This agreement is binding only on those who signed it," says the leader of Greece's Syriza party - l... http://seekingalpha.com/n/3env 	MarketCurrents	15296897	2012-02-21 22:40:03
+172071449773867008	Peiling : ND (conservatieven)19,4 %; PASOK (socialisten)13% ; Gauche democratique (afscheuring Pasok) 12% ; communisten 9,5% ; SYRIZA 8,5%	FidelGavilan	462206857	2012-02-21 22:33:25
+172070466046005248	SYRIZA bu sefer de Başbakan Lukas Papadimos’a saldırdı http://fb.me/16YnCQF77 	azinlikca	202015289	2012-02-21 22:29:30
+172040881875066881	Καταγγελία του ΣΥΡΙΖΑ Δράμας για τα μαθητικά εισιτήρια http://fb.me/11nakmivQ 	DRAMANIAgr	460110914	2012-02-21 20:31:57
+172022486974730240	Καταγγελία ΣΥΡΙΖΑ για τα επεισόδια:   Την «αστυνομοκρατία», αλλά και τη «βίαιη καταστολή» μιας συμβολικής κίνηση... http://bit.ly/zYudm0 	IoanninaPress	440781433	2012-02-21 19:18:51
+172000629445754882	Τρέξτε παιδιά. Ο Τσίπρας δίνει πιστοποιητικά "εθνικοφροσύνης". Όπως τότε, στα "πέτρινα χρόνια" @syriza_gr	Feel_ippos	359583491	2012-02-21 17:52:00
+171987675048443904	#SYRIZA http://2310net.wordpress.com/2012/02/21/%CE%B1%CF%85%CF%84%CE%AE-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%BF%CE%BB%CE%AE-%CF%80%CF%81%CE%BF%CE%B8%CE%AD%CF%83%CE%B5%CF%89%CE%BD-%CF%81%CE%B5-%CE%B1%CE%BB%CE%AD%CE%BE/ …	2310net	389135009	2012-02-21 17:00:31
+171919956831772672	>New Marc poll shows ND at 24%, Democratic Left at 15,2% PASOK at 13,9% Communists at 11,9%, leftist SYRIZA at 10,7%, LAOS at 6,9% #Greece >	zoemavroudi	126410054	2012-02-21 12:31:26
+171902043018113024	Το χειροποδαρα πως γραφεται στο αγγλικο (δίκαιo) ? #stadiala #GRcrisis #o_syriza_ftaiei	manetackis	55734718	2012-02-21 11:20:15
+171897749070036993	ΣΥΡΙΖΑ: Καταγγέλλει τις προληπτικές προσαγωγές http://j.mp/z9q49V 	alterthess	193199677	2012-02-21 11:03:11
+171890345666285568	@syriza_gr Ο εθνοπατριωτισμός του κ. Τσίπρα | Protagon http://bit.ly/AdKxS9 	GAndroulidakis	8122032	2012-02-21 10:33:46
+171884558810226688	«Τα μασάνε» στην Ευρώπη για το χαράτσι http://ow.ly/9bP3U 	spnewsgr	80805455	2012-02-21 10:10:46
+171737590377103361	why they want permanent troika presence: “ @EfiEfthimiou: Mega poll: ND 19.4%, Pasok 13.1%, Dem.Left 12%, Comm 9.5%, Syriza 8.5%, Laos 5.1%"	faisalislam	22812734	2012-02-21 00:26:46
+171735453941235715	Πατρίς - Πορεία - Οικογένεια #ftaiei_o_SyRizA	canislibertatis	10942042	2012-02-21 00:18:17
+171734893242499072	Σήμερα ο Τσίπρας έβγαλε τη μεζούρα για να μετρήσει το εθνικό μας φρόνημα. Και οι συριζαίοι το έκαναν γαργάρα κανονικά! #ftaiei_o_SyRizA	canislibertatis	10942042	2012-02-21 00:16:03
+171723097521659906	"Είναι στο DNA μας η κουλτούρα των συνεργασιών" λέει η ΔΗΜ.ΑΡ. Γελάει ο κόσμος γμ τις μεταλλάξεις μου. Κι ύστερα σου λέει #ftaiei_o_syriza	Oh_Grapes	219649885	2012-02-20 23:29:11
+171720181339521024	GPO poll 4 Mega shows that ND has support 19.4%, Pasok 13.1%, Dem.Left 12%, Communists 9.5%, Syriza 8.5%, Laos 5.1% ( #Greece)	EfiEfthimiou	281093434	2012-02-20 23:17:36
+171713470008537088	Ψήφο εξουσίας θα ζητήσει στις εκλογές ο ΣΥΡΙΖΑ: Ούτε ο πρωθυπουργός Λουκάς Παπαδήμος, ούτε η σημερινή κυβέρνηση ... http://bit.ly/yumoM7 	ErtSocial	297963914	2012-02-20 22:50:56
+171713011973758976	Μετά το #ftaiei_o_syriza τώρα έχουμε το #ftaiei_o_sindikalas σύμφωνα με τους #folders #skai	theblobgr	228110713	2012-02-20 22:49:06
+171688144066985984	Τις «προληπτικές προσαγωγές» καταδικάζει ο ΣΥΡΙΖΑ http://dlvr.it/1DJc0H 	tvxs	18834081	2012-02-20 21:10:18
+171686908458569728	Επίτηδες έφυγε ο Κουβέλης να μαζέψει κόσμο να συνεργαστούμε και στο τέλος να γινουμε Κυβέρνηση. #ftaiei_o_syriza	odysseasgp	20262872	2012-02-20 21:05:23
+171685831709429762	Intentions de vote GRECE : ND : 24% ; Gauche Démocratique: 15,2%; Pasok: 13,9%; KKE: 11,9%; SYRIZA: 10,7%;	FidelGavilan	462206857	2012-02-20 21:01:06
+171664679658192897	@SotirisGer Ναι ναι για όλα φταίω εγώ..και ο Σύριζα! #ftaiei_o_syriza	elena_kad	269069321	2012-02-20 19:37:03
+171658079795027968	Αφιερωμένο στο #KKE, #SYRIZA και λοιπές δημοκρατικές δυνάμεις. http://m.youtube.com/?rdm=4our2u366&reload=3#/watch?desktop_uri=%2Fwatch%3Ffeature%3Dplayer_embedded%26v%3D1yZsj1s-vCY&feature=player_embedded&v=1yZsj1s-vCY&gl=US …	kalamake	39453419	2012-02-20 19:10:50
+171579974694871040	I think that SYRIZA party (Left) will go very well with conservative voters. #Greece	greekdude	189441148	2012-02-20 14:00:28
+171573863845593088	Ξεκίνησαν προεκλογικές εκστρατείες στο ΣΥΡΙΖΑ http://bit.ly/zoqlwW 	Prionokordelagr	295668616	2012-02-20 13:36:11
+171547338941276161	ΝΑ ΦΥΓΟΥΝ ΑΥΤΟΙ ΚΑΙ Η ΠΟΛΙΤΙΚΗ ΤΟΥΣ. Ή ΑΥΤΟΙ Ή ΕΜΕΙΣ. ΣΥΡΙΖΑ ΛΗΜΝΟΥ! http://bit.ly/zQgiE1  #pblogs	sofko	15711451	2012-02-20 11:50:47
+171529990414942208	ΣΥΡΙΖΑ: Θα παγώσει η κυβέρνηση την αγορά 2 υποβρυχίων που επιβαρύνουν τον προϋπολογισμό; http://bit.ly/wzaeex 	Newsplusgr	204114104	2012-02-20 10:41:51
+171517963239817217	Ο Αλέξης Τσίπρας στη Θεσσαλονίκη http://ow.ly/9atgP 	spnewsgr	80805455	2012-02-20 09:54:03
+171487741962498048	Ο Μπάμπης "πάντα ψύχραιμος" Παπαδημητρίου τα έχει πάλι με το ΣΥΡΙΖΑ #ftaiei_o_syriza	Pexlibanis	297877342	2012-02-20 07:53:58
+171424369283842050	ti stiriksi tis Kokkiniprasinis Symmaxias ( Enhedslisten)- einai o antistoixos SYRIZA Danias- me 15 atoma peripou pic.twitter.com/90BMPgMz	AUTONOMOUSINTER	391288756	2012-02-20 03:42:10
+171363170848477185	@zivas ναι, όπως στο Protagon υπάρχει πολυφωνία: ο μνημονιακός, ο πολύ μνημονιακός, ο ούμπερ μνημονιακός κι όλοι μαζί #ftaiei_o_syriza	sp_der	144779404	2012-02-19 23:38:58
+171328816885673984	Εγκρίθηκε το προγραμματικό πλαίσιο του ΣΥΡΙΖΑ http://dlvr.it/1D6T3Y 	Difernews	259617310	2012-02-19 21:22:27
+171321003237064704	Εγκρίθηκε το προγραμματικό πλαίσιο του ΣΥΡΙΖΑ http://bit.ly/wvWnFQ 	politikanea	397968774	2012-02-19 20:51:24
+171289503590387712	500 χιλιάδες λαϊκιστές στους δρόμους της Ισπανίας #o_syriza_ftaiei #do_it_like_pasxos	galaxyarchis	120460544	2012-02-19 18:46:14
+171200816026353664	SYRIZA Partisi de seçim hazırlıklarına başladı http://www.azinlikca.net/bati-trakya-haber/syriza-secim-hazirliklari-basladi-21820122.html …	azinlikca	202015289	2012-02-19 12:53:49
+171194493826113536	Ανακοίνωση του Δικτύου Συνδικαλιστών Ριζοσπαστικής Αριστεράς Νέα συγκέντρωση στο Σύνταγμα Κυριακή 1 http://fb.me/15gBdz0bF 	nemeagr	174947627	2012-02-19 12:28:42
+171191952077897729	#ekloges Στα εκλογικά τμήματα των @megamou και @skaigr το ψηφοδέλτιο #o_syriza_ftaiei σαρώνει	galaxyarchis	120460544	2012-02-19 12:18:36
+171144708242948097	@galaxyarchis στείλε μου με φαξ με mail δεν ξέρω το θέλω @Antidrasex #ekloges #o_syriza_ftaiei	xanthegreat77	251674447	2012-02-19 09:10:52
+171034150948708352	Η εβδομάδα δεν τελείωσε.Κι όμως, καταφερα να λογοφέρω με στέλεχος του #kke του #pasok της #dimsym της #nd του #syriza της #dimar & του #laos	ypiliouras	155709184	2012-02-19 01:51:33
+171006564432494592	Greece: the need for an alliance KKE - Syriza to offer an alternative http://www.marxist.com/greek-masses-on-the-street-calling-for-leaders-to-unite-and-fight-2-en.htm …	marxistJorge	143434318	2012-02-19 00:01:56
+170993762112249856	ALCO poll (w 16.8% abstention, 10.7% undeclared) = pasok 8%, nd 18.3, kke 8, laos 4.1, syriza 6.2, dem left 8.8, dem alli 2.3, greens 2.6	dianalizia	40202517	2012-02-18 23:11:04
+170992921309491200	ALCO poll for proto thema: pasok 11%, nd 24, kke 11, syriza, 8, laos 5, greens 3.5, dem left 11.5, dem alli 3 #greece	dianalizia	40202517	2012-02-18 23:07:43
+170966124656205824	Support for Two Main Greek Parties at Historic Low, Poll Shows Bloomberg Syriza, or the Coalition of the… http://goo.gl/fb/wMWmu  #Laos	love_laos	370548491	2012-02-18 21:21:15
+170951353974276097	@spa_rky ftaiei_o_syriza και για την #christiania? :pp	durutti13	122142596	2012-02-18 20:22:33
+170907257956081664	RT @StefanosManos Πολλαπλασιάζονται τα φαινόμενα βίας του ΠΑΜΕ προς εκφοβισμό επιχειρηματιών. #eftaige_o_syriza	durutti13	122142596	2012-02-18 17:27:20
+170847656611020801	@paulmasonnews Syriza now out on a limb though? http://www.redpepper.org.uk/greece-how-to-avoid-a-social-default/ …	Calderbank	22506230	2012-02-18 13:30:30
+170842262408921089	@paulmasonnews Why is it that Greece has 8 (if you count SYRIZA separately) 'far left' parties? Genuinely interested	orangebooker1	312868232	2012-02-18 13:09:04
+170841789664731137	... when I spoke to Syriza they reject the prog of "default, exit, devalue and compete" in favour of repayment moratorium + stay in Euro	paulmasonnews	19811190	2012-02-18 13:07:11
+170840294206611456	http://www.alterthess.gr/content/anoixti-sygkentrosi-toy-syriza-stin-toympa … Ανοιχτή πολιτική συγκέντρωση με ομιλητή τον πρόεδρο της Κ.Ο. Αλέξη Τσίπρα διοργανώνει τη Δευτέρα ο ΣΥΡΙΖΑ Θεσσαλονίκης.	iasonbantios	98190715	2012-02-18 13:01:14
+170837677258719233	Ανοιχτή συγκέντρωση του ΣΥΡΙΖΑ στην Τούμπα http://j.mp/yDEKXp 	alterthess	193199677	2012-02-18 12:50:50
+170790554572029952	Ακόμα να βρεθούν τα κλεμμένα της Ολυμπίας στην Κουμουνδούρου; #gia_ola_ftaiei_o_syriza	KyrAdam	251715206	2012-02-18 09:43:36
+170741916286205952	Two rallies on Sunday outside Parliament in Athens: ADEDY-GSEE union rally at 10:30 & Syriza at 16:00 via @naftemporiki	livingingreece	21560702	2012-02-18 06:30:19
+170696085738758145	Syriza still want to stay in the Euro? Lol.	AaronBastani	63082578	2012-02-18 03:28:12
+170646125076946946	@albertjohn Well, the old SYRIZA is to blame for everything is starting get a little stale LOL	teacherdude	10257602	2012-02-18 00:09:41
+170611878442176512	@Atlaspol Les deux grands partis d'extrême-gauche (KKE et SYRIZA) préféreraient probablement gouverner avec l'extrême-droite qu'ensemble...	mathieugallard	47091549	2012-02-17 21:53:36
+170610941937983488	@Atlaspol Oui, mais aussi les dissidents de gauche du PASOK et les libertaires de gauche du SYRIZA !	mathieugallard	47091549	2012-02-17 21:49:53
+170540921690144768	Hamburger Künstler bewerfen deutsche Botschaft in Athen mit Eiern: Mitglieder der linken SYRIZA Partei und der P... http://bit.ly/yjgkAj 	AgenturRU	225356039	2012-02-17 17:11:38
+170480435028164609	Θα σκάσει ο Φαήλος.Απέκτησε ανταγωνισμό!Τα σταγονίδια γίνονται ποτάμι. Βέβαια, #ftaiei_o_syriza	annzabel	117359191	2012-02-17 13:11:17
+170461378707062784	Hashtag #ftaine_oi_koukouloforoi Εχουμε? Γιατι το #ftaiei_o_syriza μπαγιατεψε νομιζω	Dorothea_An	232137499	2012-02-17 11:55:34
+170432760316559360	Και για την κλοπή του μουσείου #ftaiei_o_syriza α... και τώρα τελευταία και #oi_anarxikoi !	pnasia	189565261	2012-02-17 10:01:51
+170421981597007872	ΣΕ ΕΤΟΙΜΟΤΗΤΑ ΕΚΛΟΓΩΝ Ο ΣΥΡΙΖΑ http://fb.me/1flzN4Ykf 	ManosGialouris1	417020095	2012-02-17 09:19:01
+170255394655055872	Σε εκλογική ετοιμότητα ο ΣΥΡΙΖΑ http://dlvr.it/1CZqTS 	tvxs	18834081	2012-02-16 22:17:03
+170252316929306624	Στην τελική ευθεία οι διεργασίες στον ΣΥΡΙΖΑ: Στην τελική ευθεία εισέρχονται οι διεργασίες στον ΣΥΡΙΖΑ με στόχο ... http://bit.ly/w6xn6Y 	ErtSocial	297963914	2012-02-16 22:04:50
+170249056604536833	Το σύνθημα του ΣΥΡΙΖΑ για τις εκλογές είναι "Να τους ρίξουμε" http://dlvr.it/1CZfFb 	Difernews	259617310	2012-02-16 21:51:52
+170232642158080000	@ilias_petrakis #ftaiei_o_syriza lolll δεν την παλεύουν οι γερμανικές φυλλάδες χα χα χα	Krotkie	136003808	2012-02-16 20:46:39
+170218915279020033	Η απάντηση του Τσίπρα στο για όλα #ftaiei_o_syriza pic.twitter.com/aGwu7zAb	giopso	44691098	2012-02-16 19:52:07
+170215080166817792	Tror egentligen inte att det går att lösa Greklands kris genom en röst på KKE, SYRIZA eller DIMA. Men det skadar inte i väntan på revolution	OrdforandeJohan	17199745	2012-02-16 19:36:52
+170214507195535362	En bör hålla i minnet att nya DIMA, som får 16% i denna mätning, är en högerbrytning ur SYRIZA. I praktiken får Grekland ett nytt sosseparti	OrdforandeJohan	17199745	2012-02-16 19:34:35
+170207694312058882	Για να μην υπάρχει αμφιβολία ποίος ανακινεί: http://twitpic.com/8kr55h  #do_it_like_Syriza	iasonasn	18739037	2012-02-16 19:07:31
+170166464547000320	Sondaggio Grecia: Il KKE (Partito Comunista) sale al 14%, lo Syriza (sinistra radicale) sale al 13,5%. Ora sarebbe... http://fb.me/SO4bTrnS 	AndreaSalutari	315982555	2012-02-16 16:23:41
+170157954752987137	Sondage2: ND 25%, Gauche démocratique 12%, PASOK 11%, KKE 12%, SYRIZA 8,5%, LAOS 5,5%,	FidelGavilan	462206857	2012-02-16 15:49:52
+170157447107969024	Sondage Grece: ND conservateur 27,5%, Gauche démocratique 16%, KKE communiste 14%, SYRIZA gauche radicale 13,5%, Pasok 11%, LAOS 4,5%,	FidelGavilan	462206857	2012-02-16 15:47:51
+170155777191985153	"Alexis Tsipras, Chef der radikallinken „Syriza“-Partei, sympathisiert offen mit gewalttätigen Anarchisten." καταλάβες?? @potmos @menacius	modestospk	218295764	2012-02-16 15:41:13
+170143396365737984	Wahlumfrage Griechenland: ND 31,Li. 18, Komm. 12.5,SYRIZA (Li) 12,PASOK 8 (44),Laos (Re) 5,Grüne 3.5,Chrysi Avgi (Re) 3 http://bit.ly/z8GibW 	neuwal	15375817	2012-02-16 14:52:01
+170116348779823104	Σε κινητοποιήσεις στο ΑΠΘ καλούν ΣΥΡΙΖΑ και Συσπείρωση http://j.mp/zGUUKb 	alterthess	193199677	2012-02-16 13:04:32
+170113346635444224	@ChloeEmmano 42.5% + le PASOK, cela fait 50% pour la gauche. Gauche démocratique et Syriza, cela correspond à quelle sensibilité en France?	lheretique	23666260	2012-02-16 12:52:37
+170108151553720320	@lheretique gauche démocratique18%, KKE 12.5%;Syriza 12%. Au QG de KKE il y a une affiche de Staline.	ChloeEmmano	115666997	2012-02-16 12:31:58
+170105308839018496	Latest poll in #Greece:Pasok 11%, New Democracy 27,5%, DiMar(a new socialdemocratic party) 16%, Communist Party 14%, SYRIZA 13,5%, LAOS 4,5%	modestospk	218295764	2012-02-16 12:20:40
+170100114394849281	Επίκαιρη ερώτηση Κοινοβουλευτικής Ομάδας του ΣΥΡΙΖΑ για τις ακτοπλοϊκές συγκοινωνίες http://bit.ly/zUlmRo 	pathfinderuNews	29189180	2012-02-16 12:00:02
+170098717054091264	[inglese] Alexis Tsipras (Syriza) "L'Eurogruppo è il letto di Procuste della democrazia" - http://www.athensnews.gr/portal/8/53389  #Grecia	strelnik	675873	2012-02-16 11:54:29
+170096713674137601	Radical Left Coalition leader Alexis Tsipras describes Eurogroup as Procrustes of European democracy | http://www.athensnews.gr/portal/8/53389  @syriza_gr	AthensNewsEU	59407061	2012-02-16 11:46:31
+170089712332185600	@arqueoleg @alexresta Dreta: ND 31%, Altres 8%. PASOK 8%. Left: KKE 12%, Syriza 12%, ID 18%. Abstenció 30% http://yfrog.com/es5phpnj 	gemmagaldon	215659070	2012-02-16 11:18:42
+170056448611581952	@ChloeEmmano Ce serait possible de connaître les scores exacts du KKE et de Syriza ? Est-ce que le KKE est toujours marxiste ?	lheretique	23666260	2012-02-16 09:06:31
+170045230249291776	@syriza_gr είναι δυνατόν ευρωβουλευτής σας να ψήφισε αυτό το αντιδημοκρατικό έκτρωμα διαδικτυακής λογοκρισίας,την ACTA;Ειναι δυνατόν;	KIRKH_	286734047	2012-02-16 08:21:56
+169968707202850816	@Demitri_D @jennysior @raniahatz They definitely did! Even the ones in opposition (KKE, Syriza, etc) condoned it b/c they cashed in too.	westcosta79	156877008	2012-02-16 03:17:52
+169925142011576321	@lheretique oui c'est exacte, le parti de la gauche démocratique, KKE (communiste), Syriza (Parti radical de gauche) et Pasok(socialist(8%);	ChloeEmmano	115666997	2012-02-16 00:24:45
+169898384226926592	#SYRIZA  - update #Greece| @scoopit http://bit.ly/xn5yjd 	jlievens	40818631	2012-02-15 22:38:26
+169880938300448770	@michaelhewson there's no way Syriza or communists sign anything troika demands, and EZ knows that @ollybarratt	EfiEfthimiou	281093434	2012-02-15 21:29:06
+169878607345369088	Επίκαιρη ερώτηση Κοινοβουλευτικής Ομάδας του ΣΥΡΙΖΑ για τις ακτοπλοϊκές συγκοινωνίες http://bit.ly/zDzzSl  #pblogs	sofko	15711451	2012-02-15 21:19:50
+169865048876003329	Bei Neuwahl in #Griechenland könnten Kommunisten KKE, Linksradikale SYRIZA und orthodoxer Volksbund LAOS Rekordgewinne erzielen.	Andena_	101691018	2012-02-15 20:25:58
+169861704618999810	Πριν λίγο στην TL μου εμφανίστηκε το άκρον άωτον του #o_syriza_ftaiei https://twitter.com/#!/Pierrakakis/status/169858894124949504 … Bραβείο!	galaxyarchis	120460544	2012-02-15 20:12:40
+169847128129146881	Someone to tell #Germany next evaluation they'll be speaking with SYRIZA&communists,latest #Greece poll epikaira.gr: http://bit.ly/w6DRRs ”	YiannisMouzakis	342705072	2012-02-15 19:14:45
+169825040655847424	@KGBut As @paulmasonnews said SYRIZA'"selective bond repayment &non-Euro exit plan starting 2 look +ly mainstream"<-&Troika/EU looks extreme	albertjohn	17499355	2012-02-15 17:46:59
+169818107295174656	Συνάντηση του ΣΥΡΙΖΑ Ροδόπης με εργαζομένους εργατικής κατοικίας: Με το σωματείο και τους εργαζόμενους του Οργαν... http://bit.ly/xYbhQb 	komotinipress	274981884	2012-02-15 17:19:26
+169815914840195072	@paulmasonnews Syriza got a non-Euro exit plan? Thats news here in Greece. The leader of the coalition supports Euro.	allhlegios	293278386	2012-02-15 17:10:43
+169814732533022721	I interviewed one of SYRIZA leader this week; their selective bond repayment and non-Euro exit plan starting to look positively mainstream	paulmasonnews	19811190	2012-02-15 17:06:01
+169804896005136385	Sondeo en Grecia: Syriza (IU griega) 12,5%, KKE 12,5%, Esquerda Democrática 18%, PASOK 8%, ND(Derecha) 31% de publicissue.gr	jsurrea	157369762	2012-02-15 16:26:56
+169799304637194240	#Eurocrisis Greece - left in Greece - kke syriza DL on 42%. They could take power if they formed united front and had #socialist programme	chetony	74727751	2012-02-15 16:04:43
+169798689420877824	Comunistes ortodoxos 12,5%, Syriza (esquerra radical) 12%, Dimokratiki Aristera (nova esquerra) 18%, Pasok 8% #redalert http://a8.sphotos.ak.fbcdn.net/hphotos-ak-ash4/429787_10150629123989879_834509878_9055493_89156290_n.jpg …	TVilalta	294310143	2012-02-15 16:02:16
+169791086125006848	@modestospk @menacius @potmos ΤΟ ΒΚΚ ΘΑ ΑΝΑΤΙΝΑΞΕΙ ΑΥΡΙΟ ΤΑ ΓΡΑΦΕΙΑ ΤΟY ΚΚΕ ΚΑΙ ΤΟΥ @syriza_gr Το ειπα... και τωρα τι;	Randal_Zombie	298004082	2012-02-15 15:32:04
+169790240381345792	@potmos Ναι, ναί! #o_syriza βρίσκεται πίσω από τους κουκουλοφόρους-νίντζα! @Randal_Zombie @modestospk	menacius	45086371	2012-02-15 15:28:42
+169790230109499392	@Randal_Zombie @modestospk O @syriza_gr δεν έχει ανάγκη, ανατινάζεται μόνος του (σχάσεις) @menacius	potmos	50222449	2012-02-15 15:28:40
+169786281071620096	@modestospk ... ξερω γω ... ρώτα το Πρετεντερη... Να μου πεις.. εδω ο @syriza_gr είναι επαναστατικό κόμμα.... @potmos	Randal_Zombie	298004082	2012-02-15 15:12:58
+169747180335280128	Please PASOK, don't split up. I don't like LAOS. Or KKE. Or SYRIZA, come to think of it.	UOldfield	28772969	2012-02-15 12:37:36
+169744805314830336	Ν. Χουντής: Παρέμβαση ΣΥΡΙΖΑ στο Ευρωπαϊκό Κοινοβούλιο: Παρέμβαση στην Ολομέλεια του Ευρωπαϊκού Κοινοβουλίου, στ... http://bit.ly/y6aiYt 	ErtSocial	297963914	2012-02-15 12:28:09
+169731560734593024	in onda #moulopoulos, parlamentare della sinistra greca Syriza: la Grecia non può fare di più e non vuole fare di più.	Radio3tweet	100185915	2012-02-15 11:35:32
+169727644487794688	@NJ_Bolton unlikely for Pasok split to join SYRIZA - but those who *already* split before do collapborate with SYRIZA/DEM LEFT, but loosely	paulmasonnews	19811190	2012-02-15 11:19:58
+169643596641878016	#meta_tin_epanastasi #Oi_anarxikoi θα λενε #ftaiei_o_syriza για τα panda...	TomReb3l	108487975	2012-02-15 05:45:59
+169563857281482753	Syriza, CP etc at 42% in opinion polls - FT article.... #cwi http://on.ft.com/wcCaFM 	stephenboydsp	31729606	2012-02-15 00:29:08
+169480170636443648	Un socialiste grec content d'évoquer les violences et les flammes de dimanche soir/ Syriza.	PascaleBerrie	475041312	2012-02-14 18:56:36
+169479706532511745	and, of course, pasok's eminidis introduces the bill on sports/matchfixing by lashing out at syriza for sunday's vote on bailout2 #greece	dianalizia	40202517	2012-02-14 18:54:45
+169436371520471040	Griekse communistische KKE tegen politieke unie met Syriza. Volgens peilingen zouden zij 30% vd stemmen halen. De socialistische PASOK 8%!	FidelGavilan	462206857	2012-02-14 16:02:33
+169432511347294210	Os gregos não devem por as esperanças no partido Comunista ou Syriza, desde 1990,o revisionismo manda na esquerda partidária.	Nationatus	199106967	2012-02-14 15:47:13
+169412368097484800	Ανακοίνωση του Γραφείου Τύπου του ΣΥΡΙΖΑ http://goo.gl/fb/midHS 	nikoslefkas	42760762	2012-02-14 14:27:10
+169395041675116544	@zairacat Αυτό το δες; "Πολιτιστική προβοκάτσια καταγγέλλει ο ΣΥΡΙΖΑ για τον εμπρησμό στο ΑΤΤΙΚΟΝ" http://theblob.gr/eidhseis/kallitexnika/item/1454-politistikh-provokatsia-kataggelei-o-syriza.html …	theblobgr	228110713	2012-02-14 13:18:19
+169394406191939584	@LeopoldosStotch Δες εδώ http://theblob.gr/eidhseis/kallitexnika/item/1454-politistikh-provokatsia-kataggelei-o-syriza.html …	theblobgr	228110713	2012-02-14 13:15:48
+169351069317611521	Η πρώτη μεγάλη νίκη των αναρχικών και ο παραμορφωτικός φακός των ΜΜΕ http://enosy.blogspot.com/2012/02/blog-post_14.html … #kke #syriza #antarsya #rbnews #syntagma #12fgr	enosi	36096270	2012-02-14 10:23:35
+169306977741176833	Καταγγελία του ΣΥΡΙΖΑ Δράμας για την κατάργηση των Οργανισμών Εργατικής Εστίας και Κατοικίας http://fb.me/uKMiFDJv 	DRAMANIAgr	460110914	2012-02-14 07:28:23
+169253077382213632	Hafiyelik edip son model ciplerde gezmeye alışmış itler, 24 saat SyRizA'ya küfrediyorlar... Emekçi insanlar, bunu da göz önünde bulundurmalı	MuCo_Sol	90864882	2012-02-14 03:54:12
+169252671629430784	Liboş Tosun "taş devrine dönmek" istemiyormuş; o yüzden SyRizA ve KKE'ye saldırıyor... O "taş devri" birgün ona öyle bir girer ki...	MuCo_Sol	90864882	2012-02-14 03:52:36
+169211228818915328	@xipirona Lo cierto es que el KKE no se lleva muy bien con SYRIZA. @ciudadfutura @miky_corregidor	JLlofriu	303534856	2012-02-14 01:07:55
+169210530446315522	@JLlofriu @ciudadfutura @miky_corregidor conclusión que saco, Syriza es la IU sin el partido comunista	xipirona	241714001	2012-02-14 01:05:08
+169192300482805760	@fabio_landolfi oui, de l'abstention surtout des jeunes dépendra le score de Syriza. Pas d'alliance possible avec le PC ni les reformateurs	smykos	17844996	2012-02-13 23:52:42
+169167051431227392	@foldersgr γιατί κάηκε η αθήνα; γιατί #ftaiei_o_syriza. βγάλτε μετά και τον πορτοσάλτε να πει για το πλήγμα στον τουρισμό	vangsbin	37650828	2012-02-13 22:12:22
+169160728199176193	@diegoberardo @MScaglioneENA El PASOK pudo haber optado por ampliar su base con el KKE y Syriza si hubiera osado una alternativa. #Grecia	SoyPuri	144288146	2012-02-13 21:47:15
+169158363819671552	@diegoberardo @MScaglioneENA No todos: el KKE y Syriza (izquierda) y LAOS (ultraderecha) no están el el gobierno (la ultra estuvo y se fue).	SoyPuri	144288146	2012-02-13 21:37:51
+169149252054945793	@smykos Grazie per l'info.Dai numeri che mi hai dato si prevede molta astensione.Cresce Syriza.Mi sembra difficile creare alleanze valide,	fabio_landolfi	405416115	2012-02-13 21:01:38
+169136664717959168	Toda la solidaridad de las Juventudes Comunistas de Chile con la lucha del pueblo griego y portugués! @KKEGreece @syriza_gr @dimokratiki	MauriRoots	278899515	2012-02-13 20:11:37
+169136405828730880	Δε #Ftaiei_o_syriza ούτε #oi_anarxikoi. Ακούστε στο 0:38 : youtu.be/qIY4eJMyRb8	_GiaNt_	21599164	2012-02-13 20:10:36
+169131129872457729	Σύριζα: Το μνημόνιο θα καταργηθεί στην πράξη. http://tinyurl.com/7j5vdls 	ekorinthos	168692546	2012-02-13 19:49:38
+169118165920514049	#Oi_anarxikoi_ftaine που #ftaiei_o_syriza	nkoukour	227241742	2012-02-13 18:58:07
+169079088877813760	Αμμανατίδου: «Όχι στη μετακίνηση της 3Ε στη Βουλγαρία» http://ow.ly/92m0k 	spnewsgr	80805455	2012-02-13 16:22:50
+169074608983642113	@grandebluff ci saranno 1.Syriza&KKE(le 2 sinistri)hanno già detto NO al refer. 2	elenanunzio	247031531	2012-02-13 16:05:02
+169064944585814016	Ναι ρε, φοβερό το #oi_anarxikoi και το άλλο για το #ftaiei_o_syriza. Αυτό που λέει #exasa_ti_douleia_mou λόγω καταστροφών δε το ακουμπάμε ε;	Takis_K	24861824	2012-02-13 15:26:38
+169056415204392960	12/02/2012: Μια νέα Βάρκιζα συνυπογράφουν ο ΣΥΝ/ΣΥΡΙΖΑ και το ΚΚΕ! #vouli #kke #syriza #antarsya #rbnews #syntagma #12fgr	enosi	36096270	2012-02-13 14:52:44
+169055973544169472	#Oi_anarxikoi φταίνε για το #ftaiei_o_syriza	d3ac0n	20297623	2012-02-13 14:50:59
+169053949591166976	#oi_anarxikoi φταίνε που #ftaiei_to_syriza	fotek75	93437825	2012-02-13 14:42:57
+169051230855888896	@DoctorReason ο Σύριζα φταίει για το #ftaiei_o_syriza	pnasia	189565261	2012-02-13 14:32:08
+169050703820632066	#Oi_anarxikoi ξεκίνησαν το #ftaiei_o_syriza	O_Ktiniatros	114739488	2012-02-13 14:30:03
+169015013137321985	Greek parliement after last night: 131 MPs for PASOK, 63 (!) independent, 62 for ND, 21 for KKE, 14 for LAOS, 9 for SYRIZA #Greece	greekdude	189441148	2012-02-13 12:08:13
+169012826625683456	#greece pmt's makeup: pasok 131 seats, new democracy 62, kke 21 seats, laos 14, syriza 9, and 63 independents	dianalizia	40202517	2012-02-13 11:59:32
+168963243979702272	'Avgi', daily of SYRIZA today: 'memorandum is not valid. The people voted it down'. http://www.avgi.gr/StartPageAction.action …	YiorgosVa	306085926	2012-02-13 08:42:31
+168962244204429312	(real) left parties in the Greek parliament (KKE+SYRIZA) officially accused the para-state for large scale provocations burning buidlings.	YiorgosVa	306085926	2012-02-13 08:38:32
+168953560686534656	Syriza y el KKE, solos defendiendo al pueblo griego, que les apoyaba en la calle. Hoy, me gustaria ser griega.	Maitemola	338889569	2012-02-13 08:04:02
+168885552949637121	@ArtSapphire Interesting figures. Who do the Democratic Left consist of? Haven't heard of them, though I recognize SYRIZA & KKE of course	Gixibyte	49180207	2012-02-13 03:33:48
+168857579739553794	No todos los diputados griegos han sido iguales,no olvidéis quienes han sido la voz de su pueblo. KKE(partido comunista) e izqda Syriza”	villafrancavv	379694439	2012-02-13 01:42:38
+168857481194381313	@AndyLeeGR That's why I'm glad to see that Greece have consistent Left parties, like KKE and Syriza. At least, there's a basis for change.	AstroChemia	287846672	2012-02-13 01:42:15
+168847725897588738	Zeódors Dritsas, de SYRIZA: "Si la ley se aprueba, capacidad negociación reducida dramáticamente. Mercados habrán ganado guerra a Estados"	monicontomate	272363916	2012-02-13 01:03:29
+168843229926653952	KKE(comunistas) y SÝRIZA (izquierda radical) han sido los únicos partidos que han votado NO en bloque. #estamosconGrecia	quinto_raul	467342621	2012-02-13 00:45:37
+168841865716711424	Alt Left mov'ts in UE: @FrontDeGauche @48stunden @iunida, Bloco de Esquerda, KKE & Syriza, with also others being part of @GUENGL	AstroChemia	287846672	2012-02-13 00:40:12
+168841327008694272	@aaronjohnpeters @paulmasonnews They're more likely to join Democratic Left than SYRIZA I think, they have momentum and are more moderate	joncstone	23813407	2012-02-13 00:38:03
+168840580959440896	@paulmasonnews what the chances of expelled PASOK members moving to SYRIZA? And are the KKE still giving cold shoulder to rest of the left?	AaronBastani	63082578	2012-02-13 00:35:06
+168839503988002816	KKE,Laos,Syriza e Izquierda Dem han votado No. Así como 21 MPs Nueva Dem,13Pasok y 1Alianza Dem.Los 2exPMs han votado a favor #Grecia #12fgr	Passim_ES	403673747	2012-02-13 00:30:49
+168837608477167616	No todos los diputados griegos han sido iguales,no olvidéis quienes han sido la voz de su pueblo. KKE(partido comunista) e izqda Syriza	xipirona	241714001	2012-02-13 00:23:17
+168837337453830144	@caimandelbarrio elections within a few weeks - SYRIZA would win. Drachma, devaluation, food rationing, re-industrialisation	AaronBastani	63082578	2012-02-13 00:22:12
+168837270579851264	#Grecia, hanno votato no i Partiti KKE (21 parlamentari), Syriza (9), 21 parlamentari di ND e 13 del Pasok e 10 di un gruppo indipendente	FraCosentino	231521766	2012-02-13 00:21:56
+168836128592510976	"All of KKE, Syriza and Democratic Left MPs voted No, as well as 21 New Democracy MPs and 13 Pasok MPs. Laos MPs voted No"	doctorojete	440358674	2012-02-13 00:17:24
+168830892146565120	En Grèce, c'est la gauche radicale (KKE, Syriza) qui lutte contre l'austérité. Pas le PASOK. #12fgr #placeaupeuple cc @melenchon2012	AstroChemia	287846672	2012-02-12 23:56:36
+168825717449175041	Syriza (left) coalition leader said there were 500,000 protesters on streets today. Seems high, but no doubt the number was huge.	ereguly	18502842	2012-02-12 23:36:02
+168813259107995648	PASOK (socialdemócratas, 160) Nueva Democracia (liberales, 91 ) KKE (comunistas, 21) LAOS (ultraderecha, 15) SYRIZA (izq. reformista, 13)	JLlofriu	303534856	2012-02-12 22:46:32
+168810827963580416	Βρεθηκε ο δολοφονος του Κεννεντυ...Τσιπρας #ftaiei_o_syriza	argoliki	75366188	2012-02-12 22:36:52
+168810773257265152	Para @elmundoes, ni SYRIZA ni el KKE existen en el parlamento griego http://mun.do/wCkxha 	JLlofriu	303534856	2012-02-12 22:36:39
+168810457103220736	Το #ftaei_o_syriza ξανά στην επικαιρότητα..!!!	kefteskedeftes	73618312	2012-02-12 22:35:23
+168810308041834497	@nighbe Oh, great, thanks. Let's listen to the world according to the loony left! #SYRIZA	KassandraTroy	15427912	2012-02-12 22:34:48
+168807095569891329	syriza's lafazanis condemns a pre-announced hell; yet again, parastate centers w/ cover in power centers and foreign intelligence services>>	dianalizia	40202517	2012-02-12 22:22:02
+168806916099801089	Tsipras fears democracy dissolution: Coalition of the Left (Syriza) parliamentary group Alexis Tsipras on Saturd... http://bit.ly/yjjkoh 	GreeceNewsMix	358017283	2012-02-12 22:21:19
+168805277896949760	#EstamosConGrecia mientras tanto portavoz Syriza (Izq.Unida) acusando a elementos del Estado de provocar los disturbios.No se entera.	dvdbou	335223244	2012-02-12 22:14:49
+168804317774626816	Ολα κι όλα, τσίπρας τιμά την κούνια που τον κούναγε #12fgr #syriza	gathanasios	76558202	2012-02-12 22:11:00
+168804177961689088	GREZIA: Alexis Tsipras (Syriza, ezker erradikaleko bozeramailea). Indarkeria probokatzaile paraestatalei leporatu die.	xare	16933256	2012-02-12 22:10:26
+168803133714202625	@lukaniko @kartofeli 以前の暴動や不法移民によるアテネ大学占拠の際は、急進左翼連合（ＳＹＲＩＺＡ）の関与が国会でも取り沙汰されました。いずれも用意周到すぎるし、以前カメラマンの知人に見せてもらった黒覆面の動きはどう見ても訓練された動きでしたね。	MegumuCpc	137076566	2012-02-12 22:06:17
+168799978041516033	@doleross o syriza akoma xeiroteros!!!?????	argyri_ero	304306938	2012-02-12 21:53:45
+168780497596579840	Syriza Parliamentary group leader Alexis Tsipras has said	adyanero	142356389	2012-02-12 20:36:21
+168775922827276288	Left part SYRIZA leader A. Tsipras to Papademos: a credit event won't be averted by vote. Purpose is to impoverish Greeks, surrender assets.	zoemavroudi	126410054	2012-02-12 20:18:10
+168775304465227778	Αμέσως να κρατήσει σημειώσεις ο Παπαδήμος όταν άρχισε ο Τσίπρας! Φοβερή στιγμή από την ΕΡΤ. Τυχαίο? #greece #tsipra #syriza	gregykos	479155183	2012-02-12 20:15:42
+168773866062225408	syriza leader alexis tsipras now spkg. reports earlier that he had refused to speak w/out PM present	dianalizia	40202517	2012-02-12 20:09:59
+168771604011167744	syriza's lafazanis back at the podium: they used to say communism will take your wives, homes, fields. with fear i see these arguments>>	dianalizia	40202517	2012-02-12 20:01:00
+168760154794373120	#estamosconGrecia Partido comunista griego(KKE) e izquierda Syriza votarán en contra de la nueva ley d "rescate" griego http://www.athensnews.gr/portal/8/53242 	xipirona	241714001	2012-02-12 19:15:30
+168755479277879296	2/2 .. that her party will vote for it cos no alternative. Do you still insist SYRIZA & The Communist Party to say Yes too? #Merkel	npanayotopoulos	76291358	2012-02-12 18:56:56
+168752285399265280	KKE, SYRIZA: Le gouvernement Papadimos s'effondre: Le KKE a soutenu vendredi que le gouvernement Papadimos commen... http://xfru.it/EpmKmR 	SocialismesBe	38651522	2012-02-12 18:44:14
+168741449834315777	[February 12, 2012, 4.53pm] Dritsas, Lafazanis (MPs of SYRIZA) denounced riot police’s brutallity.	GreekLeftReview	405532802	2012-02-12 18:01:11
+168741064440692736	[February 12, 2012, 4.53pm] MPs of SYRIZA, KKE and independent MPs asked for a voting as for the constitutionality of the 2nd memorandum.	GreekLeftReview	405532802	2012-02-12 17:59:39
+168740437861994496	@Mosxovas Μήπως υπάρχει ήδη ΚΟ να τους "αγκαλιάσει";;; #dimar #syriza	K_Minas	298541115	2012-02-12 17:57:10
+168738361190785025	Left Syriza calls for riot politce to be w/drawn as historic leaders glezos, theodorakis are treated for teargas) #greece @Greedebtdebate	keepquestioning	18100294	2012-02-12 17:48:54
+168734797949186048	syriza's dritsas describes the ideology around which modern capitalism modeled as "the dictatorship of the markets" #greece	dianalizia	40202517	2012-02-12 17:34:45
+168734268493807616	syriza's dritsas calls for riot squad to be immediately w/drawn (after mention of glezos, theodorakis being treated for tear gas) #greece	dianalizia	40202517	2012-02-12 17:32:39
+168730274941775872	Merkel/CDU suggestion (or demand?) that SYRIZA & the Greek Communist party both agree with the Memorandum is sheer madness on her behalf!	npanayotopoulos	76291358	2012-02-12 17:16:47
+168725993614352385	Syriza's Lafazanis says that outside Parliament is heavy tear gas. "U say that if we wont vote, will be chaos. Its already outside" #Greece	EfiEfthimiou	281093434	2012-02-12 16:59:46
+168720086008471552	Greece election Oct.09: PASOK (PES) 44% NewDemocracy (EPP) 33.5%, Greek Communist Party (GUE/NGL) 7,5% LAOS 5;6% (EFD) SYRIZA (GUE/NGL) 4.6%	npanayotopoulos	76291358	2012-02-12 16:36:17
+168718246793592832	Both the Greek Communist Party (KKE) and SYRIZA are members of the European United Left–Nordic Green Left at the EuroParl	npanayotopoulos	76291358	2012-02-12 16:28:59
+168716685652672512	SYRIZA left MP Papadimoulis now painting picture of Greece pre-crisis from podium: ruling parties led culture of corruption. #Greece >	zoemavroudi	126410054	2012-02-12 16:22:47
+168715110779588608	syriza's papadimoulis: thousands of ppl converged on syntagma and environs, and are coming here peacefully to shout a loud 'no' to bailout	dianalizia	40202517	2012-02-12 16:16:31
+168710498257354755	I'm back. Earlier, a SYRIZA MP made a good point: ratification of memorandum in #Greece will create precedent for all EU periphery countries	zoemavroudi	126410054	2012-02-12 15:58:11
+168707557035225088	@northaura The objection of unconstitutionality came from SYRIZA left party. LAOS and KKE just voted for the objection #Greece #parliamentGR	tsadilas_g	324287751	2012-02-12 15:46:30
+168702141693833217	#Grècia noves enquestes diaris,intenció vot: 21% Nia Demokratia/13'7 Izq. Democrática/8'8 Syriza/8'7 PASOK/7'1 KKE/Verds 4'2/LAOS 3'9	dvdbou	335223244	2012-02-12 15:24:59
+168695520548761600	Λαφαζάνης βιογραφικό: http://www.syn.gr/gr/tmima.php?gl=el&page=98 … #syriza #koprites	ik_	1743381	2012-02-12 14:58:40
+168694550674685953	Ο Λαφαζάνης ξέρει τι εστί αντιπροσωπευτική δημοκρατία;; Την υπηρετεί κιόλας αν δεν κάνω λάθος... (δυστυχώς) #syriza #vouli	K_Minas	298541115	2012-02-12 14:54:49
+168694247602667520	"The dictatorship of the Markets is imposing its laws" on labor rights. SYRIZA MP Lafazanis now. #Greece #Parliament	zoemavroudi	126410054	2012-02-12 14:53:37
+168694183756972033	+ “ @Moissiadis:Η αντικαπιταλιστική ρητορία του ΣΥΡΙΖΑ εξαντλείται οταν φτάνουν στον γκισέ της τράπεζας γ ν πάρουν κομματικά δάνεια! #syriza”	apagk	183331127	2012-02-12 14:53:22
+168693068361502723	Syriza's pmt rep has filed motion on constitutionality; debate begins on the motion #greece #debt #europe #EU #Euro #forex #merkel #greek	PublicPolicyGuy	95584116	2012-02-12 14:48:56
+168693002137649152	#12fgr #syntagma Greek left-party #SYRIZA says the memorandum is anti-constitutional. #ParliamentGR Lafazanis speaking now.	keepquestioning	18100294	2012-02-12 14:48:40
+168692831429472257	syriza's pmt rep has filed motion on constitutionality; debate begins on the motion (discussion on bailout bill interrupted) #greece	dianalizia	40202517	2012-02-12 14:47:59
+168687872000532482	el lider de Laos (ultraderechas) acaba de citar al de Syriza (izq.unida) hablando de lo legal que no es siempre ético bla bla #paranoia	tinaletina	284158485	2012-02-12 14:28:17
+168687334701793280	Η αντικαπιταλιστική ρητορία του ΣΥΡΙΖΑ εξαντλείται οταν φτάνουν στον γκισέ της τράπεζας για να πάρουν κομματικά δάνεια! #syriza	Moissiadis	87951840	2012-02-12 14:26:09
+168684926714118145	With a LAOS or SYRIZA government I simply can't see the country 'pulling together', if right wing govt/ military junta comes expect communes	AaronBastani	63082578	2012-02-12 14:16:35
+168683511518208001	Βουλή: Ονομαστική ψηφοφορία ζήτησαν ΚΚΕ και ΣΥΡΙΖΑ: Ονομαστική ψηφοφορία ζήτησαν οι εκπρόσωποι του ΚΚΕ Θανάσης Π... http://bit.ly/zLUXLI 	ErtSocial	297963914	2012-02-12 14:10:57
+168677892874698752	Valte kanali voulis!exw liwsei me to syriza are katakahmene follower!	salomh	95391840	2012-02-12 13:48:38
+168677857114075136	syriza's lafanazis says considering bill under urgent procedure breaches constitution so requests floor #greece	dianalizia	40202517	2012-02-12 13:48:29
+168676150250455040	PASOK MP Protopapas replies to SYRIZA-left MP: Greece is faced with default. We cannot discuss austerity pack in detail. #Parliament	zoemavroudi	126410054	2012-02-12 13:41:42
+168675350535090176	syriza also asking for roll call vote on entire bill and by article #greece	dianalizia	40202517	2012-02-12 13:38:32
+168640795564441601	Πρωθυπουργός: Αλέξης Τσίπρας @syriza_gr @Synaspismos #drachma_gov	lympouridis	47345669	2012-02-12 11:21:13
+168611217533972480	καλά τώρα,οι του Πανιωνίου είναι ανέκαθεν Σύριζα κι ΕΚΟΝ Ρήγας Φεραίος #PAO_OSFP_koivn_poreia_ftaiei_o_syriza	nomorelle	334104209	2012-02-12 09:23:41
+168601707239051264	Όθωνας στη #NET οι ομάδες που δημιουργούν τα προβλήματα στις διαδηλώσεις βρίσκουν θαλπωρή στις δυνάμεις του #syriza #rbnews	ioann_A	142317296	2012-02-12 08:45:54
+168601075149049856	Κουρλέτης (ΣΥΡΙΖΑ) στη #NET προβοκατόρικες οι δηλώσεις Όθωνα για τον #syriza Να μαζέψει τους ασφαλίτες που κυκλοφορούν με πολιτικά #rbnews	ioann_A	142317296	2012-02-12 08:43:23
+168511916971524096	Και για το θάνατο της Γουίτνει #ftaiei_o_syriza	pnasia	189565261	2012-02-12 02:49:06
+168483132134273024	Disclaimer: Δεν χρησιμοποιώ το #ftaiei_o_SyRizA για πλάκα. Η παράταξη αυτή αποτελεί καρκίνωμα για την αστική φιλελεύθερη δημοκρατία.	canislibertatis	10942042	2012-02-12 00:54:43
+168481694805004288	RT @EVenizelos "Αν η νοοτροπία σας περιβληθεί με το κύρος της εξουσίας, θα μας κλείσετε φυλακή." #true #ftaiei_o_SyRizA	canislibertatis	10942042	2012-02-12 00:49:00
+168443283457060864	#OccupyGreece Tsipras fears democracy dissolution: Coalition of the Left (Syriza) parliamentary... http://bit.ly/zCA6Ga  #greekrevolution	revolution_info	281798145	2012-02-11 22:16:22
+168430338824093696	Ιδεολογία μας ο πατριωτικός αντινεοφιλελευθερισμός #do_it_like_syriza #kketweet	psaranto	140776478	2012-02-11 21:24:56
+168428841428193280	Greek News Tsipras warns against dissolution of democracy: Coalition of the Left (Syriza) parliamentary group Al... http://oio.gr//91 	bnogr	16218491	2012-02-11 21:18:59
+168419806549262337	#ftaiei_o_syriza RT “ @ParisTheoharis: Α ο Λαφαζάνης Φταίει για όλα! Πες το ντε!”	YiannisBab	73426260	2012-02-11 20:43:05
+168413845193367552	Venizelos raging after SYRIZA's Lafazanis speaking about a "major coup" #Greece http://youtu.be/ZlluXfqOH9I  via @youtube	Katfic	46074520	2012-02-11 20:19:24
+168413062402015232	Τσίπρας : «Βουλή της ντροπής» (video) http://ow.ly/90TrV 	spnewsgr	80805455	2012-02-11 20:16:17
+168412885440143360	Από Δευτέρα ξεκινάει η μεταγραφική περίοδος!!! Πληθώρα "ελεύθερων" βουλευτών!!! #pasok #nd #laos #disy #dimar #syriza #kke #elladara	K_Minas	298541115	2012-02-11 20:15:35
+168399392372563971	Δεν θα σας γαμήσω τώρα!!! Θα περιμένω του Αγίου Βαλεντίνου! #pasok #nd #kke #syriza #laos #sygybernhsh	vavatsiklis	169642738	2012-02-11 19:21:58
+168392966770135040	Alcuni parlamentari dicono sia impossibile esaminare 799 pagine del nuovo accordo. Syriza: è come un golpe. Venizelos: o memorandum o dracma	strelnik	675873	2012-02-11 18:56:26
+168377465641775104	pali ftaiei to Syriza ?	ChloeEmmano	115666997	2012-02-11 17:54:50
+168376827797188611	OMG! Venizelos is just furious guys.... He talks to parliamentary committee and he is attacking verbally against a member of Syriza	EfiEfthimiou	281093434	2012-02-11 17:52:18
+168374107661017088	@CrippleHorse Αν αποχωρούσε όμως ο ΣΥΡΙΖΑ απ'τη βουλή θα τον κατηγορούσανε για ανευθυνότητα.Ό,τι και να κάνει #gia_ola_ftaiei_o_syriza	xavana11	18056748	2012-02-11 17:41:30
+168373519783178240	ΣΥΡΙΖΑ για τη νέα δανειακή σύμβαση http://j.mp/zRLaHc 	alterthess	193199677	2012-02-11 17:39:10
+168371806670045185	syriza's lafazanis says incomprehensible such a crucial issue wd be passed by urgent procedures...and will be recorded in history as a coup	dianalizia	40202517	2012-02-11 17:32:21
+168367788338069504	venizelos: "we will go to the people but each of us will tell the people the truth" (responding to kke, syriza reps) #greece	dianalizia	40202517	2012-02-11 17:16:23
+168360408216899584	Syriza's Tsipras: Theres lack of leadership in #Greece	EfiEfthimiou	281093434	2012-02-11 16:47:03
+168360076380356610	Syriza's Tsipras calls for rejection of MoU, of austerity measures #Greece	EfiEfthimiou	281093434	2012-02-11 16:45:44
+168302839674839040	@ermancete Anketler burjuva medyadan ve syriza ile DA'yi şişirmeye çalışıyor. Tek amacı bu anketlerin tepki oylarını yönlendirmek.	gmunzam	60889540	2012-02-11 12:58:18
+168301991238434816	@galacticax kaldı ki yazıdaki anketlerin de Syriza ve Dimokratiki Aristera'yı şişirmek için yayınlandığını hemen herkes biliyor.	gmunzam	60889540	2012-02-11 12:54:56
+168246751185207296	@NAmalthia ftaei h syriza	kayoazul	132275243	2012-02-11 09:15:26
+168238912127504384	Δούρειος Ίππος ο Κουβέλης? #SYRIZA http://j.mp/wpBuUG 	hellas_web_news	38570753	2012-02-11 08:44:17
+168117139520233472	@syriza_gr Γιατι δεν το μαθαμε κι εμεις οι αφελεις αριστεροι...	da_koukos	459969454	2012-02-11 00:40:24
+168033785907130368	ΣΥΡΙΖΑ: Η κυβέρνηση Παπαδήμου καταρρέει http://bit.ly/zfgXUw 	Newsplusgr	204114104	2012-02-10 19:09:11
+168031167218585600	Το τέλος της "μνημονιακής" κυβέρνησης ζητούν ΣΥΡΙΖΑ και ΚΚΕ http://shar.es/fOn0F 	thestival	257402114	2012-02-10 18:58:46
+168027839113859072	ΣΥΡΙΖΑ: Οι μνημονιακοί υπουργοί πηδούν από το καράβι http://ow.ly/8ZWA5 	spnewsgr	80805455	2012-02-10 18:45:33
+167938045570580481	Μετά το #Ftaiei_o_syriza έχουμε το #Ftaine_oi_Mpaxaloi. Σκατά στα μούτρα σας "φιλήσυχοι πολίτες". #10fgr	_GiaNt_	21599164	2012-02-10 12:48:44
+167931533712302080	SyRizA milletvekili Th. Driças'ın basın toplantısına gidiyorum... Gelişmeleri bir ara size de yazarım :)	MuCo_Sol	90864882	2012-02-10 12:22:52
+167927290343342080	MT @modestospk Photo: Syriza (left) showin (symbolic) gallows http://yfrog.com/ntesvyzj  #syntagma #10fgr #rbnews	northaura	168668911	2012-02-10 12:06:00
+167925787486457857	ΣΥΡΙΖΑ: Ανατροπή της κυβέρνησης των ενόχων http://bit.ly/yoncRd 	pathfinderuNews	29189180	2012-02-10 12:00:02
+167915435797381120	TR @modestospk SYRIZA (left party) blocks arrive now at #syntagma #rbnews #10fgr	northaura	168668911	2012-02-10 11:18:54
+167906193900183552	Αλέξη, να σου υπενθυμίσω ότι οι νάνοι ήταν 7, όχι 3! #syriza #karagkiozilikia	dpapangel	56812543	2012-02-10 10:42:10
+167832225516240896	I can't help noticing that the Radical Left Coalition in Greece ("SYRIZA") is a coalition of 21 parties, including Trots, Maoists, & greens.	JohnLoony	287441379	2012-02-10 05:48:15
+167668580735926273	@tsimitakis syriza prwtovathmeia sto suntagma twra	Balkanizator	49682005	2012-02-09 18:57:59
+167649446765670402	Demonstrations now in athens by the communist party, SYRIZA and other left parties #Greece	modestospk	218295764	2012-02-09 17:41:57
+167640902750318592	Άρχισε η μεταγραφική περίοδος. http://tvxs.gr/node/84521  Με κάτι τέτοια αποκτά πραγματικό αντικείμενο το τρολάρισμα του κκε :)	Arhsx	18164653	2012-02-09 17:08:00
+167640162862505987	Με τη Δημοκρατική Αριστερά συμπορεύονται πρώην στελέχη των ΠΑΣΟΚ – ΣΥΡΙΖΑ http://dlvr.it/1B7kJl 	tvxs	18834081	2012-02-09 17:05:04
+167638906500677632	Eπίκαιρη ερώτηση της ΚΟ του ΣΥΡΙΖΑ για θέματα νησιωτικότητας! http://bit.ly/wmk7bV 	pathfinderuNews	29189180	2012-02-09 17:00:04
+167631177627348993	Ωωωω Νίκος Μπίστης RT @ErtSocial Συμπόρευση στελεχών ΠΑΣΟΚ και ΣΥΡΙΖΑ με ΔΗΜΑΡ http://bit.ly/z1NeyT 	tsougdw	19211640	2012-02-09 16:29:21
+167629294472921091	Συμπόρευση στελεχών του ΠΑΣΟΚ και του ΣΥΡΙΖΑ με ΔΗΜΑΡ: Τη συμπόρευση με τη «Δημοκρατική Αριστερά», στελεχών που ... http://bit.ly/z1NeyT 	ErtSocial	297963914	2012-02-09 16:21:52
+167628068339458049	Καποιος πουλάει φύκια για...κοκκινες κορδέλες... #greece #troika #nd #pasok #laos #syriza	aritoni	23151503	2012-02-09 16:17:00
+167623322299932672	ΔΗΜΑΡ: Συμπόρευση με στελέχη του ΠΑΣΟΚ και του ΣΥΡΙΖΑ http://dlvr.it/1B73K9 	Difernews	259617310	2012-02-09 15:58:08
+167621215144509440	Eπίκαιρη ερώτηση της ΚΟ του ΣΥΡΙΖΑ για θέματα νησιωτικότητας! http://bit.ly/yOKqKk  #pblogs	sofko	15711451	2012-02-09 15:49:46
+167618848466546689	Συμπόρευση στελεχών ΠΑΣΟΚ-ΣΥΡΙΖΑ με τη ΔΗΜ.ΑΡ. http://bit.ly/yKDSvw 	newsbombgr	200034893	2012-02-09 15:40:22
+167618165612875776	Ο ΣΥΡΙΖΑ για το ακτοπλοϊκό http://www.cyclades24.gr/kiklades/epikairotita/525-o-syriza-gia-to-aktoploiko …	cyclades24	470178739	2012-02-09 15:37:39
+167610597880500224	Σε συγκεντρώσεις κατά του Μνημονίου καλεί ο ΣΥΡΙΖΑ σε Προπύλαια και Καμάρα http://dlvr.it/1B6XVV 	tvxs	18834081	2012-02-09 15:07:35
+167566728182759424	Τσίπρας: Ηγεσία πολιτικών νάνων http://ow.ly/8XXc5 	spnewsgr	80805455	2012-02-09 12:13:15
+167530390129618944	300m leipoun gia na kleisei TO paketo,266m xrwstane ND PASOK SYRIZA KKE (ta 2 teleytaia mono 13)!	jioannou77	182738088	2012-02-09 09:48:52
+167414607638568960	Greek Communists and the Coalition of the Radical Left (SYRIZA) at ~25% population support, PASOK falls to 8% http://english.cri.cn/6966/2012/02/08/2821s679904.htm …	jeff_kaye	47035436	2012-02-09 02:08:47
+167361217877377024	ΣΥΡΙΖΑ: Ανοικτή συγκέντρωση μελών στο Αργοστόλι http://bit.ly/xZHX1P 	Newsplusgr	204114104	2012-02-08 22:36:38
+167356034535530496	Les intentions de vote créditent la ND de 31%; la Gauche démocratique de 18%; le PC de 12,5%; le SYRIZA de 12%; le PASOK de 8%; le LAOS 5%	FidelGavilan	462206857	2012-02-08 22:16:02
+167309253084852224	TR @doleross SYRIZA (lefts) and Labor Unions call for demo tomorrow at 18.00 in Athens and Thessaloniki against the "slaughtering measures"	northaura	168668911	2012-02-08 19:10:09
+167239843942899712	Grecia http://economia.elpais.com/economia/2012/02/07/actualidad/1328629598_642091.html … vía @el_pais SI ERES GRIEGO VOTA SÝRIZA, KKE. ¡ELECCIONES ANTICIPADAS ES LO QUE ESTE PUEBLO NECESITA	VivalaRepublic1	318110789	2012-02-08 14:34:20
+167233834629332992	Papadimos http://www.publico.es/dinero/420947/papadimos-y-la-troika-acercan-posturas-sobre-los-recortes … Todos contra los que defienden al pueblo griego: KKE, SÝRIZA	VivalaRepublic1	318110789	2012-02-08 14:10:27
+167228949292785664	Αντιδρά ο ΣΥΡΙΖΑ για την εγκύκλιο «οργανωμένων συσσιτίων» http://ow.ly/8Wywb 	spnewsgr	80805455	2012-02-08 13:51:03
+167222793811935232	syriza's lafazanis now protesting as "coup" that pmt will be asked on sunday to vote on loan terms under emergency procedures.	dianalizia	40202517	2012-02-08 13:26:35
+167215617202597889	ΣΥΡΙΖΑ: Να αποσυρθεί το αίτημα αντικατάστασης των εισαγγελέων http://bit.ly/wIMzZf 	politikanea	397968774	2012-02-08 12:58:04
+167215453599571968	#Greece, survey: ND 31%; Pasok 8%; Laos (5%); Kke 12,5%; Syriza 12%; Democratic Left (18%). All left parties= 50,5% [via @mastrobradipo]	rvurchio	104445607	2012-02-08 12:57:25
+167214312484642816	#Grecia, sondaggio: ND 31%; Pasok 8%; Laos (5%); Kke 12,5%; Syriza: 12%; Sinistra democratica (18%). Tutta la sinistra=50,5%. Ma litigano...	mastrobradipo	69569643	2012-02-08 12:52:53
+167184220295413760	Αυτό το πολιτικό σύστημα παράγει διεφθαρμένους πολιτικούς @neadimokratia @pasok @laos_Hellas @KKErizospastis @syriza_gr @Dimokr_Aristera	pgiannakopoulos	82641912	2012-02-08 10:53:18
+166975595023052800	@anarettruffade SYRIZA leader has proposed it but Communists ideologically against idea of working with the other parties.	NickMalkoutzis	279642533	2012-02-07 21:04:18
+166972078354989056	@NickMalkoutzis But why dont Communists and syriza just merge ? They would be so much more powerful !	anarettruffade	297249786	2012-02-07 20:50:20
+166971190190153728	New poll has New Democracy at 31%, Dem Left 18%, Communist 12.5%, Leftist Coalition (SYRIZA) 12%, PASOK 8% & LAOS nationalist 5%	NickMalkoutzis	279642533	2012-02-07 20:46:48
+166970755559591936	PASOK, biggest party in Parl, has just 8% support. Leftist parties Democratic Left Communists and SYRIZA 42.5% combined.	jamesmatesitv	85590185	2012-02-07 20:45:04
+166970397336670208	#Greece Public Issue barometer for SKAI tv PASOK 8% ND 31% moderate left party Democratic Left 18%! Communists & SYRIZA 12% end of PASOK era	YiannisMouzakis	342705072	2012-02-07 20:43:39
+166963880533307392	ΣΥΝΑΣΠΙΣΜΟΣ ΦΩΚΙΔΑΣ: ΑΝΟΙΧΤΗ ΠΟΛΙΤΙΚΗ ΣΥΓΚΕΝΤΡΩΣΗ ΤΟΥ ΣΥΡΙΖΑ ΣΤΗΝ ΑΜΦΙΣΣΑ http://bit.ly/xvwrQZ  #SYRIZA	kefteskedeftes	73618312	2012-02-07 20:17:45
+166953194113605633	@efth_kalf από τον κώλο; #syriza	vavatsiklis	169642738	2012-02-07 19:35:17
+166920591134298112	#ftaiei_o_syriza RT @debater85 Δε φταει ο καπιταλισμος που οι τεχνικοι του ΟΑΚΑ επερναν 2,500ευρω [...]	O_Ktiniatros	114739488	2012-02-07 17:25:44
+166919380125491201	Yawn!!! Greek far right LAOS party and left Coalition SYRIZA MPs said naughty things to each other in parliament.	teacherdude	10257602	2012-02-07 17:20:56
+166911715030745089	6-2-12 SYRIZA.AVI: http://youtu.be/ehVB_2wShYQ  via @youtube	Dea_org	380274986	2012-02-07 16:50:28
+166843294448488448	Just tweeted in Greek, watch the demonstrations in Greece where the KKE,PAME & Syriza (communist/left wing parties)..	NikosLaios	225739439	2012-02-07 12:18:35
+166814221097648129	SYRIZA leader says disorderly default an option http://dlvr.it/19cJNv 	ekathimerini	242704372	2012-02-07 10:23:04
+166801268331905024	Α. Τσίπρας: "Εάν ο ΣΥΡΙΖΑ ήταν στην εξουσία θα είχε απελάσει τα μέλη της τρόικας" http://shar.es/fAt6l 	thestival	257402114	2012-02-07 09:31:36

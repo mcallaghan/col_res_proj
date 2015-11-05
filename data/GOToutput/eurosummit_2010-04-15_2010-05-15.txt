@@ -1,0 +1,4 @@
+tweet_id	text	username	user_id	date
+13900884613	RT @KenexaEuroConf Engagement and Collaboration through Social Media: http://tinyurl.com/2wx9eg7. @joningham to be keynote at #eurosummit	joningham	14118937	2010-05-13 09:34:16
+13427985459	Kenexa EuroSummit 2010 The theme of the Kenexa EuroSummit 2010 is Recruit the best. Retain the best. In the competitiv…http://lnkd.in/2U3Bty	RCraik	20523741	2010-05-05 16:02:23
+12649873897	Follow @KenexaEuroConf for all the latest Kenexa EuroSummit news. Complimentary summit examining HR trends for the future. 26 May, London	matt_marketing	39324732	2010-04-22 18:59:54

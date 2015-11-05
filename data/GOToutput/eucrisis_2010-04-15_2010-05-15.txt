@@ -1,0 +1,6 @@
+tweet_id	text	username	user_id	date
+13729153837	@CarlaWijn Zo is dat! @EUcrisis	guushendriks	23598371	2010-05-10 16:20:19
+13679699878	I smell blood in the stock market and I'm moving. Over the next 6 weeks I'll have all my cash in play. #stocks #EUcrisis.	bautec1	43891644	2010-05-09 19:46:45
+13075215966	Dear #EU, don't you think it's time for the #eurobond? #GreekCrisis #EUcrisis	tsigos	15116230	2010-04-29 17:41:55
+12566848739	La editora de la versión polaca acaba de llegar de Lituania (EUCrisis on the Ground): Vilna-Varsovia-Berlín-París en bus gracias al volcán	cafebabel_ES	130870209	2010-04-21 11:12:21
+12412838010	EU woes laughable: Islamic finance chief #islamicfinance #EUcrisis #economy http://viigo.im/3cyX	asifrazzaque	63077968	2010-04-18 21:11:13

@@ -1,0 +1,826 @@
+tweet_id	text	username	user_id	date
+14005043682	The Euro Crisis | People & Politics: Leaders of the countries that share the euro agreed on Sunday to a 750-billio... http://dai.ly/cRnhpk	wochenschau	16425880	2010-05-15 01:55:45
+14004864487	Graphics Gallery: The Euro Crisis in Figures - SPIEGEL ONLINE - News - International: http://goo.gl/rOYx	a1m	14070875	2010-05-15 01:51:54
+14004528430	Don't let euro crisis delay investment in Asia, says PM Lee - TODAYonline: <i** alt="" height="1" wid... http://bit.ly/cviy5J #environment	Eco350	43675032	2010-05-15 01:44:43
+14004059694	Euro crisis sends gold to new high: Daily Mail By Elliot Wilson Gold is back in fashion as the eurozone bursts int... http://bit.ly/9NVUnB	GlitterFashion7	126454444	2010-05-15 01:34:42
+14003625797	Here I am on Marketplace on the euro crisis: http://marketplace.publicradio.org/display/web/2010/05/14/pm-will-euro-pull-through-crisis-q/	B_Eichengreen	125879595	2010-05-15 01:25:14
+14002450844	Metals Stocks Off Sharply on Euro Crisis: By Scott Eden 05/14/10 - 02:49 PM EDT NEW YORK (TheStreet) -- Woe is the... http://bit.ly/delGJD	CandleCourse	55941395	2010-05-15 00:59:04
+13999284097	Ow god, Het is om te huilen! 1 dollar = 0,802 euro.. #Crisis!	W_ess	25496312	2010-05-14 23:47:40
+13998502304	Transatlantic Relations ... What does the Euro Crisis really mean ? http://bit.ly/cqRJOs	Globcal	22943465	2010-05-14 23:30:03
+13997051257	Why do I not find this reassuring? RT @businessinsider Tim Geithner: Euro crisis "unlikely" to hurt US economy. http://bit.ly/9FdQP7	CorbinHiar	81168795	2010-05-14 22:56:54
+13994653501	The Euro Crisis: An interesting piece today in Spiegel: The Euro Crisis. Take a look at this (a few pics reproduce... http://bit.ly/958zpG	WallStreetPit	15618009	2010-05-14 22:01:56
+13992914333	More than a euro crisis | Dan Roberts: With talk of the breakup of the single currency, global fina... http://bit.ly/crB2h8 #finance #money	finance_yard	36262658	2010-05-14 21:22:50
+13992800342	wondering if, in light of Euro crisis, Obama admin regrets canceling the US-EU summit which was meant to take place this month	thomaswright08	15111062	2010-05-14 21:20:23
+13992043217	Volgens @pdegrauwe is euro-crisis mee het gevolg van het nationalisme in de EU. Niet van slecht georganiseerde muntunie? Van protectionisme?	2citizens	126535261	2010-05-14 21:03:13
+13991748173	Metals Stocks Off Sharply on Euro Crisis: Investors sell off any and all shares linked to industrial metals Friday... http://bit.ly/a3qOvf	STOCKS247	28274419	2010-05-14 20:56:34
+13991560990	Irish BusinessForums Oil falls below $72 on euro crisis: OilU.S. crude oil fell more than 3% t... http://bit.ly/a7PSqJ Irish Business Forum	businessdublin	91572363	2010-05-14 20:52:20
+13991559940	Oil falls below $72 on euro crisis: OilU.S. crude oil fell more than 3% to a three-month low b... http://bit.ly/a3Otba Irish Business Forum	namaireland	75839161	2010-05-14 20:52:19
+13991558308	Ads for €5 / Month Oil falls below $72 on euro crisis: OilU.S. crude oil fell more than 3... http://tinyurl.com/3aktyxh Irish Visitor Guide	IrelandandIrish	54310299	2010-05-14 20:52:16
+13990507487	Gloomy long-term assessment of the euro crisis by my former colleague Dan Roberts http://bit.ly/dzE9a4	DavidWastell	140896427	2010-05-14 20:28:56
+13990376698	Dow down over 200 pts on euro crisis, supposedly. May actually test the flash crash low 9870 next week, IMHO, or at least 10,000	EXSKF	135766567	2010-05-14 20:26:02
+13990185420	FLASHBACK 2005: Under Bush, US warned of Euro crisis and EU's demise unless welfare states downsized http://ht.ly/1Le9h #tcot #p2 #ofa #sgp	crispix49	41013370	2010-05-14 20:21:41
+13989845768	More than a euro crisis | Dan Roberts: With talk of the breakup of the single currency, global financial strife ma... http://bit.ly/dzE9a4	P2PCouriers	121647141	2010-05-14 20:14:01
+13989625527	May14: Greece was the BEGINNING of Western Civilization. Will Greece be the end of it? #euro crisis http://bit.ly/dD3mjO	creditland	46175715	2010-05-14 20:09:06
+13989225063	European Business Week: Making Europe's business your business: This week: Should we have seen the euro crisis com... http://bit.ly/b1hNGw	dw_business	31697068	2010-05-14 20:00:20
+13989028038	Dan Roberts: Euro crisis could spell return to '30s style "beggar-thy-neighbour" economics http://bit.ly/ay2JBJ	Ian_Fraser	93618872	2010-05-14 19:56:03
+13986926900	EUROZONE CRISIS: Markets plunge on deepening euro crisis http://bit.ly/apK3Nl	France24_en	25049056	2010-05-14 19:11:01
+13985216422	Campagnestop hele weekend verlengd. SP Open Air morgen gaat niet door. Mijn deelname aan Tros Kamerbreed over de eurocrisis afgezegd.	EwoutIrrgang	110716444	2010-05-14 18:34:59
+13982959827	Euro crisis offers opportu... 1005# you have reached your maximum limit of possible api requests with this IP address. Please wait 24 hours.	Noblecv3	141069529	2010-05-14 17:47:15
+13982805545	Autofabrikanten bezorgd over 'euro-crisis' waardoor in div. landen ernstig bespaard moet worden. Niet best voor de verkoop.	carrosmagazine	82701265	2010-05-14 17:43:55
+13979334986	Latest Newsupdate: Gold "Strengthened" by New Euro Crisis; Still "Early Days" for Global Gold Investment: Bullion Vault http://bit.ly/9n1wNn	GoldMarket	28917610	2010-05-14 16:31:17
+13978485342	#NPR 's Tom Gjelten: Euro crisis is a political crisis, fiscal challenges, there is a way to do it, not mysterious http://bit.ly/bZULYS	OnPointRadio	23112236	2010-05-14 16:13:19
+13975110416	rondom10 Zaterdag 15 mei, 21.05 uur Nederland 2: Hulde aan de #gulden? Weg met de euro!? http://bit.ly/7OMpLx #griekenland #euro #crisis	De_Monitor	38674368	2010-05-14 15:01:23
+13974652966	Defend your investments from the eurocrisis: Most investors couldn't be blamed for feeling nervous. We consult the... http://bit.ly/cOaZ9h	tradedayuk	28301317	2010-05-14 14:51:23
+13973711273	DailyTelegraph - Defend your investments from the eurocrisis http://ow.ly/17n9tg	financialbrk	48822382	2010-05-14 14:30:22
+13971097174	Euro crisis leads to bypassing of parliaments, warns Evans-Pritchard. A danger to democracy, and to prudent eco policy http://bit.ly/a88S1k	durkveenstra	79691534	2010-05-14 13:29:58
+13967796617	nieuw wereldblog: Eurocrisis is enorme krachtproef voor Europa - dat een stuk Franser is geworden. Op http://tinyurl.com/39f9fys	mwleijendekker	54572329	2010-05-14 12:01:00
+13967276410	Volgens Le Monde heeft Sarkozy gedreigd uit de euro te stappen http://bit.ly/9i8cCB #eurocrisis	hansjager	12087832	2010-05-14 11:45:59
+13966773774	Euro crisis sparks news rush to buy gold: This is Money Gold is hitting new highs as fears that the euro is in dan... http://bit.ly/cjQ192	BuyerOfGold	122782569	2010-05-14 11:30:43
+13964866509	Volgens het CBS hebben we een bodemniveau bereikt in het aantal openstaande vacatures..langzaam weer omhoog of gaan we een Eurocrisis in?	HumanCapPartner	25045957	2010-05-14 10:31:44
+13963818212	Herd Leading, Undisclosed Conflicts, and the Euro Crisis: Just because you are paranoid does not mean they are not... http://bit.ly/b1SwbG	yvessmith	47387039	2010-05-14 09:58:38
+13955107586	Euro crisis offers opportunity to strengthen EU, says Merkel: GERMAN CHANCELLOR Angela Merkel has said the euro zo... http://bit.ly/9zw8lO	dsnybest	62347450	2010-05-14 05:58:01
+13940815453	IBD News : Commodities End Mixed As Investors Turn Attention Away From Euro Crisis http://bit.ly/aOsEqY	DonaldPorterJM	34548007	2010-05-14 01:21:06
+13937861676	Koers Euro daalt verder naar bijna 1,25 http://safility.blogspot.com/2010/05/euro-crisis-moeten-we-terug-naar-de.html Terug naar de gulden	safility	125703106	2010-05-14 00:20:10
+13928799455	Photo: Q: How is Angela Merkel handling the Euro Crisis? 42% choose ‘abysmal’. 33% say she’s managing... http://tumblr.com/xdg9uqgaw	michaeljung	16993554	2010-05-13 20:49:13
+13926239977	This article pretty much sums up the Euro crisis. Bearish times ahead for Europe, the "lifestyle superpower" http://bit.ly/aLp23S	lancej	13363682	2010-05-13 19:49:33
+13926222593	Kun jij er geen heldere NL-talige samenvatting van maken? Leestip: economen over de euro-crisis @mathijsbouman	HenkStrating	25388119	2010-05-13 19:49:10
+13920013060	Leestip: economen over de euro-crisis http://www.voxeu.org/index.php?q=node/5034	mathijsbouman	108937649	2010-05-13 17:34:23
+13919963288	Euro crisis could help boost political union-Merkel http://bit.ly/aDkD87	BDliveSA	58819992	2010-05-13 17:33:21
+13918545853	Zaterdag 15 mei, 21.05 uur Nederland 2: Hulde aan de gulden? Weg met de pleuro!? http://bit.ly/7OMpLx #griekenland #euro #crisis	De_Monitor	38674368	2010-05-13 17:03:29
+13917641410	Right Side News The Euro Crisis and Ramifications for Israel: The financial crisis in Europe raises several econom... http://bit.ly/dmbfrl	rightsidenews	18102933	2010-05-13 16:44:57
+13916977122	Reserve Bank wary of euro crisis http://bit.ly/b48XQk	News24	14697575	2010-05-13 16:31:05
+13914035140	Euro crisis could help boost political union-Merkel http://bit.ly/bKe0Xa	FreshPips	18574052	2010-05-13 15:31:09
+13914018689	Rusland verwacht kapitaalinjectie nu investeerders zich terugtrekken uit de Eurocrisis, zegt voorzitter Centrum Strategische Ontwikkeling.	basvdplas	118074809	2010-05-13 15:30:48
+13911146725	The euro crisis: Europe's 750 billion euro bazooka (Καρλομαγνος - The Economist) http://bit.ly/aK6FJW	buzz_popular	16110431	2010-05-13 14:30:46
+13910838480	Euro crisis is worse than you think - The China Post #news http://bit.ly/b9S3Id	filterednews	62774102	2010-05-13 14:23:58
+13906164334	@Avinci_law De banken- en euro crisis is ook veel meer een 'politiek probleem' dan een probleem van de vrije markt of het neoliberalisme.	LeibNitz1	131878355	2010-05-13 12:23:41
+13904562254	New Business Podcast: Episode 17 http://bit.ly/d580jg /via @IrishTimesBiz Euro crisis, bank funding, Ability Awards and more	jaycee001	8725292	2010-05-13 11:34:58
+13903625158	Euro Crisis Could Lead to Increase in Sales: The pound has had a torrid time of… http://goo.gl/fb/tyIFC #IPINLive	IPINLive	113307714	2010-05-13 11:04:58
+13901339851	#Indianbusiness Markets not immune to Euro crisis: Union Finance Minister Pranab Mukherjee on Wednesday maintained... http://bit.ly/a9yuIh	aussieindolanka	13810362	2010-05-13 09:49:16
+13897526495	LETTERS TO THE EDITOR ON TAX INCREASE, WSU PHYSICS, DAY OF PRAYER, CONSTITUTION, EURO CRISIS: Support lawmakers wh... http://bit.ly/9uqxSt	WE_Tweet	29774500	2010-05-13 07:52:43
+13894404910	Nothing is at it seems - new video post re the Current Euro Crisis - its all a banking bailout http://bit.ly/bWrNAx	InGoldWeTrust2	91048953	2010-05-13 06:33:43
+13887208675	Euro Crisis Fueling Gold`s Rise as Key Currency: Lee Seong-tae was negative toward gold investment, but the centra... http://bit.ly/d0gpOd	BuyerOfGold	122782569	2010-05-13 04:10:49
+13882440795	you know you're dating a geek when: while watching bloomberg interviews, he laughs hysterically because of a pun regarding some Euro crisis	dcg	14698254	2010-05-13 02:42:12
+13880935898	Hotels brace for euro crisis fallout: Occupancy levels in Dubai hotels have improved greatly this year, with more ... http://bit.ly/9Wyi1G	dubai_hotel	55509300	2010-05-13 02:13:22
+13876921377	#nieuws Wall Street weer op niveau van voor eurocrisis: http://bit.ly/9rlXTY	Nieuwsblad_be	7762342	2010-05-13 00:53:44
+13873421550	iVBC NewsFlash >...Wall St Jumps Dow +146 pts Cisco's 3Q Profit +63%, Euro Crisis Ebbs, Crude Oil 75.35, Gold $1,245/oz http://bit.ly/88uDZD	VistaWEB	53018686	2010-05-12 23:39:35
+13872798007	Just posted Eurocrisis: Nederland loopt achter de feiten aan http://bit.ly/aJf6rO #b2p	Nujijorg	43942185	2010-05-12 23:25:48
+13871847454	Post Edited: Crude Oil prices: The Euro crisis, its implication on interim oil prices, Euro-zone and PIGS growth foreca http://cli.gs/hut4W	rebootdude	138522741	2010-05-12 23:05:13
+13868077227	Brussel: meer controle en sancties tegen de eurocrisis: Enkele euro's Enkele euro's Pingu1963 / Flickr / CC / by-... http://bit.ly/9xIqqI	nieuwsnld	114399526	2010-05-12 21:38:18
+13866896953	Eurocrisis main topic nxt week in EP plenary. But also: max working time lorry drivers, better social protection self-employed women,...	mvandenbroeke	39836631	2010-05-12 21:10:50
+13866616226	Eurocrisis: Nederland loopt achter de feiten aan http://nos.nl/l/156989	NOS	7174972	2010-05-12 21:04:09
+13866509922	Euro crisis boosts case for Asia investment: Greece’s sovereign debt crisis has plagued Europe and shaken market confidence, but it ha...	India_IN	112685695	2010-05-12 21:01:32
+13865673920	Nieuws NOS Journaal: Brussel: meer controle en sancties tegen de eurocrisis http://nlstemt.eu/ceyMaF #nlstemt #tk2010	Nederland_Stemt	133630510	2010-05-12 20:41:28
+13862780526	Bear&Bull Blog: De existentiële eurocrisis: Magnus ziet in de huidige oplossing drie grote problemen: Eén, er zijn... http://bit.ly/dnUQxz	griekenlandtips	50338463	2010-05-12 19:34:38
+13862260468	Reporting from #Spain the #Euro crisis and austerity measures: http://bit.ly/91NKvk	SullyCNBC	24443284	2010-05-12 19:23:12
+13858192236	Kreeg vandaag drie verschillende opdrachten binnen (net als @roosschlikker). Ik word zeker goedkoper door de eurocrisis. #in	woordenboer	44078119	2010-05-12 17:55:20
+13857657668	De UBS-econoom George Magnus heeft het over een existentiële euro-crisis. Waarschuwing: geen opbeurende lectuur! http://bit.ly/brARlQ	tijd	3147651	2010-05-12 17:44:06
+13849396952	The euro crisis: Hypocrisy and hubris | The Economist http://shar.es/mhwVu	LouisLep	31353721	2010-05-12 14:54:15
+13847438476	Death Spiral of the Welfare State - promised huge health and retirement benefits not covered with taxes - http://bit.ly/bPI1Wu #eurocrisis	Faaz71	20263645	2010-05-12 14:11:08
+13847209879	The root cause of the euro-crisis is not today's fiscal profligacy, it is tomorrow's economic potential Marc De Vos WSJ http://bit.ly/9eo8mz	RiskContainment	112769664	2010-05-12 14:05:55
+13845969337	Estland mag toetreden tot de Eurozone. Ik kan me niet voorstellen dat ze op dit moment staan te trappelen. #noodfonds #eurocrisis	Blaaaauw	50607495	2010-05-12 13:36:13
+13844675397	Irish BusinessForums Trichet defends euro crisis actions: The European Central Bank's presiden... http://bit.ly/cTVG4F Irish Business Forum	businessdublin	91572363	2010-05-12 13:02:51
+13844660755	Ads for €5 / Month Trichet defends euro crisis actions: The European Central Bank's presi... http://tinyurl.com/32njfc6 Irish Visitor Guide	IrelandandIrish	54310299	2010-05-12 13:02:26
+13844113771	coruscating words from Mervyn King about the urgency for immediate deficit reduction... says Euro crisis shows UK must cut THIS YEAR,	faisalislam	22812734	2010-05-12 12:47:42
+13842640345	Trichet defends euro crisis actions: The European Central Bank's president says it has not started 'printing money'. http://bit.ly/dc9wzQ	RTEbusiness	8973142	2010-05-12 12:04:32
+13841769586	Spain slashes state spending in effort to stop euro crisis http://bit.ly/a7Po3j	standardcity	38142846	2010-05-12 11:37:19
+13840854911	http://bit.ly/9WLhls The United States pf Europe (Eurocrisis)	geraldinasplace	19188956	2010-05-12 11:08:13
+13838077923	Zo.. wij zijn er alvast op voorbereid: http://yfrog.com/893m0p #eurocrisis	coenremmelts	5892052	2010-05-12 09:35:23
+13838061039	What will the hung parliament and the euro crisis mean for savers and investors? http://jsagroup.co.uk/news/latest-news/2243	JSAServices	74148732	2010-05-12 09:34:51
+13837682088	IM$avvy Headlines: The real euro crisis http://bit.ly/ah5E2l	CPF_Board	21959654	2010-05-12 09:22:30
+13837527505	Angel Broking Market Strategy Report for May 2010 - Snippets: Euro crisis behind us Result season - growth headed... http://ow.ly/17lusE	AngelBrokingLtd	90830064	2010-05-12 09:17:38
+13837270648	Euro Crisis Recalls Russia’s 1998 Monetary Meltdown http://om.ly/jTXr	YacineBaroudi	18919233	2010-05-12 09:09:32
+13836712502	Euro Crisis Tests Germany’s Leadership: Questions have been raised about Chancellor Angela Merkel's role at a defi... http://bit.ly/aWcmlt	bookmarka	97429775	2010-05-12 08:52:34
+13836323573	Wall St. jitters as Spain prepares austerity plan - #euroCrisis euronews http://bit.ly/9UFgHa	euronews	25067168	2010-05-12 08:40:31
+13836028843	Oh-that's not good. I remember ppl selling pets @ train stations: Euro Crisis Recalls Russia’s 1998 $ Meltdown http://nyti.ms/cPMNzA	kirste	17629947	2010-05-12 08:31:27
+13835913205	Volgens de New York Times is de eurocrisis vergelijkbaar met de Russische roebelcrisis van 1998! http://nyti.ms/bz6yMj	lwalburg	138352258	2010-05-12 08:28:04
+13835889005	Euro Crisis Recalls Russia’s 1998 Monetary Meltdown: A debt crisis that roils global financial markets. Big hopes... http://nyti.ms/8Y9Cbb	TwTimes	96308396	2010-05-12 08:27:19
+13835326721	'Merkel en Sarkozy zijn verantwoordelijk voor eurocrisis': ‘Zowel bondskanselier Angela Merkel als de Franse pr... http://bit.ly/dunlRK	expressbe_nl	82613792	2010-05-12 08:10:25
+13834559231	Euro Crisis Recalls Russia’s 1998 Monetary Meltdown: A debt crisis that roils global financial markets. Big hopes... http://nyti.ms/cPMNzA	yckong	17361675	2010-05-12 07:48:49
+13834515296	RT @Kysia Kunnen Europese leiders in hun zak steken. NY Times vergelijkt eurocrisis met roebelcrisi 1998. http://tinyurl.com/2uvsq3o < LEZEN	JanFromHolland	51058107	2010-05-12 07:47:34
+13833626050	NYTimes - Euro Crisis Recalls Russia’s 1998 Monetary Meltdown http://ow.ly/17lpXV	financialbrk	48822382	2010-05-12 07:23:20
+13819880267	Euro Crisis Has American Fingerprints: By William Pfaff It appears that the Euro will survive... http://tinyurl.com/36tdofm @truthdig	Truthdig	15950681	2010-05-12 02:42:43
+13819849040	Real Estate Update: Could Euro crisis spark new sales rush? - by Stephen Harris of Overseas Property Professional. ... http://ow.ly/17li38	BestHomesBC	18228051	2010-05-12 02:42:09
+13819391174	NY Times: Euro Crisis Tests Germany’s Leadership http://is.gd/c4Xhp	epaulnet	21478415	2010-05-12 02:33:29
+13817232512	Is the Euro Crisis Winding Down, and the British Pound Crisis ...: Is the Euro Crisis Winding Down, and the Britis... http://bit.ly/cSaZol	4xtrading1	133084309	2010-05-12 01:51:42
+13816768918	Germany is to the US Government as Greece is to AIG as Portugal is to Citigroup: The Real Euro Crisis - WSJ.com http://bit.ly/a2Hatq	troyshu	12981092	2010-05-12 01:42:26
+13815415271	Newsweek going Time surely following shortly - zero Time reaction to UK election or Euro crisis for last 24 hours at least.	stevehomeruk	104237968	2010-05-12 01:15:53
+13810676411	RT @KPerrotteRHI Don’t worry. Euro ‘crisis’ masks global recovery http://bit.ly/dsh1AH via @starbusiness	alizerh	83625882	2010-05-11 23:36:29
+13810604192	the Wocu on a big screen near you - www.youtube.com/watch?v=BAUSSjrY_i8&feature=channel - filmed in January, BEFORE the euro crisis!!	WOCU	47547394	2010-05-11 23:34:52
+13810218779	Gold is now the worlds reserve currency due to the Euro crisis. www.goldandsilverrush.com	fernpoyser	105312137	2010-05-11 23:26:11
+13807413841	Graphics Gallery: The Euro Crisis in Figures http://j.mp/8YWGrG / #debt	fcseh	11509742	2010-05-11 22:21:33
+13806793198	www.Germany-VIP.com Merkel's caution in euro crisis weakens Germany in EU: Angela Merkel has exposed her shortcomi... http://bit.ly/9KJBT2	GermanyVip	75244440	2010-05-11 22:07:05
+13804697484	Als ik bankencrisis, olieramp, eurocrisis optel krijg ik het gevoel dat we tegen een aantal fundamentele systeemgrenzen zijn aangelopen.	frisovdmeulen	50389377	2010-05-11 21:19:07
+13804317740	"Euro crisis: Finally, some (expensive) realism", Ilana Bet-El on @BusinessDesk - http://bit.ly/bWW8f7	went1955	124506375	2010-05-11 21:10:21
+13803399553	Euro crisis: Finally, some (expensive) realism | Ilana Bet-El http://ow.ly/17l2Jf	USRealityCheck	72552866	2010-05-11 20:49:00
+13802165965	Euro Crisis Tests Germany’s Leadership: Questions have been raised about Chancellor Angela Merkel’s role at a defi... http://bit.ly/9LEWq7	urbannewsafrica	96107456	2010-05-11 20:20:34
+13802083507	Global $1 Trillion Fix For Euro Crisis Eliza McNamara Explains How fixing one problem solved many: www.ElizaMcNama... http://bit.ly/ctw8VN	kentobrien	42189747	2010-05-11 20:18:37
+13801825946	#jokes - The Euro Crisis and the Euro Collapse- A run on the banks is Imminent - Before It's News http://url4.eu/3KV0Z	jokebit	72360779	2010-05-11 20:12:39
+13801692996	World markets slip after big gains > http://bit.ly/9C60tl #eurocrisis #euronewsEN	euronews	25067168	2010-05-11 20:09:32
+13801571042	The Coming Euro Collapse- Euro Crisis BBC Special http://www.youtube.com/watch?v=32Lor1YfCGM	jreijns	35012231	2010-05-11 20:06:44
+13799317401	kan het niet laten om #dwdd te kijken, met al die politieke poeha van het moment. #euro #crisis #hilarita #freehero #jackhetlek	arnoudboer	5588202	2010-05-11 19:16:20
+13798342616	Het kost je wat, maar dan heb je ook niks http://bit.ly/csmdZB #griekenland #euro #crisis	RamonSchuttinga	116231603	2010-05-11 18:55:32
+13797527657	nee het debat over de eurocrisis levert geen verrassingen meer op, kamer gaat straks accoord met noodpakket	ronfresen	110670622	2010-05-11 18:38:12
+13797088351	Euro crisis shows need for Europe to transform or die. Guessing our new Foreign Sec goes with "die" http://bit.ly/cXv3Do	anthonyzach	15662428	2010-05-11 18:29:22
+13796793429	ligt aan de euro crisis niet hetzelfde gedragspatroon ten grondslag als aan de crisis zoals onderzocht door de wit?	paulno25	36415103	2010-05-11 18:23:45
+13796469265	misschien Balkenende dan, die komt nu aan het woord over de euro crisis, te zien op Politiek 24, dat zeker	ronfresen	110670622	2010-05-11 18:17:19
+13796440236	Euro crisis drags on, pulls world markets down with it http://bit.ly/94fHBf	thejakartaglobe	16308572	2010-05-11 18:16:43
+13796319741	Merkel's caution in euro crisis weakens Germany in EU http://livejobscafe.com/home.php	UberAndrei	77040086	2010-05-11 18:14:23
+13796301815	Euro crisis kills JCI rally, drags rupiah back down http://bit.ly/bqQ0hY	padmodi	121372605	2010-05-11 18:14:01
+13795613270	volg debat over euro crisis in de kamer. gek, maar heeft geen urgentie meer lijkt het,	ronfresen	110670622	2010-05-11 18:00:12
+13795221910	Euro crisis kills JCI rally, drags rupiah back down http://bit.ly/bqQ0hY	thejakartaglobe	16308572	2010-05-11 17:51:50
+13794409785	Merkel's caution in euro crisis weakens Germany : German chancellor’s stance on the debt crisis has zigzagged ... http://tgam.ca/N7b	globebusiness	18981482	2010-05-11 17:34:23
+13793928524	NY Times: Euro Crisis Tests Germany’s Leadership http://is.gd/c4lZ6	epaulnet	21478415	2010-05-11 17:24:01
+13792982297	New blog post: $1 trillion pill averts euro crisis http://stockmarkettoday.in/2010/05/11/1-trillion-pill-averts-euro-crisis/	intraday_tips	58836598	2010-05-11 17:03:46
+13792149830	France, Germany Forced Greece to Buy Arms: MEP - bullied it to confirm billions of euros in arms deals http://bit.ly/cxWt3b #eurocrisis	Faaz71	20263645	2010-05-11 16:45:49
+13788939558	http://bit.ly/bpN0Gl The Real Euro Crisis: The EU's bailout postpones the day of fiscal reckoning | WSJ @Vikram_Sood @rwac48 @adityakirang	sonaliranade	12716032	2010-05-11 15:37:07
+13788597983	Links: 2010-05-11 The euro crisis and more: Subscribe to Our News FeedIf you would like to receive our links in r... http://bit.ly/9u3C8G	FinancialBlogs	78568607	2010-05-11 15:30:00
+13788447810	#News #InternationalBusiness German cabinet approves euro crisis fund http://bit.ly/d9rE3Z	ETIntlBusiness	36326146	2010-05-11 15:26:48
+13788150814	Going to be on BNN at 1200 ET for anyone in Canada. Topics? Euro crisis of course - and alot more. Should be fun $$	edwardnh	16400258	2010-05-11 15:20:33
+13788126238	Could euro crisis spark new sales rush? http://bit.ly/98EAiv #realestate #property international overseas	OPPToday	92937350	2010-05-11 15:20:03
+13787675421	A lot of links on the euro crisis, Facebook privacy concerns and more - Credit Writedowns http://bit.ly/a0uXd9 $$	edwardnh	16400258	2010-05-11 15:10:23
+13786978873	Entry into the euro zone is not likely to be harder despite the euro crisis, said European Commission President Jose Manuel Barroso	XTrade_Online	60882865	2010-05-11 14:55:36
+13783684557	Operatie geslaagd, patient overleden (of is het nog te vroeg om dat te roepen?) #eurocrisis	rutno	46488300	2010-05-11 13:39:38
+13783554187	Eurocrisis lijkt de volgende crisis: http://www.fical.nl/?q=81	Aart_Wallet	14243992	2010-05-11 13:36:15
+13783245921	Can you profit from the political turmoil?: We explain what our hung parliament and the euro crisis mean for saver... http://bit.ly/djVREC	Telegraph	16343974	2010-05-11 13:28:24
+13782421820	Find out what our hung parliament and the euro crisis mean for savers and investors http://bit.ly/ab3h9F	Oh_The_Joy	109711938	2010-05-11 13:06:14
+13781644334	How the bond markets are pricing a hung parliament x Euro crisis x Gov credit worthiness --> http://is.gd/c42Sc	mattgreenuk	87732453	2010-05-11 12:44:30
+13781277714	Met die Eurocrisis moeten we een andere definitie van ontwikkelingshulp krijgen: helpen we nu onszelf? #baronvonmunchhausen	lexhupe	17518215	2010-05-11 12:33:42
+13781171669	@naimaazough ja een lekkere eurocrisis, een opstandige Hero Brinkman en een losbandige Jack de Vries! Wat een oogst voor anderhalve week!	brechtje	7505392	2010-05-11 12:30:31
+13780435562	Eurocrisis:nog steeds geen harde sancties voor knoeiers.Lidstaten zijn allen bang zelf eens in het beklaagdenbankje te belanden.	JeroenAkkermans	102331024	2010-05-11 12:08:00
+13779825138	Participate in our Greece's Euro crisis debate on http://bit.ly/bI5fMt	lilachbullock	15301179	2010-05-11 11:48:55
+13779754158	WSJ.com - Opinion: The Real Euro Crisis http://on.wsj.com/cQ7sPx Guaranteed loans, risk free investments, not a bad business model...	TxbetaZesty	126085203	2010-05-11 11:46:35
+13779700195	German cabinet approves euro crisis fund: source: BERLIN: Germany's cabinet Tuesday approved its part of a http://url4.eu/3JlGd	Business911	68154023	2010-05-11 11:44:54
+13779561993	WSJ.com - Opinion: The Real Euro Crisis http://on.wsj.com/cQ7sPx ...Asia overnight, Europe so far, & our futures so far has me right.	TxbetaZesty	126085203	2010-05-11 11:40:22
+13779537608	WSJ.com - Opinion: The Real Euro Crisis http://on.wsj.com/cQ7sPx Yesterday I predicted, that Tues would be the big pull back...	TxbetaZesty	126085203	2010-05-11 11:39:37
+13779458705	Merkel schrapt belastingverlaging wegens eurocrisis - NRC Handelsblad http://bit.ly/bkZe8b	berlijnforum	19503120	2010-05-11 11:36:59
+13778982608	German Headlines: German cabinet approves euro crisis fund: source http://ow.ly/17kKw6	Expatica	19393033	2010-05-11 11:21:19
+13778868234	Can you profit from the political turmoil?: We explain what our hung parliament and the euro crisis mean for saver... http://bit.ly/cT2jy4	visionofchange	61996543	2010-05-11 11:17:36
+13778025616	Non-ferrous metals set to plunge further http://tinyurl.com/27nym9g - what a difference a Euro-crisis makes	chinahearsay	14732903	2010-05-11 10:49:20
+13777657162	Greece's Euro crisis lived by people like you and me: How do you feel about it? http://bit.ly/bI5fMt	lilachbullock	15301179	2010-05-11 10:36:42
+13777630275	ECB to Intervene in Bond Market to Fight Euro Crisis: --With assistance from Meera Louis in Brussels and Klaus Wil... http://bit.ly/cElBP6	SRosenCredit	87026140	2010-05-11 10:35:46
+13777608588	Do you think we should help Greece face Euro crisis? http://bit.ly/bI5fMt	lilachbullock	15301179	2010-05-11 10:35:02
+13776895910	Q: Greece euro crisis: Should we bail them out at the risk of burning ourselves or let them sink alone? Your opinion on http://bit.ly/bI5fMt	lilachbullock	15301179	2010-05-11 10:10:43
+13776426993	The Real Euro Crisis: What investor doesn't like a risk-free loan that pays 9%? But there is no such thing as a fr... http://bit.ly/cZrIK9	JB_Shopper	105909699	2010-05-11 09:54:44
+13776388949	Lack of gov't could cost UK hedge fund industry dear as EU leaders use threat of euro crisis to step up calls for regulation via AIFMD	pmshires	20443215	2010-05-11 09:53:23
+13776264041	Fear of speculators driving Euro markets? http://is.gd/c3Sge So the euro crisis is the markets fault & not that of failed, bankrupt gov'ts.	pmshires	20443215	2010-05-11 09:49:03
+13775846624	Snap je niks van de euro-crisis? Deze meneer legt het heel goed en eenvoudig uit: http://bit.ly/aKPHP6	kaadeevee	95926754	2010-05-11 09:34:34
+13775289440	En ondertussen stapt Broertjes op VK, overlijdt Dijkstal en smeult eurocrisis door. Er zijn ergere dingen dan scriptie ;)	StellaStardust	38504606	2010-05-11 09:15:59
+13773990536	CanadaRights.com Olive: Don't worry. Euro 'crisis' masks global recovery: The chronic fiscal mismanagement, unaffo... http://bit.ly/9hDs0K	CRAcorruption	66963183	2010-05-11 08:33:28
+13773537719	benieuwd naar eerste krant/magazine dat me uitlegt welke speculanten op welke manier precies de Eurocrisis hebben uitgelokt	idealcrash	12748	2010-05-11 08:19:14
+13773389077	Olive: Don't worry. Euro 'crisis' masks global recovery: Stocks, commodities and the euro have been overdue for a ... http://bit.ly/d5ftrb	cassiesch	96626524	2010-05-11 08:14:43
+13772832294	WSJ.com - Opinion: The Real Euro Crisis http://on.wsj.com/cQ7sPx "What investor doesn't like a risk-free loan that pays 9%?"	JDelage	21898415	2010-05-11 07:58:25
+13768647281	An insightful commentary by Anantha Nageswaran on the euro crisis and what should smart investors do : http://ow.ly/1Jpui	parthaiyengar	54988943	2010-05-11 06:09:38
+13767212395	The Euro Crisis and the Euro Collapse- The ECB has decided to turn the Euro into the Drachma http://bit.ly/d8OgDg via @addthis	tasteofaz	20826129	2010-05-11 05:38:55
+13765874963	World markets surge on news of Europe's 750 billion euro crisis fund http://iss.uz/9kMrNg	adaptivetechlab	20545731	2010-05-11 05:11:30
+13764353768	IHT: Euro Crisis Tests Germany’s Leadership: Questions have been raised about Chancellor Angela Merkel’s role at http://url4.eu/3JGhG	AMLsanctions	125210462	2010-05-11 04:41:25
+13762715721	The Real Euro Crisis: The EU's bailout postpones the day of fiscal reckoning. http://on.wsj.com/cEBpQ9	WSJopinion	7228682	2010-05-11 04:09:27
+13762309956	Stocks up on Euro crisis plan: AUSTRALIAN shares have risen in opening trade, following a strong performance in ov... http://bit.ly/bwAL1e	cmail_biz	9563392	2010-05-11 04:01:40
+13762206689	The euro crisis: Europe's €750 billion bazooka ~ what it all means http://bit.ly/bnYvO9	mpondfield	22091828	2010-05-11 03:59:49
+13761463125	Euro crisis goes global as leaders fail to stop the rot http://viigo.im/3t6z	AbuThoriq	76245018	2010-05-11 03:45:15
+13760957526	Afternoon Run … May 10, 2010: Key News * EU announces 750-bln euro crisis shield with IMF  (Reuters) * ECB to Inte... http://bit.ly/bMsTXA	BryanatLogic	55677143	2010-05-11 03:35:28
+13760600420	Euro Crisis Tests Germany’s Leadership - NYTimes.com http://stk.ly/9f05cT $EURUSD	ARupdates	108036263	2010-05-11 03:28:31
+13758312931	ExcitingAds! New Euro Crisis Tests #Germany’s Leadership: Questions have been raised about… http://goo.gl/fb/3WsyD	ExcitingAds	58261563	2010-05-11 02:44:38
+13757192164	The Real Euro Crisis: What investor doesn't like a risk-free loan that pays 9%? But there is no such thing as a fr... http://bit.ly/c5f76f	iPayU45IfUJoin	125466526	2010-05-11 02:22:33
+13757042127	New blog post: [Europe] Euro crisis brings Intesa's bickering investors to heel http://znl.me/7FK-CQ	StockPromoters	21434709	2010-05-11 02:19:41
+13756782071	Euro Crisis Tests Germany’s Leadership http://nyti.ms/c8bXXv	nytimesworld	1877831	2010-05-11 02:14:38
+13756773597	'Eurocrisis toont onmacht Brussel' http://www.volkskrant.nl/economie/article1377621.ece/Eurocrisis_toont_onmacht_Brussel	inweerenwind	19018011	2010-05-11 02:14:28
+13755534186	Global retail should not underestimate this. RT @brandcoach: The Euro Crisis in Figures - SPIEGEL - http://bit.ly/ajB7cE (via @TurnLeaf)	DavidIanGray	19641258	2010-05-11 01:50:12
+13755333912	see Euro crisis could drag world into recession: economists http://bit.ly/bTRizq	AbraxasHoldings	32584318	2010-05-11 01:46:14
+13753813694	@kajleers Maar Rutte loopt toch ook niet over van charisma. Vooral geluk met eurocrisis en imago VVD, met dank aan Zalm.	NaimaAzough	62811060	2010-05-11 01:16:15
+13752968430	Dow Jones proves wall street is the gambling capital, not Las Vegas. Risky assets rise as the Euro crisis fund is created.	shuvankr	10352582	2010-05-11 00:59:37
+13752517558	En daar is de Superstaat Europa... #verneukt #eurocrisis #penw	Faaz71	20263645	2010-05-11 00:50:27
+13752343061	Hoe men verrast kon worden door een zich maandenlang aankondigende crisis, blijft ook apart... #eurocrisis #penw	Faaz71	20263645	2010-05-11 00:46:49
+13751619714	Proponents of a North American Union are probably studying the current #EU, #euro crisis very carefully. #Greece #Mexico #Canada #NAFTA	dandhicks	90548758	2010-05-11 00:31:57
+13750191541	Remarkable. Followed a discussion Dutch tv about the Euro crisis. No word about the role of rich Emerging countries in the years ahead.	LMG_Emerge	123889525	2010-05-11 00:01:44
+13748660213	Van macro naar micro: de oplossing voor mensen met teveel schulden is ze dus een lening geven .. Dat leert de eurocrisis ons	roodbeen	19032034	2010-05-10 23:27:06
+13747812626	The Euro Crisis and the Euro Collapse - The ECB has decided to turn the Euro into the Drachma http://bit.ly/cEDLVY	jonmatonis	101580574	2010-05-10 23:07:33
+13746551487	STOCKS SKYROCKETED » Dow Surged +455pt/+4.4%; Investors Reassured Confidence by $1 Tril. Rescue Plan for Euro Crisis - AP http://ow.ly/1JhfC	ysbnews	127836912	2010-05-10 22:37:29
+13746485478	Stands out in light of current Euro crisis RT @nytimes: Israel to Join Paris-Based Economic Group http://nyti.ms/dl3QCc	blich	15954872	2010-05-10 22:35:55
+13745566207	NOS Headlines - Eurocrisis voor dummies http://goo.gl/fb/ySX3S	HermanYouTube	77715232	2010-05-10 22:13:25
+13745303203	@nosheadlines Eurocrisis voor dummies: directe #YouTube link pls #durftevragen	HoestOnline	119687061	2010-05-10 22:07:13
+13745193553	Over die euro-crisis: op welke leeftijd gaan Grieken, Portugezen en Spanjaarden eigenlijk met pensioen? Toch niet eerder dan 67? Anders...	bartvuijk	22485495	2010-05-10 22:04:30
+13744783163	Eurocrisis voor dummies http://www.youtube.com/watch?v=LbC5DDlZC3k	twitmens	105458727	2010-05-10 21:54:39
+13744617202	http://bit.ly/aNoPpd EU throws kitchen sink at euro crisis amid fears of domino effect	tok_world	94959520	2010-05-10 21:50:30
+13744604331	Post: US Fed offers emergency help to ease euro crisis (AFP) NEWS-CELEBRITY-PRODUCTS http://bit.ly/c6Dsql	HAPPENINGS1NOW	122957087	2010-05-10 21:50:11
+13744178022	Eurocrisis voor dummies: In nog geen drie minuten weet je hoe de eurocrisis in elkaar steekt http://bit.ly/aKPHP6	nosop3	19386691	2010-05-10 21:39:35
+13742738940	( [_x_]::-- 12:03 ( 11 ) -Work Invest Visit World Economic Forum tweet link about euro crisis )	picoVerse	37680229	2010-05-10 21:04:05
+13741491067	Should we worry? Duh! Part 7 - Eurocrisis lijkt bezworen. (Parool 10 mei) Het reddingsplan van de eurolanden... http://tumblr.com/xse9pp831	sikkogerkema	101715349	2010-05-10 20:33:26
+13740846411	Economist: “The euro crisis is turning into a clash between different social contracts, and democratic preferences” http://bit.ly/aisdyJ	ThijsNiks	20427743	2010-05-10 20:18:30
+13740724654	Gelukkig zijn alle volgers en gevolgden weer teruggevonden! #twittercrisis bezworen. Heeft dat ook zoveel geld gekost? #eurocrisis	TanjavandenBerg	73339330	2010-05-10 20:15:38
+13740302862	Tuurlijk niet. Ze hebben Pound Sterling. #eurocrisis RT @rutgervz: Let op: 'Britten doen niet mee aan noodplan euro' http://is.gd/c30cv	rutno	46488300	2010-05-10 20:06:01
+13739310933	De Kamer gaat eten, u kunt dus nog tot einde tweede termijn morgen rechtop blijven staan... #eurocrisis #verneukt #bankairfinancieelcomplex	Faaz71	20263645	2010-05-10 19:47:17
+13738167699	Koser Kaya heeft goed punt. Waarom waren er geen worst-case scenario's? Dit kwam niet uit de lucht vallen #hoezoverrast #eurocrisis #debat	Faaz71	20263645	2010-05-10 19:26:50
+13736632240	Euro Crisis Merely Delayed, Not AvertedDaily MarketsThe European Union and European Central Bank st... http://reduce.li/y62r00 #merely	blognew	79282355	2010-05-10 19:01:09
+13736212115	Vendrik slaat de spijker op zijn kop... #eurocrisis #debat #imf #soevereiniteit #serveerblaadje	Faaz71	20263645	2010-05-10 18:54:04
+13735725673	@dannyrogers2001 No. The markets were more concerned about the Euro crisis and know all 3 parties have credible deficit reduction plans	FromSteveHowell	22754724	2010-05-10 18:43:33
+13735693569	Wie is nou eigenlijk de baas, de regeringsleiders of de beroepsgokkers? #eurocrisis	Ep_Meijer	108320426	2010-05-10 18:42:49
+13734817259	The market can ease a crisis? Who knew. RT @dailyherald: Dow up 400 on effort to ease Euro crisis http://bit.ly/9ymigo	AndrewTibbetts	23818476	2010-05-10 18:23:29
+13734664263	UPDATE: Dow up 400 on effort to ease Euro crisis http://www.dailyherald.com/story?id=379573	dailyherald	8960722	2010-05-10 18:20:09
+13734146608	Euro crisis morphs into sovereigns' version of subprime http://bit.ly/cBTkHY <<new QFINANCE blog	Ian_Fraser	93618872	2010-05-10 18:08:39
+13734058181	Scary forecasts for Irish economy - The Euro Crisis in Figures - SPIEGEL ONLINE - News - International: http://bit.ly/d4Sjgb	fergaloconnor	48349990	2010-05-10 18:06:45
+13733998838	Mag ik even vangen?:"AEX sluit met winst van ruim 7 procent" •http://j.mp/arV52K• #Euro #Crisis	cescolevens	98117733	2010-05-10 18:05:26
+13733993919	~ RT @Mylonas: After the Greek experiment EU Crafts $962 Billion Show of Force to Halt Euro Crisis http://bit.ly/dan5Cb	Ms_Amarina	19118349	2010-05-10 18:05:19
+13733604790	Die hedge fund managers lopen in twee weken tijd weer helemaal binnen... #eurocrisis	rutno	46488300	2010-05-10 17:57:00
+13733567553	Toch goed dat er een visie achter dat beleid zit... #hapsnap #haastklus #euro #crisis #dejager #marktmeerinvloeddankiezer #demoneycratie	Faaz71	20263645	2010-05-10 17:56:11
+13733288466	EU throws kitchen sink at euro crisis amid fears of domino effect: http://is.gd/c2OJH // holy mixed metaphors, Batman	glcarlstrom	14346260	2010-05-10 17:50:06
+13732376473	EU throws kitchen sink at euro crisis amid fears of domino effect: Lessons learned from Lehman Brothers collapse p... http://bit.ly/cyb9Tv	startupboard	43538308	2010-05-10 17:29:59
+13732197395	Jacques Delors about the Euro crisis and Greece: http://www.la-croix.com/-Faire-l-Europe-c-est-tres-dur-/article/2425000/25692	politikosistos	15193433	2010-05-10 17:25:58
+13732026241	The euro crisis: Europe's 750 billion euro bazooka | The Economist http://vf.cx/3loD	VFEurope	93658714	2010-05-10 17:22:15
+13731284706	Euro crisis goes global as leaders fail to stop the rot: http://bit.ly/dCnVzq #economics #money	statismwatch	60974814	2010-05-10 17:06:00
+13730936436	Eurocrisis Analysis: Europe dragged kicking and screaming into launching shock-&-awe campaign to stem crisis http://ht.ly/1J6od	paulvieira	20611338	2010-05-10 16:58:41
+13730907378	ECB to Intervene in Bond Market to Fight Euro Crisis (Update2) - Bloomberg.com: The European Central Bank said it... http://bit.ly/bEsiGJ	titosnews	84357652	2010-05-10 16:58:05
+13730127803	Europe Unveils 750-Billion-Euro Crisis Fund | Breaking News: http://bit.ly/cud2EZ via @addthis	kazimshah5	119345251	2010-05-10 16:41:07
+13730079237	EU Crafts $962 Billion Show of Force to Halt Euro Crisis: http://digg.com/d31QfCV?t	misslindadee	33452988	2010-05-10 16:40:07
+13730019123	Europees reddingsplan is " volbloed achter de mestkar spannen" - Kees de Kort bij BNR: http://bit.ly/chuQdn #euro #crisis	Faaz71	20263645	2010-05-10 16:38:47
+13729670386	Who do you think is to blame for the never ending Euro crisis?Greek statisticians, American sub prime mortgage... http://bit.ly/bq5Y7k	GellisCom	27648814	2010-05-10 16:31:19
+13729346624	Verstandige analyse eurocrisis door karel Lannoo. Probleem verschuift naar eindejaar	HedwigN	17635131	2010-05-10 16:24:28
+13728222216	Nailed It! EU, EZ, ECB use the Bazooka to stabilize markets and Euro. Crisis not over yet, bt this shortens its time.	abusch	16912213	2010-05-10 16:00:42
+13728151529	EU Rescues Euro: The economy crisis shaking Greece has snowballed into a full-scale euro crisis which could swing ... http://bit.ly/bXDF2I	radiosweden	19529939	2010-05-10 15:59:20
+13726286413	De oplossing voor de eurocrisis: 500 mlrd met 380 mln mensen = 1400 euro p.p. (maak maar over! - crisis voorbij ;-)	joramhelmer	15206141	2010-05-10 15:19:43
+13726068353	A few thoughts on the euro crisis: I’m rushing to prepare to go into a lockup to write reports on Australia’s gove... http://bit.ly/awVA70	crookedtimber	14516567	2010-05-10 15:15:03
+13725927998	forexebookstore: EU announces 750 billion euro crisis shield with IMF (source: congoo) http://bit.ly/cdyevo	forexebookstore	134156965	2010-05-10 15:12:03
+13725496258	RT @kajleers: straks valt er niks meer te redden; dan zit een deel van de Griekse rommelobligaties e.d. dus bij de ECB... #euro #crisis	Faaz71	20263645	2010-05-10 15:02:57
+13724999176	Euro crisis postponed NOT solved. Hold your Gold!!	midasman7	142264007	2010-05-10 14:52:06
+13724445107	Left Banker on the Euro-bailout: http://tinyurl.com/364t48q #ukelection #debtcrisis #eurocrisis	meadwaj	49034649	2010-05-10 14:39:34
+13724095418	Europe sizes up 500b-euro crisis fund - Crisis-hit Europe pushed to put in place bailout reserves that diplomats said... http://su.pr/4oU7sp	BrusWilliam	121136896	2010-05-10 14:31:42
+13723621645	Markets surge as EU and IMF agree €750bn loan to end euro crisis | Business | The First Post http://bit.ly/dzfGLR	devakikhanna	26465492	2010-05-10 14:20:54
+13723332028	Euro crisis, from the Spanish perspective: Spanish Whispers « Strange Maps http://bit.ly/b0fHRR	angefitzpatrick	15351445	2010-05-10 14:14:16
+13723327852	Monday Morning Links: TOP STORIES EU Crafts $962B Show of Force to Halt Euro Crisis – Bloomberg Euro, stock market... http://bit.ly/cqFOS0	timiacono	125448978	2010-05-10 14:14:10
+13722349050	@BabetvBentum gewoon aan het shoppen in Utrecht, wat Eurocrisis????	MikeEhricht	81130372	2010-05-10 13:50:55
+13721455220	Oplossingen euro crisis lijken zich vooral te richten op de gevolgen (koersen) in plaats van op oorzaken Financiering van sectoren en landen	Wimzegt	5895032	2010-05-10 13:28:25
+13721004776	Ook deze (euro)crisis lijkt opgelost. AEX alweer op 330. Kwestie van vertrouwen, naar het schijnt. It's not the economy, stupid.	HenkKamps	96339855	2010-05-10 13:16:26
+13720344701	[International News] ECB takes action to fight euro crisis by buying bonds: The European Central Bank would ... http://tinyurl.com/2uefll9	thaibma	110887711	2010-05-10 12:58:43
+13719715646	ECB to Intervene in Bond Market to Fight Euro Crisis (Update2), http://www.myfeedme.com/article/10676758.html	MFM_EUBusNews	39506158	2010-05-10 12:41:00
+13719069888	FTSE In Early Surge After Euro Crisis Deal http://livejobscafe.com/home.php	UberAndrei	77040086	2010-05-10 12:22:16
+13719064374	Fed helpt tegen eurocrisis http://fok.nl/384522	foknieuws	15178983	2010-05-10 12:22:06
+13718473419	Deel visie Van Rompuy: eurocrisis op korte termijn opgevangen.	robvandevelde	55813582	2010-05-10 12:04:02
+13718339601	The Euro Crisis and the Euro Collapse- The ECB has decided to turn the Euro into the Drachma: In The Coming Euro C... http://bit.ly/9crkiv	IsraelFinancial	110487030	2010-05-10 12:00:10
+13718323903	Fed heropent kredietlijnen tegen verspreiding eu http://www.poundsterling.nl/rtl-z/fed-heropent-kredietlijnen-tegen-verspreiding-eurocrisis	poundsterlingnl	129917769	2010-05-10 11:59:46
+13718292547	Eurocrisis: para la Argentina, será más difícil exportar y emitir deuda http://goo.gl/fb/5gEK1	ZonaBancos	44256548	2010-05-10 11:58:45
+13717839237	RT: @anitadehorde luister vanmiddag om 13.15 uur naar @keesvendrik op radio 1 over de eurocrisis www.stand.nl	rgnodde	92587894	2010-05-10 11:44:00
+13717495786	Even serieus, dat Euro-crisis gedoe, hoelang gaat het duren voordat Gerrit Zalm ook hiervoor op de pijnbank belandt? Dan komt zijn...	xJosefinex	90085354	2010-05-10 11:32:38
+13717312662	Lees hier het interview met @keesvendrik in de Volkskrant vandaag ‘Eurocrisis toont onmacht Brussel’ http://tinyurl.com/22orpdj	anitadehorde	20077845	2010-05-10 11:26:23
+13717199769	[11:01] ‘Eurocrisis toont onmacht Brussel’ http://goo.gl/pw0J	volkskrant	3103261	2010-05-10 11:22:32
+13717193615	Moet ik alvast de prijzen in de winkel aanpassen in guldens? #eurocrisis	coenremmelts	5892052	2010-05-10 11:22:19
+13716800569	Unimaginable: #EU Crafts $962 Billion Show of Force to Halt Euro Crisis – BusinessWeek | the very latest news: http://bit.ly/9YsaMq	zoro8	63941153	2010-05-10 11:09:09
+13716348905	FTSE In Early Surge After Euro Crisis Deal (Sky News) http://bit.ly/dAnloq	FTSE_Tweets	23181022	2010-05-10 10:54:02
+13716336603	ECB to Intervene in Bond Market to Fight Euro Crisis http://bit.ly/a5HHIs	FreshPips	18574052	2010-05-10 10:53:35
+13716205749	Incredibly poignant insight about the future of the West re: the Euro crisis looking forward: http://is.gd/c2hOY	yottamoto	7529902	2010-05-10 10:49:02
+13716004645	www.FastLoanMoney.com ECB to Intervene in Bond Market to Fight Euro Crisis - BusinessWeek: swissinfo.chECB to http://url4.eu/3HqIa	FastLoanMoney	54821508	2010-05-10 10:42:03
+13715663741	Hung parliament leads to £pound falling against the dollar and the Euro. Meanwhile bailout package for Euro Crisis seems to be near.	EthicalFX	138010963	2010-05-10 10:30:23
+13715558469	Europe sizes up 500b-euro crisis fund - Crisis-hit Europe pushed to put in place bailout reserves that diplomats said... http://su.pr/4oU7sp	BrusWilliam	121136896	2010-05-10 10:26:44
+13715074627	In other news: Eurocrisis afgewend. http://www.bndestem.nl/algemeen/economie/6666188/AEX-op-forse-winst-na-EUplan.ece	WilbertZuil	92962273	2010-05-10 10:09:50
+13714746456	Rebound on Euro crisis package: THE Australian share market closed sharply stronger after a crisis package was agr... http://bit.ly/cDg34Q	cmail_biz	9563392	2010-05-10 09:58:51
+13714672765	Woei de euro leeft weer! Beurzen +5% #Eurocrisis	martijn_kosters	18864188	2010-05-10 09:56:11
+13714667151	RT @constantinidesa EU Crafts $962 Billion (750 billion euro) Show of Force to Halt Euro Crisis (BLOOMBERG) - http://bit.ly/cokmXB	yovanof	9794712	2010-05-10 09:55:59
+13714537023	Europe unveils 750-billion-euro crisis fund http://tsort.us/2pcd7r	theultimatedeal	119061613	2010-05-10 09:51:15
+13714471616	Columns Cor Wijtvliet: De Griekse steen in de Europese vijver http://bit.ly/dkgPjz #euro #crisis #Griekenland #recessie http://bit.ly/cGa5Cx	marcelatroad	59183387	2010-05-10 09:48:55
+13714392954	forexebookstore: US dollars plan to ease Euro crisis (Belfast Telegraph) (source: Wikio) http://bit.ly/d30AXz	forexebookstore	134156965	2010-05-10 09:46:05
+13714204566	Amazing how the solution of the Euro crisis had to wait for a regional election in Germany.	uhrenbacher	2834141	2010-05-10 09:39:27
+13713904519	Peston: Euro crisis postponed|Last night eurozone governments and the European Central Bank announced new safety .. http://oohja.com/xcMbm	LIBizExchange	106769185	2010-05-10 09:29:07
+13713826183	US Fed offers emergency help to ease euro crisis http://bit.ly/bJd2Wd	MyWireHeadlines	19080192	2010-05-10 09:26:19
+13713797143	http://www.bloomberg.com/apps/news?pid=20601087&sid=a0RoeU1FECGY&pos=3 ECB to Intervene in Bond Market to Fight Euro Crisis	GraemeSun	105877870	2010-05-10 09:25:18
+13713691303	"ECB to Intervene in Bond Market to Fight Euro Crisis (Update1) - BusinessWeek" ( http://bit.ly/ahE47K )	blue_angel0126	96252778	2010-05-10 09:21:35
+13713473535	Eurocrisis. Ik denk dat ik vandaag van mijn spaargeld maar even een huis ga kopen.	joepvandeudekom	130606737	2010-05-10 09:14:07
+13713244651	@Artythings The only good thing about the Euro crisis is that it's not the US$ crisis.	drums_rhythm_	17739078	2010-05-10 09:06:08
+13713174624	EU Crafts $962 Billion Show of Force to Halt Euro Crisis - B: http://digg.com/d31Qf79?t	HeadlineReviews	7051172	2010-05-10 09:03:52
+13713160270	Hotels brace for euro crisis fallout|10 May 2010 Dubai hoteliers fear improving occupancy levels could face a .. http://oohja.com/xcM5p	aspen_hotels	86951621	2010-05-10 09:03:24
+13713076323	De JAGER: noodverband ivm #Eurocrisis kost ons - in principe - eigenlijk - als het goed is - geen geld. Vraag: en als het misgaat?	ernem	46905078	2010-05-10 09:00:40
+13713028504	Euro rises on EU package but worries linger - Reuters: * Euro up on news of 750 bln euro crisis shield with IMF * ... http://bit.ly/aMGE83	ForexFlashNews	125549631	2010-05-10 08:59:12
+13713012947	2 dagen cursus in de bossen bij Zeist. Nieuws over Euro-crisis inhalen na vakantie; wel een jur. basis in Verdrag v. geld ophalen door EC?	Marcvanderham	25269971	2010-05-10 08:58:39
+13712986067	Darling calm and commanding on Euro crisis. Can't quite see fanatic anti-EU George Osborne with same authority or respect in EU parleys	DenisMacShane	79737242	2010-05-10 08:57:42
+13712812342	Wat leert de banken en euro crisis? De zaak tillen loont niet, maar de oplichters komen goed weg!	Rob_Moonen	14224303	2010-05-10 08:51:42
+13712428497	EU finance ministers have agreed a 500-billion euro crisis fund overnight, to protect the embattled currency.	iRadioNews	49949739	2010-05-10 08:38:35
+13712343074	Euro crisis could drag world into recession say economists http://bit.ly/ct64Z7	cuddlendance	58145288	2010-05-10 08:35:39
+13712264605	#forex US Fed offers emergency help to ease euro crisis: The US Federal Reserve stepped in to ease Europe's debt c... http://bit.ly/aJbyjP	liveforex	16197426	2010-05-10 08:33:04
+13712073996	En nu maar afwachten hoe de beroepsgokkers op het noodplan voor de euro reageren. #eurocrisis	Ep_Meijer	108320426	2010-05-10 08:26:53
+13711863423	uggabugga: Euro crisis averted at low cost:: Euro crisis averted at low cost:EU Crafts $962 Billion Show of Force ... http://bit.ly/cnuuUO	californiaBNN	14948500	2010-05-10 08:20:05
+13711620331	US dollars plan to ease Euro crisis: The US Federal Reserve has opened a programme to ship US dollars to Europe in... http://bit.ly/agrUZe	msnuk	14684826	2010-05-10 08:12:26
+13711602964	EU Crafts $962 Billion (750 billion euro) Show of Force to Halt Euro Crisis (BLOOMBERG) - http://bit.ly/cokmXB	constantinidesa	111597232	2010-05-10 08:11:54
+13711238369	judithineuropa: tja. Heb ik een krant voor t nieuws, maar de eurocrisis conferentie hield pas op toen de krant .. http://bit.ly/bVUaaQ	mytweetsnl	53870917	2010-05-10 08:00:53
+13710836562	@ovanrijswijk Hoi Oskar. Ik vind de eurocrisis behoorlijk eng. Verwacht jij Griekse toestanden in NL? Een nieuw sociaal akkoord is nodig.	Schrijvers	25792395	2010-05-10 07:48:53
+13710179220	updatednews.ca: Europe unveils 750-billion-euro crisis fund http://updatednews.ca/?p=18487	updatednewsca	106902337	2010-05-10 07:30:21
+13709973267	Eu Crafts $962 Billion Show Of Force To Halt Euro Crisis <a Href="javascript:void(0);"> http://bit.ly/bwaqsH	urquhartz	17677408	2010-05-10 07:24:43
+13709767190	What happened to Euro Crisis, market is pulled back, what else the seller can do except to re-enter !!!!	ithestocktrader	140327859	2010-05-10 07:19:17
+13709649795	US Fed offers emergency help to ease euro crisis (AFP): AFP - The US Federal Reserve stepped in to ease Europ... http://bit.ly/cFC5Xl	NIInvestments	95827890	2010-05-10 07:16:14
+13709400606	EU Crafts $962 Bn Show of Force to Halt Euro Crisis: http://is.gd/c263b <Is it Armageddon or just a case of throwing good money after bad?>	lv_1	23402628	2010-05-10 07:09:53
+13709333373	The Market : ECB to Intervene in Bond Market to Fight Euro Crisis - BusinessWeek http://dlvr.it/tNbx	abanant	123486004	2010-05-10 07:08:11
+13709201668	www.FastLoanMoney.com ECB to Intervene in Bond Market to Fight Euro Crisis - BusinessWeek: AFPECB to Intervene in http://url4.eu/3HbhF	FastLoanMoney	54821508	2010-05-10 07:04:54
+13709062060	1000 pt Dow drop worries US officials. Aid 4 the greek/euro crisis bumped up to $1 Trillion w/ concerted efforts from US, IMF, EU, & others	yousefshaban	13704702	2010-05-10 07:01:30
+13709041253	http://www.businessweek.com/news/2010-05-09/eu-crafts-962-billion-show-of-force-to-halt-euro-crisis.html	LSUDesiTiger	29912879	2010-05-10 07:00:59
+13709010646	http://bit.ly/ccMgcX ECB to Intervene in Bond Market to Fight Euro Crisis | Pretty well managed, the drama so far| Now its working too!	sonaliranade	12716032	2010-05-10 07:00:17
+13708913844	tja. Heb ik een krant voor t nieuws, maar de eurocrisis conferentie hield pas op toen de krant gezakt was.	judithineuropa	19763877	2010-05-10 06:57:53
+13708892703	Frightening for all who can 1) count & 2) not block out reality RT @igeldard Euro Crisis In 8 Charts http://bit.ly/dgYvsh via @zerohedge	theschnack	11679902	2010-05-10 06:57:20
+13708642882	Vorige gerucht bleek dichtbij waarheid: EU Crafts $962 Billion Show of Force to Halt Euro Crisis	wmiddelkoop	19059966	2010-05-10 06:50:56
+13708494456	hotfordigital: EU Crafts $962 Billion Show of Force to Halt Euro Crisis - BusinessWeek http://bit.ly/9Kkj5k	hotfordigital	128896106	2010-05-10 06:47:11
+13708351725	備忘録　The Euro Crisis in Figures http://www.spiegel.de/fotostrecke/fotostrecke-54629.html	Firosofia	66610722	2010-05-10 06:43:35
+13708102495	SwitzerlandVIP.com Europe unveils 750-billion-euro crisis fund: Crisis-hit Europe on Monday announced a monster re... http://bit.ly/cdq0g0	SwitzerlandVIP	75244630	2010-05-10 06:37:16
+13707914744	US Fed offers emergency help to ease euro crisis - Yahoo! Ne: http://digg.com/d31QfBa?t	btiprofessional	90059655	2010-05-10 06:32:36
+13707629860	US Fed offers emergency help to ease euro crisis (AFP): AFP - The US Federal Reserve stepped in to ease Europ... http://bit.ly/cFC5Xl	JennyARowl	140960624	2010-05-10 06:25:33
+13707508126	Europe unveils trillion-dollar euro crisis fund: Europe wants to leverage vast borrowings to prop up nations the w... http://bit.ly/dsDPOK	Googlyfish_ae	94305468	2010-05-10 06:22:33
+13706988230	So a trillion dollar loan package to save the Euro?! Well I didn't expect it to be that big... It may work. Maybe... #euro #crisis	__Wroblewski__	126026177	2010-05-10 06:10:01
+13706710429	EU Crafts $962 Billion http://www.businessweek.com/news/2010-05-09/eu-crafts-962-billion-show-of-force-to-halt-euro-crisis.html	requiem1	107169944	2010-05-10 06:03:35
+13706289393	Europe unveils 750-billion-euro crisis fund - http://europebiz.info/?p=1109	avatar_007163	116404727	2010-05-10 05:54:21
+13706264334	EU Crafts $962 Billion Show of Force to Halt Euro Crisis - BusinessWeek: ReutersEU Crafts $962 Billion Show of For... http://bit.ly/bq0mRb	I_exist_thru_u	53159637	2010-05-10 05:53:47
+13706148637	What's the Line this fails miserably? Such optimisticly biased reporting. (Borrow) EU Crafts $962 Billion Show of Force to Halt Euro Crisis	Paul3222	23406605	2010-05-10 05:51:10
+13705902932	Bloomberg - EU Crafts $962 Billion Show of Force to halt #Euro Crisis http://bit.ly/dCfsaQ #greece #spain #portugal #uk #piigs	heartcapital	26012309	2010-05-10 05:45:49
+13705267011	New post: Europe unveils 750-billion-euro crisis fund (AF http://www.MyBi.com/2010/05/europe-unveils-750-billion-euro-crisis-fund-afp/	DetBuxCom	130207694	2010-05-10 05:32:17
+13705099225	DTN Asia: EU strikes 500 billion-euro crisis deal: BRUSSELS (Reuters) - The European Union agreed on a 500 billion... http://bit.ly/9OMwfC	DTNAsia	140076247	2010-05-10 05:28:51
+13705022440	Grote doorbraak in eurocrisis blijft uit http://bit.ly/cAwGMU	volgdecrisis	16813581	2010-05-10 05:27:10
+13704954366	( http://mobiledailynews.mobi/europe-unveils-750-billion-euro-crisis-fund-afp/ )	MobileDailyNews	118433972	2010-05-10 05:25:41
+13704952958	home at upaya. new supreme court nominee. oil gushing in gulf. euro crisis. i long for the mts http://bit.ly/cT5AGk	jhalifax	17427578	2010-05-10 05:25:39
+13704881729	Europe unveils 750-billion-euro crisis fund (AFP): AFP - Crisis-hit Europe on Monday announced a monster http://url4.eu/3HVZW	Jeffnfun631	16592421	2010-05-10 05:24:07
+13704869274	Post: Europe unveils 750-billion-euro crisis fund (AFP) NEWS-CELEBRITY-PRODUCTS http://bit.ly/96MaPb	HAPPENINGS1NOW	122957087	2010-05-10 05:23:51
+13704533580	Euro crisis fund could hit 600 billion: Diplomat - Europe - World - The Times of India - http://toi.in/9Re70c'	vipulananda	9909452	2010-05-10 05:16:35
+13704478913	World: Europe unveils 750-billion-euro crisis fund: Crisis-hit Europe on Monday announced a monster rescue package... http://bit.ly/aakH71	smh	16675569	2010-05-10 05:15:25
+13704362866	EU Crafts $962 Billion Show of Force to Halt Euro Crisis http://bit.ly/cHqHsX	EmailSpammers	55311886	2010-05-10 05:12:54
+13704353609	http://bit.ly/cJrLC0 EU Crafts $962 B Show of Force to Halt Euro Crisis #tcot #sgp #teaparty #gop #beck #palin #rush #antiobama #republican	michaelemlong	17527466	2010-05-10 05:12:42
+13704280294	#liquidity #risk #bank EU Crafts $962 Billion Show of Force to Halt Euro Crisis - BusinessWeek: The HinduEU http://url4.eu/3HUlp	Bank_Risk	53550244	2010-05-10 05:11:07
+13703757384	NewsBuzzer: EU Crafts $962 Billion Show of Force to Halt Euro Crisis - European policy makers unveiled an unp.. http://tinyurl.com/2c4ftg2	NB_BW_TOPNEWS	113302357	2010-05-10 05:00:08
+13702604616	EU strikes 500 billion-euro crisis deal http://goo.gl/fb/D80CS	vloggs	15970887	2010-05-10 04:35:59
+13702556894	Bloggged EU strikes 500 billion-euro crisis deal: - http://tinyurl.com/248cgbr	vloggs	15970887	2010-05-10 04:35:00
+13701020271	EU strikes 500 billion-euro crisis deal: BRUSSELS (Reuters) - The European Union agreed on a 500 billion-euro http://url4.eu/3HQhP	kengfeed	115323695	2010-05-10 04:03:08
+13700654951	The euro crisis is causing collateral damage as reverberations ricochet in the currency markets, sending most lower and yen higher.	hamptonwealth	118383429	2010-05-10 03:55:42
+13700413388	De oplossing voor de eurocrisis is... meer lenen? | http://is.gd/c1US0	TimEngelbart	72906614	2010-05-10 03:50:35
+13699964828	New post: Germany calls for 500-billion-euro crisis fund: diplomat http://bit.ly/9goZr5	karachifriends	119491329	2010-05-10 03:41:08
+13699075014	The other Euro Crisis: #FT $383b debts written off by #EU companies=total Greek debt, 8% rise 12 mos #eur #cre #reit http://bit.ly/auY19I	wdahlstrom	21024338	2010-05-10 03:22:38
+13698496894	TOPWRAP 1-EU strikes 500 billion-euro crisis deal (Reuters - UK Focus) http://bit.ly/d6aMBT	ForexTweets	23014254	2010-05-10 03:10:24
+13698312595	Euro crisis could drag world into recession: economists http://bit.ly/9YkAom #news #breakingnews	DiscloseTV	15392486	2010-05-10 03:06:30
+13697852191	The Euro Crisis in Figures. http://bit.ly/amnclM	khanidea	38036318	2010-05-10 02:56:56
+13697604221	600 Billion? Fat thumb? We are so screwed!! EU Seeks 600 Billion Euro Crisis Package http://bit.ly/bnnx9v	StockPost	131615016	2010-05-10 02:51:36
+13696859026	The euro crisis: Glimmers of a plan for saving the euro | The Economist: http://bit.ly/b9sdaJ marrant, Sarkozy ci ... http://bit.ly/dhSE0Q	Ecdicius	68459515	2010-05-10 02:35:20
+13696343592	#india #business : 'Euro crisis fund could hit $775 billion': 'Euro crisis fund could hit $775 billion' http://bit.ly/bDK0iX	India_Business	32455632	2010-05-10 02:24:06
+13696004973	Greek Debt Crisis: EU Seeks 600 Billion Euro Crisis Package: EU Sources -http://www.cnbc.com/id/37052269	freshphase	55786615	2010-05-10 02:16:32
+13695836806	Kevin Carmichael on Euro crisis|Globe's G20 blogger discusses the impact of a $40-billion (U.S.) bailout for .. http://oohja.com/xcKdG	shoaib_sia	66769127	2010-05-10 02:12:46
+13695831630	#Euro crisis fund could hit $775 billion: Diplomat http://bit.ly/bkw6Qm #currency $$	PairsTrades	64025082	2010-05-10 02:12:39
+13695641435	Business News - EU Seeks 600 Billion Euro Crisis Package: EU Sources: European Union finance ministers are trying ... http://bit.ly/91lK6n	e24business	93399238	2010-05-10 02:08:22
+13695483172	Sources: EUeyes ¿600B euro crisis mechanism, sources say: Vowing to do everything to defend the euro against the "... http://bit.ly/cYlQXq	JennyARowl	140960624	2010-05-10 02:04:50
+13695223409	The Euro Crisis: The Insolvent Are Expected to Bail Out the Bankrupt http://www.brusselsjournal.com/node/4417	IlieCatrinoiu	40631448	2010-05-10 01:59:16
+13694840160	The euro crisis: Glimmers of a plan for saving the euro | The Economist http://vf.cx/3kHM	VFEurope	93658714	2010-05-10 01:50:32
+13694681093	'Euro crisis fund could hit $775 billion' - The Economic Times http://bit.ly/dzI8Kx	IL_business	100157611	2010-05-10 01:46:58
+13693908790	RT @hopisen There has been one unqualified good from election result. Alistair Darling, not George Osborne, is representing UK @ Euro Crisis	vriyait	7193962	2010-05-10 01:29:24
+13693749861	It should've been me! RT @hopisen: thr hs bn 1 unqlifd gd frm elctn rslt.Alistair Darling nt George Osborne rprsntng UK at Euro Crisis mtng	JimMelly	78934918	2010-05-10 01:25:45
+13693719870	DTN Japan: Europe sizes up 500b-euro crisis fund (AAP): Crisis-hit Europe pushed to put in place bailout reserves ... http://bit.ly/d9eUbt	DTNJapan	139927949	2010-05-10 01:25:06
+13693603298	German Headlines: Europe sizes up 500-billion-euro crisis fund http://ow.ly/17jKXC	Expatica	19393033	2010-05-10 01:22:27
+13693557627	RT @hopisen: thr hs bn 1 unqlified gd from elction result.Alistair Darling nt George Osborne reprsntng UK at Euro Crisis meeting.	JimMelly	78934918	2010-05-10 01:21:26
+13693499006	ET News Update: 'Euro crisis fund could hit $775 billion' http://ow.ly/17jLcu	EconomicTimes	39743812	2010-05-10 01:20:10
+13693288774	There has been one unqualified good from election result. Alistair Darling, not George Osborne, is representing UK at Euro Crisis meeting.	hopisen	21156414	2010-05-10 01:15:23
+13692906762	#News #InternationalBusiness Euro crisis fund could hit $775 billion: Diplomat http://bit.ly/au5usH	ETIntlBusiness	36326146	2010-05-10 01:06:44
+13692876953	EU Seeks 600 Billion Euro Crisis Package: EU Sources http://cnbc.com/id/37052269 $$ #StockMarket	CNBCTopStories	19674395	2010-05-10 01:06:03
+13692632018	EU seeks 600-billion-euro crisis package-EU sources http://bit.ly/9mnwWc (Desperation in the air, lots of leaks, no hard facts)	AutomaticEarth	26347653	2010-05-10 01:00:47
+13692567102	Europe sizes up 500b-euro crisis fund: Crisis-hit Europe pushed to put in place bailout reserves that diplomats sa... http://bit.ly/dz1Ueg	jrffinancial	33056929	2010-05-10 00:59:27
+13692388219	RateTake: EU seeks 600 billion euro crisis package: EU sources http://bit.ly/dexdfW	ratetake	12014892	2010-05-10 00:55:15
+13692358947	@cooper_mEamonnMallie Darling is simply saying to Europe you are on your own. The UK is not going to support the euro crisis in Greece.	LiamsHere	23676727	2010-05-10 00:54:33
+13692234245	Euro Crisis in 32 minutes. From the right Perspective: Again. Growth/Competitiveness IS OF PARALLEL... http://tumblr.com/xe69odv19	everydaypanos	14395509	2010-05-10 00:51:37
+13692104499	Check this video out -- The Coming Euro Collapse- Ron Paul on Greece and the Euro Crisis http://youtu.be/FerzRZ3V-vA	indiag	18653514	2010-05-10 00:48:36
+13692087041	RT @ourhappymoney - New blog post: EURO Crisis http://ourhappymoney.com/euro-crisis/general-investing/	SaraJDizzle	43954224	2010-05-10 00:48:12
+13692078892	RT @RuiHerbon: Europe sizes up 500-billion-euro crisis fund: http://www.eubusiness.com/news-eu/finance-economy.4ky	JorgeSeguro	18717426	2010-05-10 00:48:01
+13691828476	Like Oct '08, but for governments not banks. RT @alea_ EU seeks 600-billion-euro crisis package-EU sources http://bit.ly/9VG0Ix	peter_tl	39462935	2010-05-10 00:42:10
+13691482710	More Stimulus, Much More Stimulus!! Euro crisis could drag world into recession: economists http://bit.ly/bFSVqu	natnewswatch	16161679	2010-05-10 00:34:05
+13691367933	Grote doorbraak in eurocrisis blijft uit http://goo.gl/P7pV	trouw	3103511	2010-05-10 00:31:26
+13691344406	European Union putting together 600 Billion Euro 'Crisis Fund': http://bit.ly/d6FUcA	adamcurry	2062801	2010-05-10 00:30:54
+13691333009	Germany urged its eurozone partners to back a 500-billion-euro crisis fund involving IMF money, a diplomat told AFP.	avimeo_com	30852168	2010-05-10 00:30:39
+13691035084	www.Germany-VIP.com Germany calls for 500-billion-euro crisis fund: diplomat: (BRUSSELS ) - Germany on Sunday prop... http://bit.ly/dlBMnp	GermanyVip	75244440	2010-05-10 00:24:00
+13690901634	German Headlines: Germany calls for 500-billion-euro crisis fund: diplomat http://ow.ly/17jJRV	Expatica	19393033	2010-05-10 00:20:58
+13690866318	Europe sizes up 500-billion-euro crisis fund: AFP - BRUSSELS (AFP) - Germany urged crisis-hit euro partners to ba... http://bit.ly/9MH5md	jrffinancial	33056929	2010-05-10 00:20:11
+13690835772	Euro crisis fund could hit 600 billion: Diplomat http://toi.in/aFtUqh	TOIWorld	29959618	2010-05-10 00:19:31
+13690533909	M&C World News Euro crisis deal "likely", diplomats say (Extra): http://bit.ly/azPbup	monstersandcrit	14970333	2010-05-10 00:12:41
+13690325847	WTF ? Europe sizes up 500 billion euro crisis fund ! These days, the good news show is for those that watch the waves, not the stock market.	livethelifetv	7787892	2010-05-10 00:07:45
+13690274996	Euro crisis fund could hit 600 billion: Diplomat: Europe sized up a 600-billion-euro (775-billion-dollar) crisis f... http://bit.ly/ciiChm	AllanLlanos	21970384	2010-05-10 00:06:32
+13689973604	Daar heb je het al, Italie ook in de problemen. http://bit.ly/9LOKcG #eurocrisis	RaoulvanHeese	21862673	2010-05-09 23:59:39
+13689881835	One could lay some blame for Euro crisis on Merkel, who hoped to ignore it until after regional elections. #wishy-washy	kurtsauer	52081731	2010-05-09 23:57:27
+13689826578	Euro Crisis in 8 minutes. From a US Perspective: No growth. Greeks WILL default. Even get OUT of Euro. (As I... http://tumblr.com/xe69obbam	everydaypanos	14395509	2010-05-09 23:56:09
+13689690951	Notícia CNBC: EU Seeks 600 Billion Euro Crisis Package: EU Sources http://bit.ly/bnnx9v	nidioamado	35240271	2010-05-09 23:52:48
+13689482146	RT @reuters: EU seeks 600-billion-euro crisis package-EU sources http://bit.ly/9RxABw	johngaltfla	91817792	2010-05-09 23:47:39
+13689178110	DelicatBiz.com: Europe sizes up 500-billion-euro crisis fund http://delicatbiz.com/en/?p=194	delicatbiz	137360495	2010-05-09 23:40:08
+13689085009	EU seeks 600 billion euro crisis package: EU sources	Slewboys	37992176	2010-05-09 23:37:43
+13689029725	Germany calls for 500-billion-euro crisis fund: diplomat http://ping.fm/QtbJ3	endpop_	88799148	2010-05-09 23:36:18
+13688229976	Iedere booteigenaar betaalt vanaf nu 0,03 euro aan Griekenland voor het gebruiken van de wet van Archimedes. Eureka! Weg is de Eurocrisis!	srebbulbor	91209478	2010-05-09 23:16:25
+13688116286	Darling is simply saying to Europe you are on your own. The UK is not going to support the euro crisis in Greece.	EamonnMallie	75507528	2010-05-09 23:13:32
+13686789419	Germany on Sunday proposed the setting up of an unprecedented 500 -billion-euro crisis fund, with IMF involvement (C) AFP	darbvedis	105689847	2010-05-09 22:40:55
+13686402474	UK political stalemate, euro crisis pose threat to markets: World financial markets are poised for further turbule... http://bit.ly/cVUfNj	tweetermagic	66123362	2010-05-09 22:31:23
+13685921327	Euro crisis could drag world into recession: economists: http://viigo.im/3sf5	ctvedmonton	20812193	2010-05-09 22:19:41
+13685892743	Is the euro crisis really that serious?!	shyampsunder	21753209	2010-05-09 22:18:59
+13685665485	The party is over and the bills have arrived http://bit.ly/9URbWq #Greece #euro #crisis	swissjourno	20692623	2010-05-09 22:13:34
+13685651452	En français, "l'Allemagne propose un plan d'aide de 500 mrds eur" et en anglais : "Germany calls for 500-billion-euro crisis fund" #nuances	PhilBruAFP	31451735	2010-05-09 22:13:16
+13685480388	Nu toch weer persco aangekondigd voor ca. 10:00 uur #eurocrisis	hansjager	12087832	2010-05-09 22:09:04
+13684483208	Euro Crisis: US Federal Reserve to the Rescue?: I have no basis for this, to make it clear up front. Just my hunch... http://bit.ly/aCAHMv	EXSKF	135766567	2010-05-09 21:44:43
+13683855788	Eurocrisis of niet, in Brazilie weten zo'n 8 miljoen straatkinderen niet of z morgen te eten hebben. Iets doen? Zie www.stichting-aprisco.nl	michielsuurmond	14094256	2010-05-09 21:29:19
+13683123595	Money minister warns of job losses - Euro crisis could harm Norwegian exports.... http://theforeigner.no/905	theforeignerNo	28529460	2010-05-09 21:11:06
+13681957430	Nicolas Sarkozy held meeting in Elysee on euro crisis	Peaceful200906	50462497	2010-05-09 20:42:06
+13681488354	@Annamarieke er is een beetje een Euro crisis, ze zijn aan het overleggen in Brussel over het redden van de euro. Nu met Griekenland enzo	Noowmy	64384707	2010-05-09 20:30:28
+13680473142	Toronto: Euro crisis could drag world into recession: economists http://toronto.cityandpress.com/node/1318407	Toronto_CP	53969028	2010-05-09 20:05:30
+13679783520	Euro crisis could drag world into recession: economists - CTV.ca - #news http://bit.ly/aJKvQ1	ManagerGuru	46206709	2010-05-09 19:48:47
+13679152875	Spannend of de EU er vandaag uit komt met een voorstel ihkv de euro-crisis. Wie maakt zich wel/geen zorgen en waarom? #durftevragen	AnilJadoe	27859172	2010-05-09 19:33:45
+13678888819	Superb piece from the ever-excellent @PaulMasonNews on the euro crisis & coalition negotiations http://bit.ly/cKGhsr A must-read.	Greg_Callus	19903202	2010-05-09 19:27:42
+13677689631	Speculanten varen wel bij geruchten rond euro crisis.	observer1	15738387	2010-05-09 19:00:59
+13677585369	The Euro Crisis in Figures http://www.spiegel.de/fotostrecke/fotostrecke-54629.html	anucha2	33190244	2010-05-09 18:58:50
+13676739217	Zou morgen wel 's een rampdag op de beurs kunnen worden #eurocrisis	janvt	14082645	2010-05-09 18:40:44
+13674280898	#Eurocrisis : the Euro remains vulverable to speculative attack, because there's lack of total economic cooperation btw Euro countries....	UdayNath	23918056	2010-05-09 17:49:56
+13672742874	timesofmalta.com: Finance minister start euro crisis talks http://bit.ly/ccCRPR	Malta	8766702	2010-05-09 17:19:04
+13669256072	Eurocrisis laat ook Obama niet onberoerd http://bit.ly/cNqV0m	vrtnieuwsnet	6545532	2010-05-09 16:09:13
+13668872469	Newsweek: The End of the Euro?: Crisis - from the Greek "krisis," for a http://www.musclediscussion.com/feeds/17790-newsweek-end-euro.html	MD_com	84507237	2010-05-09 16:01:22
+13667976884	Latest from Digg - Newsweek: The End of the Euro?: Crisis - from the Greek "krisis," for a turning http://url4.eu/3GdiL	DiggbyBrandon	120576906	2010-05-09 15:42:13
+13667973272	Eurocrisis laat ook Obama niet onberoerd http://dlvr.it/sjkR #deredactie.be	allesderedactie	135886622	2010-05-09 15:42:09
+13667922028	Newsweek: The End of the Euro?: Crisis - from the Greek "krisis," for a turning point in a disease - is one of man... http://bit.ly/b506jO	designfront_uk	65607450	2010-05-09 15:41:03
+13667901850	[via DIGG] Newsweek: The End of the Euro?: Crisis - from the Greek "krisis," for a turning point in a disease - is... http://bit.ly/91b6pQ	KyleCorpsea	46521799	2010-05-09 15:40:36
+13667603170	The Euro Crisis in Figures - SPIEGEL - http://ht.ly/1IKVU (via @TurnLeaf)	brandcoach	15161793	2010-05-09 15:34:03
+13666283254	Euro crisis: EU leaders to try and fight contagion in euro zone, more details on Sunday http://bit.ly/cCn4Lc Charlemagne	matthewbennett	14236470	2010-05-09 15:03:25
+13665933113	The current Euro-crisis clearly not caused by speculation, but by politics. EU countries will have to stop living above their means.	davidjonasson	25514574	2010-05-09 14:55:16
+13665501007	From the new CNN.com: This week on GPS: Euro crisis - http://bit.ly/abYZjM #cnn	Najaden	20760034	2010-05-09 14:44:33
+13665433072	Tory call on libs 4 deal by t'moro is classic high pressure negotiating tactic. It's false deadline cos Euro crisis is far bigger 4 markets	grahamkendall	17961114	2010-05-09 14:42:46
+13664720553	Leaderless UK stokes crash fears: http://bit.ly/dbTuiT Traders warn of market slump as parties fail to agree & the euro crisis gathers pace	LyndsayFarlow	78262626	2010-05-09 14:24:23
+13662817309	Vandaag in #buitenhof de eurocrisis. Gaat dit een rol spelen in het stemhokje?	HetStemhokje	140057082	2010-05-09 13:30:40
+13662703519	Human contact softens ideological divide. Euro crisis creates tempo. LibTory govt "looking likely". Blog: http://bit.ly/cjY9yB	paulmasonnews	19811190	2010-05-09 13:27:07
+13660930961	Ook als EURO crisis wordt opgelost blijft het probleem dat betalingsbalansen structureel scheef zijn. #buitenhof	koekebakker	20316997	2010-05-09 12:28:59
+13660797770	Kijkt Buitenhof #eurocrisis	pbeeker	114174541	2010-05-09 12:24:19
+13660578928	Hehe. Eindelijk iemand die de schuld van de eurocrisis neerlegt bij "speculanten". #Buitenhof	sandervanluit	135512400	2010-05-09 12:16:41
+13660215432	#Euro crisis sparked in #greece will lead some bureaucrats to argue need MORE central economic control - disastrous!	malfletcher	20770625	2010-05-09 12:04:13
+13659971163	Achtergronden bij de Eurocrisis http://www.grenzeloos.org/artikel/viewartikel.php/id/1659.html	SapGrenzeloos	109217365	2010-05-09 11:56:06
+13658801544	Acropolis Now. Catchy cover title by The Economist! http://o.imm.io/pbd.jpg #greece #euro #crisis	tllmn	18559200	2010-05-09 11:15:15
+13657049821	Rustige zondagochtend met koffie. Straks familiebezoek. Zal Buitenhof kijken via Uitzending Gemist. Veel aandacht voor Griekse en Eurocrisis	WimvandeCamp	19206899	2010-05-09 10:15:02
+13656679807	Waarom Italie de volgende is in brussels gedwongen schuldsamering! #euro #crisis http://bit.ly/9DYIeh	RaoulvanHeese	21862673	2010-05-09 10:02:40
+13656526323	Spannende middag nog in Brussel. 1 opdracht; met veel overtuiging 'het eens zijn' laten zien http://bit.ly/9vurvP #euro #crisis	RaoulvanHeese	21862673	2010-05-09 09:57:46
+13655449131	Euro crisis goes global as leaders fail to stop the rot http://www.guardian.co.uk/business/2010/may/07/euro-crisis-global-leaders-greece	Oregonguy40	37449016	2010-05-09 09:22:58
+13653183505	Eurocrisis: para la Argentina, será más difícil exportar y emitir deuda http://bit.ly/bS7mkV	LNeconomia	86306654	2010-05-09 08:16:30
+13650501786	preocupacion en el mundo.. quein arregla LA EURO-CRISIS.- elias	grupman2003	49487880	2010-05-09 07:08:01
+13648991167	1000 pt Dow plunge = people edgy. Rogers & Faber telling people 2 pare holdings. Euro crisis likely 2 deepen. Equity mkts r heading lower...	UdayNath	23918056	2010-05-09 06:35:44
+13646757704	Check this video out -- The Euro Crisis and The Euro Collapse- A Greek Bailout Will Not Prevent ... http://youtu.be/Q9LzvuxXXlA	DanielMazanec	15450974	2010-05-09 05:51:32
+13643167112	Explaining how the euro crisis is developing (in dutch) - how it happened and what we can expect http://bit.ly/928ffr	dearg	16924409	2010-05-09 04:41:01
+13640235976	"La eurocrisis va para largo" http://www.dw-world.de/dw/article/0,,5546488,00.html	MEBCalidadevida	117867026	2010-05-09 03:39:46
+13639083561	Graphics Gallery: The Euro Crisis in Figures: http://www.spiegel.de/fotostrecke/fotostrecke-54629.html	CarlosStelling	43608838	2010-05-09 03:15:06
+13633416038	Economic recovery.. I don't think so. Euro crisis goes global as leaders fail to stop the rot: ... http://bit.ly/d9GzuM	soularwise	89313498	2010-05-09 01:03:39
+13632742928	Jammer dat in de Eurocrisis van vandaag we geen afstand durven te doen van onze onafhankelijkheid, en kiezen voor slappe concessies... #EU	avnistelrooij	24964252	2010-05-09 00:47:08
+13631879182	Euro Crisis, Central Bankers dream of Economic Decoupling http://bit.ly/cHPgng	FreshPips	18574052	2010-05-09 00:25:12
+13630867184	The accumulation of gold via George Soros and the weakness of the Euro leads me to believe we are in for a BIG "Euro-crisis".	RealEricGiese	30736021	2010-05-08 23:59:31
+13630820396	Interessant, niet leuk: actualiteit van een stuk van vorig jaar over de Eurocrisis. http://bit.ly/akvhqv	EricRKampinga	97994676	2010-05-08 23:58:15
+13630614637	Nicolas Sarkozy zegt geplande trip aan Rusland af vanwege de euro crisis met Griekenland. http://ow.ly/1IBg8	LeibNitz1	131878355	2010-05-08 23:52:42
+13630118015	Morgen, wordt het De dag dat Sparta behouden blijft voor de eredivisie, euro crisis of niet. We gaan naar het Kasteel. S P A R T A	Dick12	21223855	2010-05-08 23:39:23
+13629342348	Eerlijk en onbaatzuchtig leiderschap RT @YesimCandan Europa heeft sterk leiderschap nodig: www.nuzakelijk.nl/eurocrisis What's new?	Layspace	30890004	2010-05-08 23:18:29
+13626670405	Bepalend wordt imo hoe het met Spanje afloopt #eurocrisis	hansjager	12087832	2010-05-08 22:08:15
+13626344147	New post: Crude Oil prices: The Euro crisis, its implication on interim oil prices, Euro-zone and PIGS growth forecasts http://cli.gs/hut4W	rebootdude	138522741	2010-05-08 22:00:00
+13626158865	Greek debt crisis begets euro crisis. How much is it fear dr The Christian Science Monitor - Hereâs a ques... - http://bit.ly/aymLJK	newsssy	134091573	2010-05-08 21:55:09
+13625795513	Euro Crisis, Central Bankers Dream of Economic Decoupling via @YoTwits	mariogreat	91765879	2010-05-08 21:45:44
+13625226963	Europa heeft sterk leiderschap nodig: http://www.nuzakelijk.nl/eurocrisis/ What's new?	YesimCandan	106065385	2010-05-08 21:31:13
+13625176555	Euro crisis goes global as leaders fail to stop the rot http://bit.ly/90Zrnq	hizbuttahrir	35454721	2010-05-08 21:30:01
+13625003229	Euro Crisis, Central Bankers Dream of Economic Decoupling: It begins with government fiat. Money is mostly electro... http://bit.ly/dicjV2	marketponzi	28269755	2010-05-08 21:25:41
+13624952690	Hoe kijken de Zwitsers eigenlijk tegen de #eurocrisis aan? #durftevragen	HoestOnline	119687061	2010-05-08 21:24:27
+13623986847	The Euro Crisis and the Euro Collapse- A run on the banks is Imminent: In January 4th 2010, when everyone was pred... http://bit.ly/9vPXCn	IsraelFinancial	110487030	2010-05-08 21:00:47
+13623518165	#eurocrisis de oplossing zal laten zien dat solidariteit nog bestaat of dat het ieder voor zich is geworden, ik ga voor solidariteit.	AteFaber	104605678	2010-05-08 20:49:22
+13622689496	Greek debt crisis begets euro crisis. How much is it fear driven? http://bit.ly/aKtAzj	labloans5	106620559	2010-05-08 20:29:13
+13621676022	Ik ben benieuwd of die #eurocrisis bij kiezers positief of negatief uitstraalt op het imago van JPB en de verkiezingscampagne van het CDA..	remyvanmannekes	19393576	2010-05-08 20:05:51
+13620785936	Jajaajajajaja asi es RT @EuroFerrer hay una Eurocrisis, ahora si estas jodido	euroferrer	66774576	2010-05-08 19:46:04
+13620145573	Truly blinded! 3 paragraphs, at least 3 catastrophic mental errors --- > RT @SamsonBlinded Euro crisis is not there yet http://bit.ly/aNLju1	_No1	32839263	2010-05-08 19:32:05
+13618422261	Euro Crisis goes Global...	dineshrs	60571975	2010-05-08 18:56:03
+13618411864	Euro crisis goes global http://amplify.com/u/5wii	PaulBuchanan	19604958	2010-05-08 18:55:50
+13616777687	Vanhanen: Euro Crisis Demands Urgent Decisions: A plan for setting up a new stability program will be decided by a... http://bit.ly/aBUxfG	ylenews	21184887	2010-05-08 18:22:41
+13616290248	Aaaarrrggg se me hace que nunca me voy a ir... eurocrisis y el precioso volcán!!	taniiarico	63031716	2010-05-08 18:12:41
+13615364187	Vanhanen: Euro Crisis Demands Urgent Decisions http://goo.gl/fb/Q58ha	NewsFromFinland	97001068	2010-05-08 17:54:37
+13613792613	just caught up on the Euro crisis: hopefully this concentrates minds on a minority or a coalition in Westminster, as I want to go on holiday	anarchfree	14737203	2010-05-08 17:24:00
+13613614806	Commissie zoekt uitweg uit eurocrisis http://bit.ly/9THCF9	vrtnieuwsnet	6545532	2010-05-08 17:20:35
+13612373169	Viendo #cnn #eurocrisis tipico periodismo yankee. Metiendo miedo. Que mal viene europa...	tongamdq	80084030	2010-05-08 16:57:28
+13611792062	Eurocrisis, Kidnapped Latin-America, no-Moral middle east,abusive Asia,extreme Africa poverty,gay rights,etc ..I'll get my ticket to Disney	scorpioferreira	20597451	2010-05-08 16:46:30
+13611579831	This week on GPS: Euro crisis: CNN_International wrote: Why has the crisis in Europe gotten so bad? Financial http://url4.eu/3F7cp	DailyNewsOnline	59349809	2010-05-08 16:42:26
+13611262168	Commissie zoekt uitweg uit eurocrisis http://dlvr.it/rpm2 #deredactie.be	allesderedactie	135886622	2010-05-08 16:36:10
+13608710382	Greek debt crisis begets euro crisis. How much is it fear driven? http://bit.ly/aKtAzj	labloans5	106620559	2010-05-08 15:42:51
+13606934806	New post: Fears euro crisis will increase unemployme http://www.canvasseopinion.com/fears-euro-crisis-will-increase-unemployment-in-norway/	canvasseopinion	24850247	2010-05-08 15:02:52
+13605495693	Juan Ramón Rallo - Matar al euro para salvar al euro - Libertad Digital http://bit.ly/c2IL3K #euro #crisis #deficit	juanrallo	112796335	2010-05-08 14:27:00
+13604408793	In studio, watered, fed, and ready to pounce on the news. First up: Euro crisis-	nprscottsimon	20245775	2010-05-08 13:57:52
+13604271510	Euro crisis goes global as leaders fail to stop the rot - The Guardian http://2economics.ru/page/asia/11120494	2economics	132279612	2010-05-08 13:53:50
+13603724238	#Hoezo mosterd na de maaltijd:"EU wil financiële onrust bezweren" ►http://j.mp/a3Q3IL◄ #EU #euro #Crisis	cescolevens	98117733	2010-05-08 13:37:25
+13603401364	spain getting nervous they could be next in euro crisis http://icio.us/eqai52	EurasiaReview	21856182	2010-05-08 13:27:39
+13602404764	Een noodfonds van 500 mld Euro is veel te klein. Is Eurocrisis nog afwendbaar?: Dit weekend moet door de regerings... http://bit.ly/8ZycAP	pluspost	20426881	2010-05-08 12:55:17
+13602350632	A bit bizarre reading the Swedish gov comments on the Greek/Euro crisis. "Our public finances are in balance, our banks aren't exposed". O_o	Cunobaros	26978590	2010-05-08 12:53:26
+13601799877	Leaders hold euro crisis meeting: Eurozone leaders held a crisis summit in Brussels on Friday… http://goo.gl/fb/IzCAD	myfxdeals	124638082	2010-05-08 12:34:24
+13601372939	Excellent article by @B_Eichengreen on how to deal with the Greece and euro crisis http://bit.ly/cUs9WW	plegrain	118680576	2010-05-08 12:19:34
+13601089136	The Euro-crisis will lead to more EU-centralization. http://bit.ly/bCUii8	RuudvanKoopen	47900490	2010-05-08 12:09:40
+13601087306	Zondag extra EU-overleg eurocrisis: Zondag volgt een extra EU-vergadering om maatregelen te nemen die een do... http://bit.ly/96qgMK	beursweblogs	8848422	2010-05-08 12:09:35
+13601051767	"The center cannot hold" John Mauldin on the Euro crisis http://bit.ly/9BNtMQ	paulwallbank	17285408	2010-05-08 12:08:17
+13600782013	Greek debt crisis begets euro crisis. How much is it fear driven? http://bit.ly/aKtAzj	labloans5	106620559	2010-05-08 11:59:19
+13600638402	RT @radio1nl: Europese leiders zoeken oplossing voor euro-crisis http://www.radio1.nl/contents/15614 de gulden? http://myloc.me/6PIii	HKH	10275552	2010-05-08 11:54:12
+13600604955	greece, euro crisis, hung parliament, fat fingers = uncertainty squared	cgorellbarnes	23789265	2010-05-08 11:53:00
+13600596173	The global financial crisis is exploding again with the #Euro #Crisis -- http://bit.ly/a6C8Ib -- waiting to see what happens...	sz_duras	16922486	2010-05-08 11:52:41
+13600492108	#radio1 : Europese leiders zoeken oplossing voor euro-crisis: Uit alle windstreken hadden ze zich naar Brussel beg... http://bit.ly/ahXEfW	NieuwsAlerts	102088767	2010-05-08 11:48:59
+13600240686	Great news everbody! http://www.guardian.co.uk/business/2010/may/07/euro-crisis-global-leaders-greece ugh	omarkj	9945622	2010-05-08 11:40:05
+13600059481	A radio station was playing this earlier...perfect for #eurocrisis I thought. http://bit.ly/9UAv0Y	goulandris	17988396	2010-05-08 11:33:47
+13600032680	Fears euro crisis will increase unemployment|Norwegian Minister of Finanse Sigbj?rn Johnsen (Ap) fears an .. http://oohja.com/xcEx6	yancarlosbuten	94719814	2010-05-08 11:32:50
+13599924110	Audio: Europese leiders zoeken oplossing voor euro-crisis http://nos.nl/l/155929	NOS	7174972	2010-05-08 11:29:08
+13598447695	Euro crisis goes global as leaders fail to stop the rot | Business | The Guardian #news http://bit.ly/bMiYco	filterednews	62774102	2010-05-08 10:37:27
+13597166191	http://gu.com/p/2gpyy/tw Euro Crisis - the global effect	FMKoh	35536674	2010-05-08 09:52:53
+13596404641	The Euro Crisis: The Insolvent Are Expected to Bail Out the Bankrupt http://is.gd/bZMfO	Lafonten	26009943	2010-05-08 09:27:16
+13596138474	Nu, Mathijs Bouwman over de eurocrisis op Radio 2 @NCRVCappuccino	irisbohm	21743813	2010-05-08 09:18:34
+13595530437	New blog post: Leaders hold euro crisis meeting http://bit.ly/a7ldMa	PeterOkoedion	40545896	2010-05-08 08:59:34
+13593324360	This week on GPS: Euro crisis: Why has the crisis in Europe gotten so bad? Financial expert Martin Worf explains. http://bit.ly/9MORNE	RES911CUE	32882388	2010-05-08 07:53:36
+13591672539	The End of the Euro: Crisis—from the Greek "krisis," for a turning point in a disease—is one of many English words... http://bit.ly/cMlOW7	ForexFlashNews	125549631	2010-05-08 07:09:19
+13585446078	Eurocrisis, en CNN con Alberto Padilla... Bastante interesante	garaylau	88558365	2010-05-08 04:52:31
+13585425827	Los mercados seguiran apostando en contra de grecia y espana x q no se ve liderazgoni seguridad juridica Xavier Xalai #Eurocrisis	rociotata	32144286	2010-05-08 04:52:07
+13585067369	Eurocrisis Xavier dice Keynes ha resucitado gasto publico excesivo y colapso del pago de impuesto.	rociotata	32144286	2010-05-08 04:44:36
+13582678668	responsible for the whole & subsequent subprime mortgage mess .. What about the dubious role of some investment banks in this Euro crisis ?	kesagoro	77707955	2010-05-08 03:55:49
+13582657909	http://gu.com/p/2gpyy/tw.....What about the dubious role of the credit-rating agencies in this Euro crisis ?? .......	kesagoro	77707955	2010-05-08 03:55:22
+13578183758	USD to be directly affected by the Euro crisis	RaffiKeuhnelian	102081276	2010-05-08 02:22:09
+13575376642	the euro crisis is fascinating from afar. common currency with disparate political systems/priorities - doomed?	bencarson	14476780	2010-05-08 01:21:17
+13574512817	Greek debt crisis begets euro crisis. How much is it fear driven? http://tinyurl.com/34ewals - CS Monitor Commentary	faithfulnews	56995406	2010-05-08 01:02:09
+13573356234	Trichet: «Attenzione, siamo di fronte ad una crisi sistemica» http://www.corriere.it/ #eurocrisis	mlsn	7555782	2010-05-08 00:35:42
+13570441180	http://www.guardian.co.uk/business/2010/may/07/euro-crisis-global-leaders-greece	GotToCrackIt	21744296	2010-05-07 23:27:16
+13570437306	Swiss Headlines: Leaders hold euro crisis meeting - Eurozone leaders held a crisis summit in Brussels on Friday nig... http://ow.ly/17iGZv	Expatica	19393033	2010-05-07 23:27:11
+13569606546	I just read this: Euro crisis goes global as leaders fail to stop the rot http://bit.ly/aaPqVN	damiensaunders	47310675	2010-05-07 23:07:19
+13569483601	Zorgelijke voorspelling van Martien van Winden van www.hoofbosch.nl bij NOVA! Krediet-, Landen- en dan Eurocrisis. NL-pensioen tzt de dupe?	Henk_Pestman	28832046	2010-05-07 23:04:25
+13568301792	Ik ben weer voor traditionele ruilhandel. #eurocrisis Wat zou deze tweet waard zijn?	boerdeboer	11798112	2010-05-07 22:36:28
+13567383921	Greek debt crisis begets euro crisis. How much is it fear driven?: The fear of contagion from the debt crisis in G... http://bit.ly/d4i9es	TheNewsSpot	65305792	2010-05-07 22:14:55
+13565995975	Euro crisis goes global as leaders fail to stop the rot http://bit.ly/d5wG2p	traynorbrussels	44411598	2010-05-07 21:42:19
+13564751992	thinks Euro Crisis, Hung Parliament all we need now is one more disaster and we will be on the brink of what i fear most....	skimansi	19737608	2010-05-07 21:13:01
+13564627161	Playing (v badly) op 9, n2 by Chopin, puts the euro crisis, hung parliament, and freezing may weather in a different perspective. :-)	Maurizio_Pilu	19244961	2010-05-07 21:10:12
+13564576318	[GDUK] Euro crisis goes global as leaders fail to stop the rot: • G7 demands action from Europe after markets plun... http://bit.ly/d5wG2p	newszilla	42828250	2010-05-07 21:09:02
+13561645503	M&C World News Obama and Merkel urge strong international response to euro crisis: http://bit.ly/cTfbI4	monstersandcrit	14970333	2010-05-07 20:01:21
+13559872920	RT @xomero:le preguntaron a #Casterns si nos va dar una Gripa con la Eurocrisis?// Lo que suceda en europa afecta al dolar y por ende a MEX	starteos	25564148	2010-05-07 19:22:45
+13555955734	José Rubinstein, en su artículo de hoy, escribe sobre la problemática económica de Grecia y su efecto: "Eurocrisis". http://ow.ly/1Ia0o	Excelsior	104683173	2010-05-07 18:00:12
+13555151963	New post: Euro Crisis to Boost German Automakers, SAP, Credit Suisse Says http://cli.gs/SQQEV interview questions	technology999	121249026	2010-05-07 17:43:19
+13554930335	Joseph Stiglitz ziet wel wat in het splitsen van de eurozone: http://bit.ly/ae3F5I #eurocrisis Zijn voorkeur voor fiscale unie: onhaalbaar.	ronaldklip	22919994	2010-05-07 17:38:39
+13554467263	Just wondering about the Euro crisis why not have a hedge fund develop a PIGS protfolio - you nominate the fund lol	darlasycamore	15237322	2010-05-07 17:29:10
+13553875751	Griekse euro crisis: Bos redde de banken van hun ondergang. ABN AMRO en Fortis werden staatsbanken. Zonder hulp zo... http://bit.ly/cyV4oK	iGOnl	116512379	2010-05-07 17:16:38
+13553702913	Euro Crisis in Figures - Spiegel Online - (in English) http://www.spiegel.de/fotostrecke/fotostrecke-54629.html (via @amayita)	jsogo	3505661	2010-05-07 17:13:05
+13553213873	How the Euro Crisis Will Affect Domain Sales | Domaining Manual http://bit.ly/d7ZbiE	rwgdomains	56566939	2010-05-07 17:02:58
+13552452994	How well is the business press covering the Greek/euro crisis? http://bit.ly/cyT6bK #greece #euro	Croisan	19550409	2010-05-07 16:47:37
+13551775768	Global Market Plunge Caused By Euro Crisis And Trader Error by Wall Street & Technology: http://bit.ly/cNQLXT#in	aravindajad	1169681	2010-05-07 16:33:31
+13551773116	Graphics Gallery: The Euro Crisis in Figures - SPIEGEL ONLINE - News - International http://bit.ly/dpaQ65	fg_alves	19294859	2010-05-07 16:33:27
+13551607369	BTW, every economic pundit here says only long-term solution to euro crisis is full political union – wonder how Cam will react to that?	StephenMossGdn	24676608	2010-05-07 16:30:08
+13549376854	Global Market Plunge Caused By Euro Crisis And Trader Error: Most experts agreed that the market was rocked by gro... http://bit.ly/9Yh36n	wallstreettech	18023073	2010-05-07 15:44:22
+13547944107	http://www.ft.com/cms/s/0/f2be1354-5907-11df-90da-00144feab49a.html Now I finally understand the Euro crisis...	bkdegraaf	37722745	2010-05-07 15:14:44
+13546671672	GB - NO surrender! Darling is participating in G7 talks on euro crisis. It's business as usual.	ColinBrown00	90911225	2010-05-07 14:48:12
+13546558656	Eurocrisis - Excélsior http://goo.gl/926F	paguitoportal	137916402	2010-05-07 14:45:47
+13546515733	Really smart for Gordon Brown to start with the euro crisis	alexevansuk	14177174	2010-05-07 14:44:52
+13546504712	Brown says the G7 finance-ministers will tonight talk about the euro-crisis.	datafinance	6259352	2010-05-07 14:44:37
+13544591445	Kamerdebat volgen en leren. Eens kijken of het mogelijk is. #Griekeland #eurocrisis	maxtollenaar	135211230	2010-05-07 14:01:51
+13543460915	Markets Enter 3rd Day Of Losses As Euro Crisis Continues http://bit.ly/cQw1tb	SureDebtRelief	132851248	2010-05-07 13:35:11
+13542978791	Geert Wilders als de nieuwe Alexander de Grote? RT @Basparnotte @PastoorPoncke Ik stel voor dat we teruggaan naar zout. #eurocrisis #gulden	erikx2	25065991	2010-05-07 13:23:21
+13542383667	"La eurocrisis va para largo" http://bit.ly/c5wAp5	dw_espanol	6135622	2010-05-07 13:07:55
+13542324523	;-) Werkte prima voor millenium of zo. RT @PastoorPoncke: "Ik stel voor dat we teruggaan naar zout. #eurocrisis #gulden"	NaimaAzough	62811060	2010-05-07 13:06:22
+13541470416	Inzetten! Hoe lang tot Huub verhongerd is? RT @HuubBellemakers @PastoorPoncke Ik ga gewoon alles met m'n lichaam betalen #eurocrisis #gulden	dexbob	36675402	2010-05-07 12:43:10
+13540006625	#UK election result: What a mess! Who writes such plots (subprime/fin/econ crisis, Greek/Euro crisis, UK elections etc)?	npanayotopoulos	76291358	2010-05-07 11:59:49
+13539759050	Domain Name Wire » News » How the Euro Crisis Will Affect Domain ... http://bit.ly/aBQ18q	kkbbijak	84970629	2010-05-07 11:51:56
+13539718463	Silver linings beyond euro crisis and yen gyrations: Sterling and UK gilts are also on the front line, amid deep i... http://bit.ly/cDTNJ8	PropSolScot	40358159	2010-05-07 11:50:40
+13538368368	Silver linings beyond euro crisis and yen gyrations http://dlvr.it/qYY1	FTAlphaville	14465640	2010-05-07 11:07:07
+13537672351	media reports in UK playing up euro crisis, but european newspaper much less concerned - sounds like post-election spin #ukelection2010	jamesks	2810231	2010-05-07 10:43:34
+13536549062	EURO CRISIS : BANKS HOARDING DOLLARS! http://is.gd/bYa77	Wazup_Asia	85502769	2010-05-07 10:05:08
+13535443753	About the Euro crisis: the experts are wrong; the German people are right. « Fabius Maximus: http://bit.ly/9JInHv via @addthis	mbfromhb	18742877	2010-05-07 09:28:08
+13534773840	10 lessen uit de eurocrisis http://www.poundsterling.nl/rtl-z/10-lessen-uit-de-eurocrisis	poundsterlingnl	129917769	2010-05-07 09:06:02
+13534350349	RT @SMSFs: An interesting day in the UK today. A hung Parliament on the back of a Euro crisis.	Drivelry	42825973	2010-05-07 08:52:51
+13532602117	Euro crisis may trip fundraising plans; hurt confidence, exports, http://www.myfeedme.com/article/10540972.html	MFM_EUBusNews	39506158	2010-05-07 07:59:35
+13532558210	Shorting the Euro Crisis, Shorting the Banks -- Seeking Alpha http://bit.ly/c7nZOP	rohit_bmw	15240491	2010-05-07 07:58:15
+13531212105	Euro crisis may trip fundraising plans: The euro zone crisis could trip the fundraising plans of Indian companies ... http://bit.ly/9H9a26	rediffbusiness	20763017	2010-05-07 07:19:35
+13524723101	Commented on: "Shorting the Euro Crisis, Shorting the Banks" http://soc.li/azDRqwW $UBS $DB $STD $CS $FXE $ERO	MadBlather	24989573	2010-05-07 04:54:35
+13520106046	Euro-crisis & computer trade glitch not uncorrelated. Correlation may be conditional or hidden, but no coincidences in life. #debtthreat	JamesGRickards	93295809	2010-05-07 03:22:35
+13516321287	금주 The Economist: 그리스의 문제로 시작되어 번지는 the euro crisis http://bit.ly/9W37Gr; BP의 멕시코만 the oil slick 이슈; 중국의 양극화가 미치는 영향 -China's two classes	RyanShin	1974331	2010-05-07 02:04:36
+13516260380	New post, "How the Euro Crisis Will Affect Domain Sales – Domain Name Wire (blog)" - http://bit.ly/9Ah3M6	LindaBlog	62286829	2010-05-07 02:03:23
+13515803677	Shorting the Euro Crisis, Shorting the Banks: Michael Shulman submits: The debate about the euro crisis is .. http://bit.ly/alltpE !dt	bhtt	15979843	2010-05-07 01:53:48
+13511185099	After today, are you still taking the Euro crisis lightly? http://baselinescenario.com/2010/05/05/expect-nothing/	clarkkeeler	121305724	2010-05-07 00:17:11
+13509614973	Markets Enter Third Day Of Losses As Euro Crisis Continues: By Michael Casey Of DOW JONES NEWSWIRES NEW YORK (Dow ... http://bit.ly/aL0VlX	gehern70	137898044	2010-05-06 23:42:38
+13507509572	How the Euro Crisis Will Affect Domain Sales: I’ve written a number of times about how currency exchange rates pla... http://bit.ly/bANt6S	LiveDomainer	16728660	2010-05-06 22:54:06
+13507079279	Domain Name Wire: How the Euro Crisis Will Affect Domain Sales: I’ve written a number of times about how currency ... http://bit.ly/9Qrw2N	domainhunter	25368252	2010-05-06 22:43:49
+13506477521	Industry News - Euro crisis may trip fundraising plans; hurt confidence, exports	e24business	93399238	2010-05-06 22:29:09
+13506374086	How the Euro Crisis Will Affect Domain Sales http://dlvr.it/pyHs #news #domaining #domain	dnmashup	137845949	2010-05-06 22:26:37
+13505914020	#Domains How the Euro Crisis Will Affect Domain Sales - Domain Name Wire (blog) http://url4.eu/3CMfy	seofunda	67236357	2010-05-06 22:15:36
+13505646609	The Dow is off 9% today, Euro crisis is dragging us all down. Anyone for a double-dip recession? http://is.gd/bXn14	etnobofin	14699158	2010-05-06 22:09:23
+13505414537	Euro crisis: Keeping sterling, UK looks canny http://bit.ly/bCHObD	FreshPips	18574052	2010-05-06 22:03:43
+13505082586	How the Euro Crisis Will Affect Domain Sales - http://dnw.com/i5	DomainNameWire	18313689	2010-05-06 21:55:49
+13504802862	@BobLeeflang als die hard fan doet het me wel wat... Tesamen met de Griekse eurocrisis wordt het niet makkelijker http://twitpic.com/1lkyve	Maxsmobile	88185027	2010-05-06 21:48:59
+13503718155	Somebody want to tell me how in the world the Euro crisis tanked the Dow by 1000+ points?	asmallteapot	14202167	2010-05-06 21:22:45
+13503715296	Markets Enter Third Day Of Losses As Euro Crisis Continues: Credit default swaps on Greek debt were recently five ... http://bit.ly/d4Zz36	creditdebt2010	127716003	2010-05-06 21:22:41
+13503368697	My annoyed reaction to the DOW panic over the Euro crisis: http://bit.ly/dbzb4Q #economics #greece #debt	GregYoung3	21381690	2010-05-06 21:14:18
+13503087818	WSJ.com - Markets Enter 3rd Day Of Losses As Euro Crisis Continues http://on.wsj.com/drclCp #euro #crisis #wallstreet	haiku_shelf	70376835	2010-05-06 21:07:37
+13502874848	Effetto Grecia,solo l'inizio...L'effetto Italia sara' spumeggiante!!! #Euro #Crisis #Greece #Europe #Bankitalia http://tinyurl.com/3ygcgvy	rasics82	94889263	2010-05-06 21:02:27
+13502857646	NPR: Could The Euro Crisis Derail The U.S. Recovery? http://is.gd/bXi3V	epaulnet	21478415	2010-05-06 21:02:03
+13502802909	Robbie Gibbs being very vague on Euro Crisis. Jeez Gibbs, that's a crowd pleaser! Thanks a lot!	KevDGrussing	26362666	2010-05-06 21:00:46
+13502058916	Aaaaand make it 400+ points! And god, who knew the Euro crisis would overshadow #ge2010 huh?	KevDGrussing	26362666	2010-05-06 20:43:07
+13501998984	DJones down 300+ points. Combo of #finreg & Euro crisis most likely. Though it's more latter than former...	KevDGrussing	26362666	2010-05-06 20:41:42
+13501978562	Shorting the Euro Crisis, Shorting the Banks: Michael Shulman submits: The debate about ... http://tinyurl.com/3a3krnq www.avafx.com/?tag=z	FxOnlineTrade	78563470	2010-05-06 20:41:13
+13499624613	Euro crisis makes me wonder -- what is the upside to a common currency (euro) that Common Market didn't already provide?	edkeaney	35038927	2010-05-06 19:46:13
+13499268812	Als je in dit verhaal Groot -Britannië niet noemt wordt het wat ongeloofwaardig... #jortkelder #euro #crisis #dwdd	Faaz71	20263645	2010-05-06 19:38:16
+13497379964	#liquidity #risk #bank Markets Enter Third Day Of Losses As Euro Crisis Continues - Wall Street Journal: http://url4.eu/3C7ig	Bank_Risk	53550244	2010-05-06 18:56:42
+13496345094	RT @TheUnknownChef @2friendsimports wait another week... // the euro crisis is just beginning. wait is the word.	Terencedhughes	14337211	2010-05-06 18:34:23
+13495657451	AND LIB DEMS WANT THE EURO! Crisis in Greece leaves EU future in balance, warns German Chancellor Merkel - Guardian : http://bit.ly/aKm9Y0	tgw123	53027368	2010-05-06 18:19:57
+13494421511	EUR-USD 1.2663 Zo dat gaat hard naar beneden #euro #crisis	RamonSchuttinga	116231603	2010-05-06 17:54:03
+13494246864	We should never, ever, ever consider joining the euro - crisis time in Athens ............ We were in that square not so long ago	cp53a	42180918	2010-05-06 17:50:23
+13494071535	Spanje vraagt Europa noodlening van 260 miljard. Opties eurocrisis: Einde euro of invoering Europese belasting http://bit.ly/a593ct	gertbrouwer	26490197	2010-05-06 17:46:43
+13493450752	Round 2: Italiaanse en Spaanse bankaandelen crashen #eurocrisis wordt een #bankencrisis	wdp1970	94433208	2010-05-06 17:33:47
+13487428991	EURO CRISIS - UPDATE ON EUR/CHF, REVISED SUPPORT AND RESISTANCE NUMBERS ON EUR$ http://tinyurl.com/22nszv8	tradingcoach1	37452095	2010-05-06 15:30:13
+13486380800	Could the euro crisis derail the U.S. recovery? / JG http://n.pr/114643483	planetmoney	15905103	2010-05-06 15:08:41
+13485678249	British savers ’safe from euro crisis’ says Spanish bank http://tgr.ph/c2wC78	TeleComment	55611314	2010-05-06 14:54:17
+13483825978	Het is de schuld van Moody's en S&P. http://bit.ly/9mH0lt #eurocrisis #misleiding #politiek	RaoulvanHeese	21862673	2010-05-06 14:13:23
+13482306283	Euro Crisis to Boost German Automakers, SAP, Credit Suisse Says - BusinessWeek: http://bit.ly/c7Uuz4 via @addthis	varundeshpande	34933106	2010-05-06 13:37:10
+13480855504	#Biden apparently more concerned about #EU's decision on #SWIFT and #TFTP than the #Greece and #Euro crisis. Barely talked about it. #EP	mb_greens	46327787	2010-05-06 12:59:00
+13480708318	Euro crisis meet as 'contagion' risk issued: France and Germany have called for strict monitoring of eurozone econ... http://bit.ly/9x8ZGu	PaulHeck	14914722	2010-05-06 12:54:51
+13480348268	#Biden now turning to #EU #Greece #Euro crisis. Welcomes #EU package. Lauds efforts. #EP	mb_greens	46327787	2010-05-06 12:44:29
+13479715334	Will VP #Biden be diplomatic or talk #BFD about the #EU's performance in the #Greece and #Euro crisis? www.europarltv.europa.eu	mb_greens	46327787	2010-05-06 12:25:57
+13479438360	I've favourited a YouTube video -- The Coming Euro Collapse- Euro Crisis BBC Special http://youtu.be/32Lor1YfCGM?a	fudhala79	54039785	2010-05-06 12:17:32
+13478978068	U bedoelt stand.nl :) tot straks! RT @Corien_Wortmann (..)13 uur Radio 1 in Standpunt Cafe: Gaat Europa ten onder aan de Eurocrisis?	standpuntnl	18304136	2010-05-06 12:03:13
+13478037458	12 uur US toespraak vicepresident Joe Bidden in EP. 13 uur Radio 1 in Standpunt Cafe: Gaat Europa ten onder aan de Eurocrisis?	Corien_Wortmann	28301234	2010-05-06 11:32:52
+13475301556	http://gu.com/p/2gnqy/tw on the Euro crisis	MaxyPi	109850582	2010-05-06 09:59:21
+13471080764	ECB meets amid fears euro crisis could intensify, http://www.myfeedme.com/article/10491700.html	MFM_USBusNews	39506624	2010-05-06 07:29:05
+13470503445	Waking up reading the news on Spain and Portugal going down the same path as Greece. No longer a speculation. Not not good. #eurocrisis	elcriz	8199202	2010-05-06 07:03:57
+13470211286	"This not a Greece crisis, nor Euro crisis; it's a global crisis of trust" -James Rickards : http://www.youtube.com/watch?v=eSkyzESzKJ8	TraderJohn990	106323497	2010-05-06 06:56:17
+13466745595	da euro crisis is cause'n da US dollar 2 stronger wich wil put sum pressure on demand of commodities. wil think wen 2 buy etf of gcs futures	rke21	16257235	2010-05-06 05:35:29
+13465192498	Hedge fund manager Dennis Gartman of "Gartman Letter" advising investors to get out of Stock Market until Euro crisis passes	charlesadler	16219502	2010-05-06 05:05:20
+13465099797	BRICs Worldwide President Scott Slutsky was interviewed tonight and ask about the Euro crisis, Slutsky stated the current situation	Slewboys	37992176	2010-05-06 05:03:40
+13462017591	M&C World News ECB meets amid fears euro crisis could intensify: http://bit.ly/9EBDOp	monstersandcrit	14970333	2010-05-06 04:06:57
+13458944388	The Euro Crisis: The Insolvent Bail Out the Bankrupt by Paul Belien http://bit.ly/aqJBuR	GatestoneInst	131249283	2010-05-06 03:10:34
+13449985895	The #Euro crisis would jeopardize the European Union plan to 100% #renewable #energy by 2050 http://bit.ly/dDywg7	energypro	40533372	2010-05-06 00:05:37
+13446756224	Here's my BNZ sponsored 90 seconds at 9am video: Euro crisis deepens; 3 die in Athens riots; Bollard speech due at 10am http://bit.ly/dirl1e	bernardchickey	17128658	2010-05-05 22:53:35
+13443028613	Euro Crisis More Serious Than 1997 Asian Contagion...http://bit.ly/aGme51	etfguide	32511724	2010-05-05 21:24:57
+13439917408	Vulcano disturbing again, Atenas legs up! maybe rumor will cause another euro crisis, and i am crazy head ache, wishing to write..	BonnieM_T	115933209	2010-05-05 20:10:45
+13439898222	Euro Crisis More Serious Than 1997 Asian Contagion: , On Wednesday May 5, 2010, 12:01 pm EDT Current market actio... http://bit.ly/dpb9YE	KristinGreen10	84996878	2010-05-05 20:10:18
+13438763443	is er vrij zeker van dat die zogenaamde "Euro-crisis" gewoon dient om € > $ terug te brengen naar € = $. Kunstmatig.	xavez	20909514	2010-05-05 19:44:00
+13436374076	Euro Crisis More Serious Than 1997 Asian Contagion (ETFguide) http://cli.gs/AsWbS	financial_facts	26753893	2010-05-05 18:51:37
+13436167871	great headline: The Euro Crisis: The Insolvent Are Expected to Bail Out the Bankrupt	blena316	32140084	2010-05-05 18:47:10
+13435970032	Euro Crisis More Serious Than 1997 Asian Contagion (ETFguide): The financial crisis in Europe has been festering f... http://bit.ly/ckZWOp	Acquirepro	65840480	2010-05-05 18:42:53
+13434093747	Ill-planned, Contagion DEBTS & cuts are IRREVERSIBLE - adjustments must be made with ZERO Interest financing for all. #Euro #Crisis #Update	allstarcup	99573230	2010-05-05 18:02:59
+13432006970	http://www.economist.com/blogs/charlemagne/: http://bit.ly/1B4Ayv The euro crisis, a syndrom north vs south ?	Rat_des_champs	23170804	2010-05-05 17:21:49
+13431051907	Nuevo post:: Últimos titulares de la primera crisis del Euro http://bit.ly/aAWI7q #crisis #euro	spainhouses	33955097	2010-05-05 17:02:57
+13430914228	Euro-Crisis: "Black Wednesday"? http://post.ly/evJZ	encz	12718552	2010-05-05 17:00:21
+13428782107	Harsha Subramaniam on the Euro Crisis. If it sounds all Greek to you, check out his blog for some clarity! http://bit.ly/8Xtsr7	IndiaBizHour	135185193	2010-05-05 16:17:54
+13428589289	Weekend #Russia - #China "summit" in Moscow to discuss the EURO #crisis and a stronger strategic cooperation on financial markets	_No1	32839263	2010-05-05 16:13:58
+13428339677	-- Merkel, IMF warn of contagion in euro zone crisis: http://is.gd/bViZM @Reuters #euro #crisis #debt #finance #economy #austerity #strikes	BRHook	117890758	2010-05-05 16:09:06
+13426710973	Finanical contagion: widening of euro crisis and fall of the euro...a further sell off wiping assets and turmoil spreading to Asia	meetax	47845870	2010-05-05 15:36:37
+13426571273	Violent news from #Greece are horrific, yet it may just be the beginning. This is not just a #Euro crisis, this is all of #Europe in crisis.	mb_greens	46327787	2010-05-05 15:33:53
+13425828971	If the Euro crisis is all Greek to you - chk out http://asandwhen.blogspot.com/	_harshas	44092347	2010-05-05 15:19:28
+13425779190	Stocks to consider if the euro crisis gets worse http://bit.ly/aa1B1c	the__crux	20248835	2010-05-05 15:18:29
+13423242269	Aktuelles.. Euro Crisis to Boost German Automakers, SAP, Credit ... - Bloomberg: May 5 (Bloomber... http://bit.ly/arexCm ..to be continued!	JuergenZastrow	43324845	2010-05-05 14:25:34
+13423043221	Euro Crisis to Boost German Automakers, SAP, Credit Suisse Says: By Daniela Silberstein May 5 (... http://bit.ly/clFxBJ http://bit.ly/NTnuK	moneymakingpro	54918414	2010-05-05 14:21:15
+13421737199	Euro crisis sees sterling surge to €1.17 http://bit.ly/adana1	TiM_news	107075639	2010-05-05 13:51:29
+13420818115	In the green room @CNBC, live at 8:00. This not a Greece crisis, nor Euro crisis; it's a global crisis of trust.	JamesGRickards	93295809	2010-05-05 13:28:24
+13420766346	RT @Kevin_Maguire Vote Tory Get Greece? // OMG, you are so obtuse! Greek/Labour borrow and spend policies created the Euro crisis!!	playingtheblues	116400042	2010-05-05 13:27:06
+13417794376	Euro crisis sparks stock market rout | Mail Online http://bit.ly/c8FlEk	HotInMarketing	138108433	2010-05-05 12:03:26
+13417477204	Fuck: Greece is getting bailed out bcz if they default it could cause Euro crisis. 30% of their bailout is from IMF; USA funds 40% of IMF.	JeremyRudy	14218367	2010-05-05 11:53:13
+13417428875	RT @FloodgateComms: great summary of Greek/Euro crisis; http://nyti.ms/altsQH	KevBassett	36617510	2010-05-05 11:51:38
+13417147425	@ValueNotes looks a distant possibility with the Euro Crisis on - Even with best sentiments could look at 18-19 K at best	vins_s	112672869	2010-05-05 11:42:27
+13417057428	Euro crisis sparks stock market rout: Fears of the growing eurozone debt crisis sparked turmoil on financial marke... http://bit.ly/aP0nfd	shoeinabox	74186069	2010-05-05 11:39:34
+13416409511	6 lessen nav Eurocrisis (SPIEGEL): 1. sneller hulp bieden, 2. op korte termijn geen nieuwe lidstaten, 3. staatsfaillissementswetgeving ...	kasperdijk	46347847	2010-05-05 11:19:01
+13415740140	Perhaps the Euro crisis will fially put an end to the EU farce moving to Strasbourg a week every month? Concerned about the environment?	larseske	109293948	2010-05-05 10:57:57
+13414318456	"Een record hoeveelheid short contracten op de euro". Hedge funds hebben baat bij een euro crisis en zorgen voor negatieve geruchten.	baswillems	43534306	2010-05-05 10:11:22
+13413090249	ECB herschrijft de regels om Euro-crisis te meesteren http://bit.ly/a8nCWx Zaplog.nl	madbello	10839402	2010-05-05 09:32:30
+13411468723	Hoog tijd dat er een Europees ratingbureau is ! #euro #crisis	lhoornaert	39740265	2010-05-05 08:44:18
+13410792102	Vraagstuk: hoeveel duitsers heb je nodig om de europese schulden voor te schieten? #eurocrisis #bodemloos	wdp1970	94433208	2010-05-05 08:24:47
+13402415259	I'm not buying TBT yet, as Euro crisis and market pullback can push treasury yields lower - but TBT is atop my list of future buys.	MadBlather	24989573	2010-05-05 05:11:18
+13398170583	Role Reversals Across the Globe, The Euro Crisis Unfolds, An Oil Spill Outlook ...: There's a major oil spill to c... http://bit.ly/bTMCb0	dentay85	138805685	2010-05-05 03:52:37
+13397812781	Euro crisis sparks stock market rout: Daily Mail By Simon Duke Fears of the growing eurozone debt crisis sparked t... http://bit.ly/9hwgzP	moneymoolahcash	42887248	2010-05-05 03:46:03
+13389207113	Euro crisis sparks stock market rout http://bit.ly/9cY6Jp #economy #politics	politicalwind	89353757	2010-05-05 00:55:06
+13386923023	Role Reversals Across the Globe, The Euro Crisis Unfolds, An Oil Spill Outlook and More!: Finally, U.S. and Chines... http://bit.ly/aAQoOT	AddisonWiggin	80614131	2010-05-05 00:04:08
+13374237444	Ask them to solve euro crisis first..RT @HeadlinesIndia: Finland suggests third party mediation on #Kashmir http://uurl.in/I5Iaq #news	PankazKapoor	17718321	2010-05-04 19:08:40
+13374003550	ECB herschrijft de regels om Euro-crisis te meesteren http://bit.ly/aOM1FL	barracudanl	54876379	2010-05-04 19:03:08
+13372431367	Spanish homeowners hit by Euro crisis as emerges Spanish govt may need €280bn of aid for debt crisis	ffields	20007731	2010-05-04 18:26:23
+13371929975	Bloomberg/Businessweek just published a nice op-ed by RPI's @ProfStory on the Euro crisis in Greece http://bit.ly/c33QDg #RPI #Greece	RPInews	17293532	2010-05-04 18:14:34
+13371469234	One positive impact of this Euro Crisis is that Fed and China Central Bank may not even dare to raise the rate this year...	asiatrader	32814704	2010-05-04 18:03:55
+13369194021	I don't care to hear about Obama trying to answer to children about the economic situation. Let CNBC get back to covering Greece/Eurocrisis	ComfortablySmug	17060573	2010-05-04 17:12:10
+13362561697	OECD's Gurria: Greek Crisis "Particular", Not A Euro Crisis http://fxn.ws/bwHHwK	FoxBusiness	56413858	2010-05-04 14:40:29
+13362156228	Voor degenen die toevallig denken dat Geert iets van economie weet: http://ow.ly/1GHJc. Niet dus! We're in this together. #euro #crisis	robnijs	133682930	2010-05-04 14:30:41
+13360280312	"Greece could be the Bear Stearns of the euro crisis, with Portugal playing the part of Lehman Brothers" http://bit.ly/bgPBon	RiskContainment	112769664	2010-05-04 13:42:25
+13354868207	http://3.ly/pmat #fx Greek / Euro Crisis: The Dollar Stands Supreme: Joseph Trevisani submits:T... http://bit.ly/c5jGMH #dollar #currencies	AlertTrade	121158213	2010-05-04 10:42:17
+13354525691	Greek/Euro Crisis: The Dollar Stands Supreme http://goo.gl/fb/Gk7Dk	WalterCOLLICA	23765349	2010-05-04 10:30:01
+13354222436	Greek/Euro Crisis: The Dollar Stands Supreme: Joseph Trevisani submits:The Greek financial rescue signed on the we... http://bit.ly/b7kncP	DayTraderGuru	34331145	2010-05-04 10:18:58
+13353445231	@r4today hah can't you just hear that this Euro crisis is a Market set-up. The EU will definitely now try to curb the speculators.. but how?	StephenBln	17082673	2010-05-04 09:51:23
+13345690324	Roast the PIIGS, and End the Euro Crisis http://ping.fm/LQMI4 The last meltdown was caused by the financial crisis in the United States, wh	saul42	119161370	2010-05-04 06:02:21
+13320818300	I've favourited a YouTube video -- The Coming Euro Collapse- Euro Crisis BBC Special http://youtu.be/32Lor1YfCGM?a	fudhala79	54039785	2010-05-03 21:04:34
+13319506302	RT @hlelowrold @ajboekestijn de video van Syp even. ;) "De vijf oorzaken voor onze Griekse eurocrisis" http://video.elsevier.nl/11800667/	ajboekestijn	19841692	2010-05-03 20:33:18
+13312087032	Nice, non-technical summary of the Greek Euro crisis, if you haven't been following closely: http://bit.ly/9YsmzK	etnobofin	14699158	2010-05-03 17:49:12
+13302811656	That #wato discussion on euro crisis is on #radio4 now...	molesworth_1	14085367	2010-05-03 14:32:48
+13301343846	Commented on: "Roast the PIIGS and End the Euro Crisis" http://soc.li/UkHbtOE $FXE $IGOV $EWP $EWI $IRL $EWU $UUP $GS $EWG	rleberenz	25239692	2010-05-03 13:57:48
+13300234477	Na het woord 'kredietcrisis' hebben we nu dankzij NRC - en een beetje met dank aan de Grieken - de term 'eurocrisis'. Zet je schrap.	martijnkrijt	17005855	2010-05-03 13:28:59
+13296602282	The Euro Crisis: Image via Wikipedia By Peter Bofinger The current Greek crisis has shown all too starkly... http://bit.ly/ch4F4r	Weskus	6535142	2010-05-03 11:35:19
+13286139278	The Euro Crisis - The American part - http://t.atsmix.com/t567311	AboveTopSecret	14210021	2010-05-03 06:10:05
+13266550020	He marcado un vídeo como favorito en YouTube. -- The Coming Euro Collapse- Euro Crisis BBC Special Part 2 http://youtu.be/s1gc_As8grk?a	tacheshun	10280722	2010-05-02 23:13:16
+13259067634	@GSheehy Just spotted your tweet on inflation over nxt 10 yrs there - back of envelope would suggest 2.5%, assuming no euro crisis!	ronanlyons	18189672	2010-05-02 20:21:33
+13237714396	#Greek #Euro crisis reveals again that a society top-heavy w/ public servants will eventually face strain on economy.	malfletcher	20770625	2010-05-02 11:28:09
+13235498788	Roast the PIIGS and End the Euro Crisis: Mankind differs from the animals only by a little and most people throw t... http://bit.ly/a4VLBM	ForexFlashNews	125549631	2010-05-02 10:09:52
+13234828332	Roast the PIIGS and End the Euro Crisis http://goo.gl/fb/ISRw0	WalterCOLLICA	23765349	2010-05-02 09:46:54
+13234637699	Roast the PIIGS and End the Euro Crisis http://bit.ly/ct7Vow #EUR #Forex #Trading	Euro_Trader	126901413	2010-05-02 09:40:22
+13234019485	Roast the PIIGS and End the Euro Crisis: Sol Palha submits:Mankind differs from the animals only by a little and http://url4.eu/36gtm	WalterCOLLICA	23765349	2010-05-02 09:19:54
+13222293652	WBuffett on euro crisis "I don't know how this movie ends.That doesn't mean I'm forecasting disasters. But I try not go to movies like that"	actuary21c	18329492	2010-05-02 04:38:39
+13216548055	Roast the PIIGS, and End the Euro Crisis: The last meltdown was caused by the financial crisis in the United State... http://bit.ly/bU2H0i	in_economy	26119755	2010-05-02 02:32:23
+13203330252	BTW, the Greek Euro crisis (and upcoming other PIIGS ones) is no surprise to us who read this 15 years ago: http://amzn.to/diPUwJ	dpjanes	1213671	2010-05-01 20:56:21
+13201374780	Greece, the euro crisis and the issues confronting the European working class - http://left-news.com/xakrn/ #comrade	Left_News	36770136	2010-05-01 20:09:18
+13185452125	A bit of honesty: John Makin on the Greek/Euro crisis http://www.aei.org/docLib/05-May-Econ-g.pdf	Micronesian	65294377	2010-05-01 14:23:24
+13182576657	Krugman on NYTimes: The Euro Trap http://nyti.ms/djOrJu #euro #crisis #greece	landfried	37417180	2010-05-01 12:54:11
+13174989206	Greece, the euro crisis and the issues confronting the European working class - World Socialist Web Site http://bit.ly/9TiCpv	PortugalPolitic	57882839	2010-05-01 08:26:44
+13173862834	Good explanation of the Euro crisis (Greece, Portugal, Spain) from the NYTimes http://nyti.ms/djOrJu	jedro_	18889369	2010-05-01 07:53:50
+13166167089	The Euro crisis - Antonio Fatas http://icio.us/ahkkjo	MarkThoma	16833653	2010-05-01 04:56:29
+13165501001	Roast the PIIGS, and End the Euro Crisis - Before It's News http://bit.ly/cJMSJH (via @PRdesk)	meadowsnark	113986193	2010-05-01 04:42:25
+13165018475	• The Euro Crisis: Perhaps the Currency Isn't to Blame?: I think both inflation adjusted bonds and TIPS can make u... http://bit.ly/9BOEhP	SRPConsultancy	120060967	2010-05-01 04:32:24
+13150083829	Not sure that he cares but I totally agree with Krugman http://nyti.ms/90t7c2 #euro #crisis	scagliarini	18667170	2010-04-30 22:57:24
+13147258826	@fintanr have to agree to differ. seanad only place where euro crisis and role of rating agencies was discussed.	Paschald	19735329	2010-04-30 21:49:53
+13143829327	#cdnleft #cdnprog Krugman Explains the Euro Crisis (The Disaffected Lib): In today's New York Times, Nobel... http://dlvr.it/j0ZP #cdnpoli	Prog_Blog	128606458	2010-04-30 20:29:47
+13143582250	Nog meer bezuinigingen in Griekenland! BTW naar 24/25%. Gemiddeld salaris hier 800 euro. #crisis #opstand	robertvuijk	44035116	2010-04-30 20:24:08
+13143468801	Euro Crisis: A Table of Who Claims How Much http://prudentinvestor.blogspot.com/2010/04/euro-crisis-table-of-who-claims-how.html	shortorlong	22266343	2010-04-30 20:21:32
+13138601869	Charlemagne ( @theEconomist) writes on the Euro crisis: Germany versus Greece http://bit.ly/bZlHDi	telegramwriter	112348433	2010-04-30 18:40:15
+13138033696	Euro Crisis a Death by A Thousand Day Trades: If the Euro actually had a real central bank the sovereign nations o... http://bit.ly/aw9GVx	Tyra_Banks1	94164987	2010-04-30 18:29:27
+13134888420	The Euro crisis: What it means for 6 key nations - The Week Magazine http://timesurl.at/28cc52	ukdebtadvice	17507972	2010-04-30 17:25:18
+13133770129	I hope Weird Al is working on a song on the #euro crisis, a Falco-inspired "Drachma, Amadeus", perhaps? http://nyti.ms/9GMB0P	washingtonydc	14850032	2010-04-30 17:03:06
+13132490298	So nice when economics -- and the Euro crisis -- is clearly explained: http://ow.ly/1Fbzv	amhill	15679228	2010-04-30 16:37:46
+13132336826	Euro Crisis a Death by A Thousand Day Trades: September 1992 (“Black Friday”). It was that day the bank of England... http://bit.ly/aw9GVx	WebDesignSoLexi	87373599	2010-04-30 16:34:45
+13131898829	Euro Crisis a Death by A Thousand Day Trades - The Market Oracle http://bit.ly/c2UDSe	PortugalPolitic	57882839	2010-04-30 16:26:07
+13129412520	The Euro Crisis: Perhaps the Currency Isn't to Blame? - http://bit.ly/aq3gx4 - interesting take - #Forex	4xguy	29888058	2010-04-30 15:35:51
+13122187666	Three Reasons The Euro Crisis Matters For The U.S. http://n.pr/apEYPI $$	Furlicity	125630525	2010-04-30 12:42:00
+13121549831	The Euro crisis http://ow.ly/17dThq	johan_hellman	35324852	2010-04-30 12:22:20
+13121022786	#EuroCrisis John Travolta and Olivia Newton-John in dramatic aid plan for Greece	NeilBlakemore	80827816	2010-04-30 12:05:24
+13120924924	The euro crisis - can politicians catch up with the avalanche? http://bit.ly/cSUt8w #forex	fxcompanyreview	18491164	2010-04-30 12:02:12
+13120513949	The Euro Crisis: Perhaps the Currency Isn't to Blame?: One thing that I am missing in the arguments of those who b... http://bit.ly/9BOEhP	4xtrading1	133084309	2010-04-30 11:48:22
+13120454224	The Euro Crisis: Perhaps the Currency Isn't to Blame?: Antonio Fatas submits:According t... http://tinyurl.com/37tyab3 www.avafx.com/?tag=z	FxOnlineTrade	78563470	2010-04-30 11:46:16
+13120349687	The Euro Crisis: Perhaps the Currency Isn t to Blame? (at Seeking Alpha) http://bit.ly/amfMos	ForexWire	57481443	2010-04-30 11:42:39
+13116698140	@AntaeusX25G Absolutely- they turned a budget crisis into a Euro crisis and then had no choice! Highlights total lack of economic policy!	GGWorld	44880062	2010-04-30 09:33:31
+13116596893	Three Reasons The Euro Crisis Matters For The U.S. - Planet Money Blog : NPR: http://n.pr/d8GsK2	BLKROCKET	20482617	2010-04-30 09:30:09
+13115053108	" #Portugal already infected by #Greek #crisis" says analyst - Interview on #euro #crisis - #Greece http://bit.ly/cvqvE5r	kirsteneuronews	17963003	2010-04-30 08:38:04
+13114521264	Greek Elites Whack Greeks Over Crisis - We promised ourselves not to write about the Greek/Euro crisis again for a ... http://ow.ly/17dOJK	Michaels_Tweets	68379329	2010-04-30 08:21:01
+13111713637	"The whole euro crisis [is] an American-led plot to take over Greece." True, but we just want the islands. http://is.gd/bO1eJ	joemosch	18341320	2010-04-30 06:58:40
+13110723197	Krugman: Euro crisis illustrates danger in "policy straitjackets" that deny governments flexibility to act: http://nyti.ms/drq6wv	lars_kongshem	17258843	2010-04-30 06:32:30
+13109698499	http://www.nytimes.com/2010/04/30/opinion/30krugman.html?src=twt&twt=NytimesKrugman interesting article on current Euro crisis.	vincentdtok	89943935	2010-04-30 06:07:25
+13108474073	The Spanish govt is counting on a quick support for Greece to contain the euro-crisis and buy Spain time to get its fiscal house in order.	hamptonwealth	118383429	2010-04-30 05:39:48
+13107734259	Euro crisis "could pose as big a risk to the global economy and financial markets as the collapse of Lehman Brothers in...2008" - Telegraph.	StephenFlurry	104456761	2010-04-30 05:23:41
+13101573992	Greece Wins EU30 Billion Aid Offer as EU Battles Euro Crisis April 11 (Bloomberg) -- European governments put... http://bit.ly/aN0BVF	freetweets2call	115561770	2010-04-30 03:19:28
+13098574016	Graeca fides, nulla fides: the Greek debt crisis and its possible effects on the euro http://tinyurl.com/37kw6yr #Greece #Debt #euro #crisis	Heathen_Hub	120363484	2010-04-30 02:19:00
+13088890338	Another perspective on the Euro crisis: Three Reasons The Euro Crisis Matters For The U.S. http://shar.es/mcXCD	LDJEconomics	26814691	2010-04-29 22:47:49
+13087248366	@Psythor well you could say the same thing about Clegg in another Euro crisis...	gladders	17703409	2010-04-29 22:11:12
+13083916652	Krugman Speaks: A Catastrophe Delayed - Something like the current euro crisis has always been an obvious danger. http://ow.ly/17dqGU	kevinaom	8699612	2010-04-29 20:53:56
+13077551242	New post: Three Reasons The Euro Crisis Matters For The U.S. http://cobatra.com/2010/04/three-reasons-the-euro-crisis-matters-for-the-u-s/	Cobatra	19106423	2010-04-29 18:30:04
+13077542292	Three Reasons The Euro Crisis Matters For The U.S. - Planet Money Blog : NPR http://ht.ly/1EKXG $eurusd #forex $$	CMEGroup	15935591	2010-04-29 18:29:53
+13077410061	Germans play hardball as euro crisis reaches Spain | Business | The First Post: http://bit.ly/ceZGlx via @addthis	devakikhanna	26465492	2010-04-29 18:27:05
+13071459049	#News Three Reasons The Euro Crisis Matters For The U.S. http://bit.ly/bvcrjy	news_one	99850398	2010-04-29 16:27:18
+13071291584	I think it's time that Triumph the Insult Comic Dog poops on the #Euro #Crisis #Greece #PIIGS #Germany	Klarevas	19952601	2010-04-29 16:23:57
+13070439496	A Catastrophe Delayed: Something like the current euro crisis has always been an obvious danger. http://shos.it/bwOEQP	EdisonComp	53789717	2010-04-29 16:06:45
+13069733594	European economist at Schroders on BBC: UK "seen as a safe haven" in midst of Euro crisis	wdjstraw	24444965	2010-04-29 15:52:47
+13069681565	Three Reasons the Euro crisis matters for the US - http://cli.gs/Uhuz1D	cristy_fl	135906308	2010-04-29 15:51:43
+13069311168	Hope things don't go south for us.RT @planetmoney Three reasons the euro crisis matters for the U.S. / JG http://n.pr/114636153	habostic	60080271	2010-04-29 15:44:21
+13068632809	Three Reasons The Euro Crisis Matters For The U.S. http://n.pr/bUDWQL	NPR	5392522	2010-04-29 15:30:45
+13068071838	Three reasons the euro crisis matters for the U.S. / JG http://n.pr/114636153	planetmoney	15905103	2010-04-29 15:19:16
+13064582913	Good explanation that puts Greek Euro crisis in perspective. RT @hwallop:"How Greece got into this mess": http://tinyurl.com/39dl9av #euro	Dr__Nick	19247156	2010-04-29 13:59:40
+13063926752	EU countries' fiscal statements + EC responses are here: useful source for up-to-date estimates on Eurocrisis: http://bit.ly/b1b3XX	xtophercook	96230203	2010-04-29 13:42:20
+13062590732	@Marianne2fr après la Grece, le Portugal dans le role du maillon faible, les chinois se frottent les mains avec des Yuan #eurocrisis #euro	muckto	41998179	2010-04-29 13:04:33
+13060194524	RT @1stpost Germans play hardball as euro crisis reaches Spain | Business | The First Post http://bit.ly/aaMa0q	commoditiesview	127824675	2010-04-29 11:46:33
+13058814378	Economic statistics come with a health warning: indicators are meaningless until the Euro crisis is clarified. www.scandknavia.blogspot.com	hilariodegaul	126292874	2010-04-29 10:57:40
+13057841233	Team Deutsche Mark #eurocrisis NYTimes: Merkel Tested as Escalating Greek Crisis Hurts Euro http://nyti.ms/avO2JN	Brooke_Sorenson	135583583	2010-04-29 10:22:44
+13057670953	Is it just me or does the more Merkel fucks up the Euro crisis the better Brown looks as an economic leader and statesman?	BorisWatch	21807741	2010-04-29 10:16:41
+13055724382	'Germany should not lend to Greece' -- John Redwood (Con): There are two sensible answers to the Euro crisis. Greece... http://dlvr.it/gVf6	SierraEchoOscar	114072183	2010-04-29 09:08:49
+13055374425	Let me get this straight: the OECD says everyone in Spain has Ebola and should cut their legs off? I never understood finance. #EuroCrisis	hofflimits	97501623	2010-04-29 08:57:33
+13053933204	Afwijkend geluid in debat over Euro crisis - Europe Shouldn’t Bail Out ‘Rich’ Greece, Mobius Says http://bit.ly/bzagF5	BnLDude	18374076	2010-04-29 08:11:05
+13053779681	Door eurocrisis, steeg goudprijs (in euro's) naar nieuw record ... AmsterdamGold.com noteerde record webshop verkopen laatste 24 uur	wmiddelkoop	19059966	2010-04-29 08:06:22
+13053086689	Why does James Noughtie think it's 'strange' the Guardian is leading on the Greek/Euro crisis? Does he not think it's important @R4today	rognbrow	14450202	2010-04-29 07:45:53
+13052460901	#nieuws Obama interpelleert Merkel over euro-crisis: http://bit.ly/cher7v	Nieuwsblad_be	7762342	2010-04-29 07:28:04
+13051680201	#biz Obama interpelleert Merkel over euro-crisis: De Amerikaanse president Barack Obama heeft woensdagavond in een... http://bit.ly/94z9UJ	dsoeconomie	16654768	2010-04-29 07:06:51
+13040920116	BurMorning:29 april dawn 2010. Senate to debate US financial overhaul.IMF warns Euro crisis could spread.Thai... http://tr.im/LLGn	BBC_podcasts	17616152	2010-04-29 03:27:44
+13035234033	Sick to back teeth of "bigotgate". Irrelevancy, will blow over. Euro crisis, meanwhile, will not. Absolute fkn nonsense from UK press.	meadwaj	49034649	2010-04-29 01:38:17
+13034871068	Nieuw artikel op de Vrijspreker: Euro crisis http://www.vrijspreker.nl/wp/2010/04/euro-crisis/	vrijspreker	40456700	2010-04-29 01:30:45
+13033701739	Presenter & new finance blogger Ricardo Concalves says the Euro crisis may not hit the Aussie sharemarket hard http://bit.ly/bQPsoK	SBSNews	8197942	2010-04-29 01:06:14
+13030767751	Ah - finally. #newsnight is talking about the euro crisis. A bit more important than whether some woman is a bigot & Brown foul-mouthed. :-\	TiggerTherese	32825692	2010-04-29 00:01:56
+13029814049	Fotografías de observación (hoy incluyen el euro #crisis) RT @bbcworld Striking images from around the world http://bit.ly/akZDJ1	Guerreando	106569786	2010-04-28 23:40:11
+13019984417	A Spain Default Brings a Euro Crisis Closer, Rate Decisions on Deck http://bit.ly/c90G7E #Video	DailyFXVideos	115108283	2010-04-28 20:03:04
+13019419392	Greek euro crisis causing havoc, confusion in Germany http://bit.ly/9q3lT8	Croisan	19550409	2010-04-28 19:50:42
+13017979607	Euro Crisis Is Lifeline for Cameron http://on.wsj.com/czLPLP	WSJCity	28138931	2010-04-28 19:19:31
+13017468979	Euro Crisis of "PIIGS" countries (Portugal, Ireland, Italy, Greece, Spain) is mounting - Will US be affected?	ADay4HCR	124499446	2010-04-28 19:08:54
+13017010662	Interessant: Amerikaans perspectief op Euro-crisis: ,,Europe once again has blundered its way into a major crisis" http://bit.ly/dxwlWQ	FrankHendrickx	18047779	2010-04-28 18:59:23
+13011358294	"Governments and markets are playing a dangerous game of poker – to the death" Our main on Eurocrisis from La Repubblica http://j.mp/be6Oa7	VoxEurop	42586014	2010-04-28 17:06:14
+13003652245	German Idealism Will Lead to Euro Crisis: Strategist: Germany's reticence to come to the rescue of the Greek gover... http://bit.ly/adiRO9	payback_time	124530591	2010-04-28 14:32:12
+13003071155	German Idealism Will Lead to Euro Crisis: Strategist http://ow.ly/17cyCx	investing123	63820021	2010-04-28 14:19:06
+13002206657	RT @CNBCtopStories: German Idealism Will Lead to Euro Crisis: Strategist http://bit.ly/ascaOL $$ #CAC40 #DAX (cont) http://tl.gd/12brif	Ulises_UD	82797119	2010-04-28 13:58:48
+13002067280	new$-to-use: EURO CRISIS: WILL IT END IN PORTUGAL? http://www.news-to-use.com/2010/04/euro-crisis-will-it-end-in-portugal.html	nustouse	20592907	2010-04-28 13:55:18
+13001922661	German Idealism Will Lead to Euro Crisis: Strategist - CNBC-http://www.cnbc.com/id/36820609	FxBrilliance	119716283	2010-04-28 13:51:39
+13001552582	WN Euro Crisis is Lifeline For Cameron - Wall Street Journal: ReutersEuro Crisis is Lifeline For CameronWall Stree... http://bit.ly/9Gbqou	TheWorldNews	16922792	2010-04-28 13:42:13
+13001513648	"13 Bankers" co-author warns Euro crisis ups risk of financial meltdown - In a post today called “Wake the... http://tumblr.com/xcn96v1xr	lansingonline	18460156	2010-04-28 13:41:13
+13000800567	German Idealism Will Lead to Euro Crisis: Strategist http://bit.ly/bf2YTg	CNBC_EMEA	28528172	2010-04-28 13:22:17
+12999597844	@kajleers Vrees inderdaad dat te weinig mensen zich de diepte van deze eurocrisis realiseren, you're right	janvt	14082645	2010-04-28 12:48:06
+12999003187	Euro Crisis A Lifeline For Cameron http://bit.ly/bsgdUn	iainmartin1	110437588	2010-04-28 12:30:07
+12993464334	I need to speak with some #currency analysts owing to #greek and #euro crisis ... out of the box ideas welcome.	velvetart	17663180	2010-04-28 09:21:04
+12992550283	Market in turmoil as euro crisis deepens on Greece - http://newzfor.me/?12bs	news4banking	124275694	2010-04-28 08:50:10
+12986691506	How bad will this Euro Crisis impact Asia equity markets this year??? I expect Asia to continue to do well.	asiatrader	32814704	2010-04-28 06:08:50
+12971261201	http://sn.im/vtz6h - Market Technical Analysis - Topping Tails Nailed For Profits As Goldman Grilled Amid Euro Crisis - traddr!	undervalued	22341610	2010-04-28 01:15:12
+12971256884	http://sn.im/vtz6h - Market Technical Analysis - Topping Tails Nailed For Profits As Goldman Grilled Amid Euro Crisis - traddr!	tommybibiyan	14797108	2010-04-28 01:15:08
+12966695141	Cierre BOVESPA: Resurge temor de euro-crisis, pierde 2.56% http://www.elsemanario.com.mx/news/news_display.php?story_id=37238	El_Semanario	104231063	2010-04-27 23:41:46
+12966669490	Cierre BMV: Presionada por euro-crisis, IPyC se hunde 3.23% http://www.elsemanario.com.mx/news/news_display.php?story_id=37237	El_Semanario	104231063	2010-04-27 23:41:12
+12961435796	While the Euro crisis will no doubt have a ripple effect here, I cynically like the timing it has w/relation to my UK trip vis-a-vis forex.	StevenCirillo	35238243	2010-04-27 21:43:06
+12960198564	Euro Crisis as Greece in financial trouble: http://news.yahoo.com/s/ap/20100427/ap_on_bi_ge/eu_greece_financial_crisis	Hatusu	14164702	2010-04-27 21:12:52
+12956829545	The Eurocrisis: A Primer http://goo.gl/fb/thmap	WalterCOLLICA	23765349	2010-04-27 19:48:46
+12956710566	http://3.ly/pmat #fx The Eurocrisis: A Primer: Michael Shulman submits: For those of you now tu... http://bit.ly/cPUOfE #dollar #currencies	AlertTrade	121158213	2010-04-27 19:45:53
+12955675820	The Eurocrisis: A Primer: Michael Shulman submits: For those of you now turning your eyes toward Europe, a primer http://url4.eu/2zrLl	WalterCOLLICA	23765349	2010-04-27 19:21:39
+12946119663	@joaovsantos This Euro crisis is going to be so much fun when Belgium takes over in July without a government *sarcasm*	nevrothwen	5630592	2010-04-27 15:51:24
+12944981034	Good article about Germany's reaction to the Euro crisis: Merkel navigates minefield on Greece rescue http://link.reuters.com/huc69j	joaovsantos	12831162	2010-04-27 15:26:31
+12942126858	Euro crisis spreading... Portugal debt insurance reaches record high http://bit.ly/cSsfYB	the__crux	20248835	2010-04-27 14:23:49
+12939438001	@JUANCARLOSNAVA IMO "market gamers" caused the 2008 staple foods and oil prices crises, the subprime one, and now the Euro crisis.	npanayotopoulos	76291358	2010-04-27 13:16:44
+12933610102	In the wake of Greek euro crisis, the EU Commission has removed all its #euro promo animation clips from its EUtube channel on YouTube.	RaymondFrenken	51109702	2010-04-27 10:06:29
+12887466381	ECB's Mersch says we have crisis in euro zone, not euro crisis. Says crisis stems from EU-16 economic divergences.	DailyFXTeam	28366310	2010-04-26 16:58:40
+12886848219	Added a nice bond exposure map on Euro Crisis http://www.marksmarketanalysis.com/2010/04/consequence-of-hair-cuts.html	Mark4124NH	52247328	2010-04-26 16:46:47
+12865391164	Everybody hope we are out of woods but Greek problem is just at the beginning stage of EURO CRISIS.	575lexington	129697720	2010-04-26 07:00:59
+12811719736	Euro Crisis Could Trigger Stocks, Dollar, Commodity and Bond Markets Drop http://bit.ly/9jYDSc	ChinaInvest	9555372	2010-04-25 10:26:11
+12759359278	@brianokane operative question is: when Greece default, who do they take with them, & what plans EU/IMF have in place to stop a euro-crisis	stephenkinsella	8105842	2010-04-24 14:08:09
+12734192653	Insights into the Euro crisis, China and the US... #AusBritChamber	Bustler	27200634	2010-04-24 02:42:49
+12702985280	Euro Crisis Keeps Stocks Down at Open http://bit.ly/9N4DgP	MarketWatchPF	22836731	2010-04-23 15:50:35
+12671829503	@InEgoVeritas The EURO crisis is keeping USTs bid at the margin but the supply should tend to make USTs less safe havenish than before.	Fullcarry	20209445	2010-04-23 02:46:32
+12622318304	The euro crisis is spreading - http://www.thedailycrux.com/content/4609/Euro/eml	mebaria	115331124	2010-04-22 07:33:10
+12591977954	The euro crisis is spreading http://bit.ly/9kSt6P	the__crux	20248835	2010-04-21 20:49:40
+12580280820	RSVP for our event in May on the Euro Crisis! It's going to be epic. http://bit.ly/bZ0Rlm @BrookingsEcon @OECD_Washington @Atlantic_Online	StreitCouncil	76087391	2010-04-21 16:47:15
+12495856177	the #ashtag euro crisis has reached us here at Sticky. Client had to delay new project due to CEO being stranded in Europe.	mediahunter	14248699	2010-04-20 05:56:42
+12362494028	Goldman Sachs helped Greece hide colossal debt resulting in Euro crisis: http://bit.ly/bf8XYG (GS is the Enron of investment banks)	richcz3	26192006	2010-04-17 23:40:29
+12302980623	Why the euro crisis is worse than you think http://bit.ly/9zJzjs	the__crux	20248835	2010-04-16 22:30:26
+12249218647	AEP thinks Greece will precipitate a Euro crisis, maybe Germany will leave Euro soon: http://bit.ly/cgWATh	kentindell	23978388	2010-04-16 01:00:46
+12246344698	3 pronged trade involving currency ETFs $FEX, $FXB and $UUP - profit from the Eurocrisis http://bit.ly/cvQ0ug $calls $puts	OptionsZone	15654416	2010-04-15 23:56:23
+12244659821	@pekay you probably mean Grease. Unless Charlie is sorting out the Euro crisis now?	FHKJ	20049420	2010-04-15 23:16:27
+12244545959	Joachim Fels at Morgan Stanley on the Euro crisis. http://bit.ly/djJ8kB (zerohedge)	offwitz	795507	2010-04-15 23:13:45
+12241431212	Trade Options on Currency ETFs to Profit From the Eurocrisis http://bit.ly/aJndfN via Options Zone $$	OptionsFeed	103057619	2010-04-15 22:02:54
+12201941256	[ #nerdalert] THIS IS SO COOL! #greece #eurocrisis http://bit.ly/9kxwai	nick_bunker	16641916	2010-04-15 05:22:21

@@ -1,0 +1,283 @@
+tweet_id	text	username	user_id	date
+13866822903	Eurogroup vs. E.U: an strategic cleavage? RT @Berlaymont: EU Observer: EU budgetary proposals draw immediate rebuke http://bit.ly/aOzGn8	martiadroher	14115006	2010-05-12 21:09:07
+13793158121	RT @marjazuidgeest: Lees het commentaar van Eurogroup for Animals op de proefdierenrichtlijn http://bit.ly/Am7Zu	marjazuidgeest	39993287	2010-05-11 17:07:31
+13789114688	RT The euro zone must create a government to coordinate economic policy, according to Eurogroup President Jean-Clau... http://ow.ly/17kRTC	luxembourg_news	49312521	2010-05-11 15:40:49
+13749463071	as a result of the measures adopted at the Eurogroup and Ecofin meetings, Spain's Minister of Foreign Affairs, [...]	8555468	14816974	2010-05-10 23:45:24
+13720727763	Eurogroup: Europa está determinada em defender euro: http://economia.estadao.com.br/noticias/not_17384.htm	VisaoEconomica	67643741	2010-05-10 13:08:56
+13714159403	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3HlRR	dierennieuws	55244376	2010-05-10 09:37:48
+13709620487	Νέο Άρθρο: ΄Σχέδιο στήριξης για όλη την Ευρωζώνη αποφάσισε το Eurogroup. http://www.apogevmatini.gr/?p=76874	apogevmatini	41915067	2010-05-10 07:15:29
+13709427607	Geez+ Ένεση στο τραπεζικό σύστημα της Ιαπωνίας από την Κυβέρνηση: Η ανακοίνωση του Eurogroup για μηχανισμό στήριξη... http://bit.ly/asgEAs	geezgr	29310780	2010-05-10 07:10:32
+13698385164	These 2 mechanisms add up to 500 bln € (60 bln based on EU Treaty + 440 bln based on intergov. Eurogroup agreement) + 50% (250 bln) by IMF	JulienFrisch	19529023	2010-05-10 03:08:02
+13697956561	Rehn: The 2nd mechanism needs to be started with Eurogroup unanimity as in the case of Greece. #euro	JulienFrisch	19529023	2010-05-10 02:59:12
+13691056203	RT Between now and Sunday night we will have a watertight line of defence, Eurogroup Chairman Jean-Claude Juncker s... http://ow.ly/17jJzs	luxembourg_news	49312521	2010-05-10 00:24:28
+13691056091	RT Between now and Sunday night we will have a watertight line of defence, Eurogroup Chairman Jean-Claude Juncker s... http://ow.ly/17jJzv	news_luxembourg	53668279	2010-05-10 00:24:28
+13682909961	Determined to fend off euro attacks: Eurogroup Chairman: European leaders hold a conviction to defend the euro but... http://bit.ly/cg0Vs2	smartinvestor	20769497	2010-05-09 21:05:45
+13681835289	#BusinessNews: Determined to fend off euro attacks: Eurogroup Chairman http://url4.eu/3GwvU	SensexIndia	116708948	2010-05-09 20:39:01
+13666604670	Alistair Darling: "responsibility for supporting Euro & Eurogroup countries lies with members. We r not one of them." Lisbon referendum yet?	londonistar	29030386	2010-05-09 15:10:53
+13664184918	Εγκρίθηκε από το Eurogroup η στήριξη των 110 δισ στην Ελλάδα – Δημιουργείται μηχανισμός σταθεροποίησης http://ff.im/-k3KKA	Anovrilissia	57009881	2010-05-09 14:09:58
+13661694319	Determined to fend off euro attacks Eurogroup Chairman - Moneycontrol.com http://is.gd/c19jP	NoticiasPlaneta	107565310	2010-05-09 12:54:48
+13659738055	Ο μηχανισμός σταθεροποίησης που αποφασίσθηκε να δημιουργηθεί από το eurogroup είναι σημαντικός	bankingnewsgr	86044761	2010-05-09 11:47:49
+13655315584	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3GF5X	dierennieuws	55244376	2010-05-09 09:18:47
+13655306930	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3GF5r	veganisme	54152920	2010-05-09 09:18:31
+13622910327	Eurogroup: Europa está determinada em defender euro http://bit.ly/9UzERr	g1economia	31494764	2010-05-08 20:34:25
+13622119209	Economia e Negocios: Eurogroup: Europa está determinada em defender euro #Economia	PortalR1	79919411	2010-05-08 20:15:52
+13620470251	Eurogroup: Europa está determinada em defender euro: Os líderes europeus estão decididos em defender o euro, mas http://url4.eu/3FKtp	testeiago	103884421	2010-05-08 19:39:05
+13617548188	Ανάκαμψη από το 2012 βλέπει η τρόικα: Η Κομισιόν είχε προειδοποιήσει από τον Ιούλιο του 2009 το Eurogroup ότι το ε... http://bit.ly/bfJXCt	skaigr	17389650	2010-05-08 18:37:59
+13609829212	Eurogroup will provide 80bi euro package with first disbursement before May 19	daily_stock	88990054	2010-05-08 16:06:49
+13603393058	Geez+ Ολόκληρη η ανακοίνωση του Eurogroup: «Σε συνέχεια του αιτήματος που υπέβαλε η ελληνική κυβέρνηση στις 23 Απρ... http://bit.ly/chgJr2	geezgr	29310780	2010-05-08 13:27:23
+13601655012	Είναι προφανές ότι η συνάντηση του Eurogroup αποδείχθηκε ιδιαίτερα κρίσιμη και καθοριστική για την Ελλάδα και την κρίση	bankingnewsgr	86044761	2010-05-08 12:29:30
+13601608990	RT @bankingnewsgr: Το eurogroup κατέληξε σε οριστική συμφωνία εγκρίνοντας τα 110 δις ευρώ για την Ελλάδα	Zoomicon	86805649	2010-05-08 12:27:49
+13601464771	Το eurogroup κατέληξε σε οριστική συμφωνία εγκρίνοντας τα 110 δις ευρώ για την Ελλάδα	bankingnewsgr	86044761	2010-05-08 12:22:43
+13578439819	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3EF0d	dierennieuws	55244376	2010-05-08 02:27:43
+13577886190	(AFX UK Focus) 2010-05-08 00:11 EUROGROUP'S JUNCKER SAYS SPAIN AND PORTUGAL ARE NOT IN A COMPARABLE SITUATION .. http://oohja.com/xcC9k	Colley1962	17208780	2010-05-08 02:15:43
+13577601948	Eurogroup: Συνέντευξη Τύπου Χ. Βαν Ρόμπεϊ - Ζ.Μ. Μπαρόζο [audio] http://ub0.cc/6C/vw	naftemporikigr	18934391	2010-05-08 02:09:39
+13577393261	Νέο Άρθρο: Το Eurogroup ενέκρινε την ενεργοποίηση του μηχανισμού στήριξης της Ελλάδας http://www.apogevmatini.gr/?p=76681	apogevmatini	41915067	2010-05-08 02:05:15
+13576619218	Συμφωνία στο Eurogroup για την ενεργοποίηση του σχεδίου βοήθειας προς την Ελλάδα: Οι ηγέτες της ζώνης του ευρώ ενέκριναν οριστικά το β...	EMEAPORTAL	39960787	2010-05-08 01:48:29
+13574700621	Συμφωνία του Eurogroup για το: kathimerini.gr http://www.greekrealm.com/forum/greek-economics-business/14469-eurogroup.html	GreekRealm	49304534	2010-05-08 01:06:19
+13572447300	in.gr/news: Συμφωνία στο Eurogroup για την ενεργοποίηση του σχεδίου βοήθειας προς την Ελλάδα: Οι ηγέτες του Eurogr... http://bit.ly/ama9g2	in_gr	19662198	2010-05-08 00:14:31
+13572290422	Συμφωνία Eurogroup για ενεργοποίηση πακέτου: Ομόφωνη απόφαση ενεργοποίησης του "πακέτου" των 110 δισ. σε Ελλάδα απ... http://bit.ly/atncFk	euro2day_gr	125311222	2010-05-08 00:11:03
+13571560778	Πρώτο Θέμα: Ελλάδα και αλλαγές των ευρω-συνθηκών στο Eurogroup http://www.protothema.gr/economy/article/?aid=67959	pgoumas	18446440	2010-05-07 23:53:50
+13570968763	New post: Συμφωνία Eurogroup για τη βοήθεια στην Ελλάδα. Είναι για να χαιρόμαστε; http://www.newsblog.gr/?p=39291	newsblog_greece	51223016	2010-05-07 23:39:54
+13569557966	Συμφωνία στο Eurogroup για τη βοήθεια στην Ελλάδα http://ub0.cc/LG/hb	naftemporikigr	18934391	2010-05-07 23:06:10
+13569460786	Συμφωνία στο Eurogroup για την ενεργοποίηση της βοήθειας προς την Ελλάδα: Επιτεύχθηκε οριστική συμφω... http://cli.gs/DEBye #troktiko #yupi	greekshowbiz	118069686	2010-05-07 23:03:53
+13569371006	Συμφωνία στο Eurogroup για την ενεργοποίηση της βοήθειας προς τηÎ.. http://lavraki.gr/?p=13563	Lavrakigr	109916189	2010-05-07 23:01:50
+13563740565	Ξεκίνησε η έκτακτη σύνοδος κορυφής των αρχηγών κρατών και κυβερνήσεων του Eurogroup: Οι αρχηγοί κρατών και κυβερνήσεων των 16 χωρών τη...	EMEAPORTAL	39960787	2010-05-07 20:49:27
+13562023950	Το Eurogroup συνεδριάζει για την έγκριση του δανείου στην Ελλάδα http://bit.ly/9j5fA0	thebestportal	100340405	2010-05-07 20:09:48
+13561538903	Eurogroup leaders to discuss support for Greece - http://newzfor.me/?2lb3	promosxch	96706545	2010-05-07 19:59:06
+13556671285	ΕΥΡΩΠΑΙΟΙ ΕΡΓΟΔΟΤΕΣ ΚΑΙ ΕΥΡΩΠΑΪΚΑ ΣΥΝΔΙΚΑΤΑ ΓΙΑ ΤΗ ΣΥΝΟΔΟ ΚΟΡΥΦΗΣ EUROGROUP...ΤΑ ΙΔΙΑ ΚΑΙ ΤΑ ΙΔΙΑ... http://tinyurl.com/2fqdmt5	geezgr	29310780	2010-05-07 18:15:12
+13553466325	=>: Έκτακτη σύνοδος του Eurogroup για Ελλάδα, spread και χρηματιστήρια http://www.apn.gr/news/nea/ektakti-synodos-tou-eurogroup/	apngr	19704366	2010-05-07 17:08:12
+13548419883	The Greek Aid Process And Progress Of The Crisis Concluded By Eurogroup Leaders: Concluding the proc... http://bit.ly/cXlnzw - eGov monitor	egovmonitor	63748639	2010-05-07 15:24:47
+13548008827	@clwppc the Eurogroup meeting, the G7 call tonight will alleviate people's fears... GB is saying he's in control, not scaremongering	JamesBReid	84537749	2010-05-07 15:16:06
+13543520795	Eurogroup countries give their support to the aid mechanism for Greece http://euroalert.net/en/news.aspx?idn=9829 #eunews	Euroalert	94132143	2010-05-07 13:36:40
+13542353503	The Eurogroup leaders conclude the Greek aid process and examine the progress of the crisis - Economy - EBR: http://bit.ly/drSScF	ebreview	108573813	2010-05-07 13:07:09
+13540550238	Eurogroup: Σήμερα το "ναι" στο ελληνικό πακέτο στήριξης: http://bit.ly/dkAvtI	kerdos_online	57285630	2010-05-07 12:16:07
+13534185205	Αγορές:Η προσοχή σε ανεργία ΗΠΑ & Eurogroup: Η πορεία της ανεργίας στις ΗΠΑ, το μεγάλο ερωτηματικό του σχηματισμού... http://bit.ly/bFZiOQ	euro2day_gr	125311222	2010-05-07 08:47:35
+13520863979	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3CjAP	dierennieuws	55244376	2010-05-07 03:38:04
+13520825600	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3Cj9v	vegannederland	54564135	2010-05-07 03:37:16
+13491056194	Elvetette az euró összeomlásának lehetőségét az Eurogroup vezetője: Elvetette az euró összeomlásának lehetőségét c... http://bit.ly/cqXCMZ	magyaronline	18239603	2010-05-06 16:44:01
+13488963646	Cresce la fiducia nel modello polacco - Eurogroup http://goo.gl/fb/DzDMq	LaFinlandia	98872397	2010-05-06 16:01:42
+13487592618	Eurogroup Leaders Conclude Greek Aid Process; Examine Crisis Progress http://goo.gl/fb/n0sUk	EurasiaReview	21856182	2010-05-06 15:33:36
+13485872614	Τρισε: Το ελληνικό πρόγραμμα δημοσιονομικής προσαρμογής έχει ήδη εγκριθεί από το Eurogroup της Κυριακής	bankingnewsgr	86044761	2010-05-06 14:58:19
+13485501914	EUROGROUP AGREES A PACKAGE OF 110,000 MILLION EURO FOR GREECE - http://theleader.info/article/22980	le_millionaire	94970080	2010-05-06 14:50:31
+13479112844	ExchangeNews Direct: Meeting Of The Eurogroup Heads Of State And Government - The Eurogroup Leaders Conclude The G... http://bit.ly/9yuQYI	ExchangeNews	23806839	2010-05-06 12:07:20
+13415471239	EGC Eurogroup C.: Eurogroup Consulting gründet europäische Holding / Positionierung mit europäischem Beratungsmodell http://bit.ly/aQcpUT	na_presseportal	44894572	2010-05-05 10:49:06
+13414719567	Transatlantische dierenwelzijnsorganisatie opgericht: Eurogroup for Animals heeft afgelopen week een verklaring http://url4.eu/3Ajbg	dierennieuws	55244376	2010-05-05 10:24:28
+13404559547	Networking with int'l biz ppl is incredible. The EuroGroup meet was GR8! Time to turn their biz cards into my PROFIT!	Bodyguard_Beats	17770482	2010-05-05 05:53:32
+13398834385	@ the EuroGroup social gathering in Atl.... #cougar hunting. Traps laid, 2 already caught but I let them go. #catch&release is how I do!	Bodyguard_Beats	17770482	2010-05-05 04:04:33
+13372405421	Στήριξη Ελλάδος και κυβέρνησης Παπανδρέου από Ισπανό πρωθυπουργό: Στη σύνοδο κορυφής του Eurogroup την Παρασκεύη (7/4) οι ηγέτες των χ...	EMEAPORTAL	39960787	2010-05-04 18:25:47
+13370770845	Euro Debt Crisis Watch: The EUR110bn aid deal between Greece and the Eurogroup and IMF has brought some relief to ... http://bit.ly/9ZdAQT	ForexFlashNews	125549631	2010-05-04 17:47:50
+13368034670	I think in Eurozone they must offer more power to central bank for regulation & intervening if Eurogroup ask for that.	fx_13	78614391	2010-05-04 16:46:07
+13356529638	Statement by the Eurogroup on the € 110 billion to Greece http://www.consilium.europa.eu/uedocs/cms_data/docs/pressdata/en/misc/114130.pdf	EUnotes	139873552	2010-05-04 11:42:42
+13327546029	Τα μέτρα εγκρίθηκαν και από το Eurogroup: http://bit.ly/dsuJUd via @addthis	kerdos_online	57285630	2010-05-03 23:42:57
+13306924600	Greece Gets Debt Relief Package: BRUSSELS, May 2, 2010 (Xinhua) — President of Eurogroup and Prime Minister of Lux... http://bit.ly/buHgbe	TantaoNews	57446382	2010-05-03 16:03:15
+13302222381	Eurogroup agrees a package of 110,000 million Euros for Greece http://tinyurl.com/3yrnqgx	RalfGrahn	93207353	2010-05-03 14:18:49
+13298501980	Eurogroup scheduled a meeting friday to discuss Greece $eurusf	fx_13	78614391	2010-05-03 12:38:14
+13297704190	News: Eurogroup Pushes Greece Bailout Through http://tinyurl.com/28exdfc	cnrcy	56310697	2010-05-03 12:12:39
+13296054827	where everyone realizes that Eurogroup countries are not giving but lending money to Greece, and making a profit in the process.	fbancilhon	26710605	2010-05-03 11:16:10
+13295940664	AUSTRIA: FinMin points out the Eurogroup will ask banks not to reduce their Greek exposure.	JoelKruger	23102962	2010-05-03 11:12:07
+13295804672	Ανεπίσημη συμφωνία eurogroup ώστε να ζητήσουν από τις τράπεζες να διατηρήσουν την έκθεσή τους στην Ελλάδα στα τρέχοντα επίπεδα	bankingnewsgr	86044761	2010-05-03 11:07:08
+13293456661	GREECE: Eurogroup approves a 5% bilateral loan to Greece worth 80Bln EUR over 3 years. IMF adds 30Bln with a standby agreement.	NordMarkets	34216015	2010-05-03 09:43:22
+13291073391	Eurogroup leaders summit next Friday to conclude the process http://tinyurl.com/37q46xz	eurotribune	76428356	2010-05-03 08:23:20
+13290952632	=>: Πράσινο φως για τον μηχανισμό στήριξης της Ελλάδας από το Eurogroup http://bit.ly/c76zto	apngr	19704366	2010-05-03 08:19:35
+13290657855	Το Eurogroup επικύρωσε το πρόγραμμα στήριξης της Ελλάδας http://bit.ly/d0TcBW #pblogs	PSAREMENOS	89505285	2010-05-03 08:10:33
+13290231234	Greece gets Commission, Eurogroup green light http://tinyurl.com/3abwy34	eurotribune	76428356	2010-05-03 07:57:56
+13274375144	Eurogroup: Συνέντευξη Ζ.Κ. Γιούνκερ - Ζ.Κ. Τρισέ - Ο. Ρεν - Γ. Παπακωνσταντίνου [video] http://ub0.cc/9P/ft	naftemporikigr	18934391	2010-05-03 02:10:57
+13272325775	RT Jean Claude Juncker: Eurogroup president Jean-Claude Juncker, prime minister of Luxembourg, has called an emerge... http://ow.ly/17fgsH	news_luxembourg	53668279	2010-05-03 01:26:12
+13270666408	ExchangeNews Direct: Eurogroup Extraordinary Meeting In Brussels - Eurogrup Agrees A Package Of 110,000 Million Eu... http://bit.ly/anfJWG	ExchangeNews	23806839	2010-05-03 00:49:00
+13267403287	Statele zonei euro vor contribui cu 80 miliarde euro pentru Grecia: Eurogroup a aprobat, duminică, activarea unui ... http://bit.ly/9ALAFi	realitatea	14237594	2010-05-02 23:33:05
+13266248017	ExchangeNews Direct: Statement By The Eurogroup - Greece: Eurogroup Ministers concur with the Commission and the E... http://bit.ly/aTCz4a	ExchangeNews	23806839	2010-05-02 23:06:37
+13265666496	Statement By President Van Rompuy Following The Eurogroup Agreement On Greece: "I welcome the agreement reached by... http://bit.ly/bg8csi	exchangesdeals	122936761	2010-05-02 22:53:50
+13265665939	Statement By The Eurogroup - Greece: Eurogroup Ministers concur with the Commission and the ECB that market access... http://bit.ly/9XazdQ	exchangesdeals	122936761	2010-05-02 22:53:49
+13265434256	Οι υπουργοί Οικονομικών του Eurogroup "ενεργοποιούν" το πρόγραμμα βοήθειας http://ff.im/-jIxhN	Anovrilissia	57009881	2010-05-02 22:48:18
+13264726159	ExchangeNews Direct: Statement By President Van Rompuy Following The Eurogroup Agreement On Greece: "I welcome the... http://bit.ly/a1iFZY	ExchangeNews	23806839	2010-05-02 22:31:19
+13263606391	Eurogroup Chief Juncker: Greek austerity package 'absolutely necessary' - EUXTV http://bit.ly/9c4Yqi #news	ISeeNews	58211806	2010-05-02 22:05:17
+13263164456	$146 Aid Plan to Bail Out Greece: Eurogroup ministers announced Sunday that the international aid package to bail ... http://bit.ly/9AZpVG	WallStreetPit	15618009	2010-05-02 21:55:16
+13262484349	Extraordinary EUROGROUP meeting - Spanish Statement (Salgado) http://bit.ly/9hBb6f	EUCouncilTVNews	50995683	2010-05-02 21:40:16
+13262023011	Check this video out -- Eurogroup Chief Juncker: Greek austerity package 'absolutely necessary' http://youtu.be/qZqSM3zgzPM #EU #news #Greek	EurActivVideo	7086822	2010-05-02 21:30:09
+13261811438	Πράσινο από Eurogroup για βοήθεια 110 δις: Στα 110 δισ. ευρώ θα ανέλθει το ύψος της βοήθειας, εκ των οποίων τα 80... http://bit.ly/cMfi2g	Newskosmos	122935547	2010-05-02 21:25:22
+13261315039	Στα 110 δισ. ευρώ το πόσο της βοήθειας, στις 7 Μαΐου η σύνοδος κορυφής του Eurogroup: Οι υπουργοί Οικονομικών των χωρών της ζώνης του ...	EMEAPORTAL	39960787	2010-05-02 21:14:06
+13261227934	Eurogroup: Statele zonei euro vor contribui cu 80 mld euro la un pachet de 110 mld euro pentru Grecia: Eurogr... http://bit.ly/dei81i #bani	imprumuturibani	94815849	2010-05-02 21:12:03
+13261166271	Extraordinary EUROGROUP meeting - German Briefing (Schäuble) Part 1 http://bit.ly/bkd1mn	EUCouncilTVNews	50995683	2010-05-02 21:10:37
+13260466831	Yunanistan'a 110 milyar Euro yardım - Belçika'nın başkenti Brüksel'de toplanan Eurogroup maliye b http://twurl.nl/ztux4k	stargundem	93255642	2010-05-02 20:54:39
+13260153622	Yunanistan'a 110 milyar Euro: Eurogroup Başkanı Jean-Claude Juncker, ekonomik krizdeki Yunanistan'a üç yıl süreyle... http://bit.ly/dC5iOI	Haberturk	61189897	2010-05-02 20:47:22
+13259717003	RT @JulienFrisch #Eurogroup statement on #Greece: http://bit.ly/a0LXPX Some member states still need parliament approval. #eurozone #eu	EPP	93687642	2010-05-02 20:36:51
+13259657055	Eurogroup: 110 δις ευρώ στην Ελλάδα για 3 χρόνια - http://twurl.nl/a21kvq	madata	18899147	2010-05-02 20:35:24
+13259535253	#Eurogroup statement on #Greece: http://bit.ly/a0LXPX Some member states still need parliament approval. #eurozone #eu	JulienFrisch	19529023	2010-05-02 20:32:30
+13259190278	RT @EUCouncilTVNews Extraordinary EUROGROUP meeting - Press Conference-Part 1 http://bit.ly/9ZSF1g	EPP	93687642	2010-05-02 20:24:26
+13259184741	Νέο Άρθρο: Eurogroup: Στα 110 δισ. ευρώ το πακέτο βοήθειας http://www.apogevmatini.gr/?p=75810	apogevmatini	41915067	2010-05-02 20:24:19
+13258894178	Στα 110 δισ. ευρώ για 3 χρόνια με νέα μέτρα ο μηχανισμός: Ανακοίνωσε ο επικεφαλής του Eurogroup Σαν Κλωντ Γιούνκερ... http://bit.ly/bUEkjP	News247gr	19284221	2010-05-02 20:17:34
+13258835538	Statement by Herman Van Rompuy following the #Eurogroup agreement on #Greece http://bit.ly/bZGDta	DanaBrussels	115102341	2010-05-02 20:16:12
+13258285291	Statement by President Van Rompuy following the Eurogroup agreement on Greece I welcome the agreement reached (cont) http://tl.gd/14cidf	fotisk	18533988	2010-05-02 20:03:27
+13258084542	@ellinofrenistis do you think the greek will accept de measures your goverment takes under the pressure of eurogroup?	merijndoggen	8832142	2010-05-02 19:58:59
+13257867017	Eurogroup Meeting: - statement José Manuel BARROSO, EC President http://bit.ly/dxchRP	NP_Europe	126466563	2010-05-02 19:53:53
+13257863556	Eurogroup Meeting: - roundtable http://bit.ly/apbFcK	NP_Europe	126466563	2010-05-02 19:53:48
+13257715189	Εγκρίθηκε από το Eurogroup ο μηχανισμός στήριξης - http://twurl.nl/jr1v1k	madata	18899147	2010-05-02 19:50:22
+13257314759	Le plan d’aide à la Grèce activé http://bit.ly/dDg8OQ #UE #eurogroup	lesoir	17169453	2010-05-02 19:41:12
+13257154988	Eurogroup press conference on now.....the deal is done!	AntaeusX25G	18194452	2010-05-02 19:37:29
+13256347478	Extraordinary #Eurogroup - press conference live NOW http://bit.ly/aVpSNS #eu	DanaBrussels	115102341	2010-05-02 19:19:16
+13256133821	19:13 CET Maybe the Eurogroup members have more to discuss. Press briefing now delayed more than one hour ...	mrti	15823634	2010-05-02 19:14:31
+13255623609	Haberler: Eurogroup maliye bakanları, krizdeki Yunanistan için toplandı (2) http://tinyurl.com/2vhc93m	habersitesi	111349584	2010-05-02 19:03:12
+13253038798	Το Eurogroup εγκρίνει το μηχανισμό στήριξης http://bit.ly/cZCAWs	zoomnewsgr	87783640	2010-05-02 18:07:48
+13252915263	(AFX UK Focus) 2010-05-02 15:20 FRANCE'S LAGARDE SAYS EUROGROUP MUST SEND STRONG SIGNAL TODAY ON GREECE: Copyright... http://bit.ly/9pRoFT	forexwolfe	50955236	2010-05-02 18:05:14
+13252400165	εν αναμονή του eurogroup.....	eviaportal	20426550	2010-05-02 17:54:32
+13252357449	@JCdeJager Uhm toeval in de politiek bestaat niet, allemaal gearrangeerd. Er wordt van u verwacht dat u speech houdt :-D #eurogroup	wimberkhof	120752528	2010-05-02 17:53:36
+13251578942	RT @stockwizzzard: FRANCE'S LAGARDE SAYS EUROGROUP MUST SEND STRONG SIGNAL TODAY ON GREECE: ** For comments by (cont) http://tl.gd/14apl5	infinituminvest	101816123	2010-05-02 17:37:20
+13251052100	in.gr/news: Συνεδριάζει το Eurogroup για την οριστικοποίηση του πακέτου βοήθειας προς την Ελλάδα: Σε εξέλιξη βρίσκ... http://bit.ly/9b6ykm	in_gr	19662198	2010-05-02 17:26:31
+13249865670	(AFX UK Focus) 2010-05-02 15:20 FRANCE'S LAGARDE SAYS EUROGROUP MUST SEND STRONG SIGNAL TODAY ON GREECE: Copyright... http://bit.ly/9pRoFT	forexanatomy	50577882	2010-05-02 17:02:17
+13249786426	16:59 CET Eurogroup Meeting Roundtable ... http://is.gd/bR5ya	mrti	15823634	2010-05-02 17:00:43
+13249278663	Λουξεμβούργο: Τυπικό το Eurogroup- Η απόφαση στήριξης της Ελλάδας εχει ληφθει	bankingnewsgr	86044761	2010-05-02 16:50:23
+13248816965	RT @Dana_Council: Extraordinary #Eurogroup - press conference live +/-6pm http://bit.ly/cYKLqX	linotherhino	22622911	2010-05-02 16:40:35
+13248278643	Όλι Ρεν: "Το Eurogroup θα εγκρίνει τη συμφωνία" http://www.enet.gr/157824	enetgr	18979901	2010-05-02 16:29:16
+13246966183	RT @EUCouncilTVNews Extraordinary EUROGROUP - Arrival and doorstep European Commissioner (Rehn) http://bit.ly/bWoN45	DanaBrussels	115102341	2010-05-02 16:01:04
+13246192058	ギリシャニュース RT: @tovima: Ατυπη συνεδρίαση του Eurogroup το απόγευμα: ... http://bit.ly/cgSYBN	paranoJP	88377761	2010-05-02 15:43:38
+13246006567	Ξεκινάει σε 20 λεπτά η κρίσιμη συνεδρίαση του eurogroup όπου θα καθοριστούν επακριβώς τι, πως και πότε θα λάβει η Ελλάδα από τον μηχανισμό	bankingnewsgr	86044761	2010-05-02 15:39:16
+13243519320	Mega Gegonota Απομένει το οριστικό "ok" από το Eurogroup http://bit.ly/bzl4Lt	MegaGegonota	107028473	2010-05-02 14:37:02
+13240685939	Στις 17:00 η σύνοδος του Eurogroup σήμερα για την Ελλάδα	bankingnewsgr	86044761	2010-05-02 13:12:12
+13240574974	10 χρόνια στα σαγόνια του ΔΝΤ...: Τη στιγμή που η αντίστροφη μέτρηση για τη συνεδρίαση του Eurogroup, την Κυριακή (02/02) στις 5 το απ...	prokiller130	21502587	2010-05-02 13:08:27
+13237469014	Γ. Παπακωνσταντίνου: Η απόφαση για το ύψος της στήριξης θα ανακοινωθεί μετά τη σύνοδο του Eurogroup	naftemporikigr	18934391	2010-05-02 11:19:16
+13237386094	Θα τα πει εν συντομία, λεπτομέρειες το απόγευμα μετά το Eurogroup. Δείτε live εδώ http://www.skai.gr/player/tvlive/	ch_ntzani	14461567	2010-05-02 11:16:33
+13236843260	Νέο άρθρο: ΕΚΤΑΚΤΟ EUROGROUP ΓΙΑ ΤΗΝ ΕΛΛΑΔΑ... http://www.realpolitics.gr/?p=14241	RealPoliticsgr	80922632	2010-05-02 10:57:22
+13207822581	@ErykMistewicz jutro w Bxl jest eurogroup w tej sprawie wiec Lagarde musi mieć z czym przyjechac	Brussels_PJ	38823312	2010-05-01 22:49:59
+13202788652	Στις 5 το απόγευμα ξεκινάει το eurogroup και περίπου στις 6:30-7 θα υπάρξει συνέντευξη τύπου για το σχέδιο διάσωσης της Ελλάδος	bankingnewsgr	86044761	2010-05-01 20:42:53
+13196069410	ExchangeNews Direct: Eurogroup Extraordinary Meeting In Brussels - Salgado Takes Part In Eurogroup Meeting Focused... http://bit.ly/aKsFDt	ExchangeNews	23806839	2010-05-01 18:14:37
+13195834741	Υπουργικό Συμβούλιο αύριο το πρωί, Eurogroup το απόγευμα. Ανακινώνονται τα μέτρα Κέρδος: http://bit.ly/9WaDLV	kerdos_online	57285630	2010-05-01 18:09:53
+13190124933	Spain To Take Part In Eurogroup Meeting Focused On Aid For Greece http://goo.gl/fb/r972o	EurasiaReview	21856182	2010-05-01 16:14:52
+13181732441	Την Κυριακή συνεδρίαζει το Eurogroup: Στις πέντε το απόγευμα της Κυριακής (2/5) θα συνεδριάσει το Eurogroup, προκειμένου να ανακοινωθ...	prokiller130	21502587	2010-05-01 12:23:46
+13178969039	#BusinessNews: Eurogroup to give figure for Greek loans on Sunday http://url4.eu/35k4j	SensexIndia	116708948	2010-05-01 10:42:12
+13176994795	Geez+ Μαύρο Σαββατοκύριακο: Εντός του Σαββατοκύριακου, όπως όλα δείχνουν, αναμένεται να συνεδριάσει το Eurogroup, ... http://bit.ly/a64uTp	geezgr	29310780	2010-05-01 09:31:48
+13174387899	Έκτακτη σύνοδος του Eurogroup: Ο πρόεδρος του Eurogroup Ζαν-Κλοντ Γιούνκερ συγκάλεσε σύνοδο την Κυριακή 2/5 στις Β... http://bit.ly/93ECuk	euro2day_gr	125311222	2010-05-01 08:08:59
+13173601907	Έκτακτη σύνοδος του Eurogroup: http://bit.ly/ac930C	pathfinderNews	16094365	2010-05-01 07:46:10
+13158651421	GREECE: Eurogroup set to announce emergency loan figures http://dlvr.it/jFCm	HeralddeParis	33129552	2010-05-01 02:17:49
+13157255896	ForexLive US wrap-up: Market prepares for Eurogroup meeting Sunday: Eurogroup finance ministers to meet in B... http://bit.ly/aCQehy Zimbio	MyForexInfo	80628162	2010-05-01 01:46:35
+13156312674	Eurogroup mins to meet on Sunday over Greece -France	Cote_dAzur	81076100	2010-05-01 01:25:19
+13154664115	WORLD FOREX: Euro Trims Gains Ahead Of Meeting On Greece: Eurogroup finance ministers have been summoned to a spec... http://bit.ly/cQDZkg	4xtrading1	133084309	2010-05-01 00:48:06
+13154313030	ForexLive US wrap-up: Market prepares for Eurogroup meeting Sunday: 04/30/2010Forex Factory - United http://url4.eu/35KEd	giangir	39603848	2010-05-01 00:39:55
+13151225960	Την Κυριακή συνεδρίαζει το Eurogroup - http://tinyurl.com/2c7o478	xanianyxtamera	131252919	2010-04-30 23:26:18
+13148903125	Eurogroup mins to meet on Sunday over Greece -France: SHANGHAI, April 30 (Reuters) - Eurogroup finance ministers w... http://bit.ly/9rajmk	RatTatTata	61730055	2010-04-30 22:29:02
+13148340788	New blog post: ForexLive US wrap-up: Market prepares for Eurogroup meeting Sunday http://bit.ly/9xx5cL #MKT	ForexLive	19399038	2010-04-30 22:15:25
+13147472989	Συνεδρίαση του Eurogroup για την Ελλάδα την Κυριακή [Ναυτεμπορική] http://bit.ly/bzifxo	palonews	17838284	2010-04-30 21:55:00
+13146290743	GREECE: Eurogroup set to announce emergency loan figures http://bit.ly/bF84MW (France24)	INFOS_EN	41780203	2010-04-30 21:26:57
+13144003098	Eurogroup Holds Emergency Meeting Sunday: Concern Spain, Portugal Next http://goo.gl/fb/IBVHN	EurasiaReview	21856182	2010-04-30 20:33:41
+13143034248	Alemanha aguarda acordo entre FMI e ministros das finanças do Eurogroup http://br.reuters.com/article/businessNews/idBRSPE63T01520100430	ahkpoa	61050777	2010-04-30 20:11:56
+13142802008	Συνεδρίαση του Eurogroup για την Ελλάδα την Κυριακή http://ub0.cc/w2/4n	naftemporikigr	18934391	2010-04-30 20:06:40
+13139444463	Eurogroup to give figure for Greek loans on Sunday: BRUSSELS, April 30 (Reuters) - Euro zone finance ministers wil... http://bit.ly/dBusUt	SecondLoans	19475848	2010-04-30 18:56:47
+13138870515	Την Κυριακή συνεδρίαζει το Eurogroup: Στις πέντε το απόγευμα της Κυριακής (2/5) θα συνεδριάσει το Eurogroup, προκειμένου να ανακοινωθ...	prokiller130	21502587	2010-04-30 18:45:36
+13138513224	New blog post: Κυριακή Eurogroup, Δευτέρα στον Πρόεδρο http://www.antinews.gr/?p=43071	antinewsgr	57415343	2010-04-30 18:38:30
+13138231376	Γιούνκερ: Tην Κυριακή η έκτακτη σύνοδος του Eurogroup http://www.enet.gr/157491	enetgr	18979901	2010-04-30 18:33:12
+13138162971	EUR/USD recovering lost gound after Eurogroup meeting confirmed http://bit.ly/bkrfGt	RodneyForex	36300254	2010-04-30 18:31:53
+13138026999	Την Κυριακή η έκτακτη συνεδρίαση του Eurogroup http://goo.gl/fb/dIKzQ	greek_news	138570649	2010-04-30 18:29:20
+13137533188	Στις 5 το απόγευμα της Κυριακής ξεκινάει το eurogroup /via @bankingnewsgr	GullibleUser	3611421	2010-04-30 18:19:24
+13137161708	Νέο Άρθρο: Έκτακτη συνεδρίαση του Eurogroup την Κυριακή http://www.apogevmatini.gr/?p=75607	apogevmatini	41915067	2010-04-30 18:12:00
+13137033140	M&C World News Eurogroup to hold extraordinary meeting Sunday on Greece (Extra): http://bit.ly/97ZA3C	monstersandcrit	14970333	2010-04-30 18:09:29
+13136818799	Στο Eurogroup θα συζητηθούν τα αποτελέσματα των διαπραγματεύσεων μεταξύ Αθήνας και ΕΕ-ΔΝΤ-ΕΚΤ, δήλωσε ο εκπρόσωπος του Γιούνκερ	bankingnewsgr	86044761	2010-04-30 18:05:10
+13136667343	Ο πρόεδρος του Eurogroup συγκαλεί έκτακτη σύνοδο του Eurogroup την Κυριακή 2 Μαΐου και ώρα 16:00 (17.00 ώρα Ελλάδος) στις Βρυξέλλες	bankingnewsgr	86044761	2010-04-30 18:02:02
+13136324197	Την Κυριακή συνεδριάζει το Eurogroup για την Ελλάδα http://bit.ly/dk2oJ6	zoomnewsgr	87783640	2010-04-30 17:55:08
+13136270437	Την Κυριακή στις 17:00 η σύνοδος Eurogroup: Την Κυριακή, στις 17:00 (ώρα Ελλάδας) θα πραγματοποιηθεί στις Βρυξέλλε... http://bit.ly/d9bPMB	euro2day_gr	125311222	2010-04-30 17:54:02
+13135875053	EURO: Eurogroup meeting on Sunday to discuss Greece aid package (Reuters).	NordMarkets	34216015	2010-04-30 17:45:57
+13135606471	New blog post: EUR/USD recovering lost gound after Eurogroup meeting confirmed http://bit.ly/dnjc3i #MKT	ForexLive	19399038	2010-04-30 17:40:15
+13135431913	Στις 5 το απόγευμα της Κυριακής ξεκινάει το eurogroup	bankingnewsgr	86044761	2010-04-30 17:36:27
+13134445682	Συνεδριάζει την Κυριακή το eurogroup	naftemporikigr	18934391	2010-04-30 17:16:10
+13132672708	Μαύρο Σαββατοκύριακο: Εντός του Σαββατοκύριακου, όπως όλα δείχνουν, αναμένεται να συνεδριάσει το Eurogroup, προκει... http://bit.ly/d1NMNh	grpolitics	92719112	2010-04-30 16:41:21
+13132260437	New blog post: GreekFinMin: Unsure if Eurogroup will meet Sunday http://bit.ly/dvWnQY #MKT	ForexLive	19399038	2010-04-30 16:33:16
+13126170324	Sunday Meeting in Brussels Scheduled by Eurogroup's Finance Ministers; Will Further Review Greek Debt Intervention. http://alturl.com/ohgp	EuropaSurvey	43893785	2010-04-30 14:25:19
+13123714541	Juncker admite que o Eurogroup reúna este fim-de-semana para debater problema da Grécia http://xl.pt/r/divOLa	JNegocios	17884125	2010-04-30 13:24:53
+13123389048	XE.com - France's Lagarde sees Eurogroup meeting on Greece: SHANGHAI, April 30 (Reuters) - France's economy minist... http://bit.ly/bn83jh	RatTatTata	61730055	2010-04-30 13:16:28
+13123330532	Πιθανή σύνοδος του Eurogroup την Κυριακή "κλειδώνει" το δάνειο προς την Ελλάδα http://bit.ly/bZRoqw	freecity_gr	52818077	2010-04-30 13:14:57
+13122595741	Μπ. Κουσνέρ: την Κυριακή η συνάντηση του Eurogroup για την Ελλάδα: Την Κυριακή θα συναντηθούν οι υπουργοί Οικονομικών του Eurogroup, γ...	EMEAPORTAL	39960787	2010-04-30 12:54:14
+13121896649	Probable eurogroup meeting of finance ministers this weekend on Greece – Lagarde: Notihng like a good old me... http://bit.ly/cN12Fs Zimbio	MyForexInfo	80628162	2010-04-30 12:33:17
+13121711295	Νέο Άρθρο: Μπερνάρ Κουσνέρ: Την Κυριακή η συνάντηση των ΥΠΟΙΚ του Eurogroup, για την Ελλάδα http://www.apogevmatini.gr/?p=75550	apogevmatini	41915067	2010-04-30 12:27:31
+13121579551	Our time is running out...: {youtube}ebfbjdF9K5o{/youtube} Tην Kυριακή θα συγκλιθεί το Eurogroup για το ελληνικό ... http://bit.ly/9vhcZ4	epikairo	15262649	2010-04-30 12:23:16
+13121538482	Κουσνέρ: Την Κυριακή η συνεδρίαση του Eurogroup για Ελλάδα http://ub0.cc/xF/th	naftemporikigr	18934391	2010-04-30 12:21:58
+13121052634	Cyprus News: Συνεδριάζει το Eurogroup το Σ/κ; http://goo.gl/fb/HJRNW	CyprusNews	28991755	2010-04-30 12:06:22
+13120605718	Την Κυριακή η συνεδρίαση του Eurogroup για Ελλάδα: Την Κυριακή θα πραγματοποιηθεί η συνάντηση των υπουργών Οικονομ... http://bit.ly/aNZE8o	euro2day_gr	125311222	2010-04-30 11:51:33
+13120593156	ΤΗΝ ΚΥΡΙΑΚΗ ΕΚΤΑΚΤΟ EUROGROUP http://ff.im/-jBclT	operiigitis	92335482	2010-04-30 11:51:07
+13120591766	ΤΗΝ ΚΥΡΙΑΚΗ ΕΚΤΑΚΤΟ EUROGROUP	operiigitis	92335482	2010-04-30 11:51:04
+13120528020	Έκτακτο Eurogroup το Σαββατοκύριακο - http://twurl.nl/mulsmk	madata	18899147	2010-04-30 11:48:52
+13120518771	Γιούνκερ: Πιθανή τηλεδιάσκεψη του Eurogroup για την Ελλάδα http://goo.gl/fb/8wacu	greek_news	138570649	2010-04-30 11:48:32
+13120485078	Συνεδριάζουν σήμερα τα μέλη του Eurogroup, μέσω τηλεδιάσκεψης, και εκ νέου την Κυριακή	bankingnewsgr	86044761	2010-04-30 11:47:21
+13120436510	Συνεδριάζει το Eurogroup το Σ/κ; | Sigma Live: http://bit.ly/9rDdVI via @addthis	Sigmalivecom	53346239	2010-04-30 11:45:40
+13120158851	Tην Kυριακή θα συγκλιθεί το Eurogroup για το ελληνικό ζήτημα	bankingnewsgr	86044761	2010-04-30 11:35:59
+13119717616	Réunion des ministres des finances de l'Eurogroup dimanche (B. Kouchner)	integralebourse	94135531	2010-04-30 11:20:52
+13118869575	New blog post: Probable eurogroup meeting of finance ministers this weekend on Greece - Lagarde http://bit.ly/amlxcC #MKT	ForexLive	19399038	2010-04-30 10:51:21
+13118762808	in.gr/news: Το Σαββατοκύριακο -πιθανότατα- η συνεδρίαση του Eurogroup για το σχέδιο στήριξης: Για πιθανή συνεδρίασ... http://bit.ly/cJeBax	in_gr	19662198	2010-04-30 10:47:33
+13117260472	FRANCE: EconMin Lagarde thinks the Eurogroup may meet this weekend to discuss Greece.	JoelKruger	23102962	2010-04-30 09:53:53
+13117087652	Ενδεχομένως και σήμερα η ανακοίνωση του "πακέτου": Για πιθανή συνεδρίαση των υπουργών Οικονομικών του Eurogroup γι... http://bit.ly/akR28g	euro2day_gr	125311222	2010-04-30 09:47:34
+13116738715	Λαγκάρντ: Πιθανή συνεδρίαση του Eurogroup για Ελλάδα το σαββατοκύριακο	naftemporikigr	18934391	2010-04-30 09:34:57
+13085401733	H GUE /NGL ZHTAEI EKTAKTH ΣΥΖΗΤΗΣΗ ΣΤΟ ΚΟΙΝΟΒΟΥΛΙΟ ΠΡΙΝ ΤΟ EUROGROUP ΓΙΑ ΤΟΥΣ ΟΡΟΥΣ ΔΑΝΕΙΣΜΟΥ ΤΗΣ ΕΛΛΑΔΑΣ http://bit.ly/bXaapM	Synaspismos	18014884	2010-04-29 21:29:53
+13072600706	forexebookstore: Eurogroup fails to help the euro by not producing any concrete actions in regards to Greece http://bit.ly/9uXQVb	forexebookstore	134156965	2010-04-29 16:50:13
+13068533562	@kmitsotakis H nomismatiki enosi tis europis (eurogroup) tha antexei telika ti krisi H tha xreiastoun bail out oles oi PIIGS xores? #kmits	nbalatsas	26610196	2010-04-29 15:28:45
+13011126489	17/05/10Brussels, Eurogroup meeting http://tinyurl.com/23w3ees	RalfGrahn	93207353	2010-04-28 17:01:55
+13009089703	EU Prepares Eurogroup Meeting To Coordinate Aid For Greece http://goo.gl/fb/EXzxs	EurasiaReview	21856182	2010-04-28 16:23:08
+13006993972	New blog post: German FinMin: Eurogroup could supply 30 bln in first year http://bit.ly/cH6vd8 #MKT	ForexLive	19399038	2010-04-28 15:42:26
+13006787162	Σόιμπλε: Το Eurogroup θα μπορούσε να χορηγήσει στην Ελλάδα 30 δισ. ευρώ τον πρώτο χρόνο - Η απόφαση ισχύει για τρία χρόνια	bankingnewsgr	86044761	2010-04-28 15:38:14
+13006727774	GERMANY FINMIN: Eurogroup said it could contribute 30bln EUR. All other figures are mere speculation	NordMarkets	34216015	2010-04-28 15:36:58
+12992299450	TV-net.ro - Criza greaca. Herman Van Rompuy convoaca EUROGROUP, pe 10 mai http://bit.ly/9Y6OyX	tv_net	65025121	2010-04-28 08:41:32
+12953157280	Eurogroup's Juncker: Portugal different from Greece - Reuters http://is.gd/bK2TM	NoticiasPlaneta	107565310	2010-04-27 18:24:40
+12868607817	New post on my tumblr "Eurogroup fucking with Gloria Gucci and Andy Brown " (http://bit.ly/bT3Deh)	ThisIsGood4U	124014980	2010-04-26 08:36:06
+12740854935	Eurogroup, ECB, EU 'Take Note' of Greek Request to Activate Aid - BusinessWeek http://is.gd/bFDC4	intlGR	108944513	2010-04-24 05:00:03
+12717424465	ExchangeNews Direct: Joint Statement By European Commission, European Central Bank And Presidency Of The Eurogroup... http://bit.ly/aBOKaJ	ExchangeNews	23806839	2010-04-23 20:26:09
+12709043046	Αναφορά Eurogroup, Ε.Ε. και ΕΚΤ στην ενεργοποίηση του μηχανισμού: Ο πρόεδρος του Eurogroup, η Ευρωπαϊκή Επιτροπή και η Ευρωπαϊκή Κεντρ...	EMEAPORTAL	39960787	2010-04-23 17:41:51
+12708939509	Οι αντιδράσεις στο ελληνικό αίτημα αρωγής: ΕΚΤ, Κομισιόν και Eurogroup επισημοποιούν ότι έλαβαν γνώση του ελληνικο... http://bit.ly/dgyQ9N	euro2day_gr	125311222	2010-04-23 17:39:58
+12703084263	Dowjonesnews Forex>> UK Darling: Greece Must Reach Deal Soon With Eurogroup, IMF: UK Darling: Greece Must Re... http://tinyurl.com/2ws47qt	TwitECnews	97466561	2010-04-23 15:52:30
+12696892731	@doleross Προσευχόμεθα για άμεση απόφαση (ομόφωνη) από τους 16 ηγέτες του Eurogroup...	fotisk	18533988	2010-04-23 13:37:39
+12696779408	ΕΠΙΣΤΟΛΗ ΠΑΠΑΚΩΝΣΤΑΝΤΙΝΟΥ ΣΤΟ EUROGROUP ΓΙΑ ΤΗΝ ΕΝΕΡΓΟΠΟΙΗΣΗ ΤΟΥ ΜΗΧΑΝΙΣΜΟΥ ΣΤΗΡΙΞΗΣ http://goo.gl/fb/nKQa1	VetoNewsgr	73185641	2010-04-23 13:34:39
+12696032879	H επιστολή ΥΠΟΙΚ σε Eurogroup, ΕΕ και ΕΚΤ http://bit.ly/bD0U7V	troktikofeed	134141756	2010-04-23 13:14:35
+12695787990	Eurogroup to decide on Greek aid request http://bit.ly/aVQUiH #greek	RSSMicro	26598275	2010-04-23 13:07:38
+12695634109	H επιστολή ΥΠΟΙΚ σε Eurogroup, ΕΕ και ΕΚΤ http://lavraki.gr/?p=11514	Lavrakigr	109916189	2010-04-23 13:03:17
+12695567116	Επιστολή του Υπουργείου Οικονομικών στο Eurogroup, την Ευρωπαϊκή Επιτροπή και την Ευρωπαϊκή Κεντρική Τράπεζα :: Tax ... http://shar.es/m7QwO	TaxNewsGR	57610372	2010-04-23 13:01:27
+12695439045	Νέο Άρθρο: Επιστολή ΥΠΟΙΚ σε Eurogroup, Ε.Ε. και ΕΚΤ http://www.apogevmatini.gr/?p=74640	apogevmatini	41915067	2010-04-23 12:57:56
+12610187551	Update: (AFX UK Focus) 2010-04-21 13:50 Eurogroup to check May 17 whether Greek funds ready http://bit.ly/cDjMMO	thefinanceblog	125353437	2010-04-22 03:17:31
+12584599725	in.gr/news: Έλεγχος ετοιμότητας για παροχη βοήθειας στην Ελλάδα από το Eurogroup στις 17 Μαΐου: Η ετοιμότητα όλων ... http://bit.ly/aiyFgu	in_gr	19662198	2010-04-21 18:09:15
+12575978945	Eurogroup: 17/5 η ώρα της αλήθειας για την αρωγή: Το Eurogroup θα ερευνήσει στις 17 Μαΐου στις Βρυξέλλες, κατά πόσ... http://bit.ly/cspyBQ	euro2day_gr	125311222	2010-04-21 15:24:31
+12573583091	Στο Eurogroup της 17ης Μαΐου θα επιβεβαιωθεί εάν όλα τα κράτη- μέλη είναι έτοιμα για την παροχή βοήθειας στην Ελλάδα	bankingnewsgr	86044761	2010-04-21 14:32:26
+12475636550	A la montagne, à la mer, à la campagne et en ville Madame Vacances by Eurogroup sélectionne pour vous les stations... http://bit.ly/aTLpwI	GDWclubbing	114405736	2010-04-19 23:00:15
+12450255425	AFP ロビン・フッドと銀行家の綱引きで抗議: 【4月19日 AFP】ユーロ圏財務相会合（ユーログループ、Eurogroup）が開催中のスペイン・マドリード（Madrid）の議会前で16日、国際NGOオックスファム（Oxfam）... http://bit.ly/b5o1kM	toritube	100406819	2010-04-19 13:19:46
+12448542995	Συνέντευξη του Υπουργού Οικονομικών στο πλαίσιο των άτυπων συμβουλίων Eurogroup και Ecofin :: Tax News GR - http://shar.es/mvukT	TaxNewsGR	57610372	2010-04-19 12:26:27
+12446945154	The RSPCA & Eurogroup are calling for MEPs to support Paulsen report on Animal Welfare Action plan tomorrow. Assuming they can get there!	RSPCA_political	106450306	2010-04-19 11:30:46
+12326845573	Succes! RT @JCdeJager Vandaag was ik druk met Eurogroup en Ecofin (ministers van Fin) in Madrid. Morgen verder met Ecofin. Begint al om 7:45	HenkBoes	104446638	2010-04-17 07:35:11
+12307823265	RT Jean-Claude Juncker says Eurogroup ministers have agreed it is necessary to set up a permanent crisis mechanism,... http://ow.ly/175DJ7	pressluxembourg	55867205	2010-04-17 00:25:46
+12304419959	Vandaag was ik druk met Eurogroup en Ecofin (ministers van Fin) in Madrid. Morgen verder met Ecofin. Begint al om 7:45 met voorbespreking :(	JCdeJager	26977928	2010-04-16 23:04:42
+12303550219	Jean-Claude Juncker says Eurogroup ministers "have agreed it is necessary to set up a permanent crisis mechanism," http://j.mp/cDNkcA	EPP	93687642	2010-04-16 22:43:59
+12293366368	Salgado (Ισπανίδα υπουργός Οικονομικών): Το Eurogroup συμφώνησε στην ανάγκη βελτίωσης της συνεργασίας για την οικονομική πολιτική	bankingnewsgr	86044761	2010-04-16 18:55:29
+12287927039	Informal Eurogroup Meeting, Madrid: - extracts from the press conference http://bit.ly/adDXRr	NP_Europe	126466563	2010-04-16 17:10:38
+12285451240	Geez+ Νέο άλμα των spread στη σκιά του Eurogroup: Μέχρι τις 425 μονάδες βάσης σκαρφάλωσαν ξανά σήμερα τα spread τω... http://bit.ly/cm509o	geezgr	29310780	2010-04-16 16:24:26
+12284870473	@martindekoning Bij de Ecofin nu zijn niet alle sleutelpersonen aanwezig helaas. Eurogroup vanochtend over Gr hadden meer mensen gehaald.	JCdeJager	26977928	2010-04-16 16:13:17
+12283420297	Informal EUROGROUP meeting - Press Conference - Part 1 http://bit.ly/drzQ7O	EUCouncilTVNews	50995683	2010-04-16 15:45:03
+12283209754	Informal EUROGROUP meeting - Arrivals and roundtable http://bit.ly/b7MKXH	EUCouncilTVNews	50995683	2010-04-16 15:40:47
+12282530193	RT Photo from Getty Images by AFP: Eurogroup president and Luxembourg Prime Minister Jean-Claude Juncker (R) and Eu... http://ow.ly/175nqF	pressluxembourg	55867205	2010-04-16 15:26:59
+12282499145	Eurogroup: προτείνει "διαβούλευση" των εθνικών προϋπολογισμών στους κόλπους του, πριν τη ψήφισή τους από τα εθνικά κοινοβούλια: Οι χώρ...	EMEAPORTAL	39960787	2010-04-16 15:26:20
+12282062166	Eurogroup: Συνέντευξη Τύπου Ζ.Κ. Γιούνκερ - Ο. Ρεν - Ζ.Κ. Τρισέ [audio] http://ub0.cc/fF/1D	naftemporikigr	18934391	2010-04-16 15:17:20
+12281714265	New Audio File: Informal Eurogroup Meeting, Madrid:- arrivals and roundtable http://url4.eu/2hf8e	EC_AVService	56392389	2010-04-16 15:10:08
+12280004332	RT Greece has not asked for help from the EU or the IMF, according to EuroGroup President Jean-Claude Juncker on Fr... http://ow.ly/175lbK	luxembourg_news	49312521	2010-04-16 14:32:45
+12280004015	RT Greece has not asked for help from the EU or the IMF, according to EuroGroup President Jean-Claude Juncker on Fr... http://ow.ly/175lbN	news_luxembourg	53668279	2010-04-16 14:32:44
+12279705985	www.iStoreANIME.COM Luxembourg's Prime Minister and Eurogroup chairman Juncker speaks durin... http://tinyurl.com/y5gdr98 www.FaceMania.net	iPhoneCydia	16809701	2010-04-16 14:25:54
+12279704901	www.iStoreANIME.COM ECB President Trichet attends a news conference after the Eurogroup mee... http://tinyurl.com/y3wtsxz www.FaceMania.net	iPhoneCydia	16809701	2010-04-16 14:25:53
+12277300013	New blog post: Eurogroup Chief: Legal Process On Greece Aid Progressing OK http://bit.ly/9YAuJl #MKT	ForexLive	19399038	2010-04-16 13:25:18
+12276924991	Χωρίς περιθώρια ελιγμών στο Eurogroup της Μαδρίτης: Μετά την επιστολή Παπακωνσταντίνου και την άφιξη κλιμακίου το... http://bit.ly/cngn6j	News247gr	19284221	2010-04-16 13:14:44
+12274744764	#eu2010 Rueda de prensa del Eurogrupo previo al Ecofín // Eurogroup's press conference prior to Ecofin: http://www.eu2010.es/	desdelamoncloa	58417540	2010-04-16 12:05:35
+12274152635	Σύμφωνο Σταθερότητας και οικονομική συγκυρία στην ατζέντα των Eurogroup και Ecofin: Συνέρχονται την Παρασκευή και το Σάββατο στη Μαδρί...	EMEAPORTAL	39960787	2010-04-16 11:45:23
+12273712324	in.gr/news: Ο μηχανισμός στήριξης της Ελλάδας στο επίκεντρο του Eurogroup στη Μαδρίτη: Οι τεχνικές λεπτομέρειες γύ... http://bit.ly/b59Jz5	in_gr	19662198	2010-04-16 11:29:51
+12273255571	Eurogroup begonnen volgens planning om 9:00. Sommige collega's hebben het niet gehaald ivm aswolk. Maar hoofdrolspelers aanwezig.	JCdeJager	26977928	2010-04-16 11:13:29
+12272957917	M&C World News Greece not expected to ask for aid on Friday, eurogroup chief says: http://bit.ly/bcZwD6	monstersandcrit	14970333	2010-04-16 11:02:43
+12272639232	Ισχυρή η απόφαση του Eurogroup για την Ελλάδα http://tinyurl.com/y39a6ms	cnppress	97720270	2010-04-16 10:51:08
+12271539305	Ζ. Κλ. Γιούνκερ: H Ελλάδα δεν αναμένεται να ζητήσει βοήθεια στη διάρκεια του Eurogroup: http://bit.ly/98zm9P	path_stocks	92482162	2010-04-16 10:10:32
+12270647210	Πιο στενή συνεργασία για την επίλυση των προβλημάτων ζητά από τις χώρες της ευρωζώνης η Κ. Λαγκάρντ αυτήν την ώρα στο Eurogroup	bankingnewsgr	86044761	2010-04-16 09:38:21
+12269613376	Δεν θα υπάρξει σήμερα προσφυγή της Ελλάδος στον μηχανισμό αναφέρει ο επικεφαλής του Eurogroup Γιούνκερ	bankingnewsgr	86044761	2010-04-16 09:01:47
+12268478147	Συνεδριάζει το Eurogroup, με τη σκιά του ΔΝΤ να πέφτει στην Ελλάδα http://bit.ly/ahooqx	tvxs	18834081	2010-04-16 08:22:50
+12265781557	Κρίσιμη συνεδρίαση Eurogroup για πακέτο στήριξης: Πυρετώδεις διαβουλεύσεις στην Μαδρίτη με φόντο το πακέτο στήριξη... http://bit.ly/9lgeoc	euro2day_gr	125311222	2010-04-16 07:00:38
+12259297910	RT Euro chief Juncker hits out at 'hesitant' Germany: Eurogroup chief Jean-Claude Juncker hit out on Thurs... http:... http://ow.ly/1757ty	news_luxembourg	53668279	2010-04-16 04:28:39
+12247755494	Γιούνκερ: Στο Eurogroup τη τελική απόφαση για τη βοήθεια στην Ελλάδα http://bit.ly/cgDMOE	reportergr	97900385	2010-04-16 00:28:40
+12235859897	DUTCH FIN MIN SEES SUFFICIENT GUARANTEES IN GREECE AID PLAN FOR BOTH IMF AND EUROGROUP TO BE REPAID	livesquawk	59393368	2010-04-15 19:51:18
+12226725368	Στo Eurogroup της Μαδρίτης δεν μπορούν να κάνουν κάτι περισσότερο οι υπουργοί οικονομικών για το σχέδιο διάσωσης, λέει ο Φιλανδός ΥΠΟΙΚ	bankingnewsgr	86044761	2010-04-15 16:45:09
+12223722741	Juncker: Δεν ανησυχούμε για γερμανική προσφυγή: Ο επικεφαλής του Eurogroup, δήλωσε ότι δεν υπάρχει ουσιαστική ανησ... http://bit.ly/a7wiWW	euro2day_gr	125311222	2010-04-15 15:49:25
+12223555129	[EbS] [LIVE | 16/04/10 - 12:30] Informal Eurogroup Meeting, Madrid - Press conference http://bit.ly/dzCBMR	laurentsem	44469236	2010-04-15 15:46:16
+12218503285	Γιούνκερ: δεν αποκλείει για χώρες της ευρωζώνης κρίση αντίστοιχη με της Ελλάδας: Ο πρόεδρος του Eurogroup Ζαν-Κλοντ Γιούνκερ δεν αποκλ...	EMEAPORTAL	39960787	2010-04-15 13:58:39
+12212112492	Γιούνκερ: εκφράζει ανησυχία για τη στάση της Γερμανίας στις ευρωπαϊκές υποθέσεις: O πρόεδρος του Eurogroup Ζαν-Κλοντ Γιούνκερ εξέφρασε...	EMEAPORTAL	39960787	2010-04-15 10:30:08
+12211109740	www.Germany-VIP.com Euro chief Juncker hits out at 'hesitant' Germany: Eurogroup chief Jean-Claude Juncker hit out... http://bit.ly/cdENlZ	GermanyVip	75244440	2010-04-15 09:52:04
+12210941689	Στη Μαδρίτη τα βλέμματα - Στο επίκεντρο του άτυπου Eurogroup ο μηχανισμός στήριξης της Ελλάδας: http://bit.ly/bbSTOG	pathfinderNews	16094365	2010-04-15 09:45:35
+12210818258	Ma¿ i Social Media, vendono? - Eurogroup http://url4.eu/2eTIw	businessplan_it	14809267	2010-04-15 09:40:48
+12210562897	Eurogroup: Με…ελληνική ατζέντα αύριο στη Μαδρίτη: http://bit.ly/9tNsQQ	kerdos_online	57285630	2010-04-15 09:30:58
+12209974872	EU May Need an Aid Mechanism: Eurogroup's Juncker http://bit.ly/9LyAl8	CNBC_EMEA	28528172	2010-04-15 09:09:03
+12209875672	Άτυπο Eurogroup αύριο στη Μαδρίτη- Επί τάπητος η πορεία της ελληνικής οικονομίας	bankingnewsgr	86044761	2010-04-15 09:05:17
+12209690429	EU May Need an Aid Mechanism: Eurogroup's Juncker http://cnbc.com/id/36539717 $$	CNBCTopStories	19674395	2010-04-15 08:59:03
+12208405697	Ο Γιούνκερ ο επικεφαλής του Eurogroup υποστηρίζει ότι ο μηχανιμός για την Ελλάδα είναι έτοιμος να ενεργοποιηθεί	bankingnewsgr	86044761	2010-04-15 08:12:58
