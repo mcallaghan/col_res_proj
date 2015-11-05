@@ -5,3 +5,48 @@ date: "November 14, 2015"
 output: html_document
 ---
 
+1500 words
+
+# Data Gathering 
+
+
+# Data Cleaning  
+
+```{r}
+files <- list.files("data/GOToutput")
+
+corpus <- data.frame(tweet_id = numeric(), text = character(), username = character(), user_id = numeric(), date = character(), query = character())
+
+for (f in files) {
+  df <- read.table(
+    paste0("data/GOToutput/",f),
+    sep="\t",
+    header=TRUE
+  )
+  df$query = f
+  corpus <- rbind(corpus,df)
+}
+
+
+df < read.delim(
+    "data/GOToutput/#aGreekment_2015-07-01_2015-08-25.txt",
+    sep="\t",
+    quote="",
+    comment.char=""
+)
+
+df < scan(
+    "data/GOToutput/varoufakis_2015-07-01_2015-08-25.txt",""
+)
+
+
+
+```
+
+
+# Data Analysis
+
+## Descriptive Statistics
+
+## Inferential Statistics
+
