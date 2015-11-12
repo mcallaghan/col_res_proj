@@ -8,33 +8,47 @@ bibliography:
 - RpackageCitations.bib
 ---
 
-1500 words
-
 # Data Gathering 
 
+Due to the large amount of data we process, we ran the data gathering and cleaning in the background on a server using the prefix setsid.
+
+
 ## Tweets
-We used a modified version of GetOldTweets [@GetOldTweets], a Java program that scrapes data from twitter search. The file getting_tweets/input.txt contains a list of search terms related to the Greek crisis. The search terms were collected using an adapted form of snowball sampling, searching an initial list and recursively adding related terms found in the results. By running 
+We used a modified version of GetOldTweets [@GetOldTweets], a Java program that scrapes data from twitter search. The file getting_tweets/input.txt contains a list of search terms related to the Greek crisis in three periods, each comprising some weeks before and after the negotiation and signing of the memoranda. The search terms were collected using an adapted form of snowball sampling [@snowball], searching an initial list and recursively adding related terms found in the results. By running 
 ```
 sudo setsid ./compile_run.sh ../getting_tweets/input.txt
 ```
-from the GetOldTweets folder, we ran through each search term, searched twitter, and saved the results as a txt file in the data folder. After an initial assessment of the results, we refined our search terms and ran GetOldTweets again with /getting_tweets/input2.txt
+from the GetOldTweets folder, we ran through each search term and each period, searched twitter, and saved the results as a txt file in the data folder. After an initial assessment of the results, we refined our search terms and ran GetOldTweets again with /getting_tweets/input2.txt. A third file (getting_tweets/input3.txt) aims to return a time-inpedependent list of tweets in order to control for the growth of Twitter over time.
+
+We end up with a long list of files in the data/GOToutput folder, which in the data cleaning process will be merged into one corpus file.
 
 ## Users
-- We found the unique users in our corpus of tweets and used the TwitteR package [@R-twitteR] to gather richer data about each user
+We found the unique users in our corpus of tweets and used the TwitteR package [@R-twitteR] to gather richer data about each user. TwitteR uses the twitter API and gives the opportunity to collect all information twitter has abou the user. Where a users's last tweet was geocoded, we took the latitude and longtitude. We end up with the file data/user_info.csv
 
-- We used APIs from MapQuest and Google to geocode user-reported location.
+Many users do not geotag their tweets, instead stating their location, and we used APIs from MapQuest and Google to geocode user-reported location, giving us the file places.csv.
 
 
 # Data Cleaning  
+The txt files containing the tweets for each query and period are merged into a corpus file. This corpus file was merged with the user_info file, which in turn was merged with the places file. We end up with a large file containing tweets for our queries in each period with elaborete user information.
+
+Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period.
 
 # Data Analysis
 
 ## Descriptive Statistics
 
+- Timeless against other queries
+
+- Summary table large/small
+
+- Word cloud
+
 ```{r cache=TRUE}
 library(ggplot2)
 library(dplyr)
 library(stringr)
+library(wordcloud)
+library(tm)
 corpus <- read.csv('data/corpus.csv')
 eurocrisis <- filter(corpus, query == 'eurocrisis')
 
@@ -84,7 +98,17 @@ timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
 timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
 timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
 
+text_corpus <- Corpus(VectorSource(corpus$text))
 
+#clean up
+coup_text_corpus <- tm_map(coup_text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+coup_text_corpus <- tm_map(coup_text_corpus, content_transformer(tolower), mc.cores=1)
+coup_text_corpus <- tm_map(coup_text_corpus, removePunctuation, mc.cores=1)
+coup_text_corpus <- tm_map(coup_text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(coup_text_corpus)
 
 
 ```
