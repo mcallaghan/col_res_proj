@@ -182,9 +182,16 @@ geocode_corpus <- function(df,n=NULL) {
      
        for (i in 1:l) {
            place_info <- try(geocode(places[i,"location"],"mapQuest"))
-           if(place_info[1] == "US" & place_info[2] == "" & place_info[3]=="" & place_info[4]==""&place_info[5]==""){
+           if(!is.na(place_info[1])) {
+             if(place_info[1] == "US" & 
+                place_info[2] == "" & 
+                place_info[3] == "" & 
+                place_info[4] == "" &
+                place_info[5] == ""){
                place_info <- try(geocode(places[i,"location"],"google"))
              }
+           }
+           
            places[i,"approx_country"] <- place_info[1]
            places[i,"approx_aa3"] <- place_info[2]
            places[i,"approx_aa4"] <- place_info[3]
@@ -196,6 +203,7 @@ geocode_corpus <- function(df,n=NULL) {
            places[i,"approx_lng"] <- place_info[9]
            places[i,"status"] <- place_info[10]
            places[i,"geocoder"] <- place_info[11]
+           
          }
      
        return(places)
