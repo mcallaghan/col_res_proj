@@ -1,0 +1,2 @@
+tweet_id	text	username	user_id	date
+185681470411640832	Eurozone mobilising total firewall of around 800bn euros, counting in 49bn of EFSM disbursed money and 53bn euros of bilateral Greek loans	chrisadamsmkts	348345136	2012-03-30 12:54:46

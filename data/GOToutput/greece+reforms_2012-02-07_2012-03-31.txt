@@ -44,7 +44,6 @@ tweet_id	text	username	user_id	date
 184637223185027072	Schulz: reforms in Greece need to be simple for broken government. Advocates a flat tax for Greece	OpenEurope	65322179	2012-03-27 15:45:19
 184622595629518848	#Catholic @sacnsint Greece Aims To Complete Reform Measures By Mid-April - Wall Street Journ... http://bit.ly/HdSmG1  [ #rss / @sacnsnew]	cathsecnews	105844249	2012-03-27 14:47:11
 184620222999834624	#Greece Aims To Complete Reform Measures By Mid-April http://english.capital.gr/News.asp?id=1452010 …	EfiEfthimiou	281093434	2012-03-27 14:37:45
-184607237573054466	Greece Aims To Complete Reform Measures By Mid-April - Wall Street Journal http://goo.gl/wnaHZ 	TheNewsGreece	300889213	2012-03-27 13:46:09
 184537192926941184	#Greece low politics 2:PASOK and ND still bicker over taxi licences reform with an eye on elections/votes, no rush it has only been 2 years	YiannisMouzakis	342705072	2012-03-27 09:07:49
 184306053461192706	What Greece needs is reform & supply side changes, not suppression of demand, says Euro economist Holger Schmieding	Alpha_Now	357091182	2012-03-26 17:49:22
 183634079013552128	Greek banks seek recapitalization - finance ministry getting fiscally prudent on pension reform http://finance.yahoo.com/news/optimistic-greece-says-eu-task-132619942.html … via @YahooFinance #EZ	RicochetCEO	189948864	2012-03-24 20:19:10
@@ -64,7 +63,6 @@ tweet_id	text	username	user_id	date
 183128813281083392	Draghi says Greece has to implement reforms to get out of the current squeeze - International Busine... http://bit.ly/GLvT62  via @newspin	GreeceInCrisis	404105858	2012-03-23 10:51:26
 183126855199621120	ECb's Draghi says Greece must implement reforms Read... http://wp.me/p1WFDE-IW 	zumoit	397647699	2012-03-23 10:43:39
 183126641336270848	Draghi: Greece Must Implement Reforms - http://ow.ly/1J2T6p 	GreekReporter	38090709	2012-03-23 10:42:48
-183126414516699136	Draghi says Greece has to implement reforms to get out of the current squeeze - http://tinyurl.com/7hw3yxe  - #greece	allnewyorknews	314251370	2012-03-23 10:41:54
 183108508592504832	ECB's Draghi Says Greece Must Implement Reform http://www.efxnews.com/story/11439/ecbs-draghi-says-greece-must-implement-reform …	FGoria	6361512	2012-03-23 09:30:45
 183096017045032960	ECB's Draghi: Greek Can Come Out Of Downward Spiral On Implementation Of Reforms: Greece should implement refor... http://tinyurl.com/7ztmzby 	instapartner	206338264	2012-03-23 08:41:06
 183087155583778816	Spanish Economy Minister: Labour market reforms are key to help economy: Comparisons with Greece are total nons... http://bit.ly/GOoh0w 	FSBTrading	148004552	2012-03-23 08:05:54
@@ -117,7 +115,6 @@ tweet_id	text	username	user_id	date
 181671313948155904	Unelected bankster #Greece PM claims that the 'silent majority' supports reforms.This is exactly how megalomaniac dictators think	Need_FreedomAir	387667609	2012-03-19 10:19:51
 181633411969069056	IMF's Thomsen Says Greek Bailout Linked To Reforms: ATHENS -- Greece's latest bailout program will fail if the n... http://bit.ly/y43jRq 	JSoxfan	113349762	2012-03-19 07:49:14
 181550810621165568	Note to Krugman: Greece Proves Keynesian Economics Wrong: Yes, Greece needed a wake-up whack and economic reform... http://bit.ly/yB2Lip 	lilymaggi	82315892	2012-03-19 02:21:00
-181522205727924224	Note to Krugman: Greece Proves Keynesian Economics Wrong: Yes, Greece needed a wake-up whack and economic reform... http://bit.ly/xVXpzE 	stormchild2	239799355	2012-03-19 00:27:21
 181510958810800128	Greece over halfway to recovery, says PM: Papademos says political leaders will unite to implement reforms an... http://bit.ly/A8wHp0  FT	WallStAndMain	17456470	2012-03-18 23:42:39
 181462430520578048	IMFs Thomsen (interv with To Vima): New progr for #Greece will undoubtedly fail if new government doesnt accelerate reforms	EfiEfthimiou	281093434	2012-03-18 20:29:49
 181455331816259584	Greece's latest bailout program will fail if the new government doesn't push through the reforms,... http://bit.ly/A453hY 	DanielSciro	187754641	2012-03-18 20:01:37
@@ -126,7 +123,6 @@ tweet_id	text	username	user_id	date
 181407191981494275	“Greece suffers from reform fatigue,” said Dimitris Plantzos, an assistant professor of history and archeology...	Orgetorix	24842995	2012-03-18 16:50:19
 181216525754179585	IMF warns against reforms slippage in Greece programme: The IMF warned that if any of these risks materialised, ... http://bit.ly/y9Us1v 	kimberlyhouston	139482564	2012-03-18 04:12:41
 181181120568766466	IMF warns against reforms slippage in Greece programme: The International Monetary Fund, which decided a new €28... http://bit.ly/A9UBm5 	_halledavies	67701356	2012-03-18 01:51:59
-181172740357763072	IMF warns against reforms slippage in Greece programme http://bit.ly/y4DkYR 	davidbrssfeed	209151708	2012-03-18 01:18:41
 181064804209930240	There's a possibility that Greece will indeed adopt reforms that may work. A tax amnesty followed by a flat tax is a real prospect.	declanganley	22396466	2012-03-17 18:09:48
 180993254098079744	Greek News Morse sees Greece at middle of road: Fiscal consolidation, promoting structural reforms of a developm... http://oio.gr//91 	JwForum	39049059	2012-03-17 13:25:29
 180983460981260288	Greeks Face Challenges to Carrying out Reform http://ow.ly/1ICFZA " They should get rid of the Euro and re-implement the Drachme!	M_A_Nag	415148733	2012-03-17 12:46:34
@@ -155,7 +151,6 @@ tweet_id	text	username	user_id	date
 180396719769522178	Reichenbach says Greece faces challenges implementing second reform plan http://ow.ly/9G6b0 	eurotribune	76428356	2012-03-15 21:55:04
 180390811077312512	Greece given mixed grade in reform effort via @wsj http://on.wsj.com/yW3iBO 	livingingreece	21560702	2012-03-15 21:31:35
 180376503593336833	Imf Official - Clear Sense There Is a Much reduced Risk of Greece Instability, But Strict Reforms Still... http://dlvr.it/1KHjRb  #forexnews	forexrebateteam	465580387	2012-03-15 20:34:44
-180363603268997120	#forex IMF OFFICIAL - CLEAR SENSE THERE IS A MUCH REDUCED RISK OF GREECE INSTABILITY, BUT STRICT REFORMS STILL NEEDED	ACFX1	291703815	2012-03-15 19:43:28
 180346279078006784	#Greece @EU_Commission I was right: Germany has started providing technical assistance for administrative reform... http://bit.ly/z7Px6g 	euinside	38379709	2012-03-15 18:34:38
 180343947170824192	#Greece @EU_Commission I`m slightly worried- French experts are guiding Greece how to reform the public administ... http://bit.ly/z7Px6g 	euinside	38379709	2012-03-15 18:25:22
 180331769986420736	EU Official: Greece Faces Challenges Implementing Second Reform Plan http://www.efxnews.com/story/11223/eu-official-greece-faces-challenges-implementing-second-reform-plan …	FGoria	6361512	2012-03-15 17:36:59
@@ -178,10 +173,10 @@ tweet_id	text	username	user_id	date
 179575301058203648	Dutch Finmin De Jager Says Greece Still Needs To Keep Cutting Spending And Reform Economy	cigolo	29203223	2012-03-13 15:31:02
 179548554308747264	Kathimerini: Task Force in #Greece will see its numbers bolstered and it will be stationed permanently at ministries to oversee reforms	raluca3000	47346052	2012-03-13 13:44:45
 179501921659396096	BRUSSELS (Reuters) - The package of new financing, debt restructuring and reforms can put G... http://bit.ly/xJJCqZ  http://bit.ly/onefx 	CurrenciesNews	126945641	2012-03-13 10:39:27
+179501598807031808	BRUSSELS (Reuters) - The package of new financing, debt restructuring and reforms can put Greek debt on a sustai... http://bit.ly/wfrtPg 	economy_guide	151189806	2012-03-13 10:38:10
 179448473832275968	Horst Reichenbach, the head of the Task Force in Greece, has arrived to Athens with a new plan for the reform of the Greek economy.	ClipnewsEU	227306002	2012-03-13 07:07:04
 179325819561312256	Success of Greek bail out programme will depend on implementation of reforms and political unity in Greece, warns #Rehn €urogroup	Brusselsness	17870684	2012-03-12 22:59:41
 179267975646412800	Quitting euro "lesser evil" for Greece, would spur needed structural reform, says @BloombergView opinion writer | http://bloom.bg/xBMLFy 	LauraJKeller	250275433	2012-03-12 19:09:50
-179239166645780480	DUTCH FM DE JAGER: Debt swap is as important as reforms for Greece	DailyFXTeam	28366310	2012-03-12 17:15:22
 179171780135616512	I completely agree! RT @angeloufani: @stratosathens @economistmeg additionally structural reforms will not happen if Greece leaves EZ.	stratosathens	18138592	2012-03-12 12:47:35
 179150556735090688	@Hugodixon Interesting that France is guilty of similar reform avoidance it criticises Greece for. Excellent piece. Thanks for insight.	NickMalkoutzis	279642533	2012-03-12 11:23:15
 179133687613489152	Election madness -- yet another new excuse for Anything But Reform in Greece? #ABR #Greece. Ask Angela about that...	ReformWatch	458693472	2012-03-12 10:16:13
@@ -195,7 +190,7 @@ tweet_id	text	username	user_id	date
 178069799920865280	So Greece doing so great when it's about to get new fresh loans but for structural reforms you can wait! #Greece	fx_13	78614391	2012-03-09 11:48:43
 178037545622450176	PSI agreed http://tinyurl.com/76wsu92  but I doubt Greece will implement the austerity and reforms on which future payouts depend	JerryMelinn	484922685	2012-03-09 09:40:33
 178029705755238400	#IIF : “The very strong and positive result, major opportunity now for #Greece to move ahead with its reform program” @FPapathanasiou	evrendede	80445162	2012-03-09 09:09:24
-178020964922179584	The lesson of #Greece for us:reject reform & live a good life for a few decades- but leave an impoverished nation for the next generations.	zakrana	168197550	2012-03-09 08:34:40
+178024739976122368	IIF: This debt exchange will be a catalyst for strong official-sector support for Greece's reform programme - http://www.forexlive.com/blog/2012/03/09/iif-this-debt-exchange-will-be-a-catalyst-for-strong-official-secotr-support-for-greeces-reform-programme/ …	pelias01	322054650	2012-03-09 08:49:40
 178020787301785600	#Greece 'celebrated' May 2010,29 June 2011,21 July 2011,26 Oct 2011,10 Nov 2011.*Big* issues remain implementation,reform & who will execute	YiannisMouzakis	342705072	2012-03-09 08:33:57
 178016245822660608	Greece’s private creditor committee welcomes PSI: Says deal will provide breathing space for needed reforms by A... http://bit.ly/yazhQ4 	mitsurukikkawa	99482164	2012-03-09 08:15:55
 178011098220470272	J Ackermann Chairman of #IIF “The very strong and positive result, major opportunity now for #Greece to move ahead with its reform program”	fpapathanasiou	212501054	2012-03-09 07:55:27
@@ -211,20 +206,19 @@ tweet_id	text	username	user_id	date
 177691051895689217	Greece in action- blocking reform. Berlin berates Athens over bureaucracy http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_08/03/2012_431787 … via @ekathimerini	ReformWatch	458693472	2012-03-08 10:43:42
 177685165903065088	Public administration to finally be streamlined: A government meeting was held at the administrative reform and ... http://bit.ly/x2LFuI 	exporthubpt	284536455	2012-03-08 10:20:19
 177680327567876096	News: Greece must choose reforms or euro exit: Luxembourg http://ow.ly/9wD84 	ExpaticaLU	103888338	2012-03-08 10:01:05
-177677451646877696	Greece must push reforms or face dramatic fallout:central banker (Reuters) - Reuters - Debt-laden Greece must push... http://is.gd/CUToHg 	2mykash	428637558	2012-03-08 09:49:40
 177664974448099329	Greece needed a wake-up whack and economic reform, but Republican-style austerity knocked the patient unconscious.	drreznicek	89511627	2012-03-08 09:00:05
 177661212669132800	Euro zone ministers tell Greece it could not go ahead with an agreed deal until it guaranteed to implement reforms | http://www.reuters.com/article/2012/02/05/us-eurozone-greece-teleconference-idUSTRE8140CQ20120205 …	RichardJWood	139974630	2012-03-08 08:45:08
 177649878682451969	instead of structural reforms or improved tax collection, what has changed in Greece, so far, has mostly been... http://fb.me/1G3l06iFq 	cookingingreece	18964484	2012-03-08 08:00:06
 177610183361572864	In Athens, Austerity’s Ugliness: The effects of slashed budgets in Greece, without much in the way other reforms... http://nyti.ms/xXPHgv 	WaheedObaidi	116612143	2012-03-08 05:22:22
 177508658471641088	Greece #1 in OECD in implementing structural reform recommendations on growth. Recognise efforts-stop austerity demands http://www.handelsblatt.com/meinung/kommentare/kommentar-athen-bewegt-sich-in-die-richtige-richtung/6297004.html …	ORoethig	467331751	2012-03-07 22:38:56
 177354092644012032	MoF Venizelos of #Greece:debt sustainability achievable,reforms at full speed, #EU Master plan for growth needed.V.interesting meeting.	IvailoKalfin	172442746	2012-03-07 12:24:45
-177352933116084224	Greece: #Universities drag heels over crisis-driven reforms http://ow.ly/9tGWg  via @uniworldnews #HigherEd #HE	TheEAIE	70975335	2012-03-07 12:20:08
 177265662748663809	In #Greece a failed universities reform and inadequacy to even supply schools with books gets you the most critical ministry of development	YiannisMouzakis	342705072	2012-03-07 06:33:22
 177153938271899651	Chrisochoidis' prev term marked by police brutality, empty reform promises http://globalvoicesonline.org/2009/11/25/greece-police-violence-against-migrant-woman-triggers-reforms/ … http://globalvoicesonline.org/2009/12/14/greece-riots-and-police-brutality-commemorate-teenagers-death/ … http://globalvoicesonline.org/2010/03/12/greece-general-strike-rallies-met-with-violence/ …	asteris	9378802	2012-03-06 23:09:24
 177128784019984384	Greece's universities are "dragging their heels" with austerity "reforms" in the face of huge resistance http://bit.ly/xSms0o  #HigherEd	qui_oui	15053275	2012-03-06 21:29:27
 177073686631817218	Will #Greece implement its fiscal targets and enough structural reforms to get the economy growing again? http://bit.ly/wjrp7i 	DiepTweets	428072511	2012-03-06 17:50:31
 176909346939219969	@harshgpolicy Reform mandate? every victor frm Sukhbir to Akhilesh has won on spendthrift policies that will make Greece look like Germany	Nikunj_Vakil	287107101	2012-03-06 06:57:29
 176906728577839104	Greek reform started with pension reform! Why are ministers' pensions in #jo a sacred cow? #reformjo @YasserBurgan in #Greece, advise! ;-)	JawadAbbassi	125771391	2012-03-06 06:47:05
+176772229000990720	Greece's universities drag heels over crisis-driven reforms - University World News: http://www.universityworldnews.com/article.php?story=20120302082301471#.T1UngBNrdpA.twitter … via @AddThis #highered	wisereveryday	100083338	2012-03-05 21:52:38
 176769277519601664	The Greece we love, the reforms they havent made...| Church's plan for solar park blocked by red tape http://www.ekathimerini.com/4dcgi/_w_articles_wsite1_1_05/03/2012_431294 … via @ekathimerini	ReformWatch	458693472	2012-03-05 21:40:54
 176741750977728512	Azariadis: no organized constituency to favor reform #Greece #Eurozone	EUforeignpolicy	235890793	2012-03-05 19:51:31
 176741552880758784	Azariadis: paucity of structural reforms, resist from public opinion (street level), all parties oppose structural reform #Greece #Eurozone	EUforeignpolicy	235890793	2012-03-05 19:50:44
@@ -234,6 +228,7 @@ tweet_id	text	username	user_id	date
 176645914897817600	Greece: The #Pension Reform of 2010, M. Nektarios: http://genevaassociation.org/PDF/4Pillars/GA2012-4P50-Nektarios.pdf …	TheGenevaAssoc	253955658	2012-03-05 13:30:42
 176645139933052930	So #Greece, what's the excuse for not making any reforms today?	ReformWatch	458693472	2012-03-05 13:27:37
 176640819296612352	OECD: Greece’s Progress towards Structural Reforms http://bit.ly/AzzZH2 	newsaccess	32128030	2012-03-05 13:10:27
+176618581428150272	Eurozone agrees just half of €130bn bailout for Greece over reform fears - Belfast Telegraph http://dlvr.it/1H3wj3 	greece_travels	167055052	2012-03-05 11:42:05
 176603484513239040	Y #Greece is not quite there yet: http://on.ft.com/xXHrqD  Reforms 'mostly done' says troika but additional spending cuts required #euro	Carina_bn	267230778	2012-03-05 10:42:06
 176573574528765953	#Greece Finance Minister Venizelos: fiscal reform is a matter of national pride	lindayueh	350958562	2012-03-05 08:43:15
 176568856578498560	Greece and the probability of reform http://goo.gl/fb/W4gHm 	impankajmani	194036599	2012-03-05 08:24:30
@@ -343,7 +338,6 @@ tweet_id	text	username	user_id	date
 172966802769448960	Great reportg @economistmeg Greece future prospects & how Grk poltcns wil not implement structrl reforms leadng to exit http://bit.ly/xBKlh4 	rgdanon	124759067	2012-02-24 09:51:14
 172923602201608194	Financial Times reports creditor countries have laid out additional reforms for Greece that amount to micromanaging country for 2 years	mehmetturk75	146198538	2012-02-24 06:59:34
 172920019695583233	Greece should demand reform! "In Germany, a Limp Domestic Economy Stifled by Regulation" http://nyti.ms/ACL64g 	pontific8	18790350	2012-02-24 06:45:20
-172897739426893825	Greek Checklist of Reforms to Receive the Second Bailout: European Union Ministers may have approved Greece’s se... http://bit.ly/waDhgW 	10USDinGBP	263758772	2012-02-24 05:16:48
 172875686141362178	Greek Checklist of Reforms to Receive the Second Bailout: European Union Ministers may have approved Greece’s se... http://bit.ly/AuRMBL 	alerts_forex	135168354	2012-02-24 03:49:10
 172829165064683520	#Petrolfied Markets cautious as Greece presses on with reforms - Rochester Democrat and Chr... http://bit.ly/AgmzeH  http://newswireupdate.com 	petrolfied	248016519	2012-02-24 00:44:18
 172824002241363970	Never mind Mr Potter 'in a Wonderful Life' Simon Schama - we need Mr Potter as in Harry to get Greece out of crisis. Need Euroland reform	alexgoldberg_eu	98083290	2012-02-24 00:23:47
@@ -397,8 +391,8 @@ tweet_id	text	username	user_id	date
 172242000224067584	Prescribed reforms for Greece also include facilitating new business and cutting down bureaucracy	babublogger	83462360	2012-02-22 09:51:07
 172227816480444417	Oil was lower in Asian trade on concerns that Greece may face difficulties delivering on tough economic reforms after clinching a bailout	Finweek	89409437	2012-02-22 08:54:45
 172224250663542785	TREASURIES-US bonds inch up as Greece concerns trump supply: Greece must implement tough reforms and cost-cuttin... http://bit.ly/yF33x3 	chaturthavatar	139106343	2012-02-22 08:40:35
-172200101513674752	Oil prices lower over Greek reform concerns: Oil was lower in Asian trade on Wednesday on concerns that Greece m... http://bit.ly/wD7j7a 	NYT_STYLE	267829858	2012-02-22 07:04:38
 172176153665216512	Wednesday Papers: Osborne pressed to cut taxes on business - And Greece given nine days to complete reforms or forfe... http://ow.ly/1hy8y2 	go_ifa	151587045	2012-02-22 05:29:28
+172175629586935809	Oil prices lower over Greek reform concerns: Oil was lower in Asian trade today on concerns that Greece may face difficulties deliver...	India_IN	112685695	2012-02-22 05:27:23
 172175068242259968	Wednesday Papers: Osborne pressed to cut taxes on business: And Greece given nine days to complete reforms or fo... http://bit.ly/w1HCIo 	what_mortgage	201182638	2012-02-22 05:25:09
 172174394930634754	Oil prices lower over Greek reform concerns: Oil was lower in Asian trade today on concerns that Greece may face... http://bit.ly/wPYA1i 	Axelfinance	220298263	2012-02-22 05:22:29
 172138786183069698	Morning Cup of Coffee: Greece approves economic reforms | HousingWire http://shar.es/grDDR 	HillmanRea	300991237	2012-02-22 03:00:59
@@ -415,8 +409,8 @@ tweet_id	text	username	user_id	date
 172012313392578561	Unbelievably tough conditions & a very long hard road to recovery - Greece gears up for tough reforms under new bailout http://bbc.in/Apmmw2 	Rihaines	216009798	2012-02-21 18:38:26
 172011599274590209	BBC News - Greece gears up for tough reforms under new bailout http://bbc.in/Apmmw2 	Moonbootica	16984207	2012-02-21 18:35:35
 172009262766243840	Reform plans for Greece difficult to carry out unless functioning administration is created. Lots of construction work ahead.	boris_planer	98648577	2012-02-21 18:26:18
+172008938265513985	Podcast: GlobalNews: 21 Feb 12 PM Greece gears up for tough reforms: Bailout 'historic opportunity for Greece' /... http://bbc.in/yr3Ilk 	merlijnolnon	46865916	2012-02-21 18:25:01
 172005104541642752	Greece gears up for tough reforms: The German and Dutch parliaments will vote on the bailout next week, amid str... http://bit.ly/yVG2Cs 	_socialexperts2	259093289	2012-02-21 18:09:47
-172003728944148480	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms sti... http://adf.ly/5fQfv  <--Full Story	uknewsdepot	270079789	2012-02-21 18:04:19
 172000935747399681	BBC News - Greece gears up for tough reforms under new bailout http://bbc.in/Apmmw2  #rbnews	Krotkie	136003808	2012-02-21 17:53:13
 171995604711522306	GlobalNews: 21 Feb 12 PM Greece gears up for tough reforms. Bailout 'historic opportunity for Greece' / Syrian... http://bbc.in/9AFGjV 	BBC_podcasts	17616152	2012-02-21 17:32:02
 171995197666885632	Reform Fraternity - Farage: Globalist Troika Driving Greece Towards Violent Revolution: http://bit.ly/x2jG7z 	Rfraternity	277029037	2012-02-21 17:30:25
@@ -424,19 +418,19 @@ tweet_id	text	username	user_id	date
 171990953601679361	Monday Morning Cup of Coffee: Greece approves economic reforms | HousingWire http://fb.me/1cnQskNEj 	ShouldIRefi	250673821	2012-02-21 17:13:33
 171990569382449152	To ensure Greece reforms the new head of the IMF will maintain constant supervision, something that may have helped the last head of the IMF	haveigotnews	125370749	2012-02-21 17:12:01
 171989538472861697	Greece gears up for tough reforms http://www.bbc.co.uk/news/world-europe-17116021 …	anjan22	18073653	2012-02-21 17:07:56
-171979912222228480	Greece gears up for tough reforms http://bbc.in/x9ypWk  -Newsbeat online	BBCNewsbeat	409941587	2012-02-21 16:29:40
-171978988368039936	DTN World News: Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms s... http://bbc.in/zRAten 	DTNWorldNews	137840213	2012-02-21 16:26:00
+171979311639826433	[BBC] Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipulated... http://dlvr.it/1DT49r  #Feb	NewsbeatPortal	28354422	2012-02-21 16:27:17
 171978535068643328	#Greek cabinet gears up for painful reform: http://bbc.in/yBvMnc ” dear Greece: welcome to corporate slavery. Love, the 1%.	V_REXX	346966591	2012-02-21 16:24:12
-171977667028058112	BBC News - Greece gears up for tough reforms under new bailout http://bbc.in/Apmmw2  #TCOT	Okie_Dokie63	434472886	2012-02-21 16:20:45
 171977019574337537	RT @BBCNewsIntFeed: Greece gears up for tough reforms http://bbc.in/zYQtM7 	madkentdragon	44583728	2012-02-21 16:18:11
+171976319184273408	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipul... http://bbc.in/xEo2TA  #BBC #news	The_News_DIVA	15501305	2012-02-21 16:15:24
 171976268122816512	BBC News - Greece gears up for tough reforms under new bailout http://bbc.in/Apmmw2  #Greece to sacrifice it people for the #Banks.	Ireland2gether	241901270	2012-02-21 16:15:12
 171976115949281280	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipulated by creditors in return for ...	microbolt1	359439925	2012-02-21 16:14:35
-171975233723580419	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipulated by cre... http://bbc.in/wI2xso 	jonkbrent	47859478	2012-02-21 16:11:05
+171975961556951040	News: Greece gears up for tough reforms http://bbc.in/xEo2TA  #News #BBC	TheGeekDog	246329836	2012-02-21 16:13:59
+171975953159946241	#TeamFollowBack Greece gears up for tough reforms http://bbc.in/xEo2TA  #FF @Kaijzer	TavicHelper	341211086	2012-02-21 16:13:57
+171975762944073729	DTN Italy: Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipul... http://bbc.in/xwvPKr 	DTNItaly	267132683	2012-02-21 16:13:11
 171974731963170816	Greece gears up for tough reforms - BBC News http://dlvr.it/1DSt7S 	greece_travels	167055052	2012-02-21 16:09:05
-171974263815942144	Greece gears up for tough reforms http://bbc.in/zwTjyJ 	SuperMNet	37951918	2012-02-21 16:07:14
 171974157708443648	They are not "reforms" in Greece http://www.bbc.co.uk/news/world-europe-17116021 … They are cuts to the very concept of democracy-And hitting the most vulnerable	1957AJB	296264280	2012-02-21 16:06:48
-171973563811762176	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms sti... http://adf.ly/5fQfv  <--Full Story	uknewsdepot	270079789	2012-02-21 16:04:27
 171973033207152641	"For the first time, I'm embarrassed to say I'm Greek" - #Greece gears up for tough bailout reforms. BBC News http://bbc.in/Apmmw2 	patrickgjackson	26311860	2012-02-21 16:02:20
+171972939057606657	Greece gears up for tough reforms: The Greek cabinet is to meet for talks on launching reforms stipulated by cre... http://bbc.in/ABickE 	watchz01	165472303	2012-02-21 16:01:58
 171966647983284225	Angel Gurría welcomed the €130 bil.program and called #Greece to improve tax collection boost privatisation and reinforce structural reforms	Hekimoglou	101069561	2012-02-21 15:36:58
 171933611996614656	EU approve Greek bailout, shares fall as fund mgrs don't believe Greece capable of reform n redemption. Delay n inflate- working in US?	henderson_sam	115774705	2012-02-21 13:25:42
 171933369796542464	The Troika will now have a significant presence on the ground in Greece to make sure reforms are happening.	futuresoption	45415894	2012-02-21 13:24:44
@@ -459,6 +453,7 @@ tweet_id	text	username	user_id	date
 171819244386922496	Eurozone finance ministers issuing rescue pkg to Greece of $171B today. http://awe.sm/5fwWG  Will it help to stabilize markets worldwide?	LifestyleAssets	214138467	2012-02-21 05:51:14
 171818962781347840	LAGARDE: 160 debt/GDP ratio in 2020 will occur if Greece fails to deliver on reforms specified in program; there are downside risks in ...	DailyFXTeam	28366310	2012-02-21 05:50:07
 171818110389727232	#greece will see ramped up monitoring from EC. And a permanent troika presence checking the implementation of cuts and reforms.	RobNisbetSky	16591979	2012-02-21 05:46:44
+171812312913674240	EU Juncker: Deal reached on new Greek programme and PSI: New package will give Greece time to reform and return ... http://bit.ly/wkkVos 	mitsurukikkawa	99482164	2012-02-21 05:23:42
 171812162069733376	Euro Group Chmn Says :New Pkg Will Give Greece Time For Reforms http://www.cnbc-tv18.com  #moneycontroloniPad	CNBCTV18Live	44839509	2012-02-21 05:23:06
 171780581695303680	FP Greece needs extra relief to hit debt goals: If Greece doesn't follow through on structural reforms and other... http://bit.ly/w1mZUG 	KMI_News	321387625	2012-02-21 03:17:36
 171751056668229632	No #PSI No Bailout....the Structural reforms are not enough -- were heading down the rabbit hole #Greece	robpas	2511641	2012-02-21 01:20:17
@@ -471,12 +466,11 @@ tweet_id	text	username	user_id	date
 171686694679093249	RTRS-GREECE MAY NOT BE ABLE TO DELIVER REFORMS AT PACE REQUIRED UNDER BASELINE SCENARIO-TROIKA DEBT ANALYSIS	EKourtali	408422581	2012-02-20 21:04:32
 171685736855252993	Greece may not be able to deliver reforms at pace required under baseline scenario according to Troika debt analysis	SE1_Trading	13589212	2012-02-20 21:00:44
 171675049709940736	RT @constantnos Hellenic National Reform Programme 2011-2014 http://ec.europa.eu/europe2020/pdf/nrp/nrp_greece_en.pdf … #Greece #GRCII	YanniKouts	77528520	2012-02-20 20:18:16
-171626266502508547	Monday Morning Cup of Coffee: Greece approves economic reforms | HousingWire http://shar.es/gWOH5 	ChrisUlsh	127546914	2012-02-20 17:04:25
 171612716115566592	MMCC: #Greece approves economic reforms & Look out for HW's coverage of the #MBA Servicing Conference this week http://shar.es/gWk4n 	JustinHilley	25092913	2012-02-20 16:10:34
+171603054070730752	Mortgage & CRE News> Monday Morning Cup of Coffee: Greece approves economic reforms http://ow.ly/1hvOIY 	4BobThompson	27311439	2012-02-20 15:32:10
 171594385572642819	Good morning and happy Monday! Wake up with @HousingWire's Monday Morning Cup of Coffee - http://bit.ly/wBHRHU 	StreetLinks	289495037	2012-02-20 14:57:44
-171582471073316864	housingwire Monday Morning Cup of Coffee: Greece approves economic reforms Eurozone finance ministers are set to appro http://goo.gl/TTDas 	carlsanf	352432299	2012-02-20 14:10:23
-171580430766718976	Monday Morning Cup of Coffee: Greece approves economic reforms Eurozone finance ministers are set to appr #realestate http://bit.ly/xNNKWy 	delmaeprop	47122607	2012-02-20 14:02:17
-171572575812583426	#MortgageNews Monday Morning Cup of Coffee: Greece approves economic reforms http://dlvr.it/1DDbPV 	ronvaimberg	127967557	2012-02-20 13:31:04
+171568822401253377	Interesting. Monday Morning Cup of Coffee: Greece approves economic reforms: Eurozone finance ministers are set ... http://bit.ly/yhpfCr 	ilillianwong	384655717	2012-02-20 13:16:09
+171568815447080960	Monday Morning Cup of Coffee: Greece approves economic reforms: Eurozone finance ministers are set to approve a ... http://bit.ly/yhpfCr 	FreedomTrailRE	150887402	2012-02-20 13:16:07
 171542029652852736	Statement by Secretary Geithner on Economic Reforms in Greece: http://1.usa.gov/w3xAp1  "USA will encourage the IMF to support this agreement"	Pleoaro	266155573	2012-02-20 11:29:41
 171533588762869762	Geithner on Greece: US Treasury Secretary supports Greek reform package US Treasury Secretary Timothy Geithner S... http://bit.ly/xAkILK 	Livetradingnews	28803148	2012-02-20 10:56:09
 171521852492095488	Economic growth, NHS reform, Iran, Greece debt, manufacturing, school term holidays and the new Sunday Sun @daily_politics at noon BBC2	RobbieGibb	22473286	2012-02-20 10:09:31
@@ -484,8 +478,8 @@ tweet_id	text	username	user_id	date
 171508228830670848	5 ways to transform Greece's economy now http://finance.fortune.cnn.com/2012/02/15/greece-economic-reforms/ … via @FortuneMagazine	PKinbangkok	31087423	2012-02-20 09:15:22
 171497643825041408	Lapavitsas vs Papaconstantinou : Hellenic Antidote: Greece: is reform or revolution the answer? http://hellenicantidote.blogspot.com/2012/02/greece-is-reform-or-revolution-answer.html?spref=tw …	IrmaMichelidaki	408257593	2012-02-20 08:33:19
 171489272329814017	Greece hands over part of budget control because it must instead of reform "advice" as it shd ... Poor judgement!	EuroWadhwa	370799854	2012-02-20 08:00:03
+171427477690908673	(Reuters) - Greece's cabinet approved late on Saturday 325 million euros ($ 428 million) of extra austerity measures... http://bit.ly/xSqtvu 	RevenueOnline	255003139	2012-02-20 03:54:30
 171420106390388736	Factbox: Greek austerity and reform measures - Chicago Tribune http://j.mp/yZkL1X  #money	megasafemoney	31105493	2012-02-20 03:25:12
-171417889449058304	Factbox: Greek austerity and reform measures - Chicago Tribune: (Reuters) - Greece's cabinet approved late on Saturday 325 million... #V2	RealTimeHack	279118291	2012-02-20 03:16:24
 171414508345114624	Latest on Greece:orderly debt reschedule about to be agreed, after which Greeks face 20yr hard labour to reform& get economy going	ceesbruggemans	265250071	2012-02-20 03:02:58
 171366240986738688	Latest Reform Watch Greece post - Solon strikes again! How Not to Reinvent the Wheel http://wp.me/p1Gex0-4I  via @wordpressdotcom	ReformWatch	458693472	2012-02-19 23:51:10
 171365380906954752	Greece now Next on the list? Spaniards protest labor reforms http://rt.com/news/spain-protests-labor-reforms-693/ … #auspol	DannyJovica	238608868	2012-02-19 23:47:45
@@ -498,27 +492,27 @@ tweet_id	text	username	user_id	date
 171300060162826240	RT @usilive: #Madrid today as trade unionists take to the streets against Labour reforms #austerity @ccoo #UGT #Greece http://fb.me/1qOKMV4Dt 	CCOO	327325722	2012-02-19 19:28:11
 171298786767945728	ZOZO: German Economy Ministry internal paper said #Greece's reforms: ZOZO http://bit.ly/y4BQjC 	Chasing__Stars	268844094	2012-02-19 19:23:08
 171286846310064128	German Economy Ministry internal paper said #Greece's reforms are not enough: Welt am Sonntag. And implementation "remains insufficient"	lindayueh	350958562	2012-02-19 18:35:41
-171285740267896832	Reuters - Factbox: Greek austerity and reform measures http://reut.rs/zeCFgN  via @reuters	_basjacobs	380501751	2012-02-19 18:31:17
 171279085652287488	Looks like the Hope and Change in Spain isn't fairing any better than in Greece. http://yhoo.it/xSnpkZ 	melodeeaaron	29702611	2012-02-19 18:04:50
-171271339422912512	Factbox: Greek austerity and reform measures - http://msnbc.com : Greece's cabinet approved late on Saturday 325... http://dlvr.it/1D54LY 	stocktonbuzz	146714827	2012-02-19 17:34:04
-171266424428437504	First Greece now Spain! Hundreds of thousands march in Spain against reforms http://reut.rs/zIg2UD  via @reuters	MattCarr55	288409122	2012-02-19 17:14:32
 171264521200087040	Greek parliament to consider emergency legislation implementing reforms next week: ATHENS, Greece - The Greek pa... http://huff.to/whfTdj 	jzdurrani	213810575	2012-02-19 17:06:58
 171258136299188225	Schaeuble: Greece will receive 2nd bailout if implements all commitments/reforms by end Feb & “all other questions are solved”: Tagesspiegel	lindayueh	350958562	2012-02-19 16:41:36
-171242295591575552	RT @FGoria: Must read RT @MacroScope: Factbox: Greek "austerity" and reform measures http://tinyurl.com/76b8hlm 	burak_tekes	14466688	2012-02-19 15:38:39
 171232441938350080	GREECE - Factbox: Greek austerity and reform measures http://ow.ly/99QW9  #markets #news #forex #stocks #greece #debt #imf #efsf #ecb	JacekWierzbicki	270492072	2012-02-19 14:59:30
+171230879115517952	Factbox: Greek "austerity" and reform measures http://tinyurl.com/76b8hlm 	MacroScope	16670996	2012-02-19 14:53:17
+171221238738468865	FACTBOX - Greek austerity and reform measures: REUTERS - Greece's cabinet approved late on Saturday 325 million ... http://bit.ly/yrAM4A 	smartinvestor	20769497	2012-02-19 14:14:59
 171215743831130112	Love it? Business News: Greece moves on with reform legislation http://u.isavesmart.com/1D3TMr  Retweet it!	robinsnewswire	40173650	2012-02-19 13:53:09
 171212238470909953	Factbox: Greek austerity and reform measures http://tinyurl.com/76b8hlm 	pdacosta	65466158	2012-02-19 13:39:13
 171211862627725312	Greece moves on with reform legislation: The Greek parliament is set to vote on emergency austerity measures nex... http://bit.ly/zDnv2w 	SingaporeNewsSG	350584364	2012-02-19 13:37:43
 171203969425752064	Factbox: Greek austerity and reform measures: Greece's cabinet approved late on Saturday 325 million euros ($42... http://bit.ly/ACO0gT 	newsfromGreece	212776854	2012-02-19 13:06:21
 171175490256769024	Shadow foreign secretary Douglas Alexander says 'serious structural reforms are needed' in Greece. #Murnaghan	JohnHigginson	25119183	2012-02-19 11:13:11
-171166083204648960	Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki - SPIEGEL ONLINE - News - International http://spon.de/adAfZ 	tasoskyriakidi	96429588	2012-02-19 10:35:49
+171071803018579969	GOOD READ: HIGHLIGHTS EXTENT OF REFORMS NEEDED TO GET GREECE BACK ON TRACK / The Greek Tragedy - Seeking Alpha http://j.mp/xDR2ED 	mschomer	111187693	2012-02-19 04:21:10
 171000380778479616	#Greece: is reform or revolution the answer? Ex-finance minister Giorgos Papaconstantinou debates Costas Lapavitsas: http://hellenicantidote.blogspot.com/2012/02/greece-is-reform-or-revolution-answer.html?spref=tw …	johnakritas	406322636	2012-02-18 23:37:22
 170935343028252674	Balanced the budget or we become Greece. read plan for reform, take the survey, get involved. http://ar20.nationbuilder.com/ar20_4_dummies  #tcot #teaparty	ar20org	385296434	2012-02-18 19:18:56
 170910009092354048	New glory for Greece: Free market reform could revive Greek economy in tourism, transport and energy (with Isreal) http://natpo.st/A0W580 	terencecorcoran	282195067	2012-02-18 17:38:16
 170908900449726464	Art hair Styles EU Ministers Up Pressure on Greece Over Reforms, Debt Haircut: German Finance Minister Wolfgang ... http://bit.ly/w2tuv3 	ArtHairStyles	271756804	2012-02-18 17:33:51
+170868260693213185	Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki (Spiegel) http://www.greekcrisis.net/2012/02/greeces-model-mayor-reform-hero-takes.html?spref=tw …	AristidesHatzis	184490665	2012-02-18 14:52:22
 170791446469812224	Europe must help Greece grow out of its problems on the condition that politicians agree to market reforms http://nyti.ms/wAAvWs 	JayneJuvan	24459544	2012-02-18 09:47:08
 170780573206458368	Greece must implement reforms or leave euro: Luxembourg Finance Minister Luc Frieden says that Greece must pass ... http://bit.ly/yPnjvl 	AIGrp	413070947	2012-02-18 09:03:56
 170743109729267713	Editorial: Greece bristles at new reforms: Greek President Karolos Papoulias angrily demanded this week, "Who is... http://bit.ly/wCuSQq 	EditorialPageNH	140553535	2012-02-18 06:35:04
+170634986792304640	Greece must implement reforms or leave euro: Luxembourg Finance Minister Luc Frieden says that Greece must pass ... http://bit.ly/xzC4sL 	vuqiagon	249556564	2012-02-17 23:25:25
 170602240703336450	Do you know how it feels to be heavily taxed by a state unwilling to reform & have ppl expressing solidarity for this abomination? #Greece	canislibertatis	10942042	2012-02-17 21:15:18
 170569146566836227	"Greece? That one is probably beyond reform. But a tiny nation with a GDP the size of Boston's won't hold back Europe" http://on.wsj.com/ABaZ8L 	_Euripides_	48354581	2012-02-17 19:03:48
 170561244867211264	Editorial: Greece bridles at calls for more reforms, cuts - http://www.timesherald.com/article/20120216/OPINION03/120219716/-1/OPINION …	TimesHeraldPA	21057999	2012-02-17 18:32:24
@@ -529,34 +523,32 @@ tweet_id	text	username	user_id	date
 170477391632801794	The plan is obv to have the ECB buy all outstanding Greek debt & finance govt deficit/stimulus in exchange for reform http://crookedtimber.org/2012/02/16/so-what-would-your-plan-for-greece-be/ …	pegobry	3639301	2012-02-17 12:59:12
 170464883412959232	EU will attempt to support the south in return for austerity and reform. But voters will force default. http://www.dailyfinance.com/2012/02/15/greece-is-just-the-first-to-default-/ …	PeggyPapakosta	299557435	2012-02-17 12:09:29
 170320517990064128	(Worth a look, situation in Greece was really bad now long time) Reform Hero Takes on Corruption in Thessaloniki http://www.spiegel.de/international/europe/0,1518,815289,00.html …	ZenIg	55541764	2012-02-17 02:35:50
-170315353832960000	Editorial: Greece bridles at calls for more reforms, cuts http://www.timesherald.com/article/20120216/OPINION03/120219716/-1/opinion …	TimesHeraldPA	21057999	2012-02-17 02:15:19
 170287463955316736	Luxembourg: "Greece Must Choose Reforms Or Euro Exit" - http://ow.ly/1GrTGT 	GreekReporter	38090709	2012-02-17 00:24:29
-170280969255919617	RT @worldcrunch: No Reforms, No Cash: How Euro Bailout Conditions Would “Re-create” Modern Greece http://www.worldcrunch.com/no-reforms-no-cash-how-euro-bailout-conditions-would-recreate-modern-greece/4689 …	Ygdrasille	264347893	2012-02-16 23:58:41
 170276703531319296	In Order to Survive Euro Zone Starts Busy Structural Reforms: Following Greece, Ireland… http://goo.gl/fb/MJJ4v 	arielbrailovsky	71568728	2012-02-16 23:41:44
 170271935584931840	Europe is too focused on the supply of reforms (and lack thereof) in Greece; it ought to focus on the demand instead. http://bit.ly/y09kvs 	ntsafos	285378972	2012-02-16 23:22:47
 170259525243379712	"Greece should use the crisis as an "opportunity to introduce significant defence reforms". It should... http://fb.me/1FK8LLvOi 	weareallsheep	90576806	2012-02-16 22:33:28
 170236809639505920	Greek far-right won't back austerity reforms: MP: Greece's far-right LAOS party will not commit to support a pac... http://bit.ly/zxN0bR 	newsfromGreece	212776854	2012-02-16 21:03:12
 170227117437632513	The McKinsey & Company report : #Greece needs to reform its tourism sector, which could add 18 billion Euros annually by 2021.	MariaKaramitsos	143966984	2012-02-16 20:24:42
 170217040462884864	Greece needs years' worth of reforms: Treasury official http://i-ne.ws/23jq  [MW #markets]	iNewsroom	16693051	2012-02-16 19:44:39
-170213885691965440	Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki - SPIEGEL ONLINE - News - International http://spon.de/adAfZ 	nellytzakou	362462762	2012-02-16 19:32:07
 170197788519448576	Greece will take years to repair: U.S. official - MarketWatch http://www.marketwatch.com/story/greece-needs-years-of-reforms-us-official-says-2012-02-16 … via @MarketWatch	BlanchardGold	22972870	2012-02-16 18:28:09
 170194702648352768	Loved #Spiegel article on Yiannis #Boutaris: #Greece's Model #Mayor: #Reform Hero Takes on #Corruption in #Thessaloniki http://www.spiegel.de/international/europe/0,1518,815289,00.html …	pmheilmann	115093108	2012-02-16 18:15:53
 170188982515286016	Oh really? I thought there was a quick and easy short-term fix. RT “ @MarketWatch: Greece needs years' worth of reforms http://on.mktw.net/wpNSgv ”	MichaelAGuertin	437252115	2012-02-16 17:53:10
 170175747271557120	RT @thomsonreuters: Greece has a history of promising reforms to its creditors & not delivering.... http://reut.rs/yhEwhL 	wiley_finance	28593464	2012-02-16 17:00:34
 170172645080440832	So it can be done...Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki - SPIEGEL ONLINE http://spon.de/adAfZ 	domainekaranika	299650230	2012-02-16 16:48:14
+170169845399289857	Greece needs years of reforms, U.S. official says - MarketWatch http://dlvr.it/1CX0cb 	greece_travels	167055052	2012-02-16 16:37:07
 170167845123145729	Shocking assertion department ... Greece needs years of reforms: Treasury official http://www.marketwatch.com/story/greece-needs-years-of-reforms-treasury-official-2012-02-16-105300 … via @MarketWatch	wlwatts	25987359	2012-02-16 16:29:10
 170167530743275521	Words of praise "Greece's Model Mayor Reform Hero Takes on Corruption in Thessaloniki" http://spon.de/adAfZ  via @SPIEGEL_English	atsoukalidis	169516027	2012-02-16 16:27:55
+170167483100176384	#Global Greece needs years of reforms: Treasury official: WASHINGTON (MarketWatch) -- Greece will ne... http://bit.ly/z1rThI  #D4keuangan	D4keuangan	177616937	2012-02-16 16:27:44
 170167469930057728	Greece needs years of reforms: Treasury official: WASHINGTON (MarketWatch) -- Greece will need to make ref... http://bit.ly/zCixcI  Best.	singhlajolla	48275758	2012-02-16 16:27:41
-170167328833671169	Greece needs years of reforms, U.S. official says http://bit.ly/zkPIOd 	MKTWgoldstein	273540698	2012-02-16 16:27:07
 170166622479327233	#Greece heading towards revolution? Greece has already #Revolution★ = ongoing process w/out end(otherwise only reform) http://bit.ly/yv5pVa 	LiborVS	286745132	2012-02-16 16:24:18
-170166078469713921	#Global Greece needs years' worth of reforms: Treasury official: Greece needs years' worth of reform... http://bit.ly/z96VQ0  #D4keuangan	D4keuangan	177616937	2012-02-16 16:22:09
-170135721993191425	Greece must choose reforms or euro exit: Luxembourg: Greece must choose between reforming its economy or leaving... http://bit.ly/yg61wx 	newsfromGreece	212776854	2012-02-16 14:21:31
+170163019706408961	Greece needs years' worth of reforms: Treasury official http://on.mktw.net/wpNSgv 	MarketWatch	624413	2012-02-16 16:10:00
 170135072958189568	RT “@PSEurope_News: #NATO chief Anders Fogh Rasmussen: #Greek crisis opportunity for defence reform http://bit.ly/zLyxPp  #Greece #EU”	frankvanhoorn	214931894	2012-02-16 14:18:57
 170132614290751488	#india #business : 'Greece must choose reforms or euro exit': Greece must choose b/w reforming its economy or le... http://bit.ly/yGFGra 	India_Business	32455632	2012-02-16 14:09:10
 170121845687844865	Meanwhile... RT @djfxtrader: Greece Must Choose Reforms Or Euro Exit - Luxembourg (per AFP)	FGoria	6361512	2012-02-16 13:26:23
 170113245900836864	"Greece overdelivered on the austerity and underdelivered on structural reforms; as a result, Greece is in a big mess" http://www.nytimes.com/2012/02/16/world/europe/doubting-greeks-resolve-euro-zone-may-hold-back-full-bailout.html …	albertocairo	34255829	2012-02-16 12:52:13
 170112102898483200	The prospect of an enhanced troika presence in Athens – to ensure implementation of reforms – is stoking uproar in Greece today. #euro #risk	chilidog3	37749243	2012-02-16 12:47:40
 170101950933770241	Greece’s PASOK wants Papdemos’s term as interim PM to be extended: To see through the speedy  austerity /reform ... http://bit.ly/wnD7f8 	mitsurukikkawa	99482164	2012-02-16 12:07:20
+170092364818419712	Dolphin on CNN Money: 5 ways to transform Greece’s economy now http://finance.fortune.cnn.com/2012/02/15/greece-economic-reforms/ …	DolphinCapital	426651069	2012-02-16 11:29:14
 170087874690162690	greece's message must be clear: structural reforms will be implemented, #greece is determined to remain in europe: bakoyanni	dianalizia	40202517	2012-02-16 11:11:24
 170086080761176065	Lorenzo: Greece needs the type of IMF programme that African countries received in the 1990s. It needs *that* much structural reform. [2/2]	johnpmcdermott	13112582	2012-02-16 11:04:16
 170065835023548417	@Josh_CityIndex Agreed.. We need to reform the euro George Foreman style; no Greece!	B9X	56126371	2012-02-16 09:43:49
@@ -571,22 +563,24 @@ tweet_id	text	username	user_id	date
 169878774379327490	EU crisis deepens as Greece takes centre stage: Greece will meet European Union demands for budget action and reform pledges from its...	India_IN	112685695	2012-02-15 21:20:30
 169878649267437568	Finnish Fin Min sets terms for new loans to #Greece: Commitment in writing + structural reform legislation this month http://bit.ly/xousXI 	karat32	131756687	2012-02-15 21:20:00
 169878179996106752	I read that as "we're so awesome"...“ @djfxtrader: Greece FinMin: Approved Reforms Show Ability To Implement Loan Terms [Dow Jones]”	JohnKicklighter	22973017	2012-02-15 21:18:08
-169877664893632513	RT @CNNMoney 5 ways to transform Greece's economy now http://cnnmon.ie/yo8P4t  #eurozone	DanielsTrading	103982058	2012-02-15 21:16:06
 169877417979162624	#Greece FinMin: Approved Reforms Show Ability To Implement Loan Terms [Dow Jones]	WSJCentralBanks	327484803	2012-02-15 21:15:07
 169858876173328384	5 ways to improve the Greek econoomy? http://bit.ly/zYPJro 	dg_fried	333067784	2012-02-15 20:01:26
 169853130748608512	#Press_EN #ALDE #EP Verhofstadt: "Monti reforms could be a model for Greece" http://ow.ly/1hpiwA 	ALDEADLE	15071556	2012-02-15 19:38:36
 169849629201018881	خمس طرق لتحويل الاقتصاد اليوناني http://finance.fortune.cnn.com/2012/02/15/greece-economic-reforms/?iid=HP_LN … #Kuwait #KSA #UAE #Qatar #Oman #Bahrain #Egypt	elsakka	70358588	2012-02-15 19:24:41
 169845869200408576	Structural reforms are needed to help #Greece move forward. 5 ways to transform Greece's economy now http://finance.fortune.cnn.com/2012/02/15/greece-economic-reforms/ …	PanaPao13	407018013	2012-02-15 19:09:45
 169842386388795392	Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki - SPIEGEL ONLINE - News - International http://spon.de/adAfZ 	cdemetriadis	14303355	2012-02-15 18:55:55
+169841291859996672	5 ways to transform Greece's economy now http://bit.ly/xNnPoW 	pakdn	44827286	2012-02-15 18:51:34
 169836118462824448	Italy as a model for Greece. Monti speech today in #EP and @ALDEADLE reaction. http://www.alde.eu/press/press-and-release-news/press-release/article/verhofstadt-monti-reforms-could-be-a-model-for-greece-37924/ …	debackerphil	44019567	2012-02-15 18:31:00
 169831174666067968	Fresh doubts over Greek bailout plan: Greece's coalition leaders sent written reform guarantees to European offi... http://bit.ly/xBedIS 	mwcnews	16791363	2012-02-15 18:11:22
 169828626110484481	5 WAYS TO FIX GREECE: Greece's problems aren't all about debt. They're about competitiveness, and ch... http://bit.ly/xyMNIo  (CNN Money)	hoonyai	138294214	2012-02-15 18:01:14
+169828619558981632	#TheCEOpundit 5 WAYS TO FIX GREECE: Greece's problems aren't all about debt. They're about competitiveness, and ... http://bit.ly/wd2wXh 	EnvisionGlobal	14500848	2012-02-15 18:01:12
 169827739166195712	Need public finance reform. RT @markos: Austerity doesn't work. It has never worked. http://nyti.ms/A7uXGx 	dandhicks	90548758	2012-02-15 17:57:42
 169821048366305280	5 *extremely* concrete ways to transform Greece's economy now: http://cnnmon.ie/xOM8Z7 	CNNMoney	16184358	2012-02-15 17:31:07
 169819151517487104	Schäuble "alarmed" by internal political situation & opinion polls in Greece regarding guarantee of austerity/reform package after elections	OpenEurope	65322179	2012-02-15 17:23:35
 169818360446599170	Germany Says #Greece's Political Parties Must Commit To Reform https://mninews.deutsche-boerse.com/content/germany-greeces-political-parties-must-commit-reform …	braiesene	366620845	2012-02-15 17:20:26
 169807139139887105	Γιατί τα καλά πρέπει να λέγονται...Greece's Model Mayor:Reform Hero Takes on Corruption in Thessaloniki -SPIEGEL ONLINE http://spon.de/adAfZ 	itroulli	245249962	2012-02-15 16:35:51
 169806767201595392	#Money Stuff: 5 ways to transform Greece's economy now - Greece's problems aren't all about debt. They're about comp... http://ow.ly/1hp3XS 	adrianthompkins	43738386	2012-02-15 16:34:22
+169805563188879360	Greece's Model Mayor: Reform Hero Takes on Corruption in Thessaloniki http://www.spiegel.de/international/europe/0,1518,815289,00.html … #boutaris v @penlix	apas	15116120	2012-02-15 16:29:35
 169805318761627649	http://www.spiegel.de/international/europe/0,1518,815289,00.html … - on the brilliant mayor of my hometown in Greece, Thessaloniki,and his inspiring reform efforts HT@lefteris_gr	zizip	8271262	2012-02-15 16:28:37
 169804662789259266	Greece has a history of promising reforms to its creditors & not delivering. This time looks set to be no different: http://reut.rs/yhEwhL 	thomsonreuters	14412844	2012-02-15 16:26:01
 169800222074085376	#Greece has passed a good package of reforms, but if they backslide (new hints they will) #EU should KICK THEM OUT http://on.wsj.com/wOwXTe 	ChristopherHull	20774353	2012-02-15 16:08:22
@@ -607,9 +601,9 @@ tweet_id	text	username	user_id	date
 169706375398703104	State Department: The new assistance package+the required reforms r going 2 demand very difficult sacrifices from Greek people #Greece	EfiEfthimiou	281093434	2012-02-15 09:55:27
 169703250872909824	Callanan: for Greece, economic reform essential long term. Short term, only devaluation & default will salvage something from the wreckage	ecrgroup	81838067	2012-02-15 09:43:02
 169683811645407233	Greek reform package means years of pain http://bit.ly/zALXrG 	LecheriaEnVIVO	205769582	2012-02-15 08:25:47
+169681731052511232	Greek reform package means years of pain http://bit.ly/ACf8zC  (via @cnn). THE WONDER & GLORY OF THE SOCIALIST STATE!	BentnWasted	24041474	2012-02-15 08:17:31
 169593635267022848	Asian markets consolidated Wed.as investors waited on Greece to show commitment for harsh reforms in exch.for bailout	Biz_TheNation	292287503	2012-02-15 02:27:28
 169561953931505665	Steinbruek at AICGS: Hard to convince my people that Germany has to save countries like Greece which failed to make reforms in the 2000's	remipierot	357934414	2012-02-15 00:21:34
-169552123741212673	Greek Socialist Leader Gives Written Pledge To Back Reforms: ATHENS (Dow Jones)--Greece's Socialist party leader... http://bit.ly/yyaNWn 	selvan_tengy	99608061	2012-02-14 23:42:31
 169547427546796033	Antonis Samaras, tipped to be #Greece's next pm, has refused to commit to the cost-cutting reforms http://www.guardian.co.uk/business/2012/feb/14/eurozone-ministers-cancel-greece-meeting …	brit_newsman	49403072	2012-02-14 23:23:51
 169537466959806466	Who will benefit from the impoverishment of Greece? Greece needs reform, not catastrophe.	phbarratt	185614627	2012-02-14 22:44:16
 169524943896326148	AP: Greece's economy remained stuck in a deep recession in the 4th quarter, the painful effects of austerity reforms intended to lower debt.	timelywriter	22547672	2012-02-14 21:54:30
@@ -625,35 +619,34 @@ tweet_id	text	username	user_id	date
 169455464101330944	Greek reform package means years of pain - CNN http://is.gd/Ppxl5n  via @intlGR	tinathemelis	260109740	2012-02-14 17:18:25
 169454537520848898	Creditors outline cuts, reforms in Greek bailout plan http://dlvr.it/1C6R4v 	dhaycarlos86	345517008	2012-02-14 17:14:44
 169388942402142208	Eurozone wrangles over Greek bond-swap deal: As Greece scrambles to implement painful new budget cuts and reform... http://yhoo.it/x39ncn 	TheTradersClub	115005762	2012-02-14 12:54:05
+169387442154123264	Eurozone Wrangles Over Greek Bond-Swap Deal: As Greece scrambles to implement painful new budget cuts and reform... http://yhoo.it/wJc7hM 	Social_Amigo	50766089	2012-02-14 12:48:07
 169381158612766723	There is something pathetic in the creditors’ insistence on new government programmes and reforms while they... http://fb.me/1LsYuksB3 	verivaki	34284877	2012-02-14 12:23:09
 169380773240115200	Measures against tax evasion welcome in Greece? http://fb.me/1H9l5x1Si 	eurotopics_en	280955681	2012-02-14 12:21:37
 169378988156915712	Re: Industrial Relations reform in Greece with recent IMF/EU/ECB-sponsored bill, you are conflating efficiency with competitiveness	dnt1926	400572105	2012-02-14 12:14:32
-169368011780784128	A Must-Read On The Societal Disaster That's Happening In Greece: PSI, bond yields, ECB involvement, IMF-demanded reforms... there's ...	DorothyLamar	321781431	2012-02-14 11:30:55
 169344485749309440	Greek cabinet meets at 3pm to decide implementation of measures and reforms outlined in Athens's agreement with its creditors. #Greece	jmsardo	25999072	2012-02-14 09:57:26
 169315060781555712	An American scholar in Greece tries to reform a local prostitute. #TCM	NextOnTCM	278222169	2012-02-14 08:00:30
+169308136296034304	http://bit.ly/y9pVLR  Seoul shares seen up on global stock rally as Greece passes reforms - Reuters	Dommiers	328420136	2012-02-14 07:32:59
 169307205131190272	Reuters - Stocks rose on Monday, led by bank shares after Greece's parliament approved reforms needed to qualify for... http://bit.ly/zUCbri 	RevenueOnline	255003139	2012-02-14 07:29:17
 169268857712812032	PRECIOUS-Gold dips with euro on Greece jitters: Investors sceptical of Greece's ability to carry out reforms * S... http://bit.ly/zovPEm 	shavedheadgirl	29497253	2012-02-14 04:56:55
 169256070500458496	Market lacklustre as investors cautious of Greece's reforms commitment: http://bit.ly/yltEq3  via @AddThis	theedgemarkets	19107088	2012-02-14 04:06:06
 169252457753489408	http://www.Greece-VIP.com  Greek Ambassador: 'Profound Structural Reforms' Necessary for Long-Term Recovery: Watch Vide... http://to.pbs.org/xzK74I 	GreeceVIP	75244833	2012-02-14 03:51:45
 169217792858521600	Anders Borg: Greece, Italy, Spain & Portugal need labor market & regulatory reform for EU recovery to be possible http://bit.ly/xivo3l 	gmfus	33683331	2012-02-14 01:34:00
-169210701326450688	[REUTERS] Seoul shares seen up on global stock rally as Greece passes reforms (08:27am JST) http://bit.ly/wUsk9I 	t0_wire	247280455	2012-02-14 01:05:49
+169213418417557504	http://bit.ly/zvYLEJ  Seoul shares seen up on global stock rally as Greece passes reforms - Reuters	Dommiers	328420136	2012-02-14 01:16:37
 169187126385188864	#Greece is on fire, the country is on its knees, as much as they need reforms, the superiority of #Brussels can be seen. Are we already USE?	waldermax	253803689	2012-02-13 23:32:08
 169185988311130112	Luxembourg Frieden: #Greece has history of problems implementing decisions, need strong political commitment, needs S-T financing, reforms	lindayueh	350958562	2012-02-13 23:27:37
 169176237439320064	They don't have a West Greece to help reunify them. RT @GreekReporter Greece Should Reform as East Germany Did says Schäuble - ow.ly/1GdJzx	MFilms	28388697	2012-02-13 22:48:52
 169176235925188608	@RepPaulRyan Politicians can't keep their promises. We have to reform the welfare state, or we'll all become Greece	KassandraTroy	15427912	2012-02-13 22:48:52
-169172287189286912	Stocks boosted by news of Greek reforms: U.S. stocks rose on Monday, led by bank shares after Greece's parliamen... http://bit.ly/xtAV58 	Indra_Ngenges	328390340	2012-02-13 22:33:10
 169172206876770304	U.S. stocks rose on Monday, led by bank shares after Greece's parliament approved reforms needed to qualify for ... http://bit.ly/xSk9iy 	RES911CUE	32882388	2012-02-13 22:32:51
 169170183112499200	From MSNBC: Stocks boosted by news of Greek reforms: U.S. stocks rose on Monday, led by bank shares after Greece... http://bit.ly/wVs7YA 	TEI1013FanPage	460413525	2012-02-13 22:24:49
 169170139693060096	Violence offers glimpse of Greece's reform challenge ...: This is a Real Travel & Holidays ... Greeks swept rock... http://bit.ly/zUbyf2 	greeceisgreat	50334138	2012-02-13 22:24:38
 169166752834519040	DTN USA: US STOCKS SNAPSHOT - Wall St gains after Greece passes reforms: NEW YORK, Feb 13 (Reuters) - U.S. stock... http://bit.ly/zq8qhA 	DTNUSA	219913533	2012-02-13 22:11:11
+169166748686360576	US STOCKS SNAPSHOT - Wall St gains after Greece passes reforms: NEW YORK, Feb 13 (Reuters) - U.S. stocks closed ... http://bit.ly/ySkbqx 	talazodotcom	14682346	2012-02-13 22:11:10
 169164745541300224	Greece Should Reform as East Germany Did says Schäuble - http://ow.ly/1GdJzx 	GreekReporter	38090709	2012-02-13 22:03:12
 169137470364057601	@timjudah1 @kristofbender No wonder than that EU wants guarantees #Greece won't dump reform pckg at first chance. No rspect for contacts,ICJ	Cvetin	231414880	2012-02-13 20:14:50
 169135165740822528	Quo vadis Greece? Where is Greece going? The Greek parliament has agreed to another round of reforms -... http://fb.me/vc7vaAW4 	One1Europe	344621545	2012-02-13 20:05:40
 169132248266838018	One reform that #Greece really needs for a better future: to reinvent public spaces... http://www.pps.org/articles/benefits_public_spaces …	KaterinaSokou	237320454	2012-02-13 19:54:04
-169116224846966784	Violence offers glimpse of Greece's reform challenge http://dlvr.it/1Bw6QQ 	Herald_Business	211572646	2012-02-13 18:50:24
 169116159357104128	New blog post: Violence Offers Glimpse Of Greece's Reform Challenge http://www.travelto-vietnam.info/15965-violence-offers-glimpse-of-greeces-reform-challenge-2/ …	traveltov	389929720	2012-02-13 18:50:09
 169113919271604224	Workers in Greece still on strike to oppose fiscal reform measures requested by the European Union and the International Monetary Fund	GregoryKaiser	105216820	2012-02-13 18:41:14
-169113413438545920	US stocks rose Monday as Greece's parliament approved strict financial reforms needed to obtain… http://goo.gl/mwLNI 	fxfinancier	258879800	2012-02-13 18:39:14
 169111824124485633	German For. Min: "It isn't enough [for Greece] to adopt reform programs. Instead, the reforms have to be implemented without delay"	OpenEurope	65322179	2012-02-13 18:32:55
 169108991396413440	U.S. stocks rose Monday as Greece's parliament approved strict financial reforms needed to obtain its latest int... http://bit.ly/w7T50S 	RES911CUE	32882388	2012-02-13 18:21:40
 169108094813605888	Wall Street higher on Greek deal: US stocks rose Monday as Greece's parliament approved strict financial reforms... http://bit.ly/ypJZbc 	Raghav_HRGuru	8265312	2012-02-13 18:18:06
@@ -667,46 +660,48 @@ tweet_id	text	username	user_id	date
 169071094265937921	Germany Government: Need #Greece Leaders' Commitment To Reforms https://mninews.deutsche-boerse.com/content/germany-govt-need-greek-leaders-commitment-reforms …	braiesene	366620845	2012-02-13 15:51:04
 169066542674345984	Greek Party Chiefs Must Sign Reform Pledge, Elections In April: ATHENS (Dow Jones)--Greece's party chiefs will s... http://bit.ly/wvUY3z 	selvan_tengy	99608061	2012-02-13 15:32:59
 169065877025734658	Investors will be digesting news from Europe this week, as Greece's parliament approved strict financial reforms… http://goo.gl/fb/KG08V 	Sigmamarketing	29502349	2012-02-13 15:30:20
-169062691393126400	Violence Offers Glimpse of Greece's Reform Challenge http://fb.me/1lHEHhdEN 	Jody_Lloyd	42851937	2012-02-13 15:17:41
+169063340381966338	New blog post: Violence Offers Glimpse Of Greece's Reform Challenge http://www.travelto-vietnam.info/15923-violence-offers-glimpse-of-greeces-reform-challenge/ …	traveltov	389929720	2012-02-13 15:20:16
+169048416821841921	Violence offers glimpse of Greece's reform challenge| Reuters http://bit.ly/wpjUu3  #news #latestnews	3evbookmarking	350883724	2012-02-13 14:20:57
 169043662779592704	The pain of reform (Video): On the face of it, the vote to pass the latest austerity measure in Greece passed… http://goo.gl/fb/BHzVZ 	4xci	117673886	2012-02-13 14:02:04
+169041761539325952	#RTRS Violence offers glimpse of Greece's reform challenge - ATHENS (Reuters) - Greeks swept rocks and broken glass ... http://ow.ly/1hlCrW 	consilienza	317671183	2012-02-13 13:54:31
 169041597172953090	Violence will continue re #Greece reform. Unless politicians fraud is prosecuted & MPs cut their compensation http://tinyurl.com/76kaj6o 	DioneJacomel	54505857	2012-02-13 13:53:52
 169039253886611457	Violence offers glimpse of Greece's reform challenge - ATHENS (Reuters) - Greeks swept rocks and broken glass from t... http://ow.ly/1hlEIC 	finance_news__	401784119	2012-02-13 13:44:33
 169038570336686080	Violence offers glimpse of Greece's reform challenge http://tinyurl.com/76kaj6o 	jennablan	110302086	2012-02-13 13:41:50
 169036746858840064	Greece can say they are doing this or that but will they really carry them out soon enough - GERMANY SAYS GREECE MUST IMPLEMENT REFORMS.	masmad1	45377391	2012-02-13 13:34:35
-169036532433432578	Violence offers glimpse of Greece's reform challenge http://reut.rs/zfNcZj 	bernadettebaum	27637730	2012-02-13 13:33:44
 169034248760729600	Factbox: Greek austerity and reform measures http://reut.rs/xrHjF2  via @reuters	Bloss_Paa	362008486	2012-02-13 13:24:40
 169031000704286720	EURO GOVT-Bund futures fall after Greece approves reforms: Market sentiment has been yo-yoing in recent weeks as... http://bit.ly/znalxW 	mobile_rwh	419670388	2012-02-13 13:11:45
-169030035481694209	Violence offers glimpse of Greece's reform challenge ATHENS (Reuters) - Greeks swept rocks and broken glass from the http://yhoo.it/zDQOg7 	MortgageCircle	187148537	2012-02-13 13:07:55
 169028767367446528	Violence offers glimpse of Greece's reform challenge, and our future if we don't change it. http://reut.rs/wvkBdh  via @reuters	Mandelman	17392250	2012-02-13 13:02:53
 169028060681732096	Commerz: "it wd not be a surprise if those opposing reforms took control of Greece in April. (Then) everything would start all over again"	WSJCentralBanks	327484803	2012-02-13 13:00:04
+169027318302515202	RT @djfxtrader: Greece To Hold Elections In April - Government; Party Bosses Must Commit By Wednesday To Reform Plan - Spokesman	fx_13	78614391	2012-02-13 12:57:07
 169027018262978562	Greece To Hold Elections In April - Government; Party Bosses Must Commit By Wednesday To Reform Plan - Spokesman	WSJCentralBanks	327484803	2012-02-13 12:55:56
+169025921527971840	Violence offers glimpse of Greece's reform challenge http://reut.rs/xzgZQ3  via @reuters	pete_apps	97041585	2012-02-13 12:51:34
 169025392693362688	Morning Digest: Violence offers glimpse of Greece's reform ...: Full Hi-Tech News. Important technology... http://bit.ly/wcH2om  #asematy	Asematy	219369561	2012-02-13 12:49:28
-169021448374071296	Morning Digest: Violence offers glimpse of Greece's reform challenge: ReutersIf you are having trouble ... http://bit.ly/wcH2om 	javear	125359300	2012-02-13 12:33:48
-169015404008710144	Violence offers glimpse of Greece's reform challenge http://reut.rs/wvkBdh  via @reuters #rbnews η πραγματικότητα ως έχει	Krotkie	136003808	2012-02-13 12:09:47
+169018836216057858	Violence offers glimpse of Greece's reform challenge: Greeks swept rocks and broken glass from the streets of At... http://bit.ly/wIVg3r 	LondonKnowHow	379375634	2012-02-13 12:23:25
 169012108267241472	Merkel spokesman Seibert: #Greece's European partners support the country, welcome Parliament's decision & Spain's labor reform 'exemplary'	lindayueh	350958562	2012-02-13 11:56:41
 169005748335022080	Violence offers glimpse of Greece's reform challenge: Greeks swept rocks and broken glass from the... http://goo.gl/qcL82  #education	Edubeat	49025026	2012-02-13 11:31:25
-169005704659734530	Violence Offers Glimpse of Greece's Reform Challenge http://bit.ly/zAD26R 	CNBC_EMEA	28528172	2012-02-13 11:31:14
-169005435028897792	ReutersWorld: Violence offers glimpse of Greece's reform challenge http://ow.ly/1hlwxQ 	DrAlexConcorde	178525052	2012-02-13 11:30:10
-169004240533065731	Violence offers glimpse of Greece's reform challenge http://bit.ly/wgpGq5 	nurhidayatsardi	240551313	2012-02-13 11:25:25
-169002030235525120	Violence offers glimpse of Greece's reform challenge ...: This is a Real Travel & Holidays ... Greeks swept rock... http://bit.ly/yEJBNe 	greeceisgreat	50334138	2012-02-13 11:16:38
+169005454951845888	From @reuters Violence offers glimpse of Greece's reform challenge http://reut.rs/wvkBdh 	livingingreece	21560702	2012-02-13 11:30:15
 169001852568997889	So what is it about the Greek educational system that makes the people of #Greece so fearful of reform?	ReformWatch	458693472	2012-02-13 11:15:56
 169000662615588864	Violence Offers Glimpse of Greece's Reform ChallengeViolence Offers Glimpse of Greece's Reform Challenge http://bit.ly/w9V9mN 	globalreportorg	373867306	2012-02-13 11:11:12
+169000245127151617	Free Stock Picks Violence Offers Glimpse of Greece's Reform Challenge: Greeks swept rocks and... http://bit.ly/zJkX1p  Penny Stock Alerts	SheenStockPicks	259615297	2012-02-13 11:09:32
 168999914565677057	None of the MPs in #Greece will be affected by the pension reforms or salary cuts - Rich get Richer and EU bails out German banksters!	WillSeattle	16645396	2012-02-13 11:08:14
 168996555947393024	“ @Reuters: Violence offers glimpse of Greece's reform challenge http://reut.rs/wvkBdh ” Difficult choices, but was the alternative any better?	AdrianaZermeno	140799056	2012-02-13 10:54:53
 168995413930676224	Markets may be rejoicing with passing of Greek debt deal but violence offers glimpse of Greece's reform challenges. http://reut.rs/zVxW7p  #in	SiAlpha	33079407	2012-02-13 10:50:21
 168994791508553730	Violence offers glimpse of Greece's reform challenge - ATHENS (Reuters) - Greeks swept rocks and broken glass from t... http://ow.ly/1hlodT 	abhishek_aditya	118992888	2012-02-13 10:47:52
 168993346629533696	Violence Offers Glimpse of Greece's Reform Challenge: Greeks swept rocks and broken glass from the streets of At... http://bit.ly/zJkX1p 	FinancialBin	180510981	2012-02-13 10:42:08
 168992350528479232	Telegraph.co.ukViolence offers glimpse of Greece's reform challenge |ReutersBy Renee Maltezou and Harry Papachri... http://bit.ly/xGbVyQ 	ingovernment	47584805	2012-02-13 10:38:10
+168991895652012033	Violence Offers Glimpse of Greece's Reform Challenge http://bit.ly/ySDUTA  #asia #news	subhasisishere	17467073	2012-02-13 10:36:22
 168991837661577216	[CNBCAmerica] Violence Offers Glimpse of Greece's Reform Challenge: A night of violence in Athens gave lawmakers... http://bit.ly/zAD26R 	CNBCAmerica	16516224	2012-02-13 10:36:08
+168990189937627136	HMWiseReutersGlobal– Violence offers glimpse of Greece's reform challenge http://ow.ly/1hlrUY 	paris_lawyer	48393126	2012-02-13 10:29:35
 168986255852441600	Violence offers glimpse of Greece's reform challenge |: By Renee Maltezou and Harry Papachristou | ATHENS (Reute... http://bit.ly/w9WukN 	Nadialenn	136356281	2012-02-13 10:13:57
 168986199212560384	Violence offers glimpse of Greece's reform challenge http://dlvr.it/1Bq74m 	ekathimerini	242704372	2012-02-13 10:13:44
 168985862003113984	Greece is currently trying to do something impossible: which is to reform the economy in the midst of a deep depression http://bit.ly/wIOzoS 	mgpolitis	14250071	2012-02-13 10:12:23
 168985079815733248	@BBCr4today: #Greece has two choices: ...fundamental reform of society or 'technical govt' like Italy: Guy Verhofstadt <that's one choice>	GeorgianGroup	52077438	2012-02-13 10:09:17
 168984756619460608	News by Yahoo Violence offers glimpse of Greece's reform challenge: ATHENS (Reuters) - Greeks swept rocks and br... http://oio.gr//107 	JwForum	39049059	2012-02-13 10:08:00
+168984425982464000	Violence offers glimpse of Greece's reform challenge: Greeks swept rocks and broken glass from the streets of At... http://bit.ly/xI0zdJ 	LebFeed	174592946	2012-02-13 10:06:41
 168983005614981121	Violence offers glimpse of Greece's reform challenge http://reut.rs/wvkBdh 	Reuters	1652541	2012-02-13 10:01:02
 168982955123945472	Violence offers glimpse of Greece's reform challenge: Greeks swept rocks and broken glass from the streets of At... http://bit.ly/zGApuE 	newsfromGreece	212776854	2012-02-13 10:00:50
 168981642873020416	Violence offers glimpse of Greece's reform challenge: GREECE-VIOLENCE:Violence offers glimpse of Greece's refor... http://bit.ly/xOiBc0 	Axelfinance	220298263	2012-02-13 09:55:37
-168980361643167744	#News Violence offers glimpse of Greece's reform challenge (Reuters): Reuters - Greeks swept rocks and brok... http://yhoo.it/wfwn0S 	Kemble238	280822700	2012-02-13 09:50:32
+168980581244354560	Violence offers glimpse of Greece's reform challenge: Greeks swept rocks and broken glass from the streets of At... http://bit.ly/wcDCoE 	ComplianceConst	115668371	2012-02-13 09:51:24
 168978785083998208	DTN USA: UPDATE 1-Violence offers glimpse of Greece's reform challenge: ATHENS, Feb 13 (Reuters) - Greeks swept ... http://bit.ly/xIuxEO 	DTNUSA	219913533	2012-02-13 09:44:16
 168977833484492800	Violence offers glimpse of Greece's reform challenge http://dlvr.it/1Bpnbf 	BreakingFlash	395090674	2012-02-13 09:40:29
 168975307758514176	#Greece has two choices: elections and new parties asking for fundamental reform of society or 'technical govt' like Italy: Guy Verhofstadt	BBCr4today	8170292	2012-02-13 09:30:27
@@ -752,6 +747,7 @@ tweet_id	text	username	user_id	date
 168829436584656896	#Greece Voting looks very traditional, but wondering if parliament also needs structural reform.	bbjjc7	111604771	2012-02-12 23:50:49
 168826132303593472	German ministers pressure Athens over reforms http://bit.ly/y0nkHi  #Greece	igeldard	10196452	2012-02-12 23:37:41
 168825127151214592	. @lindayueh: Papademos: Lowering minimum wage would boost employment, pension reform necessary to ensure viability of pension system #Greece	tpcom	17283773	2012-02-12 23:33:41
+168818761565081601	Greece faces bankruptcy if reforms not adopted http://www.joinrevolution.net/24/post/2012/02/greece-faces-bankruptcy-if-reforms-not-adopted.html …	JoinRevolutionV	296759187	2012-02-12 23:08:23
 168818513379733504	RT @zerohedge PAPADEMOS SAYS PENSION REFORMS, ADJUSTMENTS TO ENSURE VIABILITY - of which bank? #Greece	exxonBP	99098667	2012-02-12 23:07:24
 168818501920882689	#greece solution to unemplyment... labour reform now aren't those reforms very much like Gov Walker's in Wisconsin? Aye. #Greece #ALEC	rattlecans	118027407	2012-02-12 23:07:22
 168818059145003010	Papademos, #Parliament: Job reforms should not just address the issues of those who have a job, but also of the 1million unemployed #Greece	stratosathens	18138592	2012-02-12 23:05:36
@@ -771,13 +767,13 @@ tweet_id	text	username	user_id	date
 168766163176796161	Greece Labor Min:"The country can be saved. But not just by voting the new loan deal and avoiding all the structural reforms in the future."	WSJCentralBanks	327484803	2012-02-12 19:39:23
 168766154163228673	According to @Ant1TV about 37 lawmakers will vote against new reforms #athens #greece	ezarkadoula	182879770	2012-02-12 19:39:21
 168766051520225281	#Greece Labor Min to Parliament: Even after vote, Greece needs to stick with reform program; hinted at further difficult votes to come -DJ	WSJCentralBanks	327484803	2012-02-12 19:38:56
+168763222411849728	“Greece’s fragmented and increasingly polarised politics could become real obstacle to fiscal reform http://econ.st/zIDhts ”// suena conocido	lugodelam	113168824	2012-02-12 19:27:42
 168762339011731456	Good thing we're different. MT @TheEconomist: Greece’s polarized politics becoming the real obstacle to fiscal reform http://econ.st/zIDhts 	tlane4real	18851508	2012-02-12 19:24:11
 168762193662324737	@JoeThorpe1963 So you're unhappy with capital markets? Grab a line! Reform is coming and #Greece is first. #EuropeUnited	EuroDale	251769222	2012-02-12 19:23:37
 168760879096152065	Greece to endorse new reform deal amid protests | BUSINESS News http://bit.ly/xMN1jv 	InnaMood	243545094	2012-02-12 19:18:23
 168758667259281409	Look at all these little Eichmanns using the words "fiscal reform" and "Greece" in the same sentence...	cellabiao	64410983	2012-02-12 19:09:36
 168757522172354560	Greece to endorse new reform deal: Greek lawmakers looked set to endorse a new austerity deal today to secure an... http://dlvr.it/1BjM7L 	ChristchurchDay	464899879	2012-02-12 19:05:03
 168757429713117185	@Driss_Lamrani for example Greece, it's becoming impossible 2 have fiscal reform because politicians have other ideas & ambitions	domenic_dsk	483245373	2012-02-12 19:04:41
-168755823772839938	"Greece’s fragmented and increasingly polarised politics could become the real obstacle to fiscal reform http://econ.st/zIDhts "	sindikaria	125299040	2012-02-12 18:58:18
 168753935455223809	Greece’s fragmented and increasingly polarised politics could become the real obstacle to fiscal reform http://econ.st/zIDhts 	TheEconomist	5988062	2012-02-12 18:50:48
 168753228752756736	Greece Should Exit Euro Unless It Reforms, Dobrindt Tells Bild http://theforexfeed.com  #forex #trading	TheForexFeedCom	369407311	2012-02-12 18:47:59
 168752815169220608	#greece bakoyanni: bailout1 provided for the correction of the system itself, ie cuts and structural reforms. papandreou's govt made none.	dianalizia	40202517	2012-02-12 18:46:21
@@ -788,7 +784,7 @@ tweet_id	text	username	user_id	date
 168746657507315712	#greece labor min koutroumanis: no country can have growth with the public sector we have in this country; [need structural reform]	dianalizia	40202517	2012-02-12 18:21:52
 168742371310321666	Syria- who knows how many dying, Greece- falling apart, NHS reforms pull the coalition apart, biggest news? two players not shaking hands!	itismehonest	388454624	2012-02-12 18:04:51
 168728179199049729	Duits signaal steeds sterker - A.Dobrindt (CSU): "Greece Should Exit Euro" http://bloom.bg/yfU4Zz  #Bild	thierryd	15644938	2012-02-12 17:08:27
-168720380079509506	#Greece Should Exit Euro Unless It Reforms, Germany CSU Gen-Sec Dobrindt Tells Bild http://bloom.bg/yfU4Zz  - #U #euro #debt #greek #ECB #EFSF	PublicPolicyGuy	95584116	2012-02-12 16:37:27
+168723892431626240	#dofollow http://fatoer-uniska.co.cc  - Greece Should Exit Euro Unless It Reforms, Dobrindt Tells Bild ...: ... t... http://bit.ly/xZl3Y7  #blogs	alexabroomer	178937458	2012-02-12 16:51:25
 168720170909577216	Greece Should Exit Euro Unless It Reforms, Germany CSU Gen-Sec Dobrindt Tells Bild http://bloom.bg/yfU4Zz  Better than "uncontrolled collapse"	lindayueh	350958562	2012-02-12 16:36:38
 168716802677948416	Thousand of people demonstrate against new reforms #greece #athens http://twitpic.com/8iz9vy 	ezarkadoula	182879770	2012-02-12 16:23:15
 168716502965551104	SHAUBLE REITERATES NEED FOR REFORM IN GREECE: (AGI) Berlin - Talking to the Sunday paper "Welt am Sonntag", Germ... http://tinyurl.com/7occknq 	AGI_Italy_News	219249595	2012-02-12 16:22:03
@@ -952,7 +948,6 @@ tweet_id	text	username	user_id	date
 167641353319227392	Greece reaches crucial bailout deal: Greek leaders agree to a long-stalled deal on reforms and austerity measure... http://bit.ly/xnQD60 	JoeThorpe1963	131192086	2012-02-09 17:09:47
 167634233056165889	"This Is News from WORLD Magazine": Women near combat, more fall-out over contraceptive mandate, Greece accepts reforms http://tinyurl.com/76543ns 	WORLD_mag	16423253	2012-02-09 16:41:30
 167632252237389824	Greece settles a long-delayed deal on reforms and austerity measures essential to shelter a bailout and dodge an acrimonious default... hmmm	leandroid	46023661	2012-02-09 16:33:38
-167630117697363968	Greek leaders strike deal on bailout reforms : Greece's coalition party leaders have reached a deal on tough austerity measures... #EuroNews	RealTimeHack	279118291	2012-02-09 16:25:09
 167630094272176129	TREASURIES-Bonds fall as Greece reaches reform deal http://dlvr.it/1B7L0G 	bonds_newsnow	364246098	2012-02-09 16:25:03
 167627636628144131	Greek coalition leaders agree on bailout reforms http://f24.my/xqABpq  via @FRANCE24	OMNIWOW999	17540595	2012-02-09 16:15:17
 167625209451511808	BREAKING NEWS: Greek PM says Greece's political leaders have reached a deal with EU and IMF on reforms for bailout via @reuters	chiaraalbanese	76736871	2012-02-09 16:05:38
@@ -1004,7 +999,6 @@ tweet_id	text	username	user_id	date
 167553745939476480	Greek labour unions call 48-hour strike over reforms http://reut.rs/wcB3Vj 	ReutersMarkets	335907491	2012-02-09 11:21:40
 167552953035661312	Morning Forex Fundamental: Greece leaders gathered on Wednesday to agree on a reform deal in return for a 130 bi... http://bit.ly/yCV8KF 	_forexnews	355889945	2012-02-09 11:18:31
 167544207282671616	Morning Forex Fundamental: Greece leaders gathered on Wednesday to agree on a reform deal in return for a 130 bi... http://bit.ly/z0waCq 	ultimateforex	84982966	2012-02-09 10:43:46
-167543315548479488	Greek gathering fails to agree on bailout deal terms: Greece's coalition party leaders have failed to agree on a tough reform... #EuroNews	RealTimeHack	279118291	2012-02-09 10:40:13
 167541989917732865	Por mientras en #Grecia la Troika neoliberal (FMI, BE, UE, BM) están condenando al #hambre y la #pobreza #sindemocracia http://news.linktv.org/videos/greece-anti-austerity-anger-as-government-struggles-to-implement-reforms?start=0 …	IgualdadExtranj	460582871	2012-02-09 10:34:57
 167529360100831232	NYT changes tune, but still off-key. At least they admit #Greece cheated on statistics and reforms. Greek Tragedy: http://nyti.ms/wFzgSq 	AntaeusX25G	18194452	2012-02-09 09:44:46
 167526694440284161	Greece and Europe to examine an incomplete reform package http://bit.ly/xNFYCu 	DigitalLookNews	45552145	2012-02-09 09:34:11
@@ -1051,7 +1045,6 @@ tweet_id	text	username	user_id	date
 167334825009758209	BBG obtained troika draft: #Greece pledge accelerated deep structural labor, product market reforms, pledge not to increase sales tax	lindayueh	350958562	2012-02-08 20:51:45
 167334059150819329	Greece pledges to sell assets (ports, airport, oil co), cut wages (20% min wage), consolidate pensions, cut "medicare", implement reforms...	SoberLook	423769635	2012-02-08 20:48:43
 167331202771066880	Greece Keeps Promising Reform, but Few Believe It http://bit.ly/xbuElc 	CNBC_EMEA	28528172	2012-02-08 20:37:22
-167327817107906560	Greece heading for the Grexit?: After so many broken promises on reforms from Athens, some of its international lenders --... #EuroNews	RealTimeHack	279118291	2012-02-08 20:23:55
 167324649175261185	@qn4ov CNBC Top News-Greece Keeps Promising Reform, But Few Believe It http://ibo.ms/z66Tdv  stop http://ibo.ms/w2zmsX 	feedupdate	33532554	2012-02-08 20:11:19
 167322712321163264	U.S. stocks fluctuated around break-even as investors waited for Greece to accept tough reforms in exchange for a new bailout.	BlackMarlinGrp	460533998	2012-02-08 20:03:37
 167321456357810178	Real Estate Support Greece Keeps Promising Reform, But Few Believe It: http://bit.ly/yxDw9A 	atchutneelam	115637932	2012-02-08 19:58:38
@@ -1063,7 +1056,6 @@ tweet_id	text	username	user_id	date
 167274671660740609	IMF negotiators tired of asking for the same reforms ...Greece’s broken promises anger EU partners http://www.theglobeandmail.com/report-on-business/international-news/greeces-broken-promises-anger-eu-partners/article2330915/ … via @globeandmail	OMAmortgages	92597754	2012-02-08 16:52:44
 167270111433064448	@aussietorres @Alea_ nothing new wrt things not going "according to plan" re reform etc http://loanbuster.blogspot.com/2011/10/why-greece-is-busted-flush.html … #grexit	ken_frost	19966992	2012-02-08 16:34:36
 167268277553340417	Big times in Greece right now, party leaders meeting to agree reform deal in exchange for more bailout money - http://twitpic.com/8h9z5p 	felix85	14153129	2012-02-08 16:27:19
-167249105058414592	Frustrations Soar as Greece, EU Seek Elusive Bailout Deal: Greek parties will try on Wednesday to agree to a reform deal in return... #EMM	RealTimeHack	279118291	2012-02-08 15:11:08
 167239459052601344	Me 2. Forced reform thru pain&protest MT @MariaKaramitsos it just me or does the EU seem to want to punish Greece by forcing more austerity?	loukasven	208036986	2012-02-08 14:32:48
 167238898118967296	Wouldn't a more constructive use of EU et als' time be in helping Greece reform their tax system, suggesting deregulation and other items...	MariaKaramitsos	143966984	2012-02-08 14:30:35
 167238590668091392	...they would actually be helping Greece to implement the reforms the politicians have been too "scared" or negligent to, and actually...	MariaKaramitsos	143966984	2012-02-08 14:29:21
