@@ -1,0 +1,95 @@
+---
+title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about Political Deliberation and Opinions in Europe?'
+author: "M. Callaghan, V. Nieberg"
+date: "November 14, 2015"
+output: html_document
+bibliography: 
+- bibliography.bib 
+- RpackageCitations.bib
+---
+
+1500 words
+
+# Data Gathering 
+
+## Tweets
+We used a modified version of GetOldTweets [@GetOldTweets], a Java program that scrapes data from twitter search. The file getting_tweets/input.txt contains a list of search terms related to the Greek crisis. The search terms were collected using an adapted form of snowball sampling, searching an initial list and recursively adding related terms found in the results. By running 
+```
+sudo setsid ./compile_run.sh ../getting_tweets/input.txt
+```
+from the GetOldTweets folder, we ran through each search term, searched twitter, and saved the results as a txt file in the data folder. After an initial assessment of the results, we refined our search terms and ran GetOldTweets again with /getting_tweets/input2.txt
+
+## Users
+- We found the unique users in our corpus of tweets and used the TwitteR package [@R-twitteR] to gather richer data about each user
+
+- We used APIs from MapQuest and Google to geocode user-reported location.
+
+
+# Data Cleaning  
+
+# Data Analysis
+
+## Descriptive Statistics
+
+```{r cache=TRUE}
+library(ggplot2)
+library(dplyr)
+library(stringr)
+corpus <- read.csv('data/corpus.csv')
+eurocrisis <- filter(corpus, query == 'eurocrisis')
+
+corpus <- filter(corpus,query!="2-pac"&query!="3-pac")
+
+eurocrisis$day <- as.Date(substr(as.character(eurocrisis$date),1,10))
+
+eurocrisis_daily <- eurocrisis %>%
+  group_by(day) %>%
+  summarise(
+    n = length(day)
+  )
+
+corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
+
+corpus_index <- corpus %>%
+  group_by(query) %>%
+  summarise(total = length(query))
+
+corpus_index_large <- filter(corpus_index,total>10000)
+corpus_index_small <- filter(corpus_index,total<10000)
+
+corpus_large <- filter(corpus,query %in% corpus_index_large$query)
+
+corpus_small <- filter(corpus,query %in% corpus_index_small$query)
+
+timegraph <- function(corpus,p) {
+  corpus_daily <- corpus %>%
+    filter(period==p) %>%
+  group_by(day,query,period) %>%
+  summarise(
+    n = length(day)
+  )
+  
+
+ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
+  scale_x_date(format("%b-%Y")) +
+  ggtitle(p)
+
+}
+
+timegraph(corpus_small,"2010-04-15-2010-05-15.txt")
+timegraph(corpus_small,"2012-02-07-2012-03-31.txt")
+timegraph(corpus_small,"2015-07-01-2015-08-25.txt")
+
+timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
+timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
+timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
+
+
+
+
+```
+
+
+
+## Inferential Statistics
+
