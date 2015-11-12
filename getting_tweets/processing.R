@@ -210,7 +210,7 @@ geocode_corpus <- function(df,n=NULL) {
    }
  
 
-corpus <- read_tweets("data/GOToutput","data/corpus2.csv")
+corpus <- read_tweets("data/GOToutput/input2/","data/corpus2.csv")
 
 user_info <- get_user_info(corpus)
 
