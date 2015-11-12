@@ -144,6 +144,11 @@ map_world <- get_map(zoom = 1)
 mapPoints <- ggmap(map_world) +
   geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
 mapPoints
+
+map_eu <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
+mapPoints
 ```
 
 
