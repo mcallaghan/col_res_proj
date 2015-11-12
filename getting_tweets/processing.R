@@ -2,16 +2,19 @@ read_tweets <- function(folder,name) {
   files <- list.files(folder)
   corpus <- data.frame()
   for (file in files) {
-    df <- read.delim(paste0(folder,file),
-                     quote="")
-    query <- strsplit(file,"_")[[1]][1]
-    period <- paste0(strsplit(file,"_")[[1]][2],"-",strsplit(file,"_")[[1]][3])
-    df$query <- query
-    df$period <- period
-    corpus <- rbind(corpus,df)
+    df <- tryCatch(read.delim(paste0(folder,file),
+                     quote=""),error=function(err) NULL)
+    if(!is.null(df)) {
+      query <- strsplit(file,"_")[[1]][1]
+      period <- paste0(strsplit(file,"_")[[1]][2],"-",strsplit(file,"_")[[1]][3])
+      df$query <- query
+      df$period <- period
+      corpus <- rbind(corpus,df)
+    }
   }
   write.csv(corpus,file=name)
 }
+
 
 get_user_info <- function(df) {
   library(twitteR)
