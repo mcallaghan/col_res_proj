@@ -1,8 +1,8 @@
-read_tweets <- function() {
-  files <- list.files("data/GOToutput")
+read_tweets <- function(folder,name) {
+  files <- list.files(folder)
   corpus <- data.frame()
   for (file in files) {
-    df <- read.delim(paste0("data/GOToutput/",file),
+    df <- read.delim(paste0(folder,file),
                      quote="")
     query <- strsplit(file,"_")[[1]][1]
     period <- paste0(strsplit(file,"_")[[1]][2],"-",strsplit(file,"_")[[1]][3])
@@ -10,7 +10,7 @@ read_tweets <- function() {
     df$period <- period
     corpus <- rbind(corpus,df)
   }
-  write.csv(corpus,file="data/corpus.csv")
+  write.csv(corpus,file=name)
 }
 
 get_user_info <- function(df) {
@@ -210,17 +210,21 @@ geocode_corpus <- function(df,n=NULL) {
    }
  
 
-corpus <- read.csv("data/corpus.csv")
+corpus <- read_tweets("data/GOToutput","data/corpus2.csv")
 
-user_info <- read.csv("data/user_info.csv")
+user_info <- get_user_info(corpus)
 
-places <- geocode_corpus(user_info)
+write.csv(user_info,file="data/user_info.csv")
 
-write.csv(places,file="data/places.csv")
+#corpus <- read.csv("data/corpus.csv")
 
-#user_info <- get_user_info(corpus)
+#user_info <- read.csv("data/user_info.csv")
 
-#write.csv(user_info,file="data/user_info.csv")
+#places <- geocode_corpus(user_info)
+
+#write.csv(places,file="data/places.csv")
+
+
 
 
 
