@@ -43,6 +43,8 @@ Some of the queries we defined returned irrelevant data, due to their ambiguity.
 
 - Word cloud
 
+
+
 ```{r cache=TRUE}
 library(ggplot2)
 library(dplyr)
@@ -98,21 +100,26 @@ timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
 timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
 timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
 
-text_corpus <- Corpus(VectorSource(corpus$text))
-
-#clean up
-coup_text_corpus <- tm_map(coup_text_corpus,
-                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
-                              mc.cores=1
-)
-coup_text_corpus <- tm_map(coup_text_corpus, content_transformer(tolower), mc.cores=1)
-coup_text_corpus <- tm_map(coup_text_corpus, removePunctuation, mc.cores=1)
-coup_text_corpus <- tm_map(coup_text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
-wordcloud(coup_text_corpus)
 
 
 ```
 
+```{r cache = TRUE}
+minicorpus <- corpus[sample(nrow(corpus), 200), ]
+
+text_corpus <- Corpus(VectorSource(minicorpus$text))
+
+#clean up
+text_corpus <- tm_map(text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
+text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
+text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(text_corpus)
+
+```
 
 
 ## Inferential Statistics
