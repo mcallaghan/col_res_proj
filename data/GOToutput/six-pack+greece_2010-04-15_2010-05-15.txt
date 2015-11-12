@@ -1,0 +1,2 @@
+tweet_id	text	username	user_id	date
+12776225921	Greece gets lecture from profligate US: http://tinyurl.com/2bbdbjt Your money will soon follow, Joe Six Pack.	tonyalfidi	118573963	2010-04-24 20:09:13

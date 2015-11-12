@@ -1,0 +1,8 @@
+tweet_id	text	username	user_id	date
+13782120599	in memorandum! http://twitpic.com/1mw9wt	4cousins_greek	142343515	2010-05-11 12:58:11
+13663352485	{memeorandum} Greek Debt Woes Ripple Outward, From Asia to U.S. (New York Times) http://chilp.it/f21cd0	notleftwing	17345738	2010-05-09 13:46:46
+13543670366	Greek Debt Crisis On Verge Of 'Going Global': Pimco's El-Erian (Jeff Cox / CNBC) http://mrand.us/=WGj	memeorandum	817652	2010-05-07 13:40:19
+13253978592	{memeorandum} Greek Wealth Is Everywhere but Tax Forms (Suzanne Daley/New York Times) http://chilp.it/542431	notleftwing	17345738	2010-05-02 18:27:52
+13002702916	Europe Worried That Greek Crisis Is Poised to Spread (Landon Thomas Jr / New York Times) http://mrand.us/=TkD	memeorandum	817652	2010-04-28 14:10:24
+12699074427	{memeorandum} Drama in the Greek bond markets (Money Supply) http://chilp.it/65f753	notleftwing	17345738	2010-04-23 14:29:54
+12278220506	{memeorandum} Graft Feeds Greek Crisis (Marcus Walker/Wall Street Journal) http://chilp.it/23c802	notleftwing	17345738	2010-04-16 13:49:57

@@ -1,0 +1,7 @@
+tweet_id	text	username	user_id	date
+183239323758501888	I have determined that every man in Ancient Greece had a six pack #thisissparta	NavyJonesLocker	294395591	2012-03-23 18:10:33
+183134298486996992	I have a week and a half to get a six pack for Greece. I hate hashtags but #springbreakproblems	carlitas_way	281385352	2012-03-23 11:13:13
+179409298953224193	If "The Immortals" can be believed, the two most important things in ancient Greece were six-pack abs and finding a nice cliff to live in.	brianpmoore666	326475672	2012-03-13 04:31:24
+172008902379044864	Eating rice and pasta everyday for this beach body. Harder than i thought! #Greece #sixpack #tan	Kieron_Jordan	407280794	2012-02-21 18:24:52
+171942366280818689	RT @jmsardo: #ecofin press conf. - #Rehn: "six-pack, fiscal compact and 2nd bailout to #Greece are decisive steps to react to #euro crisis"	euronews	25067168	2012-02-21 14:00:29
+171933808235511808	#ecofin press conference - #Rehn: "six-pack, fiscal compact and 2nd bailout to #Greece are decisive steps to react to #euro crisis"	jmsardo	25999072	2012-02-21 13:26:28
