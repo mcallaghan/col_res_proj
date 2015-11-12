@@ -33,17 +33,27 @@ The txt files containing the tweets for each query and period are merged into a 
 
 Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period.
 
+```{r}
+user_info <- read.csv('data/user_info.csv')
+corpus <- read.csv('data/corpus.csv')
+geo_user_info <- user_info[!is.na(user_info$latitude), ]
+geo_corpus <- merge(corpus, geo_user_info)
+```
+
+
 # Data Analysis
 
 ## Descriptive Statistics
 
 - Timeless against other queries
 
-- Summary table large/small
-
-- Word cloud
 
 
+- Map
+
+## Summary Tables
+
+## Summary Charts
 
 ```{r cache=TRUE}
 library(ggplot2)
@@ -104,6 +114,7 @@ timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
 
 ```
 
+## Word cloud
 ```{r cache = TRUE}
 minicorpus <- corpus[sample(nrow(corpus), 200), ]
 
@@ -118,6 +129,19 @@ text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
 text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
 text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
 wordcloud(text_corpus)
+
+```
+
+## Map
+```{r}
+library(rworldmap)
+map_world <- getMap(resolution = "high")
+plot(map_world, asp = 1)
+points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
+
+map_europe <- getMap(resolution = "high")
+plot(map_europe, xlim = c(-20, 59), ylim = c(35, 71), asp = 1)
+points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
 
 ```
 
