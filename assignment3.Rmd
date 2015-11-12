@@ -45,13 +45,9 @@ geo_corpus <- merge(corpus, geo_user_info)
 
 ## Descriptive Statistics
 
-- Timeless against other queries
-
-
-
-- Map
-
 ## Summary Tables
+
+## Timeless against other queries
 
 ## Summary Charts
 
@@ -143,6 +139,11 @@ map_europe <- getMap(resolution = "high")
 plot(map_europe, xlim = c(-20, 59), ylim = c(35, 71), asp = 1)
 points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
 
+library(ggmap)
+map_world <- get_map(zoom = 1)
+mapPoints <- ggmap(map_world) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
+mapPoints
 ```
 
 
