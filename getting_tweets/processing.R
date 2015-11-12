@@ -217,7 +217,7 @@ corpus <- read_tweets("data/GOToutput/input2/","data/corpus2.csv")
 
 user_info <- get_user_info(corpus)
 
-write.csv(user_info,file="data/user_info.csv")
+write.csv(user_info,file="data/user_info2.csv")
 
 #corpus <- read.csv("data/corpus.csv")
 
