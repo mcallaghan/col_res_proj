@@ -140,11 +140,22 @@ plot(map_europe, xlim = c(-20, 59), ylim = c(35, 71), asp = 1)
 points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
 
 library(ggmap)
-map_world <- get_map(zoom = 1)
+map_world <- get_map(zoom = 3)
 mapPoints <- ggmap(map_world) +
   geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
 mapPoints
 
+world <- map_data("world")
+worldmap <- ggplot() +
+  geom_path(data=world, aes(x=long, y=lat, group=group),size=0.5,colour="grey") +
+  geom_point(data=geo_corpus,aes(x = longtitude, y = latitude, colour = query)) +
+  coord_equal() + 
+  theme_nothing(legend=TRUE) +
+  theme(
+    legend.position=c(0.1,0.5)
+  )
+worldmap
+  
 map_eu <- get_map(zoom = 4, location= "Europe")
 mapPoints <- ggmap(map_eu) +
   geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)

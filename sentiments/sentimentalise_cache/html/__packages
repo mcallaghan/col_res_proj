@@ -1,0 +1,17 @@
+base
+methods
+datasets
+utils
+grDevices
+graphics
+stats
+tm.lexicon.GeneralInquirer
+NLP
+tm
+zoo
+xts
+TTR
+quantmod
+tm.plugin.sentiment
+dplyr
+knitr

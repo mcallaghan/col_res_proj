@@ -1,0 +1,7 @@
+tweet_id	text	username	user_id	date
+184667489421107201	I'll be using your medical services again whenever I'm in Egypt. Thank you very much. Dr. Georgios Troullakis - Crete, Greece	Dialysis_EMS	227732956	2012-03-27 17:45:35
+184667452075028481	The work of your nurse is better than in Greece. Your medical care is excellent.	Dialysis_EMS	227732956	2012-03-27 17:45:26
+173176897197445120	Refuse.gr won the EMS Qualifiers Greece and placed themselfs for the EMS next month!! We are all very proud on... http://fb.me/1fKQLHPMg 	Team_Refuse	363227377	2012-02-24 23:46:04
+170212000318767104	#sod greece bailoot rangers!	Ems_Black	247847443	2012-02-16 19:24:37
+168009284716728320	#Greek #OrthodoxChurch V #Euro? http://diplomaticallyincorrect.org/films/blog_post/greek-orthodox-church-v-euro/45441/ … #austerity #ECB #EMS #Eurozone #Greece #capitalism #EU #Merkel #Draghi #DiplomaticallyX	MuhamedSacirbey	308789303	2012-02-10 17:31:49
+167997369328209920	BBH: USD trading higher against most of majors & EMs on concerns over Greek deal as EU finance ministers demand more commitments from Greece	Francesc_Forex	25488729	2012-02-10 16:44:28

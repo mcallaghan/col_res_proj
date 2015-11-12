@@ -1,5 +1,0 @@
-tweet_id	text	username	user_id	date
-13555515712	It took EU leaders 5 days to get a call on the Icelandic volcano. It's taken the EMS 3 months to get their act together on Greece. #FAIL	ohtellez	90472654	2010-05-07 17:50:57
-13439073849	The "Euro-zone virus" is spreading fast it seems - Greece, Portugal, Spain and even UK! What next for the EMs and global financial markets?	IndianBizNews	64009289	2010-05-05 19:51:11
-13137384248	is Greece the first shoe to drop in a global overhaul over gov't back retirement systems? Many EMs have simiral structures...	richdonovannyc	32673654	2010-04-30 18:16:24
-12647030038	EMS Technologies Co., Ltd. (Taiwan) looking for Sales Representatives in GREECE: job description: outside sales ... http://bit.ly/d08xfb	Agents24	118722473	2010-04-22 18:03:59
