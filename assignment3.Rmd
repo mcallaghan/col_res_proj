@@ -1,12 +1,20 @@
 ---
-title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about Political Deliberation and Opinions in Europe?'
+title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about
+  Political Deliberation and Opinions in Europe?'
 author: "M. Callaghan, V. Nieberg"
 date: "November 14, 2015"
 output: html_document
-bibliography: 
-- bibliography.bib 
-- RpackageCitations.bib
+bibliography:
+- bibliography.bib
+- RpackageCitations3.bib
 ---
+
+```{r include=FALSE}
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+```
+
+
 
 # Data Gathering 
 
@@ -127,6 +135,8 @@ text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cor
 wordcloud(text_corpus)
 
 ```
+The word cloud gives us an overall picture of the words used by twitter users tweeting about the European debt-crisis. To a certain degree, this word cloud is redundant in that it returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets. 
+
 
 ## Map
 ```{r}
@@ -155,13 +165,53 @@ worldmap <- ggplot() +
     legend.position=c(0.1,0.5)
   )
 worldmap
-  
+
+```
+
+This map shows the distribution of individual queries over different locations worldwide. Colour indicates type of query. Concerning the 
+
+
+```{r}  
 map_eu <- get_map(zoom = 4, location= "Europe")
 mapPoints <- ggmap(map_eu) +
   geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
 mapPoints
 ```
 
+The following maps show the distribution of individual queries over different locations Europe-wide. Colour indicated type of query. We produced two maps differentiating between frequently used and less frequently used terms. 
+
+
+
+The following map shows the three periods studied for one specific query. 
+
+```{r}  
+map_eu_2010 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2010) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME1)
+mapPoints
+
+map_eu_2012 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2012) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME2)
+mapPoints
+
+map_eu_2015 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2015) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME3)
+mapPoints
+```
 
 ## Inferential Statistics
+
+# Sentiment Analysis
+
+For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information (API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum) we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
+
+We looked at individual tweets and compared the results to our perception of sentiment of the tweet.
+
+We created a map which colour-coded avarage sentiment for European countries. 
+
+
+
+## References
 
