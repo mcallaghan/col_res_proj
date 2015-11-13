@@ -10,9 +10,11 @@ bibliography:
 ---
 
 ```{r include=FALSE}
-pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment','dplyr')
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
 ```
+
+
 
 # Data Gathering 
 
@@ -65,10 +67,10 @@ geo_corpus <- merge(corpus, geo_user_info)
 
 ### Summary Tables
 
-The followign table give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time (normalized???). The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
+The following tables give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time (normalized???). The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
 
 
-```{r cache=TRUE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
 sum_q_table <- corpus %>%
   group_by(query) %>%
@@ -82,9 +84,10 @@ knitr::kable(sum_q_table, digits = 2)
 ```
 
 
-2. table queries by periods, absolute numbers, ratio of period occurances
+The results that our queries returned differ substanially in size. While some queries (e.g. merkel+greece) return over 15000 tweets, others (e.g. greece+reforms) return only around 3000 tweets in the specified time periods. We therefore think it is for analytical reasons useful to differentiate between high-return and low-return queries. 
 
-```{r cache=TRUE}
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
 sum_q_per_table <- corpus %>%
   group_by(query, period) %>%
@@ -97,10 +100,10 @@ knitr::kable(sum_q_per_table, digits = 2)
 
 ```
 
-3. table for where we have the location
-how many in which countries, percentage distribution over countries
+Since these results are not normalized, it is difficult to is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic.
 
-```{r cache=TRUE}
+
+```{r cache=FALSE, eval=FALSE, warning=FALSE, echo=FALSE}
 
 sum_q_loc_table <- senti_geo_corpus %>%
   group_by(approx_country, period) %>%
@@ -118,23 +121,9 @@ knitr::kable(sum_q_loc_table, digits = 2)
 ### Summary Charts
 
 ```{r cache=TRUE}
-library(ggplot2)
-library(dplyr)
-library(stringr)
-library(wordcloud)
-library(tm)
-corpus <- read.csv('data/corpus.csv')
-eurocrisis <- filter(corpus, query == 'eurocrisis')
 
-corpus <- filter(corpus,query!="2-pac"&query!="3-pac")
 
-eurocrisis$day <- as.Date(substr(as.character(eurocrisis$date),1,10))
 
-eurocrisis_daily <- eurocrisis %>%
-  group_by(day) %>%
-  summarise(
-    n = length(day)
-  )
 
 corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
 
