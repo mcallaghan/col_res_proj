@@ -10,11 +10,9 @@ bibliography:
 ---
 
 ```{r include=FALSE}
-pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment')
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment','dplyr')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
 ```
-
-
 
 # Data Gathering 
 
@@ -41,11 +39,13 @@ The txt files containing the tweets for each query and period are merged into a 
 
 Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period.
 
-```{r}
+```{r cache=TRUE}
 user_info <- read.csv('data/user_info.csv')
-corpus <- read.csv('data/corpus.csv')
+corpus <- read.csv('data/corpus.csv') %>%
+  filter(query!="2-pac" & query != "3-pac")
 geo_user_info <- user_info[!is.na(user_info$latitude), ]
 geo_corpus <- merge(corpus, geo_user_info)
+
 ```
 
 
@@ -53,11 +53,61 @@ geo_corpus <- merge(corpus, geo_user_info)
 
 ## Descriptive Statistics
 
-## Summary Tables
 
-## Timeless against other queries
+### Summary Tables
 
-## Summary Charts
+The followign table give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time (normalized???). The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
+
+1. table queries, absolute numbers, percentage of entire population
+
+```{r cache=TRUE}
+
+sum_q_table <- corpus %>%
+  group_by(query) %>%
+  summarise(
+    n = length(query),
+    percent = n/length(corpus$tweet_id)
+  )
+
+knitr::kable(sum_q_table)
+
+```
+
+
+2. table queries by periods, absolute numbers, ratio of period occurances
+
+```{r cache=TRUE}
+
+sum_q_per_table <- corpus %>%
+  group_by(query, period) %>%
+  summarise(
+    n = length(query),
+    percent = n/length(corpus$tweet_id)
+  )
+
+knitr::kable(sum_q_per_table)
+
+```
+
+3. table for where we have the location
+how many in which countries, percentage distribution over countries
+
+```{r cache=TRUE}
+
+sum_q_loc_table <- geo_corpus %>%
+  group_by(query, period) %>%
+  summarise(
+    n = length(query),
+    percent = n/length(corpus$tweet_id)
+  )
+
+knitr::kable(sum_q_loc_table)
+
+```
+
+### Timeless against other queries
+
+### Summary Charts
 
 ```{r cache=TRUE}
 library(ggplot2)
@@ -118,7 +168,7 @@ timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
 
 ```
 
-## Word cloud
+### Word cloud
 ```{r cache = TRUE}
 minicorpus <- corpus[sample(nrow(corpus), 200), ]
 
@@ -138,7 +188,7 @@ wordcloud(text_corpus)
 The word cloud gives us an overall picture of the words used by twitter users tweeting about the European debt-crisis. To a certain degree, this word cloud is redundant in that it returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets. 
 
 
-## Map
+### Map
 ```{r}
 library(rworldmap)
 map_world <- getMap(resolution = "high")
@@ -184,7 +234,7 @@ The following maps show the distribution of individual queries over different lo
 
 The following map shows the three periods studied for one specific query. 
 
-```{r}  
+```{r include=FALSE, eval=FALSE}  
 map_eu_2010 <- get_map(zoom = 4, location= "Europe")
 mapPoints <- ggmap(map_eu_2010) +
   geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME1)
@@ -201,11 +251,11 @@ mapPoints <- ggmap(map_eu_2015) +
 mapPoints
 ```
 
-## Inferential Statistics
+# Inferential Statistics
 
-# Sentiment Analysis
+## Sentiment Analysis
 
-For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information (API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum) we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
+For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
 
 We looked at individual tweets and compared the results to our perception of sentiment of the tweet.
 
@@ -213,5 +263,5 @@ We created a map which colour-coded avarage sentiment for European countries.
 
 
 
-## References
+# References
 
