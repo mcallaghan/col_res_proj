@@ -174,9 +174,7 @@ mapPoints
 
 # Sentiment Analysis
 
-We downloaded the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those queries for which we have at the time of writing this document been able to downlaod the location (we are limited here because the Googlemaps API restricts requests per day and the Geomap API restricts requests monthly) we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. It returned a number in between -3 and 3. The low scores indicate negative sentiment, high scores indicate positive sentiment 
+For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information (Googlemaps API restricts requests to a daily maximum and the Geomap API restricts requests to a monthly maximum) we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment. 
 
 ## References
 
-
-```
