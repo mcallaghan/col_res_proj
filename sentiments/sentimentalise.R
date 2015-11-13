@@ -4,19 +4,25 @@ library(tm.lexicon.GeneralInquirer)
 library(tm.plugin.sentiment) 
 library(tm)
 library(dplyr)
+library(knitr)
 
-corpus <- read.csv("data/corpus.csv")
+corpus <- read.csv("data/corpus.csv") %>%
+  filter(query != "2-pac" & query != "3-pac")
+user_info <- read.csv("data/user_info.csv")
+user_info <- rename(user_info,user_id = id)
 
-minicorpus <- corpus[sample(nrow(corpus), 200), ]
+places <- read.csv("data/places.csv") %>%
+  filter(!is.na(geocoder) & !is.na(approx_country))
 
-unique(corpus$query)
+geo_user_info <- merge(places,user_info,by="location")
 
-memo_greece <- filter(corpus,
-                      query=="memorandum+greece")
+geo_corpus <- merge(geo_user_info,corpus,by="user_id")
 
-sentimentalise <- function(df,q) {
-  df <- filter(df,query==q)
-  cp <- Corpus(VectorSource(df$text)) 
+sentimentalise <- function(df,q=NULL) {
+  if(!is.null(q)) {
+    df <- filter(df,query==q)
+  }
+  cp <- Corpus(VectorSource(tolower(df$text))) 
   pos <- sum(sapply(cp, tm_term_score, terms_in_General_Inquirer_categories("Positiv")))
   neg <- sum(sapply(cp, tm_term_score, terms_in_General_Inquirer_categories("Negativ")))
   pos.score <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
@@ -25,17 +31,19 @@ sentimentalise <- function(df,q) {
   neg.score <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
                              terms_in_General_Inquirer_categories("Negativ")) 
   
-  total.df <- data.frame(text = df$text,
+  total.df <- data.frame(id = df$tweet_id,
+                         text = df$text,
                          positive = pos.score, 
                          negative = neg.score)
 }
 
-mg_s <- sentimentalise(corpus,"memorandum+greece")
+senti_geo_corpus <- sentimentalise(geo_corpus)
 
+senti_geo_corpus <- merge(senti_geo_corpus,geo_corpus)
 
+saveRDS(senti_geo_corpus,"data/senti_geo_corpus.Rda")
 
-
-
+#kable(merkel_s)
 
 
 

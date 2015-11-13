@@ -45,10 +45,10 @@ sentimentalise <- function(df,q) {
 
 mg_s <- sentimentalise(corpus,"memorandum+greece")
 
-merkel_s <- sentimentalise(corpus,"merkel+greece")
+#merkel_s <- sentimentalise(corpus,"merkel+greece")
 kable(mg_s)
 
-kable(merkel_s)
+#kable(merkel_s)
 
 ```
 

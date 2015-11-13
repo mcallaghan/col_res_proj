@@ -71,38 +71,10 @@ img {
 <pre class="r"><code>#install.packages(&quot;tm.lexicon.GeneralInquirer&quot;, repos=&quot;http://datacube.wu.ac.at&quot;, type=&quot;source&quot;)
 library(tm.lexicon.GeneralInquirer)
 #install.packages(&quot;tm.plugin.sentiment&quot;, repos=&quot;http://R-Forge.R-project.org&quot;)
-library(tm.plugin.sentiment) </code></pre>
-<pre><code>## Loading required package: tm
-## Loading required package: NLP
-## Loading required package: quantmod
-## Loading required package: xts
-## Loading required package: zoo
-## 
-## Attaching package: 'zoo'
-## 
-## The following objects are masked from 'package:base':
-## 
-##     as.Date, as.Date.numeric
-## 
-## Loading required package: TTR
-## Version 0.4-0 included new data defaults. See ?getSymbols.</code></pre>
-<pre class="r"><code>library(tm)
-library(dplyr)</code></pre>
-<pre><code>## 
-## Attaching package: 'dplyr'
-## 
-## The following objects are masked from 'package:xts':
-## 
-##     first, last
-## 
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>library(knitr)
+library(tm.plugin.sentiment) 
+library(tm)
+library(dplyr)
+library(knitr)
 
 corpus &lt;- read.csv(&quot;../data/corpus.csv&quot;)
 
@@ -143,6 +115,7 @@ sentimentalise &lt;- function(df,q) {
 
 mg_s &lt;- sentimentalise(corpus,&quot;memorandum+greece&quot;)
 
+#merkel_s &lt;- sentimentalise(corpus,&quot;merkel+greece&quot;)
 kable(mg_s)</code></pre>
 <table>
 <thead>
@@ -5980,6 +5953,7 @@ kable(mg_s)</code></pre>
 </tr>
 </tbody>
 </table>
+<pre class="r"><code>#kable(merkel_s)</code></pre>
 
 
 </div>
