@@ -12,6 +12,41 @@ bibliography:
 ```{r include=FALSE}
 pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
 ```
 
 
@@ -51,15 +86,28 @@ The following list summarizes the queries which we excluded.
 
 
 ```{r cache=TRUE}
-user_info <- read.csv('data/user_info.csv')
+load("data/corpus.rda")
 
-corpus1 <- read.csv('data/corpus1.csv') 
-corpus2 <- read.csv('data/corpus2.csv') 
-corpus <- rbind(corpus1, corpus2) %>%
+user_info <- read.csv('data/user_info.csv')
+corpus <- corpus %>%
   filter(query!="2-pac" & query != "3-pac", query!="bailout" & query != "athens")
 geo_user_info <- user_info[!is.na(user_info$latitude), ]
 geo_corpus <- merge(corpus, geo_user_info)
 senti_geo_corpus <- read.csv('data/senti_geo_corpus.csv')
+
+control <- data.frame()
+for(f in list.files("data/GOToutput/input3")) {
+  df <- read.delim(paste0("data/GOToutput/input3/",f), 
+                       quote="")
+      query <- strsplit(f,"_")[[1]][1]
+      period <- paste0(strsplit(f,"_")[[1]][2],"-",strsplit(f,"_")[[1]][3])
+      df$query <- query
+      df$period <- period
+      df$X <- NA
+      control <- rbind(control,df)
+}
+
+corpus <- rbind(corpus,control)
 
 ```
 
@@ -70,7 +118,7 @@ senti_geo_corpus <- read.csv('data/senti_geo_corpus.csv')
 
 ### Summary Tables
 
-The following tables give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time (normalized???). The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
+The following tables give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time  The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
 
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE}
@@ -92,22 +140,31 @@ The results that our queries returned differ substanially in size. While some qu
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
-sum_q_per_table <- corpus %>%
-  group_by(query, period) %>%
-  summarise(
-    n = length(query),
-    percent = n/length(corpus[corpus$query == query,"tweet_id"])*100
-  )
+corpus$control <- ifelse(corpus$query=="timeless",
+                         1,
+                         0)
+
+unique_corpus <- corpus %>%
+  filter(!duplicated(tweet_id))
 
 corpus$period <- factor(corpus$period,
-levels = c(2010-04-15-2010-05-15.txt, 2012-02-07-2012-03-31.txt, 2015-07-01-2015-08-25.txt),
-labels = c("2010", "2012", "2015") 
+levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
+labels = c("2010", "2012", "2015"))
+
+
+
+sum_q_per_table <- unique_corpus %>%
+  group_by(period,control) %>%
+  summarise(
+    n = length(period)
+    #percent = n/length(unique_corpus[unique_corpus$control==control],"tweet_id")*100
+  )
 
 knitr::kable(sum_q_per_table, digits = 2)
 
 ```
 
-For all queries except for imf+greece it is true that their occurance increases over time. However, since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. 
+The results show that twitter coverage of the Greek bailouts has increased heavily over time. However, since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. As a control query, we included "timeless" in our search. However, this query does not behave the way we had expected it to. For the finalized version of the project, we will have to identify a more appropriate control query. When looking at the development of different queries over time, an increase can be found for all queries except for for imf+greece, which decreased in 2012 and increased in 2015 again. 
 
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE}
@@ -123,20 +180,15 @@ knitr::kable(sum_q_loc_table, digits = 2)
 
 ```
 
-This table shows the distribution of all tweets over countries. Not many countries account for more than 1% of all tweets (Austria, Belgium, Canada, Germany, Estonia, GB, Greece, Italy, Netherlands, US and Venezuela). This group seems to be a mix of high twitter user numbers and affectedness/involvment/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+This table shows the distribution of all tweets over countries. Not many countries account for more than 1% of all tweets (Austria, Belgium, Canada, Germany, Estonia, GB, Greece, Italy, Netherlands, US and Venezuela). This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
 
 ### Timeless against other queries
 
 ### Summary Charts
 
-Very simple chart with all tweets? Normalized?
-
-
 We argued earlier that it would be analytically helpful to distinguish between two groups of queries/tweets by high and low return rates. The following charts give an overview over the developments over time for both groups for all three time periods. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
 
 ```{r cache=TRUE}
-
-
 
 
 corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
@@ -151,6 +203,7 @@ corpus_index_small <- filter(corpus_index,total<10000)
 corpus_large <- filter(corpus,query %in% corpus_index_large$query)
 
 corpus_small <- filter(corpus,query %in% corpus_index_small$query)
+
 
 timegraph <- function(corpus,p) {
   corpus_daily <- corpus %>%
@@ -167,14 +220,20 @@ ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
 
 }
 
-timegraph(corpus_small,"2010-04-15-2010-05-15.txt")
-timegraph(corpus_small,"2012-02-07-2012-03-31.txt")
-timegraph(corpus_small,"2015-07-01-2015-08-25.txt")
-
-timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
-timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
-timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
-
+p1 <- timegraph(corpus_small,"2010-04-15-2010-05-15.txt")
+ggtitle("Less frequently used words, 2010")
+p2 <- timegraph(corpus_small,"2012-02-07-2012-03-31.txt")
+ggtitle("Less frequently used words, 2012")
+p3 <- timegraph(corpus_small,"2015-07-01-2015-08-25.txt")
+ggtitle("Less frequently used words, 2015")
+multiplot(p1, p2, p3, cols = 3)
+p4 <- timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
+ggtitle("More frequently used words, 2010")
+p5 <- timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
+ggtitle("More frequently used words, 2012")
+p6 <- timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
+ggtitle("More frequently used words, 2015")
+multiplot(p4, p5, p6, cols = 3)
 
 
 ```
@@ -268,11 +327,35 @@ mapPoints
 
 For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
 
-We looked at individual tweets and compared the results to our perception of sentiment of the tweet.
+We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
 
-We created a map which colour-coded avarage sentiment for European countries. 
+However, here is what the sentiment 
+
+```{r}
+
+mou_greece_time <- senti_geo_corpus %>%
+  filter(query=="merkel+greece") %>%
+  group_by(period) %>%
+  summarise(
+    positive = sum(positive),
+    negative = sum(negative),
+    sentiment = positive - negative
+  )
+
+mou_greece_loc <- senti_geo_corpus %>%
+  filter(query=="merkel+greece") %>%
+  group_by(approx_country) %>%
+  summarise(
+    positive = sum(positive),
+    negative = sum(negative),
+    sentiment = positive - negative
+  )
 
 
+
+```
+
+Our current sentiment analysis does not return reasonable results. The 
 
 # References
 
