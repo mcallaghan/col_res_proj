@@ -39,10 +39,19 @@ The txt files containing the tweets for each query and period are merged into a 
 
 Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period.
 
+The following list summarizes the queries which we excluded.
+
+* athens
+* bailout
+* 2-pac
+* 3-pac
+
+
+
 ```{r cache=TRUE}
 user_info <- read.csv('data/user_info.csv')
 corpus <- read.csv('data/corpus.csv') %>%
-  filter(query!="2-pac" & query != "3-pac")
+  filter(query!="2-pac" & query != "3-pac", query!="bailout" & query != "athens")
 geo_user_info <- user_info[!is.na(user_info$latitude), ]
 geo_corpus <- merge(corpus, geo_user_info)
 
@@ -58,7 +67,6 @@ geo_corpus <- merge(corpus, geo_user_info)
 
 The followign table give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time (normalized???). The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
 
-1. table queries, absolute numbers, percentage of entire population
 
 ```{r cache=TRUE}
 
@@ -66,10 +74,10 @@ sum_q_table <- corpus %>%
   group_by(query) %>%
   summarise(
     n = length(query),
-    percent = n/length(corpus$tweet_id)
+    percent = n/length(corpus$tweet_id)*100
   )
 
-knitr::kable(sum_q_table)
+knitr::kable(sum_q_table, digits = 2)
 
 ```
 
@@ -82,10 +90,10 @@ sum_q_per_table <- corpus %>%
   group_by(query, period) %>%
   summarise(
     n = length(query),
-    percent = n/length(corpus$tweet_id)
+    percent = n/length(corpus[corpus$query == query,"tweet_id"])*100
   )
 
-knitr::kable(sum_q_per_table)
+knitr::kable(sum_q_per_table, digits = 2)
 
 ```
 
@@ -94,14 +102,14 @@ how many in which countries, percentage distribution over countries
 
 ```{r cache=TRUE}
 
-sum_q_loc_table <- geo_corpus %>%
-  group_by(query, period) %>%
+sum_q_loc_table <- senti_geo_corpus %>%
+  group_by(approx_country, period) %>%
   summarise(
     n = length(query),
     percent = n/length(corpus$tweet_id)
   )
 
-knitr::kable(sum_q_loc_table)
+knitr::kable(sum_q_loc_table, digits = 2)
 
 ```
 
