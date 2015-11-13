@@ -13,6 +13,7 @@ read_tweets <- function(folder,name) {
     }
   }
   write.csv(corpus,file=name)
+  return(corpus)
 }
 
 
@@ -213,7 +214,7 @@ geocode_corpus <- function(df,n=NULL) {
    }
  
 
-corpus <- read_tweets("data/GOToutput/input2/","data/corpus2.csv")
+corpus <- read.csv("data/corpus2.csv")
 
 user_info <- get_user_info(corpus)
 
