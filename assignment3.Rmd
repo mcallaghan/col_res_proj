@@ -1,7 +1,7 @@
 ---
 title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about
   Political Deliberation and Opinions in Europe?'
-author: "M. Callaghan, V. Nieberg"
+author: "M. Callaghan, V. Niberg"
 date: "November 14, 2015"
 output: html_document
 bibliography:
@@ -52,13 +52,16 @@ The following list summarizes the queries which we excluded.
 
 ```{r cache=TRUE}
 user_info <- read.csv('data/user_info.csv')
-corpus <- read.csv('data/corpus.csv') %>%
+
+corpus1 <- read.csv('data/corpus1.csv') 
+corpus2 <- read.csv('data/corpus2.csv') 
+corpus <- rbind(corpus1, corpus2) %>%
   filter(query!="2-pac" & query != "3-pac", query!="bailout" & query != "athens")
 geo_user_info <- user_info[!is.na(user_info$latitude), ]
 geo_corpus <- merge(corpus, geo_user_info)
+senti_geo_corpus <- read.csv('data/senti_geo_corpus.csv')
 
 ```
-
 
 # Data Analysis
 
@@ -96,29 +99,40 @@ sum_q_per_table <- corpus %>%
     percent = n/length(corpus[corpus$query == query,"tweet_id"])*100
   )
 
+corpus$period <- factor(corpus$period,
+levels = c(2010-04-15-2010-05-15.txt, 2012-02-07-2012-03-31.txt, 2015-07-01-2015-08-25.txt),
+labels = c("2010", "2012", "2015") 
+
 knitr::kable(sum_q_per_table, digits = 2)
 
 ```
 
-Since these results are not normalized, it is difficult to is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic.
+For all queries except for imf+greece it is true that their occurance increases over time. However, since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. 
 
 
-```{r cache=FALSE, eval=FALSE, warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
 sum_q_loc_table <- senti_geo_corpus %>%
-  group_by(approx_country, period) %>%
+  group_by(approx_country) %>%
   summarise(
     n = length(query),
-    percent = n/length(corpus$tweet_id)
+    percent = n/length(senti_geo_corpus$id)*100
   )
 
 knitr::kable(sum_q_loc_table, digits = 2)
 
 ```
 
+This table shows the distribution of all tweets over countries. Not many countries account for more than 1% of all tweets (Austria, Belgium, Canada, Germany, Estonia, GB, Greece, Italy, Netherlands, US and Venezuela). This group seems to be a mix of high twitter user numbers and affectedness/involvment/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+
 ### Timeless against other queries
 
 ### Summary Charts
+
+Very simple chart with all tweets? Normalized?
+
+
+We argued earlier that it would be analytically helpful to distinguish between two groups of queries/tweets by high and low return rates. The following charts give an overview over the developments over time for both groups for all three time periods. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
 
 ```{r cache=TRUE}
 
@@ -182,7 +196,7 @@ text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cor
 wordcloud(text_corpus)
 
 ```
-The word cloud gives us an overall picture of the words used by twitter users tweeting about the European debt-crisis. To a certain degree, this word cloud is redundant in that it returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets. 
+The word cloud gives us an overall picture of the words used by twitter users tweeting about the Greek memorandums. To a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets. 
 
 
 ### Map
