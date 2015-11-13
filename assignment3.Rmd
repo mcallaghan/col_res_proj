@@ -5,8 +5,15 @@ date: "November 14, 2015"
 output: html_document
 bibliography: 
 - bibliography.bib 
-- RpackageCitations.bib
+- RpackageCitations3.bib
 ---
+
+```{r include=FALSE}
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+```
+
+
 
 # Data Gathering 
 
@@ -165,3 +172,11 @@ mapPoints
 
 ## Inferential Statistics
 
+# Sentiment Analysis
+
+We downloaded the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those queries for which we have at the time of writing this document been able to downlaod the location (we are limited here because the Googlemaps API restricts requests per day and the Geomap API restricts requests monthly) we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. It returned a number in between -3 and 3. The low scores indicate negative sentiment, high scores indicate positive sentiment 
+
+## References
+
+
+```
