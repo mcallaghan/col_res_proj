@@ -3,14 +3,14 @@ title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us 
   Political Deliberation and Opinions in Europe?'
 author: "M. Callaghan, V. Niberg"
 date: "November 14, 2015"
-output: html_document
+output: pdf_document
 bibliography:
 - bibliography.bib
 - RpackageCitations3.bib
 ---
 
-```{r include=FALSE}
-pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm')
+```{r include=FALSE, echo=FALSE}
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap')
 repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   library(grid)
@@ -70,6 +70,7 @@ We found the unique users in our corpus of tweets and used the TwitteR package [
 
 Many users do not geotag their tweets, instead stating their location, and we used APIs from MapQuest and Google to geocode user-reported location, giving us the file places.csv.
 
+\newpage
 
 # Data Cleaning  
 The txt files containing the tweets for each query and period are merged into a corpus file. This corpus file was merged with the user_info file, which in turn was merged with the places file. We end up with a large file containing tweets for our queries in each period with elaborete user information.
@@ -84,8 +85,12 @@ The following list summarizes the queries which we excluded.
 * 3-pac
 
 
+\newpage
 
-```{r cache=TRUE}
+# Data Analysis
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
 load("data/corpus.rda")
 
 user_info <- read.csv('data/user_info.csv')
@@ -111,19 +116,34 @@ corpus <- rbind(corpus,control)
 
 ```
 
-# Data Analysis
-
 ## Descriptive Statistics
 
-
-### Summary Tables
-
-The following tables give a first overview over the collected date. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time  The third table describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum]. 
+The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
 
 
+```{r cache = TRUE, warning=FALSE, echo=FALSE}
+minicorpus <- corpus[sample(nrow(corpus), 200), ]
+
+text_corpus <- Corpus(VectorSource(minicorpus$text))
+
+#clean up
+text_corpus <- tm_map(text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
+text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
+text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(text_corpus)
+
+```
+
+
+The following tables and bar charts give a first overview over the collected data. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time.  The bar chart describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum.] 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
 sum_q_table <- corpus %>%
+  filter(query != 'timeless') %>%
   group_by(query) %>%
   summarise(
     n = length(query),
@@ -144,20 +164,18 @@ corpus$control <- ifelse(corpus$query=="timeless",
                          1,
                          0)
 
-unique_corpus <- corpus %>%
-  filter(!duplicated(tweet_id))
-
 corpus$period <- factor(corpus$period,
 levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
 labels = c("2010", "2012", "2015"))
 
-
+unique_corpus <- corpus %>%
+  filter(!duplicated(tweet_id))
 
 sum_q_per_table <- unique_corpus %>%
   group_by(period,control) %>%
   summarise(
-    n = length(period)
-    #percent = n/length(unique_corpus[unique_corpus$control==control],"tweet_id")*100
+    n = length(period),
+    percent = n/length(unique_corpus[unique_corpus$control==control,"tweet_id"])*100
   )
 
 knitr::kable(sum_q_per_table, digits = 2)
@@ -169,27 +187,26 @@ The results show that twitter coverage of the Greek bailouts has increased heavi
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
-sum_q_loc_table <- senti_geo_corpus %>%
+by_country <- senti_geo_corpus %>%
   group_by(approx_country) %>%
   summarise(
-    n = length(query),
-    percent = n/length(senti_geo_corpus$id)*100
-  )
+    n = length(approx_country)
+  ) %>%
+  filter(n > 1000)
 
-knitr::kable(sum_q_loc_table, digits = 2)
+ggplot(
+  by_country,
+  aes(approx_country,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw()
 
 ```
 
-This table shows the distribution of all tweets over countries. Not many countries account for more than 1% of all tweets (Austria, Belgium, Canada, Germany, Estonia, GB, Greece, Italy, Netherlands, US and Venezuela). This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+This bar chart shows the distribution of all tweets over countries filtering those with a significant amount of tweets. This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
 
-### Timeless against other queries
+We argued earlier that it would be helpful to distinguish between two groups of queries/tweets by high and low return rates in order to understand the behaviour of the queries. The following charts report the developments over time for the high return rates as this group creates more intelligle results. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
 
-### Summary Charts
-
-We argued earlier that it would be analytically helpful to distinguish between two groups of queries/tweets by high and low return rates. The following charts give an overview over the developments over time for both groups for all three time periods. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
-
-```{r cache=TRUE}
-
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
 
 corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
 
@@ -213,72 +230,58 @@ timegraph <- function(corpus,p) {
     n = length(day)
   )
   
-
 ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
-  scale_x_date(format("%b-%Y")) +
-  ggtitle(p)
-
+  #scale_x_date(format("%b-%Y")) +
+  labs(
+    x = "Time",
+    y = "Frequency"
+  ) 
 }
 
-p1 <- timegraph(corpus_small,"2010-04-15-2010-05-15.txt")
-ggtitle("Less frequently used words, 2010")
-p2 <- timegraph(corpus_small,"2012-02-07-2012-03-31.txt")
-ggtitle("Less frequently used words, 2012")
-p3 <- timegraph(corpus_small,"2015-07-01-2015-08-25.txt")
-ggtitle("Less frequently used words, 2015")
-multiplot(p1, p2, p3, cols = 3)
-p4 <- timegraph(corpus_large,"2010-04-15-2010-05-15.txt")
+#p1 <- timegraph(corpus_small,"2010") +
+#ggtitle("Less frequently used words, 2010")
+#p2 <- timegraph(corpus_small,"2012") +
+#ggtitle("Less frequently used words, 2012")
+#p3 <- timegraph(corpus_small,"2015") +
+#ggtitle("Less frequently used words, 2015")
+#multiplot(p1, p2, p3, cols = 3)
+p4 <- timegraph(corpus_large,"2010") +
 ggtitle("More frequently used words, 2010")
-p5 <- timegraph(corpus_large,"2012-02-07-2012-03-31.txt")
+p5 <- timegraph(corpus_large,"2012") +
 ggtitle("More frequently used words, 2012")
-p6 <- timegraph(corpus_large,"2015-07-01-2015-08-25.txt")
+p6 <- timegraph(corpus_large,"2015") +
 ggtitle("More frequently used words, 2015")
-multiplot(p4, p5, p6, cols = 3)
+#multiplot(p4, p5, p6, cols = 3)
 
 
 ```
 
-### Word cloud
-```{r cache = TRUE}
-minicorpus <- corpus[sample(nrow(corpus), 200), ]
 
-text_corpus <- Corpus(VectorSource(minicorpus$text))
-
-#clean up
-text_corpus <- tm_map(text_corpus,
-                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
-                              mc.cores=1
-)
-text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
-text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
-text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
-wordcloud(text_corpus)
-
+```{r warning=FALSE, echo=FALSE}
+p4
 ```
-The word cloud gives us an overall picture of the words used by twitter users tweeting about the Greek memorandums. To a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets. 
 
 
-### Map
-```{r}
-library(rworldmap)
-map_world <- getMap(resolution = "high")
-plot(map_world, asp = 1)
-points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
+```{r warning=FALSE, echo=FALSE}
+p5
+```
 
-map_europe <- getMap(resolution = "high")
-plot(map_europe, xlim = c(-20, 59), ylim = c(35, 71), asp = 1)
-points(geo_corpus$longtitude, geo_corpus$latitude, col = "red", cex = .6) 
 
-library(ggmap)
-map_world <- get_map(zoom = 3)
-mapPoints <- ggmap(map_world) +
-  geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
-mapPoints
+```{r warning=FALSE, echo=FALSE}
+p6
+```
 
+
+\newpage
+
+As our data includes information on location and our research question includes a comparative aspect, in the following section we will describe our data by locational information.
+
+```{r warning=FALSE, echo=FALSE}
 world <- map_data("world")
 worldmap <- ggplot() +
   geom_path(data=world, aes(x=long, y=lat, group=group),size=0.5,colour="grey") +
-  geom_point(data=geo_corpus,aes(x = longtitude, y = latitude, colour = query)) +
+  geom_point(data=geo_corpus,aes(x = longtitude, y = latitude, colour = query), size = 1.8) +
+  geom_jitter() + 
   coord_equal() + 
   theme_nothing(legend=TRUE) +
   theme(
@@ -288,21 +291,22 @@ worldmap
 
 ```
 
-This map shows the distribution of individual queries over different locations worldwide. Colour indicates type of query. Concerning the 
+This map shows the distribution of individual queries over different locations worldwide. Colour indicates type of query. It shows "twitter hubs" on this issue in Greece, Benelux-states an GB.
 
 
-```{r}  
+```{r warning=FALSE, echo=FALSE}  
 map_eu <- get_map(zoom = 4, location= "Europe")
 mapPoints <- ggmap(map_eu) +
-  geom_point(aes(x = longtitude, y = latitude, colour = query), data = geo_corpus)
+  geom_point(aes(x = longtitude, y = latitude, colour = query),size=1.8, data = geo_corpus) +
+  geom_jitter()
 mapPoints
 ```
 
-The following maps show the distribution of individual queries over different locations Europe-wide. Colour indicated type of query. We produced two maps differentiating between frequently used and less frequently used terms. 
+The following maps show the distribution of individual queries over different locations Europe-wide. Colour indicated type of query.
 
 
 
-The following map shows the three periods studied for one specific query. 
+<!-- The following map shows the three periods studied for one specific query. -->
 
 ```{r include=FALSE, eval=FALSE}  
 map_eu_2010 <- get_map(zoom = 4, location= "Europe")
@@ -321,17 +325,15 @@ mapPoints <- ggmap(map_eu_2015) +
 mapPoints
 ```
 
-# Inferential Statistics
-
-## Sentiment Analysis
+## Inferential Statistics: Sentiment Analysis
 
 For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
 
 We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
 
-However, here is what the sentiment 
+However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
 
-```{r}
+```{r warning=FALSE, echo=FALSE}
 
 mou_greece_time <- senti_geo_corpus %>%
   filter(query=="merkel+greece") %>%
@@ -339,8 +341,21 @@ mou_greece_time <- senti_geo_corpus %>%
   summarise(
     positive = sum(positive),
     negative = sum(negative),
-    sentiment = positive - negative
+    n = length(approx_country),
+    sentiment = (positive - negative)/n
   )
+
+ggplot(
+  mou_greece_time,
+  aes(period,sentiment)) + 
+  geom_bar(stat="identity") +
+  theme_bw()
+```
+
+
+
+```{r warning=FALSE, echo=FALSE}
+
 
 mou_greece_loc <- senti_geo_corpus %>%
   filter(query=="merkel+greece") %>%
@@ -348,14 +363,25 @@ mou_greece_loc <- senti_geo_corpus %>%
   summarise(
     positive = sum(positive),
     negative = sum(negative),
-    sentiment = positive - negative
-  )
+    n = length(approx_country),
+    sentiment = (positive - negative)/n
+  ) %>%
+  filter(n > 100)
 
 
+
+ggplot(
+  mou_greece_loc,
+  aes(approx_country,sentiment)) + 
+  geom_bar(stat="identity") +
+  theme_bw()
 
 ```
 
-Our current sentiment analysis does not return reasonable results. The 
+
+We conclude from this  that our current sentiment analysis does not return reasonable results. We will in the next stage of the project try to create a model that returns more accurate results. 
+
+\newpage
 
 # References
 
