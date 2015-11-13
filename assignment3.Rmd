@@ -99,6 +99,9 @@ corpus <- corpus %>%
 geo_user_info <- user_info[!is.na(user_info$latitude), ]
 geo_corpus <- merge(corpus, geo_user_info)
 senti_geo_corpus <- read.csv('data/senti_geo_corpus.csv')
+senti_geo_corpus$period <- factor(senti_geo_corpus$period,
+levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
+labels = c("2010", "2012", "2015"))
 
 control <- data.frame()
 for(f in list.files("data/GOToutput/input3")) {
@@ -121,7 +124,7 @@ corpus <- rbind(corpus,control)
 The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
 
 
-```{r cache = TRUE, warning=FALSE, echo=FALSE}
+```{r cache = TRUE, warning=FALSE, echo=FALSE, fig.align="center"}
 minicorpus <- corpus[sample(nrow(corpus), 200), ]
 
 text_corpus <- Corpus(VectorSource(minicorpus$text))
@@ -140,7 +143,7 @@ wordcloud(text_corpus)
 
 
 The following tables and bar charts give a first overview over the collected data. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time.  The bar chart describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum.] 
-```{r cache=TRUE, warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6}
 
 sum_q_table <- corpus %>%
   filter(query != 'timeless') %>%
@@ -185,7 +188,7 @@ knitr::kable(sum_q_per_table, digits = 2)
 The results show that twitter coverage of the Greek bailouts has increased heavily over time. However, since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. As a control query, we included "timeless" in our search. However, this query does not behave the way we had expected it to. For the finalized version of the project, we will have to identify a more appropriate control query. When looking at the development of different queries over time, an increase can be found for all queries except for for imf+greece, which decreased in 2012 and increased in 2015 again. 
 
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
 
 by_country <- senti_geo_corpus %>%
   group_by(approx_country) %>%
@@ -206,7 +209,7 @@ This bar chart shows the distribution of all tweets over countries filtering tho
 
 We argued earlier that it would be helpful to distinguish between two groups of queries/tweets by high and low return rates in order to understand the behaviour of the queries. The following charts report the developments over time for the high return rates as this group creates more intelligle results. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 
 corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
 
@@ -231,11 +234,10 @@ timegraph <- function(corpus,p) {
   )
   
 ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
-  #scale_x_date(format("%b-%Y")) +
   labs(
     x = "Time",
     y = "Frequency"
-  ) 
+  )
 }
 
 #p1 <- timegraph(corpus_small,"2010") +
@@ -257,17 +259,17 @@ ggtitle("More frequently used words, 2015")
 ```
 
 
-```{r warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p4
 ```
 
 
-```{r warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p5
 ```
 
 
-```{r warning=FALSE, echo=FALSE}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p6
 ```
 
