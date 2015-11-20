@@ -278,7 +278,7 @@ p6
 
 As our data includes information on location and our research question includes a comparative aspect, in the following section we will describe our data by locational information.
 
-```{r warning=FALSE, echo=FALSE}
+```{r message=FALSE,warning=FALSE, echo=FALSE}
 world <- map_data("world")
 worldmap <- ggplot() +
   geom_path(data=world, aes(x=long, y=lat, group=group),size=0.5,colour="grey") +
@@ -296,7 +296,7 @@ worldmap
 This map shows the distribution of individual queries over different locations worldwide. Colour indicates type of query. It shows "twitter hubs" on this issue in Greece, Benelux-states an GB.
 
 
-```{r warning=FALSE, echo=FALSE}  
+```{r message=FALSE,warning=FALSE, echo=FALSE}  
 map_eu <- get_map(zoom = 4, location= "Europe")
 mapPoints <- ggmap(map_eu) +
   geom_point(aes(x = longtitude, y = latitude, colour = query),size=1.8, data = geo_corpus) +
