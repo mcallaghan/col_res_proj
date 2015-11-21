@@ -1,0 +1,32 @@
+---
+title: "A European Hyperagora"
+author: "M Callaghan and V Nieberg"
+date: "November 20, 2015"
+output: html_document
+---
+
+```{r message=FALSE, echo=FALSE,warning=FALSE, results='asis'}
+
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap','ggvis','googleVis')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+
+senti_geo_corpus <- read.csv('data/senti_geo_corpus.csv')
+senti_geo_corpus$period <- factor(senti_geo_corpus$period,
+levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
+labels = c("2010", "2012", "2015"))
+
+by_country <- senti_geo_corpus %>%
+  filter(approx_country!="US") %>%
+  group_by(approx_country) %>%
+  summarise(Tweets=length(approx_country))
+
+totalmap <- gvisGeoChart(by_country, locationvar = 'approx_country',
+                      colorvar = 'Tweets',
+                      options = list(
+                          colors = "['#fff7bc', '#d95f0e']"
+                          ))
+
+print(totalmap, tag="chart")
+
+```
+
