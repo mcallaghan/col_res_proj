@@ -211,7 +211,7 @@ geocode_corpus <- function(df,n=NULL,service="google") {
     
   }
   if(length(places$location) ==length(df$location)) {
-    places$X <- location$X
+    places$X <- df$X
   }
   return(places)
 }
