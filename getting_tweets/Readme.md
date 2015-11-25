@@ -21,3 +21,12 @@ setsid Rscript getting_tweets/refresh_places.R
 ```
 
 So each day you need to pull, run the script, commit, push.
+
+If you are set up with ssh instead of https (so that github trusts your computer and you don't need to sign in every time)
+the bash script geocode.sh should do all steps for you.
+
+Open the terminal and navigate to the getting_tweets folder and enter
+
+```
+./geocode.sh
+```
