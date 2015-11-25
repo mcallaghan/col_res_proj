@@ -12,7 +12,7 @@ new_places <- geocode_corpus(r_error_places,NULL,"google")
 
 places <- rbind(old_places,new_places)
 
-write.csv(places,"data/places.csv")
+write.csv(places,"data/places.csv", row.names=FALSE)
 
 #new_places <- 
 
