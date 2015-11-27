@@ -3,10 +3,12 @@ library(dplyr)
 
 initialise_index <- function(){
   load("data/corpus.rda")
+  corpus <- corpus %>%
+    filter(query != "2-pac" & query != "3-pac")
   index <- corpus[!duplicated(corpus$tweet_id),c("tweet_id","text","lang")]
   save(index,file="data/lang_index.rda")
 }
-#initialise_index()
+initialise_index()
 
 get_language <- function() {
   

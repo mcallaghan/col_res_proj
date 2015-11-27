@@ -1,20 +1,9 @@
-load("data/corpus.rda")
-
 library(textcat)
 library(dplyr)
 
-unknown <- corpus %>%
-  filter(is.na(lang))
+load("data/lang_index.rda")
 
-print(paste(as.character(length(unknown$X)),"left"))
+foreign <- index %>%
+  filter(lang != "english" & lang != "scots" & lang != "manx" & lang != "middle_frisian")
 
-corpus$lang <- textcat(as.character(corpus$text))
-
-corpus$tlength <- nchar(corpus$text)
-
-sum(corpus$tlength)
-
-foreign <- corpus %>%
-  filter(lang != "english" & lang != "scots")
-
-sum(foreign$tlength)
+sum(nchar(foreign$text))
