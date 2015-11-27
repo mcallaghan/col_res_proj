@@ -30,7 +30,7 @@ get_language <- function() {
   
   save(index,file="data/lang_index.rda")
   
-  if(length(unknown$tweet_id)> 200000){
+  if(length(unknown$tweet_id)> 5500){
     get_language()
   }
   
