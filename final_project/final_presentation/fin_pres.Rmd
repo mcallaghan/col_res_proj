@@ -17,7 +17,7 @@ From an ancient marketplace in Athens...
 
 ## A European *Hyperagora*?
 
-... to a modern supermarket.
+... to a 'modern' supermarket.
 
 <div align="center">
 <img src="../../img/hypermodernhypermarket.jpg" width=600 height=450>
@@ -25,14 +25,55 @@ From an ancient marketplace in Athens...
 
 
 
+## A European *Hyperagora* - The Emergence of a European Public Sphere
 
-## Questions
+* Is the European Union a marketplace of ideas as well as only a marketplace? 
+* Is there something like a European public debate?
+* Are political dialogs supranationalized?
 
-## LSE
 
-## Data
+## Our Project
 
-## NICE TABLES
+### Case Selection: **Greek Bail Outs** 
+- widely discussed case
+- relevant to the whole of Europe
+
+### Data Selection: **Twitter Data**
+- interesting webscraping experience
+- open platform: anyone in Europe can contribute to it
+
+## Research Question
+
+What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
+ 
+* What can variation across time and space in the volume of Tweets regarding the euro crisis tell us about popular engagement with the issues?
+
+* What can the content of Tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
+
+## Previous Research
+
+<div align="center">
+<img src="../../img/Greece-twitter-1.jpg" width=600 height=450>
+</div>
+
+## Previous Research
+
+<div align="center">
+<img src="../../img/Greece-twitter-2.png" width=600 height=450>
+</div>
+
+## Data Gathering 
+
+we pulled together a corpus of tweets 
+
+- gathered by specifying search terms & time periods (using modified GetOldTweets)
+- adding information about the users who posted the tweets (using twitteR)
+- adding locations given by those users (using maqQuest and Google)
+- identifying language of every tweet (using textCat)
+- translating non-English tweets into English (using translateR)
+
+## Main findings
+
 
 ## Conclusions
 
