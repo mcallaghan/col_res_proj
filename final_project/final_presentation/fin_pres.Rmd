@@ -7,7 +7,24 @@ output: ioslides_presentation
 
 ## A European *Hyperagora*?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/g8tfC1dvOIE?start=48" frameborder="0" allowfullscreen></iframe>
+From an ancient marketplace in Athens...
+
+<div align="center">
+<img src="../../img/agoraathens.jpg" width=600 height=450>
+</div>
+
+
+
+## A European *Hyperagora*?
+
+... to a modern supermarket.
+
+<div align="center">
+<img src="../../img/hypermodernhypermarket.jpg" width=600 height=450>
+</div>
+
+
+
 
 ## Questions
 
