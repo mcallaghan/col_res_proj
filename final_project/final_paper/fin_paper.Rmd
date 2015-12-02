@@ -20,6 +20,46 @@ bibliography:
 - RpackageCitations.bib
 ---
 
+```{r include=FALSE, echo=FALSE}
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap', 'textcat', 'translateR')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+```
+
 \newpage
 
 # Introduction
@@ -69,7 +109,7 @@ Finally, some studies discuss ethical aspects of twitter research. For example, 
 
 ## On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
 
-Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. Hitherto, however, research has been characterized as rather normative, as the "research community has been [...] interested in producing policy recommendations for public sphere-building" [@Trenz2015, 234]. Recent studies, on the other hand, seem to put emphasis on an empirical grounding of the debate [@Trenz2015; @Drewski2015]. This development is being mirrored in research on the public debate across Europe on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened during the euro crisis” [@risse2014, 1213]. When testing this hypothesis empirically, though, by looking at newspaper editorials in Spain and Germany, Drewski found that there were significant differences  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis [@Drewski2015, 5]. <!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
+Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. Hitherto, however, research has been characterized as rather normative, as the "research community has been [...] interested in producing policy recommendations for public sphere-building" [@Trenz2015, 234]. Recent studies, on the other hand, seem to put emphasis on an empirical grounding of the debate [@Trenz2015; @Drewski2015]. This development is being mirrored in research on the public debate across Europe on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened during the euro crisis” [@risse2014, 1213]. When testing this hypothesis empirically, though, by looking at newspaper editorials in Spain and Germany, Drewski found that there were significant differences  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis [@Drewski2015, 5].
 
 Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, Tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
 
@@ -110,18 +150,23 @@ We found the unique users in our corpus of tweets and used the TwitteR package [
 
 Many users do not geotag their tweets, instead stating their location, and we used APIs from MapQuest and Google to geocode user-reported location, giving us the file places.csv.
 
-## Data Cleaning  
+## Merging & Cleaning  
 The txt files containing the tweets for each query and period are merged into a corpus file. This corpus file was merged with the user_info file, which in turn was merged with the places file. We end up with a large file containing tweets for our queries in each period with elaborete user information.
 
-Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period.
-
-The following list summarizes the queries which we excluded.
+Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period. The following list summarizes the queries which we excluded.
 
 * athens
 * bailout
 * 2-pac
 * 3-pac
 
+## Translation
+
+In a next step we identified the language of every tweet [@textcat] and translated those tweets written in European languages other than English into English [@translateR]. Danish and Romanian were excluded from the list because these languages were not adequately identified by the program.
+
+## Final Dataset
+
+A dataframe 'merged_corpus' containing all of the above information was pulled together.
 
 # Methodology
 
@@ -130,6 +175,18 @@ Volumes of topic-relevant Tweets were mapped across space and time, to analyse t
 Based on the results of sentiment analysis carried out and analysis of volumes of tweets and users using opinion-signifying keywords, the paper gives an indication of the scale of dialogue, consensus and disagreement across and within countries in the European Twittersphere.
 
 <!--- The twittersphere's validity in representing political opinion will be tested by comparing volumes of Tweets containing the hashtags '#ναί' and '#όχι' with the results of the referendum. -->
+
+# Caveats
+
+- Location
+- translation: danish, romanian, 
+- "normalizaion" of values not conducted for some, because of huge data amounts
+- SA: caution, however, about the utility of SA in predictive models [@grimmer2013, 4]. "For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6]
+- research design: case selection ambigious - for research on a common european sphere, choosing a case that by definition devides along national lines
+
+# Conclusions
+
+<!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
 
 
 # References
