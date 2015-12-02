@@ -1,0 +1,22 @@
+---
+title: "Twitter and the European Hyperagora: What can the Twittersphere Tell us about Political Deliberation and Opinions in Europe?"
+author: "M. Callaghan and V. Niberg"
+date: "December 2, 2015"
+output: ioslides_presentation
+---
+
+## A European *Hyperagora*?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g8tfC1dvOIE?start=48" frameborder="0" allowfullscreen></iframe>
+
+## Questions
+
+## LSE
+
+## Data
+
+## NICE TABLES
+
+## Conclusions
+
+
