@@ -15,7 +15,7 @@ initialise_index <- function(){
   index$negative <- NA
   save(index,file="data/sentiment_index.rda")
 }
-initialise_index()
+#initialise_index()
 
 
 sentimentalise <- function() {
@@ -27,7 +27,7 @@ sentimentalise <- function() {
   
   print(paste(as.character(length(unknown$tweet_id)),"left"))
   
-  index_sample <- unknown[sample(nrow(unknown),2500),]
+  index_sample <- unknown[sample(nrow(unknown),1722),]
   
   cp <- Corpus(VectorSource(tolower(index_sample$text))) 
   pos <- sum(sapply(cp, tm_term_score, terms_in_General_Inquirer_categories("Positiv")))
