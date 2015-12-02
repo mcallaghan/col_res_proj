@@ -5,40 +5,29 @@ source("getting_tweets/define_keys.R")
 
 load("data/lang_index.rda")
 
-index$lang_2 <- gsub("(^greek(.*))","greek",index$lang)
+index$lang <- gsub("(^greek(.*))","greek",index$lang)
 
 foreign <- index %>%
-  filter(lang != "english" & lang != "scots" & lang != "manx" & lang != "middle_frisian" & nchar(text) > 10)
-
-foreign_2 <- index %>%
-  filter(lang_2 %in% c("french",
+  filter(lang %in% c("french",
                       "german",
                       "spanish",
-                      "greek-iso8859-7",
+                      "greek",
                       "italian",
-                      "danish",
                       "swedish",
                       "norwegian",
-                      "romanian",
-                      "portuguese"))
-
-sum(nchar(foreign$text))
-
-sum(nchar(foreign_2$text))
-
-test <- c("mein hund ist gross","Ich habe zwei Brüder")
+                      "portuguese") &
+           nchar(text) > 10
+         )
 
 lang_table <- data.frame(
-  source=c(
+  lang=c(
     "french",
     "german",
     "spanish",
-    "greek-iso8859-7",
+    "greek",
     "italian",
-    "danish",
     "swedish",
     "norwegian",
-    "romanian",
     "portuguese",
     "dutch"
     ),
@@ -48,21 +37,36 @@ lang_table <- data.frame(
     "es",
     "el",
     "it",
-    "da",
     "sv",
     "no",
-    "ro",
     "pt",
     "nl"
   )
 )
 
-bla <- translate(
-  content.vec=test,
-  microsoft.client.id=MicrosoftClientId,
-  microsoft.client.secret=MicrosoftSecret,
-  source.lang="de",
-  target.lang="en"
+foreign <- foreign[order(foreign$lang),]
+
+foreign_merge <- foreign %>%
+  left_join(lang_table)
+
+foreign_merge$translation <- NA
+
+languages <- unique(foreign_merge$microsoft)
+
+for(i in languages) {
+  language <- filter(foreign_merge,microsoft==i)
+  print(length(language$lang))
+  language$translation <- translate(
+    content.vec = gsub("[[:punct:]]","",language$text),
+    microsoft.client.id=MicrosoftClientId,
+    microsoft.client.secret=MicrosoftSecret,
+    source.lang=i,
+    target.lang="en"
   )
+  old_foreign <- foreign_merge[!(foreign_merge$tweet_id %in% language$tweet_id),] 
+  foreign_merge <- rbind(old_foreign,language)
+  save(foreign_merge,"data/foreign_index.rda")
+  print(i)
+}
 
 
