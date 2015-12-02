@@ -49,7 +49,11 @@ merged_corpus_europe <- merged_corpus %>%
   filter(approx_country %in% c("AT","ES","GB","IL","GR","DK","IT","RO","BE","NL","SE","IE","NO","CH","PT","FI","FR","DE",
                                "CR","LT","CZ","ET"))
 
-merged_corpus_europe$stotal <- merged_corpus$positive - merged_corpus$negative
+merged_corpus_europe$stotal <- merged_corpus_europe$positive - merged_corpus_europe$negative
+
+merged_corpus_europe$period <- factor(merged_corpus_europe$period,
+                                  levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
+                                  labels = c("2010", "2012", "2015"))
 
 save(merged_corpus_europe,file="data/merged_corpus_europe.rda")
 
