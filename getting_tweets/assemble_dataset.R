@@ -12,7 +12,7 @@ if("lang" %in% names(corpus)) {
 
 corpus <- corpus %>%
   filter(
-    query != "2-pac" & query != "3-pac"
+    query != "2-pac" & query != "3-pac" & query != "bailout" & query != "athens"
   )
 
 load("data/foreign_index.rda")
@@ -21,6 +21,18 @@ foreign_merge <- foreign_merge %>%
   select(tweet_id,lang,translation)
 
 corpus <- merge(corpus,foreign_merge,all.x = TRUE)
+
+#corpus$text <- ifelse(
+#  is.na(corpus$translation),
+#  corpus$text,
+#  corpus$translation
+#)
+
+translated_corpus <- corpus
+
+save(translated_corpus,file="data/translated_corpus.rda")
+
+rm(translated_corpus)
 
 load("data/user_info.rda")
 
@@ -46,7 +58,7 @@ index <- index %>%
 merged_corpus <- merge(merged_corpus,index,all.x=TRUE)
 
 merged_corpus_europe <- merged_corpus %>%
-  filter(approx_country %in% c("AT","ES","GB","IL","GR","DK","IT","RO","BE","NL","SE","IE","NO","CH","PT","FI","FR","DE",
+  filter(approx_country %in% c("AT","ES","GB","GR","DK","IT","RO","BE","NL","SE","IE","NO","CH","PT","FI","FR","DE",
                                "CR","LT","CZ","ET"))
 
 merged_corpus_europe$stotal <- merged_corpus_europe$positive - merged_corpus_europe$negative

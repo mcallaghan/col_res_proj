@@ -7,15 +7,15 @@ library(dplyr)
 library(knitr)
 
 initialise_index <- function(){
-  load("data/corpus.rda")
-  corpus <- corpus %>%
+  load("data/translated_corpus.rda")
+  corpus <- translated_corpus %>%
     filter(query != "2-pac" & query != "3-pac" & query != "athens")
   index <- corpus[!duplicated(corpus$tweet_id),c("tweet_id","text")]
   index$positive <- NA
   index$negative <- NA
   save(index,file="data/sentiment_index.rda")
 }
-#initialise_index()
+initialise_index()
 
 
 sentimentalise <- function() {
