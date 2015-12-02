@@ -54,7 +54,7 @@ foreign_merge$translation <- NA
 languages <- unique(foreign_merge$microsoft)
 
 for(i in languages) {
-  language <- filter(foreign_merge,microsoft==i)
+  language <- filter(foreign_merge,microsoft==i & grepl("TranslateApiExceptionMethod",translation))
   print(length(language$lang))
   language$translation <- translate(
     content.vec = gsub("[[:punct:]]","",language$text),
