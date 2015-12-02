@@ -38,6 +38,19 @@ merged_user_info <- merged_user_info[!duplicated(merged_user_info$user_id),]
 
 merged_corpus <- merge(corpus,merged_user_info,by="user_id",all.x=TRUE,all.Y=FALSE)
 
-save(merged_corpus,file="data/merged_corpus.rda")
+load("data/sentiment_index.rda")
+
+index <- index %>%
+  filter(!is.na(positive))
+
+merged_corpus <- merge(merged_corpus,index,all.x=TRUE)
+
+merged_corpus_europe <- merged_corpus %>%
+  filter(approx_country %in% c("AT","ES","GB","IL","GR","DK","IT","RO","BE","NL","SE","IE","NO","CH","PT","FI","FR","DE",
+                               "CR","LT","CZ","ET"))
+
+merged_corpus_europe$stotal <- merged_corpus$positive - merged_corpus$negative
+
+save(merged_corpus_europe,file="data/merged_corpus_europe.rda")
 
 

@@ -7,10 +7,10 @@ library(dplyr)
 library(knitr)
 
 initialise_index <- function(){
-  load("data/merged_corpus.rda")
-  merged_corpus <- merged_corpus %>%
+  load("data/corpus.rda")
+  corpus <- corpus %>%
     filter(query != "2-pac" & query != "3-pac" & query != "athens")
-  index <- merged_corpus[!duplicated(merged_corpus$tweet_id),c("tweet_id","text")]
+  index <- corpus[!duplicated(corpus$tweet_id),c("tweet_id","text")]
   index$positive <- NA
   index$negative <- NA
   save(index,file="data/sentiment_index.rda")
