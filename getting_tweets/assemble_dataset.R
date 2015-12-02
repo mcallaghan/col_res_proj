@@ -22,11 +22,11 @@ foreign_merge <- foreign_merge %>%
 
 corpus <- merge(corpus,foreign_merge,all.x = TRUE)
 
-#corpus$text <- ifelse(
-#  is.na(corpus$translation),
-#  corpus$text,
-#  corpus$translation
-#)
+corpus$text <- ifelse(
+  is.na(corpus$translation),
+  corpus$text,
+  corpus$translation
+)
 
 translated_corpus <- corpus
 
