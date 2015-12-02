@@ -65,7 +65,7 @@ for(i in languages) {
   )
   old_foreign <- foreign_merge[!(foreign_merge$tweet_id %in% language$tweet_id),] 
   foreign_merge <- rbind(old_foreign,language)
-  save(foreign_merge,"data/foreign_index.rda")
+  save(foreign_merge,file="data/foreign_index.rda")
   print(i)
 }
 
