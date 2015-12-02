@@ -1,7 +1,7 @@
 #install.packages("tm.lexicon.GeneralInquirer", repos="http://datacube.wu.ac.at", type="source")
 library(tm.lexicon.GeneralInquirer)
 #install.packages("tm.plugin.sentiment", repos="http://R-Forge.R-project.org")
-library(tm.plugin.sentiment) 
+#library(tm.plugin.sentiment) 
 library(tm)
 library(dplyr)
 library(knitr)
@@ -47,15 +47,15 @@ sentimentalise <- function() {
   unknown <- index %>%
     filter(is.na(positive))
   
-  if(length(unknown$tweet_id)> 5500){
-    get_language()
+  if(length(unknown$tweet_id)> 500){
+    sentimentalise()
   }
 
 }
 
-sentimental_merged_corpus <- sentimentalise(merged_corpus)
+sentimentalise()
 
-save(sentimental_merged_corpus,file="data/sentimental_merged_corpus.Rda")
+#save(sentimental_merged_corpus,file="data/sentimental_merged_corpus.Rda")
 
 #kable(merkel_s)
 
