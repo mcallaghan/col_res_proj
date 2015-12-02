@@ -6,42 +6,56 @@ library(tm)
 library(dplyr)
 library(knitr)
 
-corpus <- read.csv("data/corpus.csv") %>%
-  filter(query != "2-pac" & query != "3-pac")
-user_info <- read.csv("data/user_info.csv")
-user_info <- rename(user_info,user_id = id)
+initialise_index <- function(){
+  load("data/merged_corpus.rda")
+  merged_corpus <- merged_corpus %>%
+    filter(query != "2-pac" & query != "3-pac" & query != "athens")
+  index <- merged_corpus[!duplicated(merged_corpus$tweet_id),c("tweet_id","text")]
+  index$positive <- NA
+  index$negative <- NA
+  save(index,file="data/sentiment_index.rda")
+}
+#initialise_index()
 
-places <- read.csv("data/places.csv") %>%
-  filter(!is.na(geocoder) & !is.na(approx_country))
 
-geo_user_info <- merge(places,user_info,by="location")
+sentimentalise <- function() {
 
-geo_corpus <- merge(geo_user_info,corpus,by="user_id")
-
-sentimentalise <- function(df,q=NULL) {
-  if(!is.null(q)) {
-    df <- filter(df,query==q)
-  }
-  cp <- Corpus(VectorSource(tolower(df$text))) 
+  load("data/sentiment_index.rda")  
+  
+  unknown <- index %>%
+    filter(is.na(positive))
+  
+  print(paste(as.character(length(unknown$tweet_id)),"left"))
+  
+  index_sample <- unknown[sample(nrow(unknown),2500),]
+  
+  cp <- Corpus(VectorSource(tolower(index_sample$text))) 
   pos <- sum(sapply(cp, tm_term_score, terms_in_General_Inquirer_categories("Positiv")))
   neg <- sum(sapply(cp, tm_term_score, terms_in_General_Inquirer_categories("Negativ")))
-  pos.score <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
+  index_sample$positive <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
                              terms_in_General_Inquirer_categories("Positiv")) # this lists each document with number below
   
-  neg.score <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
+  index_sample$negative <- tm_term_score(TermDocumentMatrix(cp, control = list(removePunctuation = TRUE)), 
                              terms_in_General_Inquirer_categories("Negativ")) 
   
-  total.df <- data.frame(id = df$tweet_id,
-                         text = df$text,
-                         positive = pos.score, 
-                         negative = neg.score)
+  old_index <- index[!(index$tweet_id %in% index_sample$tweet_id),] 
+  
+  index <- rbind(old_index,index_sample)
+  
+  save(index,file="data/sentiment_index.rda")
+  
+  unknown <- index %>%
+    filter(is.na(positive))
+  
+  if(length(unknown$tweet_id)> 5500){
+    get_language()
+  }
+
 }
 
-senti_geo_corpus <- sentimentalise(geo_corpus)
+sentimental_merged_corpus <- sentimentalise(merged_corpus)
 
-senti_geo_corpus <- merge(senti_geo_corpus,geo_corpus)
-
-saveRDS(senti_geo_corpus,"data/senti_geo_corpus.Rda")
+save(sentimental_merged_corpus,file="data/sentimental_merged_corpus.Rda")
 
 #kable(merkel_s)
 

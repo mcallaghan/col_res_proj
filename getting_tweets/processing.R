@@ -224,6 +224,7 @@ user_info1 <- read.csv("data/user_info1.csv")
 user_info2 <- read.csv("data/user_info2.csv")
 user_info <- rbind(user_info1,user_info2)
 write.csv(user_info,"data/user_info.csv")
+save(user_info,file="data/user_info.rda")
  
 
 #corpus <- read.csv("data/corpus2.csv")
