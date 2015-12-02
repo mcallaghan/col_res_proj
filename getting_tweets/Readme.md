@@ -1,3 +1,16 @@
+This folder contains all the scripts needed to:
+
+- pull together a list of txt files generated through the modified GetOldTweets programme into one corpus of tweets
+- get information about the users who posted the tweets
+- geocode the locations given by those users
+- find out the language of every tweet
+- translate those tweets written in European languages other than English into English
+- Pull together a dataframe 'merged_corpus' containing all of the above information
+
+All of these processes take significant amounts of time, and many are limited by the rate limits imposed by online service providers (MapQuest, Google Geolocation API, Microsoft Translate API).
+
+Each of the processes are therefore written in separate files which must be run sequentially - some of these files must be run several (on different machines or on different days) times before the amount of records required can be changed. 
+
 We have too many places to geocode all at once.
 
 Google allows 2500 queries per day.
