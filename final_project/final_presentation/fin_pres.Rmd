@@ -31,7 +31,6 @@ From an ancient marketplace in Athens...
 * Is there something like a European public debate?
 * Are political dialogs supranationalized?
 
-
 ## Our Project
 
 ### Case Selection: **Greek Bail Outs** 
@@ -72,9 +71,30 @@ we pulled together a corpus of tweets
 - identifying language of every tweet (using textCat)
 - translating non-English tweets into English (using translateR)
 
-## Main findings
+## Data Gathering 
+
+WORD CLOUD
+
+## Findings
+
+What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
+ 
+* What can variation across time and space in the volume of Tweets regarding the euro crisis tell us about popular engagement with the issues?
+
+* What can the content of Tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
+
+## Main findings: Variation Across Time
+
+## Main findings: Variation Across Space
+
+## Main findings: Variation Across Space and Time
+
+## Main findings: Sentiment Analysis
+
+
 
 
 ## Conclusions
 
-
+- 
+- quantitative methos -> limited
