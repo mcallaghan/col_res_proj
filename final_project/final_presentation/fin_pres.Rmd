@@ -5,6 +5,13 @@ date: "December 2, 2015"
 output: ioslides_presentation
 ---
 
+```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+load('../../data/merged_corpus_europe.rda')
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap')
+repmis::LoadandCite(pkgs, file = '../../RpackageCitations3.bib')
+```
+
+
 ## A European *Hyperagora*?
 
 From an ancient marketplace in Athens...
@@ -73,21 +80,62 @@ we pulled together a corpus of tweets
 
 ## Data Gathering 
 
-WORD CLOUD
+```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+minicorpus <- merged_corpus_europe[sample(nrow(merged_corpus_europe), 200), ]
 
-## Findings
+text_corpus <- Corpus(VectorSource(minicorpus$text))
+
+#clean up
+text_corpus <- tm_map(text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
+text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
+text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(text_corpus)
+```
+
+## Data Analysis
 
 What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
  
-* What can variation across time and space in the volume of Tweets regarding the euro crisis tell us about popular engagement with the issues?
+- What can **variation across time and space** in the volume of Tweets regarding the euro crisis tell us about **popular engagement** with the issues? 
 
-* What can the content of Tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
+*Descriptive Statistics*
+
+- What can the **content of Tweets** related to the crisis tell us about the **spread of public opinion** on the handling of the crisis in Greece between and within countries? 
+
+*Sentiment Analysis*
 
 ## Main findings: Variation Across Time
 
+<!-- table with control group, weighted, but as chart! -->
+
 ## Main findings: Variation Across Space
 
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_country <- merged_corpus_europe %>%
+  group_by(approx_country) %>%
+  summarise(
+    n = length(approx_country)
+  ) %>%
+  filter(n > 1000)
+
+ggplot(
+  by_country,
+  aes(approx_country,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Countries')
+```
+
+
 ## Main findings: Variation Across Space and Time
+
+<!-- the interactive website thing -->
 
 ## Main findings: Sentiment Analysis
 
@@ -96,5 +144,6 @@ What can twitter tell us about pan-European reactions to the European governance
 
 ## Conclusions
 
-- 
+- What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
+- not so much
 - quantitative methos -> limited

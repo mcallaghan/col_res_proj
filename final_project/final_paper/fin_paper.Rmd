@@ -17,15 +17,19 @@ output:
 documentclass: article
 bibliography:
 - ../../bibliography.bib
-- RpackageCitations.bib
+- RpackageCitations4.bib
 ---
 
 ```{r include=FALSE, echo=FALSE}
 pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap', 'textcat', 'translateR')
-repmis::LoadandCite(pkgs, file = 'RpackageCitations3.bib')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations4.bib')
+
+load('../../data/merged_corpus_europe.rda')
+
+#the following is a code copied from someone else which puts plots into grids
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   library(grid)
-
+  
   # Make a list from the ... arguments and plotlist
   plots <- c(list(...), plotlist)
 
@@ -162,7 +166,7 @@ Some of the queries we defined returned irrelevant data, due to their ambiguity.
 
 ## Translation
 
-In a next step we identified the language of every tweet [@textcat] and translated those tweets written in European languages other than English into English [@translateR]. Danish and Romanian were excluded from the list because these languages were not adequately identified by the program.
+In a next step we identified the language of every tweet [@R-textcat] and translated those tweets written in European languages other than English into English [@R-translateR]. Danish and Romanian were excluded from the list because these languages were not adequately identified by the program.
 
 ## Final Dataset
 
@@ -175,6 +179,280 @@ Volumes of topic-relevant Tweets were mapped across space and time, to analyse t
 Based on the results of sentiment analysis carried out and analysis of volumes of tweets and users using opinion-signifying keywords, the paper gives an indication of the scale of dialogue, consensus and disagreement across and within countries in the European Twittersphere.
 
 <!--- The twittersphere's validity in representing political opinion will be tested by comparing volumes of Tweets containing the hashtags '#ναί' and '#όχι' with the results of the referendum. -->
+
+# Analysis
+
+The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+minicorpus <- merged_corpus_europe[sample(nrow(merged_corpus_europe), 200), ]
+
+text_corpus <- Corpus(VectorSource(minicorpus$text))
+
+#clean up
+text_corpus <- tm_map(text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
+text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
+text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(text_corpus)
+```
+
+The following tables and bar charts give a first overview over the collected data. The first table shows absolute numbers and relative distributions of specific query returns. The second table describes distribution of specific tweets over time.  The bar chart describes geographical distribution of tweets for those tweets that we have at the time of writing this been able to obtain information on location. ^[API from Google restricts requests to a daily maximum and the API from MapQuest restricts requests to a monthly maximum.] 
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6}
+
+sum_q_table <- merged_corpus_europe %>%
+  filter(query != 'timeless') %>%
+  group_by(query) %>%
+  summarise(
+    n = length(query),
+    percent = n/length(merged_corpus_europe$tweet_id)*100
+  )
+
+knitr::kable(sum_q_table, digits = 2)
+
+```
+
+
+The results that our queries returned differ substanially in size. While some queries (e.g. merkel+greece) return over 15000 tweets, others (e.g. greece+reforms) return only around 3000 tweets in the specified time periods. We therefore think it is for analytical reasons useful to differentiate between high-return and low-return queries. 
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE}
+
+merged_corpus_europe$control <- ifelse(merged_corpus_europe$query=="timeless",
+                         1,
+                         0)
+
+unique_corpus <- merged_corpus_europe %>%
+  filter(!duplicated(tweet_id))
+
+sum_q_per_table <- unique_corpus %>%
+  group_by(period,control) %>%
+  summarise(
+    n = length(period),
+    percent = n/length(unique_corpus[unique_corpus$control==control,"tweet_id"])*100
+  )
+
+knitr::kable(sum_q_per_table, digits = 2)
+
+```
+
+The results show that twitter coverage of the Greek bailouts has increased heavily over time. However, since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. As a control query, we included "timeless" in our search. However, this query does not behave the way we had expected it to. For the finalized version of the project, we will have to identify a more appropriate control query. When looking at the development of different queries over time, an increase can be found for all queries except for for imf+greece, which decreased in 2012 and increased in 2015 again. 
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_country <- merged_corpus_europe %>%
+  group_by(approx_country) %>%
+  summarise(
+    n = length(approx_country)
+  ) %>%
+  filter(n > 1000)
+```
+
+
+This bar chart shows the distribution of all tweets over countries filtering those with a significant amount of tweets. This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+ggplot(
+  by_country,
+  aes(approx_country,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Country')
+  
+
+```
+
+We argued earlier that it would be helpful to distinguish between two groups of queries/tweets by high and low return rates in order to understand the behaviour of the queries. The following charts report the developments over time for the high return rates as this group creates more intelligle results. Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+
+merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+
+corpus_index <- merged_corpus_europe %>%
+  group_by(query) %>%
+  summarise(total = length(query))
+
+corpus_index_large <- filter(corpus_index,total>10000)
+corpus_index_small <- filter(corpus_index,total<10000)
+
+corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
+
+corpus_small <- filter(merged_corpus_europe,query %in% corpus_index_small$query)
+
+
+timegraph <- function(corpus,p) {
+  corpus_daily <- corpus %>%
+    filter(period==p) %>%
+  group_by(day,query,period) %>%
+  summarise(
+    n = length(day)
+  )
+  
+ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
+  labs(
+    x = "Time",
+    y = "Frequency"
+  )
+}
+
+#p1 <- timegraph(corpus_small,"2010") +
+#ggtitle("Less frequently used words, 2010")
+#p2 <- timegraph(corpus_small,"2012") +
+#ggtitle("Less frequently used words, 2012")
+#p3 <- timegraph(corpus_small,"2015") +
+#ggtitle("Less frequently used words, 2015")
+#multiplot(p1, p2, p3, cols = 3)
+p4 <- timegraph(corpus_large,"2010") +
+ggtitle("More frequently used words, 2010")
+p5 <- timegraph(corpus_large,"2012") +
+ggtitle("More frequently used words, 2012")
+p6 <- timegraph(corpus_large,"2015") +
+ggtitle("More frequently used words, 2015")
+#multiplot(p4, p5, p6, cols = 3)
+
+
+```
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p4
+```
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p5
+```
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p6
+```
+
+
+\newpage
+
+As our data includes information on location and our research question includes a comparative aspect, in the following section we will describe our data by locational information.
+
+
+```{r message=FALSE,warning=FALSE, echo=FALSE}
+
+
+geo_corpus <- merged_corpus_europe %>%
+  filter(!is.na(latitude))
+
+world <- map_data("world")
+worldmap <- ggplot() +
+  geom_path(data=world, aes(x=long, y=lat, group=group),size=0.5,colour="grey") +
+  geom_point(data=geo_corpus,aes(x = longtitude, y = latitude, colour = query), size = 1.8) +
+  geom_jitter() + 
+  coord_equal() + 
+  theme_nothing(legend=TRUE) +
+  theme(
+    legend.position=c(0.1,0.5)
+  )
+worldmap
+
+```
+
+This map shows the distribution of individual queries over different locations worldwide. Colour indicates type of query. It shows "twitter hubs" on this issue in Greece, Benelux-states an GB.
+
+
+```{r message=FALSE,warning=FALSE, echo=FALSE}  
+map_eu <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query),size=1.8, data = geo_corpus) +
+  geom_jitter()
+mapPoints
+```
+
+The following maps show the distribution of individual queries over different locations Europe-wide. Colour indicated type of query.
+
+
+
+<!-- The following map shows the three periods studied for one specific query. -->
+
+```{r include=FALSE, eval=FALSE}  
+
+
+map_eu_2010 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2010) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME1)
+mapPoints
+
+map_eu_2012 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2012) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME2)
+mapPoints
+
+map_eu_2015 <- get_map(zoom = 4, location= "Europe")
+mapPoints <- ggmap(map_eu_2015) +
+  geom_point(aes(x = longtitude, y = latitude, colour = query), data = DATAFRAME3)
+mapPoints
+```
+
+## Inferential Statistics: Sentiment Analysis
+
+For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. For those tweets for which we have at the time of writing this document already had downlaoded location information we calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
+
+We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
+
+However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
+
+```{r warning=FALSE, echo=FALSE}
+
+mou_greece_time <- merged_corpus_europe %>%
+  filter(query=="merkel+greece") %>%
+  group_by(period) %>%
+  summarise(
+    positive = sum(positive),
+    negative = sum(negative),
+    n = length(approx_country),
+    sentiment = (positive - negative)/n
+  )
+
+ggplot(
+  mou_greece_time,
+  aes(period,sentiment)) + 
+  geom_bar(stat="identity") +
+  theme_bw()
+```
+
+
+
+```{r warning=FALSE, echo=FALSE}
+
+
+mou_greece_loc <- merged_corpus_europe %>%
+  filter(query=="merkel+greece") %>%
+  group_by(approx_country) %>%
+  summarise(
+    positive = sum(positive),
+    negative = sum(negative),
+    n = length(approx_country),
+    sentiment = (positive - negative)/n
+  ) %>%
+  filter(n > 100)
+
+
+
+ggplot(
+  mou_greece_loc,
+  aes(approx_country,sentiment)) + 
+  geom_bar(stat="identity") +
+  theme_bw()
+
+```
+
+
+We conclude from this that our current sentiment analysis does not return reasonable results. We will in the next stage of the project try to create a model that returns more accurate results. 
+
+\newpage
 
 # Caveats
 
