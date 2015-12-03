@@ -40,7 +40,7 @@ From an ancient marketplace in Athens...
 
 ## Our Project
 
-### Case Selection: **Greek Bail Outs** 
+### Case Selection: **Greek Bailouts** 
 - widely discussed case
 - relevant to the whole of Europe
 
@@ -58,15 +58,24 @@ What can twitter tell us about pan-European reactions to the European governance
 
 ## Previous Research
 
+LSE project on how Europeans interact through Twitter...
+
 <div align="center">
-<img src="../../img/Greece-twitter-1.jpg" width=600 height=450>
+<img src="../../img/Greece-twitter-3.jpg" width=500 height=375>
+<br>
+<span style="font-size=30%">Source: <a href="bit.ly/1LLTdOM">bit.ly/1LLTdOM</a>
 </div>
 
 ## Previous Research
 
+... looking at #ThisIsACoup trending and reactions to anouncement that agreement has been reached.
+
 <div align="center">
-<img src="../../img/Greece-twitter-2.png" width=600 height=450>
+<img src="../../img/Greece-twitter-1.jpg" width=500 height=375>
+<br>
+<span style="font-size=30%">Source: <a href="bit.ly/1LLTdOM">bit.ly/1LLTdOM</a>
 </div>
+
 
 ## Data Gathering 
 
