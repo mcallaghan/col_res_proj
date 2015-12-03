@@ -5,9 +5,9 @@ date: "December 2, 2015"
 output: ioslides_presentation
 ---
 
-```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+```{r echo=FALSE, warning=FALSE, message=FALSE}
 load('../../data/merged_corpus_europe.rda')
-pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap')
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap', 'textcat', 'translateR', 'tidyr', 'lfe', 'maptools', 'rgeos', 'nlme')
 repmis::LoadandCite(pkgs, file = '../../RpackageCitations3.bib')
 ```
 
@@ -47,6 +47,8 @@ From an ancient marketplace in Athens...
 ### Data Selection: **Twitter Data**
 - interesting webscraping experience
 - open platform: anyone in Europe can contribute to it
+
+**Without further work on how twitter reflects wider society, to what extent can we extrapolate our results to the "European Public Sphere"?**
 
 ## Research Question
 
@@ -117,10 +119,6 @@ What can twitter tell us about pan-European reactions to the European governance
 
 *Sentiment Analysis*
 
-## Main findings: Variation Across Time
-
-<!-- table with control group, weighted, but as chart! -->
-
 ## Main findings: Variation Across Space
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
@@ -139,20 +137,163 @@ ggplot(
   theme_bw() +
   ylab('n of Tweets') +
   xlab('Countries')
+
+
 ```
 
+## Main findings: Variation Across Time
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_period <- merged_corpus_europe %>%
+  group_by(period) %>%
+  summarise(
+    n = length(period)
+  )
+
+ggplot(
+  by_period,
+  aes(period,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
 
 ## Main findings: Variation Across Space and Time
 
-<!-- the interactive website thing -->
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_period_country <- merged_corpus_europe %>%
+  group_by(period, approx_country) %>%
+  summarise(
+    n = length(period)
+  ) %>%
+  filter(n > 1000)
+
+ggplot(
+  by_period_country, 
+  aes(approx_country,n, fill=period)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
 
 ## Main findings: Sentiment Analysis
 
 
+- differences in variance of sentiment between countries?
+-
 
+## Sentiment Analysis
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+
+by_country_by_year <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE)
+  ) %>%
+  mutate(query = gsub("\\+","_",query)) %>%
+  spread(query,sentiment)
+
+
+countries <- readShapeSpatial("../../data/geographic_data/CNTR_2014_60M_SH/Data/CNTR_RG_60M_2014.shp")
+
+#countries@data$id <- countries@data$CNTR_ID
+countries.points <- fortify(countries)
+countries.points <- left_join(
+  countries.points,
+  data.frame(
+    id = unique(countries.points$id),
+    CNTR_ID = unique(countries@data$CNTR_ID)
+  )
+)
+countries.df <- countries.points %>%
+  left_join(countries@data,by="CNTR_ID")
+
+countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
+
+countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
+countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
+
+countries.df <- countries.df %>%
+  left_join(
+    rename(
+      by_country_by_year,
+      CNTR_ID = approx_country
+      )
+  ) 
+
+sentiment_map <- function(df,p,q) {
+  ggplot(filter(df,period==p))+
+  aes_string("long","lat",group="group",fill=q) +
+  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
+  geom_polygon() +
+  #scale_fill_continuous(low="white",high="green",na.value="grey") +
+  geom_path(color="grey",size=0.1) +
+  #theme_bw() +
+  #theme_nothing() +
+  theme(
+    panel.background = element_rect(fill="#84C9F8"),
+    axis.text = element_blank(),
+    line = element_blank(),
+    axis.text = element_blank()
+  ) +
+  xlim(c(-12,35)) +
+  ylim(c(32,72)) +
+  labs(fill="Sentiment",x="",y="") + 
+  coord_equal()
+}
+
+```
+
+```{r message=FALSE, echo=FALSE, warning=FALSE}
+
+sentiment_map(countries.df,"2010","austerity_greece") +
+  ggtitle('2010, sentiment in tweets containing "austerity+greece"')
+
+
+```
+
+## Sentiment Analysis
+```{r message=FALSE, echo=FALSE, warning=FALSE}
+
+sentiment_map(countries.df,"2012","austerity_greece") +
+  ggtitle('2012, sentiment in tweets containing "austerity+greece"')
+
+```
+
+## Sentiment Analysis 
+```{r message=FALSE, echo=FALSE, warning=FALSE}
+
+sentiment_map(countries.df,"2015","austerity_greece") +
+    ggtitle('2015, sentiment in tweets containing "austerity+greece"')
+
+```
+
+## Sentiment Analysis: Comparison of Periods 
+
+```{r message=FALSE, echo=FALSE, fig.width=3}
+
+sentiment_map(countries.df,"2010","austerity_greece") +
+  ggtitle('2010, sentiment in tweets containing "austerity+greece"')
+sentiment_map(countries.df,"2010","austerity_greece") +
+  ggtitle('2012, sentiment in tweets containing "austerity+greece"')
+sentiment_map(countries.df,"2010","austerity_greece") +
+  ggtitle('2015, sentiment in tweets containing "austerity+greece"')
+
+```
 
 ## Conclusions
 
 - What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
-- not so much
-- quantitative methos -> limited
+- What is the importance of reproducability?
+- 
+

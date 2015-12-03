@@ -18,3 +18,9 @@ rworldmap
 ggmap
 textcat
 translateR
+tidyr
+Matrix
+lfe
+maptools
+rgeos
+nlme
