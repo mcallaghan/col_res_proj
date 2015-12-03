@@ -5,7 +5,7 @@ date: "December 2, 2015"
 output: html_document
 ---
 
-```{r warning=FALSE,message=FALSE,cache=TRUE,echo=FALSE}
+```{r warning=FALSE,message=FALSE,echo=FALSE}
 
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   library(grid)
@@ -52,6 +52,8 @@ library(ggmap)
 pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap','ggvis','googleVis')
 library(ggvis)
 library(googleVis)
+library(tidyr)
+library(ggplot2)
 
 spacetime <- function(df,q) {
   df <- df %>%
@@ -65,29 +67,103 @@ spacetime <- function(df,q) {
   return(df)
 }
 
-corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
+greek_greece_debt <- merged_corpus_europe %>%
+  filter(query %in% c("greek+debt","greece+debt")) %>%
+  mutate(query="greek_greece_debt") 
+
+greek_greece_debt <- greek_greece_debt[!duplicated(greek_greece_debt$tweet_id),]
+
+merged_corpus_europe <- rbind(merged_corpus_europe,greek_greece_debt)
+
+merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+
+merged_corpus_daily_queries <- merged_corpus_europe %>%
+  group_by(day,period,approx_country,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  )
+
+merged_corpus_daily <- merged_corpus_europe %>%
+  group_by(day,period,approx_country) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  )
+
+sentiment_time <- function(df,p,q=NULL,clist=NULL) {
+  df <- filter(df,period==p)
+  if(!is.null(q)) {
+    df <- filter(df,query==q)
+  }
+  if(!is.null(clist)){
+    df <- filter(df,approx_country %in% clist)
+  }
+  ggplot(df) + 
+  geom_line(aes(day,sentiment,colour=approx_country)) +
+  geom_ribbon(aes(
+    day,
+    ymin=sentiment-sqrt(sentiment_variance),
+    ymax=sentiment+sqrt(sentiment_variance),
+    fill=approx_country),alpha=0.2) +
+  labs(
+    x = "Time",
+    y = "Sentiment"
+  )
+}
+
+
+sentiment_time(merged_corpus_daily,"2015",clist=c("GR","DE"))
+sentiment_time(merged_corpus_daily,"2015",clist=c("GR"))
+sentiment_time(merged_corpus_daily_queries,"2015",q="greek_greece_debt",clist=c("GR","DE"))
+sentiment_time(merged_corpus_daily_queries,"2015",q="greek_greece_debt",clist=c("GR","DE"))
+sentiment_time(merged_corpus_daily_queries,"2015",q="greek+crisis",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="varoufakis",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="merkel+greece",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="schäuble+greece",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="austerity+greece",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="eurocrisis",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="eurosummit",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="euro+summit",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="euro+summit",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="grexit",clist=c("GR","DE"))
+
+sentiment_time(merged_corpus_daily_queries,"2015",q="tsipras",clist=c("GR","DE"))
+
+ggplot(merged_corpus_europe,aes(query)) +
+  geom_bar() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+
+timegraph <- function(corpus,p) {
+  corpus_daily <- corpus %>%
+    filter(period==p) %>%
+  group_by(day,query,period) %>%
+  summarise(
+    n = length(day)
+  )
+  
+ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
+  labs(
+    x = "Time",
+    y = "Frequency"
+  )
+}
+
+
 
 print(unique(merged_corpus_europe$query))
-
-merkel <- spacetime(merged_corpus_europe,"merkel+greece")
-
-kable(merkel,digits=2)
-
-crisis <- spacetime(merged_corpus_europe,"greece+crisis")
-
-kable(crisis,digits=2)
-
-imf <- spacetime(merged_corpus_europe,"imf+greece")
-
-kable(imf,digits=2)
-
-schauble <- spacetime(merged_corpus_europe,"schäuble+greece")
-
-kable(schauble,digits=2)
-
-austerity <- spacetime(merged_corpus_europe,"austerity+greece")
-
-kable(austerity,digits=2)
 
 geo_corpus <- merged_corpus_europe %>%
   filter(!is.na(latitude))
@@ -98,44 +174,49 @@ mapPoints <- ggmap(map_eu) +
   geom_jitter()
 mapPoints
 
-greek_greece_debt <- merged_corpus_europe %>%
-  filter(query %in% c("greek+debt","greece+debt")) %>%
-  mutate(query="greek_greece_debt") 
-
-greek_greece_debt <- greek_greece_debt[!duplicated(greek_greece_debt$tweet_id),]
-
-merged_corpus_europe <- rbind(merged_corpus_europe,greek_greece_debt)
-
-by_country_by_year <- merged_corpus_europe %>%
+by_country_by_year_by_query <- merged_corpus_europe %>%
   group_by(approx_country,period,query) %>%
   summarise(
-    sentiment = mean(stotal,na.rm=TRUE)
-  ) %>%
-  mutate(query = gsub("\\+","_",query)) %>%
-  spread(query,sentiment)
-
-by_country_by_year_var <- merged_corpus_europe %>%
-  group_by(approx_country,period,query) %>%
-  summarise(
-    sentiment_variance = var(stotal,na.rm=TRUE)
-  ) %>%
-  mutate(query = gsub("\\+","_",query)) %>%
-  spread(query,sentiment_variance)
-
-total_distribution <- merged_corpus_europe %>%
-  group_by(approx_country,period,query) %>%
-  summarise(
-    sentiment = mean(stotal,na.rm=TRUE)
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
   ) %>%
   mutate(query = gsub("\\+","_",query))
 
-place_reg <- lm(sentiment~approx_country,data=total_distribution)
+library(rjson)
+for (countries in unique(by_country_by_year_by_query$approx_country)) {
+  
+}
+ys <- split(by_country_by_year_by_query,by_country_by_year_by_query$period)
+for (y in ys) {
+  xs <- split(y,y$approx_country)
+  for (x in xs) {
+    z <- split(x,x$query)
+    cat(toJSON(unname(z)))
+  }
+  x <- toJSON(unname(split(y,y$approx_country)))
+  cat(x)
+  print(unique(as.character(y$period))) 
+}
+x <- toJSON(unname(split(by_country_by_year_by_query, 1:nrow(by_country_by_year_by_query ))))
+write(x, file="map/map_data.JSON")
+
+by_country_by_year <- by_country_by_year_by_query %>%
+  spread(query,sentiment)
+
+by_country_by_year_var <- by_country_by_year_by_query %>%
+  spread(query,sentiment_variance)
+
+by_country_by_year_count <- by_country_by_year_by_query %>%
+  spread(query,tweet_count)
+
+place_reg <- lm(sentiment~approx_country,data=by_country_by_year_by_query)
 summary(place_reg)
 
-time_reg <- lm(sentiment~period,data=total_distribution)
+time_reg <- lm(sentiment~period,data=by_country_by_year_by_query)
 summary(time_reg)
 
-all_reg <- lm(sentiment~approx_country+period,data=total_distribution)
+all_reg <- lm(sentiment~approx_country+period,data=by_country_by_year_by_query)
 summary(time_reg)
 
 ```
@@ -220,6 +301,21 @@ sentiment_map <- function(df,p,q,v=FALSE) {
   coord_equal()
 }
 
+s <- sentiment_map(countries.df,"2010","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2010","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+kable(select(filter(by_country_by_year_count,period=="2010"),approx_country,greek_greece_debt))
+s <- sentiment_map(countries.df,"2012","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2012","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+kable(select(filter(by_country_by_year_count,period=="2010"),approx_country,greek_greece_debt))
+s <- sentiment_map(countries.df,"2015","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2015","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+kable(select(filter(by_country_by_year_count,period=="2010"),approx_country,greek_greece_debt))
+
+
+
 sentiment_map(countries.df,"2010","imf_greece")
 sentiment_map(countries.df,"2012","imf_greece")
 sentiment_map(countries.df,"2015","imf_greece")
@@ -227,7 +323,6 @@ sentiment_map(countries.df,"2015","imf_greece")
 sentiment_map(countries.variance,"2010","imf_greece",v=TRUE)
 sentiment_map(countries.variance,"2012","imf_greece",v=TRUE)
 sentiment_map(countries.variance,"2015","imf_greece",v=TRUE)
-
 
 
 sentiment_map(countries.df,"2010","greek_debt")
@@ -238,21 +333,6 @@ sentiment_map(countries.df,"2010","greece_debt")
 sentiment_map(countries.df,"2012","greece_debt")
 sentiment_map(countries.df,"2015","greece_debt")
 
-s <- sentiment_map(countries.df,"2010","greek_greece_debt")
-v <- sentiment_map(countries.variance,"2010","greek_greece_debt",v=TRUE)
-multiplot(s,v)
-s <- sentiment_map(countries.df,"2012","greek_greece_debt")
-v <- sentiment_map(countries.variance,"2012","greek_greece_debt",v=TRUE)
-multiplot(s,v)
-s <- sentiment_map(countries.df,"2015","greek_greece_debt")
-v <- sentiment_map(countries.variance,"2015","greek_greece_debt",v=TRUE)
-multiplot(s,v)
-
-
-
-
-
-multiplot(a,b)
 
 sentiment_map(countries.df,"2010","bailout_greece")
 sentiment_map(countries.df,"2012","bailout_greece")
