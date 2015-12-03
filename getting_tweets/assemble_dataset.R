@@ -57,6 +57,7 @@ index <- index %>%
 
 merged_corpus <- merge(merged_corpus,index,all.x=TRUE)
 
+
 merged_corpus_europe <- merged_corpus %>%
   filter(approx_country %in% c("AT","ES","GB","GR","DK","IT","RO","BE","NL","SE","IE","NO","CH","PT","FI","FR","DE",
                                "CR","LT","CZ","ET"))
