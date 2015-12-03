@@ -195,19 +195,22 @@ for (y in ys) {
     cat(toJSON(unname(z)))
   }
   x <- toJSON(unname(split(y,y$approx_country)))
-  cat(x)
-  print(unique(as.character(y$period))) 
+  #cat(x)
+  #print(unique(as.character(y$period))) 
 }
 x <- toJSON(unname(split(by_country_by_year_by_query, 1:nrow(by_country_by_year_by_query ))))
 write(x, file="map/map_data.JSON")
 
 by_country_by_year <- by_country_by_year_by_query %>%
+  select(-sentiment_variance,-tweet_count) %>%
   spread(query,sentiment)
 
 by_country_by_year_var <- by_country_by_year_by_query %>%
+  select(-sentiment,-tweet_count) %>%
   spread(query,sentiment_variance)
 
 by_country_by_year_count <- by_country_by_year_by_query %>%
+  select(-sentiment_variance,-sentiment) %>%
   spread(query,tweet_count)
 
 place_reg <- lm(sentiment~approx_country,data=by_country_by_year_by_query)
