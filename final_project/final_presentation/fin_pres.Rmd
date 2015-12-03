@@ -297,3 +297,8 @@ sentiment_map(countries.df,"2010","austerity_greece") +
 - What is the importance of reproducability?
 - 
 
+## Chronology 2015 
+
+<div align="center">
+<img src="../../img/chronology.png" width=600 height=450>
+</div>
