@@ -171,7 +171,7 @@ In a next step we identified the language of every tweet [@R-textcat] and transl
 
 ## Final Dataset
 
-A dataframe 'merged_corpus' containing all of the above information was pulled together.
+A dataframe 'merged_corpus' containing all of the above information was pulled together. We filtered all tweets from Europe. 
 
 # Methodology
 
@@ -183,7 +183,7 @@ Based on the results of sentiment analysis carried out and analysis of volumes o
 
 # Analysis
 
-## Describtive Statistics
+## Descriptive Statistics
 
 The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
 
@@ -298,15 +298,13 @@ The results that our queries returned differ substanially in size. While some qu
 merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
 
 corpus_index <- merged_corpus_europe %>%
-  group_by(query) %>%
-  summarise(total = length(query))
-
+   group_by(query) %>%
+   summarise(total = length(query))
+ 
 corpus_index_large <- filter(corpus_index,total>4000)
 corpus_index_small <- filter(corpus_index,total<4000)
-
-corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
-
-corpus_small <- filter(merged_corpus_europe,query %in% corpus_index_small$query)
+ 
+ corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
 
 
 timegraph <- function(corpus,p) {
@@ -342,24 +340,27 @@ ggtitle("More frequently used words, 2015")
 
 ```
 
-
+ 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p4
 ```
+
+n the 2010 period, "greek+crisis" and "bailout+greece" are the most frequently used query. "Bailout" usage in tweets peaks around April 23rd when Greek prime minister Papandreo formally requested an international bailout for Greece. In the following day, "greek+crisis" is used at its highest level, with nearly 125 occurances on April 28th. However, the use of "greek+crisis" in tweets dropped dramatically for a short period of around 6 days, before it peaked again, however somewhat less pronounced. The drop in usage of "greek+crisis" was accompanied by an increase in usage of "greek+bailout", which peaked around May 2nd before it subsided. On May 2nd, the agreement on the First bailout package was reached [@reuter2010]. During this short phase, "greek+bailout" was the most prominently used word combination (from our sample). Only after "greeck+crisis" became most frequently used words. 
+
 
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p5
 ```
 
+In the 2012 period, there was a discourse on the greek crisis weeks before the agreement. "greek+crisis" was used from the beginning of February until February 21st when the agreement between the Greek government and the Troika was reached [@economist2012] constantly in between around 40 to 75 tweets. The usage of "greek+crisis" peaked at the date when the agreement was reached (in contrast to 2010 when it dropped around this phase). However, just like in 2010, "bailout+greece" became the most frequently used phrase in all tweets (of our sample) at the time when agreement was reached. After that, twitter users tweeted less about "bailout+greece" and "greek+crisis". However, it took nearly a month for those words being used only ten times a day. Notably, "grexit" which had not been used in 2010 was used frequently in the negotiation phase. 
+
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
 p6
 ```
 
-Extreme points in these charts point to certain events. Also, the emergence of certain hashtags can be observed.
-
-MORE ANALYSIS PLEASE!
+In the 2015 period, "greek crisis" was still amongst the most commonly used words in the corpus of tweets we collected. While at its highest peaks in 2010 and 2012 it was used around 120 times daily, we found around 1500 occurances of "greek+crisis" in one day in the 2015 period. Equally popualar were "#ThisIsACoup" and "Varoufakis", and "Tsipras". The most freqquently used word in the 2015 period was "eurosummit" which was used a lot in the time running up to the summit and during the summit. During the summit, "greek+crisis" also peaked. In the aftermath of the announcement that an agreement had been reached, there is much less tweets. The Hashtag "This is a Coup" emerged on July 14th, peaked in July 15th - equally prominent as "greek+crisis". "Varoufakis" becomes frequently used in tweets in late July, which may have been caused by the release of an interview interview with revelations about a previously secret "plan B". [@nyt2015] "bailout+greece" peaked around the 14th of August, when the Greek parliament approved the third bailout package. Towards the end of the period, "varoufakis" and "tsipras" become frequently used. "varoufakis" has a second peak when he resigns (on August 20th).
 
 
 \newpage
