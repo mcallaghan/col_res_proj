@@ -7,6 +7,42 @@ output: html_document
 
 ```{r warning=FALSE,message=FALSE,cache=TRUE,echo=FALSE}
 
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
 load("data/merged_corpus_europe.rda")
 
 library(knitr)
@@ -29,7 +65,7 @@ spacetime <- function(df,q) {
   return(df)
 }
 
-
+corpus$day <- as.Date(substr(as.character(corpus$date),1,10))
 
 print(unique(merged_corpus_europe$query))
 
@@ -62,21 +98,13 @@ mapPoints <- ggmap(map_eu) +
   geom_jitter()
 mapPoints
 
-by_country_by_year <- merged_corpus_europe %>%
-  group_by(approx_country,period) %>%
-  summarise(
-    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
-    greece+debt = mean(stotal[query=="greece+debt"],na.rm=TRUE),
-    greek+crisis = mean(stotal[query=="greek+crisis"],na.rm=TRUE),
-    eurogroup = mean(stotal[query=="eurogroup"],na.rm=TRUE),
-    bailout+greece = mean(stotal[query=="bailout+greece"],na.rm=TRUE),
-    imf+greece = mean(stotal[query=="imf+greece"],na.rm=TRUE),
-    syriza = mean(stotal[query=="syriza"],na.rm=TRUE),
-    austerity+greece = mean(stotal[query=="austerity+greece"],na.rm=TRUE),
-    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
-    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
-    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE)
-  )
+greek_greece_debt <- merged_corpus_europe %>%
+  filter(query %in% c("greek+debt","greece+debt")) %>%
+  mutate(query="greek_greece_debt") 
+
+greek_greece_debt <- greek_greece_debt[!duplicated(greek_greece_debt$tweet_id),]
+
+merged_corpus_europe <- rbind(merged_corpus_europe,greek_greece_debt)
 
 by_country_by_year <- merged_corpus_europe %>%
   group_by(approx_country,period,query) %>%
@@ -86,10 +114,35 @@ by_country_by_year <- merged_corpus_europe %>%
   mutate(query = gsub("\\+","_",query)) %>%
   spread(query,sentiment)
 
+by_country_by_year_var <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment_variance = var(stotal,na.rm=TRUE)
+  ) %>%
+  mutate(query = gsub("\\+","_",query)) %>%
+  spread(query,sentiment_variance)
+
+total_distribution <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE)
+  ) %>%
+  mutate(query = gsub("\\+","_",query))
+
+place_reg <- lm(sentiment~approx_country,data=total_distribution)
+summary(place_reg)
+
+time_reg <- lm(sentiment~period,data=total_distribution)
+summary(time_reg)
+
+all_reg <- lm(sentiment~approx_country+period,data=total_distribution)
+summary(time_reg)
 
 ```
 
 We compare each tweet with a lexicon of words categorised as expressing positive and negative sentiment. Each tweet gets a score according to how many positive words it has and how many negative.
+
+
 
 ## IMF + GREECE
 
@@ -122,6 +175,14 @@ countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
 countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
 countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
 
+countries.variance <- countries.df %>%
+  left_join(
+    rename(
+      by_country_by_year_var,
+      CNTR_ID = approx_country
+      )
+  ) 
+
 countries.df <- countries.df %>%
   left_join(
     rename(
@@ -130,10 +191,18 @@ countries.df <- countries.df %>%
       )
   ) 
 
-sentiment_map <- function(df,p,q) {
+sentiment_map <- function(df,p,q,v=FALSE) {
+    if(v==FALSE){
+      cscale <- scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2),na.value="grey")
+      label <- "Sentiment"
+    } else {
+      cscale <- scale_fill_gradientn(colours=c("white","green"),limits=c(0,4),na.value="grey")
+      label <- "Sentiment \nVariance"
+    }
   ggplot(filter(df,period==p))+
   aes_string("long","lat",group="group",fill=q) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
+  cscale +
+  #scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
   geom_polygon() +
   #scale_fill_continuous(low="white",high="green",na.value="grey") +
   geom_path(color="grey",size=0.1) +
@@ -147,71 +216,55 @@ sentiment_map <- function(df,p,q) {
   ) +
   xlim(c(-12,35)) +
   ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
+  labs(fill=label,x="",y="") + 
   coord_equal()
 }
 
-sentiment_map(countries.df,"2010","austerity_greece")
-sentiment_map(countries.df,"2012","austerity_greece")
-sentiment_map(countries.df,"2015","austerity_greece")
+sentiment_map(countries.df,"2010","imf_greece")
+sentiment_map(countries.df,"2012","imf_greece")
+sentiment_map(countries.df,"2015","imf_greece")
 
-ggplot(a) +
-  aes(long,lat,group=group,fill=eucrisis) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
+sentiment_map(countries.variance,"2010","imf_greece",v=TRUE)
+sentiment_map(countries.variance,"2012","imf_greece",v=TRUE)
+sentiment_map(countries.variance,"2015","imf_greece",v=TRUE)
 
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p2) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
 
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p3) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
 
+sentiment_map(countries.df,"2010","greek_debt")
+sentiment_map(countries.df,"2012","greek_debt")
+sentiment_map(countries.df,"2015","greek_debt")
+
+sentiment_map(countries.df,"2010","greece_debt")
+sentiment_map(countries.df,"2012","greece_debt")
+sentiment_map(countries.df,"2015","greece_debt")
+
+s <- sentiment_map(countries.df,"2010","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2010","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+s <- sentiment_map(countries.df,"2012","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2012","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+s <- sentiment_map(countries.df,"2015","greek_greece_debt")
+v <- sentiment_map(countries.variance,"2015","greek_greece_debt",v=TRUE)
+multiplot(s,v)
+
+
+
+
+
+multiplot(a,b)
+
+sentiment_map(countries.df,"2010","bailout_greece")
+sentiment_map(countries.df,"2012","bailout_greece")
+sentiment_map(countries.df,"2015","bailout_greece")
+
+sentiment_map(countries.df,"2010","eurogroup")
+sentiment_map(countries.df,"2012","eurogroup")
+sentiment_map(countries.df,"2015","eurogroup")
+
+sentiment_map(countries.variance,"2010","eurogroup",v=TRUE)
+sentiment_map(countries.variance,"2012","eurogroup",v=TRUE)
+sentiment_map(countries.variance,"2015","eurogroup",v=TRUE)
 
 ```
 
@@ -219,78 +272,9 @@ ggplot(countries.df) +
 
 ```{r warning=FALSE,message=FALSE,cache=TRUE,echo=FALSE}
 
-countries.df <- countries.points %>%
-  left_join(countries@data,by="CNTR_ID")
-
-countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
-
-countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
-countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
-
-countries.df <- countries.df %>%
-  left_join(
-    rename(
-      austerity,
-      CNTR_ID = approx_country
-      )
-  )
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p1) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p2) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p3) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
+sentiment_map(countries.df,"2010","austerity_greece")
+sentiment_map(countries.df,"2012","austerity_greece")
+sentiment_map(countries.df,"2015","austerity_greece")
 
 ```
 
@@ -298,77 +282,8 @@ ggplot(countries.df) +
 
 ```{r warning=FALSE,message=FALSE,cache=TRUE,echo=FALSE}
 
-countries.df <- countries.points %>%
-  left_join(countries@data,by="CNTR_ID")
-
-countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
-
-countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
-countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
-
-countries.df <- countries.df %>%
-  left_join(
-    rename(
-      schauble,
-      CNTR_ID = approx_country
-      )
-  )
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p1) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p2) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
-
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p3) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
+sentiment_map(countries.df,"2010","schäuble_greece")
+sentiment_map(countries.df,"2012","schäuble_greece")
+sentiment_map(countries.df,"2015","schäuble_greece")
 
 ```
