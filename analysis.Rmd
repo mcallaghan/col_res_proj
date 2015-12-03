@@ -65,8 +65,26 @@ mapPoints
 by_country_by_year <- merged_corpus_europe %>%
   group_by(approx_country,period) %>%
   summarise(
+    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
+    greece+debt = mean(stotal[query=="greece+debt"],na.rm=TRUE),
+    greek+crisis = mean(stotal[query=="greek+crisis"],na.rm=TRUE),
+    eurogroup = mean(stotal[query=="eurogroup"],na.rm=TRUE),
+    bailout+greece = mean(stotal[query=="bailout+greece"],na.rm=TRUE),
+    imf+greece = mean(stotal[query=="imf+greece"],na.rm=TRUE),
+    syriza = mean(stotal[query=="syriza"],na.rm=TRUE),
+    austerity+greece = mean(stotal[query=="austerity+greece"],na.rm=TRUE),
+    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
+    germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE),
     germany_greece = mean(stotal[query=="germany+greece"],na.rm=TRUE)
   )
+
+by_country_by_year <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE)
+  ) %>%
+  mutate(query = gsub("\\+","_",query)) %>%
+  spread(query,sentiment)
 
 
 ```
@@ -107,13 +125,38 @@ countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
 countries.df <- countries.df %>%
   left_join(
     rename(
-      imf,
+      by_country_by_year,
       CNTR_ID = approx_country
       )
   ) 
 
-ggplot(countries.df) +
-  aes(long,lat,group=group,fill=p1) +
+sentiment_map <- function(df,p,q) {
+  ggplot(filter(df,period==p))+
+  aes_string("long","lat",group="group",fill=q) +
+  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
+  geom_polygon() +
+  #scale_fill_continuous(low="white",high="green",na.value="grey") +
+  geom_path(color="grey",size=0.1) +
+  #theme_bw() +
+  #theme_nothing() +
+  theme(
+    panel.background = element_rect(fill="#84C9F8"),
+    axis.text = element_blank(),
+    line = element_blank(),
+    axis.text = element_blank()
+  ) +
+  xlim(c(-12,35)) +
+  ylim(c(32,72)) +
+  labs(fill="Sentiment",x="",y="") + 
+  coord_equal()
+}
+
+sentiment_map(countries.df,"2010","austerity_greece")
+sentiment_map(countries.df,"2012","austerity_greece")
+sentiment_map(countries.df,"2015","austerity_greece")
+
+ggplot(a) +
+  aes(long,lat,group=group,fill=eucrisis) +
   scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
   geom_polygon() +
   #scale_fill_continuous(low="white",high="green",na.value="grey") +
