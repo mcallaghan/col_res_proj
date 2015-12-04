@@ -225,10 +225,9 @@ ggplot(
 ## Main findings: Sentiment Analysis
 
 
-- differences in variance of sentiment between countries?
--
+- Do we find differences in sentiment and the variance of between countries in different periods?
 
-## Sentiment Analysis
+
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 
