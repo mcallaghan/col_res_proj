@@ -1,0 +1,467 @@
+---
+title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us about
+  Political Deliberation and Opinions in Europe?'
+author: "M. Callaghan and V. Niberg"
+date: "December 11, 2015"
+output:
+  html_document:
+    css: ../../style/style.css
+    fig_caption: yes
+    toc: yes
+  pdf_document:
+    fig_caption: yes
+    highlight: zenburn
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
+documentclass: article
+bibliography:
+- ../../bibliography.bib
+- RpackageCitations4.bib
+---
+
+```{r include=FALSE, echo=FALSE}
+pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap', 'textcat', 'translateR', 'tidyr', 'lfe', 'maptools', 'rgeos', 'nlme')
+
+repmis::LoadandCite(pkgs, file = 'RpackageCitations4.bib')
+
+load('../../data/merged_corpus_europe.rda')
+
+#the following is a code copied from someone else which puts plots into grids
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+  
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+```
+
+\newpage
+
+# Introduction
+Twitter is an online social network that allows users to broadcast short posts known as Tweets. Since its launch in 2006, the platform has increasingly been used for everyday communication as well as for political debates, crisis communication, marketing, and cultural participation [@weller2013]. The public-debt crisis in Europe is widely discussed across Europe and presents an interesting point in time to investigate whether European issues are discussed in a common European public sphere. This project looks at data from the communication platform Twitter. It specifically looks at the reaction in the Twittersphere to the negotiation between the Troika and Greece leading up to the signing of the three memorandums.
+
+# Research Question
+
+The following questions were investigated:
+
+What can twitter tell us about pan-European reactions to the European governance of the public-debt crisis in Greece? 
+ 
+* What can variation across time and space in the volume of Tweets regarding the euro crisis tell us about popular engagement with the issues?
+
+* What can the content of Tweets related to the crisis tell us about the spread of public opinion on the handling of the crisis in Greece between and within countries?
+
+The answer to these questions could potentially add to the literature on the emergence of a European public sphere.
+
+# Literature Review
+
+## On Twitter Research
+
+The body of twitter research has grown steadily in recent years [for a comprehensive analysis and typology of twitter research up to 2013, see @Zimmer2014]. Some of the findings relevant to our research design are discussed below.
+
+Twitter is a source of meaningful information about engagement with and opinions about political topics.
+Twitter is also used as a platform for political deliberation. In a recent study on Tweets mentioning parties or politicians before the 2009 German federal election, Tumasjan et al. found that "Twitter is not just used to spread political opinions, but also to discuss these opinions with other users" [@tumasjan2010, 183]. Furthermore, specific patterns of twitter usage have been identifed that correspond with high-profile political events. Hughes and Palen found that, compared to general Twitter usage, more broadcast-based information sharing activities take place [@Hughes2009, 259] during events. <!--As for a difference in between natural catastrophes and political events, they found that there was less information sharing (measured by instances of URLs) in political conventions than in natural catastrophes [@Hughes2009, 257]. -->
+Moreover, Tumasjan et al. found that it was possible to extact meaningful information about political opinions from both the volumes and the content of these Tweets: "the mere number of Tweets reflects voter preferences and came close to traditional election polls" [@tumasjan2010, 183]. 
+
+
+Twitter gives information on the location of Tweets and users, which must be carefully interpreted. Devin Gaffney points out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1] which must be considered when interepreteing results. <!-- Further research by Gaffney has tested the degree to which geographic, semantic, and social distances impact the frequency of interactions between users [@Number2012]. -->
+
+
+Though the field of Sentiment Analysis (SA) is perhaps most developed in the business world [@Zimmer2014, 250], an increasing body of literature has developed, focused on retrieving information about political opinions from the Twittersphere. Though Tumasjan's results have come under scrutiny [see @jungherr2012pirate], the authors found that "the sentiment of Twiter messages closely corresponded to political programs, candidate profiles, and evidence from the media coverage of the campaign trail" [@tumasjan2010, 183].
+<!--Sentiment analysis of
+Tweets was also a particularly prominent analysis type, with 16 percent of studies (conducted between 2007-2012)
+relying on some form of classification or analysis of affect within Tweets [@Zimmer2014, 253]-->
+
+
+Grimmer provides an overview of recent developments in SA in political science, noting how "automated content methods can make possible the previously impossible in political science: the systematic analysis of large-scale text collections without massive funding support" [@grimmer2013, 2]. He advises caution, however, about the utility of SA in predictive models: "The goal of building text models is therefore different than model building to make causal inferences. [...] Emphasis in evaluations should be placed on helping researchers to assign documents into predetermined categories, discover new and useful categorizytion schemes for texts, or in measuring theoretically relevant quantities from large collections of text." [@grimmer2013, 4].
+
+<!--"For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6].-->
+
+Due to the enourmous amount of text available, Pak and Paroubek identify that "microblogging web-sites are rich sources of data for opinion mining and sentiment analysis" [@Pak2010, 1320]. The multilingual nature of Tweets across Europe presents some difficulties,  but is the subject of a growing body of research: "Noisy social media, such as Twitter, are especially interesting for sentiment analysis (SA) [...] given the amount of data and their popularity in different countries, where
+users simultaneously publish opinions about the
+same topic in different languages" [@vilares2015, 2]. Balahur and Turchi are confident about the ability of Statistical Machine Translation (SMT) to provide a basis for consistently applied SA across languages [@balahur2012, 58]. Other approaches include using emoticons to train models that assign sentiment to a multilingual text corpus [@narr2012language].
+
+Finally, some studies discuss ethical aspects of twitter research. For example, concerns about creating a permanent archive of Tweets have been voiced. These concerns included whether "such archive was aligned with users’ privacy expectations" [@Zimmer2014, 258; @Zimmer2010].
+
+## On Awareness and Public Opinion across Europe on the Governance of the Public-Debt Crisis in Greece
+
+Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. Hitherto, however, research has been characterized as rather normative, as the "research community has been [...] interested in producing policy recommendations for public sphere-building" [@Trenz2015, 234]. Recent studies, on the other hand, seem to put emphasis on an empirical grounding of the debate [@Trenz2015; @Drewski2015]. This development is being mirrored in research on the public debate across Europe on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened during the euro crisis” [@risse2014, 1213]. When testing this hypothesis empirically, though, by looking at newspaper editorials in Spain and Germany, Drewski found that there were significant differences  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis [@Drewski2015, 5].
+
+Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, Tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
+
+![Tweet volumes by country on 12-13 July 2015 in European countries [source @LSEtwitter]](../../img/Greece-twitter-1.jpg)
+
+
+They further looked at instances of Tweets containing #ThisIsACoup, representing a particular opinion on the agreement. They then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
+
+![Number of Tweets containing the #thisisacoup hashtag on 12-13 July 2015 [source @LSEtwitter]](../../img/Greece-twitter-2.png)
+
+# Data Sources
+
+<!--This decrease in the research output and size of datasets analyzed is possibly
+related to changes Twitter made to its API and terms of service in early 2011
+(Melanson, 2011; Ramji, 2011) that limited researchers’ access to Twitter data and
+effectively shut down popular services used by researchers to track and archive
+Twitter activity, such as TwapperKeeper and 140kit (Watters, 2011; Sample, 2011). [@Zimmer2014, 257] -->
+
+For our investigation in the European public discourse on the Euro crisis, two datasets were required. The first was the corpus of Tweets relating to the Greek debt crisis and the measures taken to manage the crisis by European institutions. The second was information about the users whose Tweets form the body of that corpus.
+
+Zimmer and Proferes identify the Library of Congress' decision to place every Tweet since Twitter's inception in 2006 into an archive as validating "the research importance of twitter" [@Zimmer2014, 251]. Despite this announcement occuring in 2010, five years later, the archive is still not open to researchers [@politico]. Since late 2014, the whole corpus of twitter data has been searchable online [@wired_twitter]. Programmatic access to this archive is, however, more restricted. Twitter's public search API "is not complete index of all Tweets, but instead an index of recent Tweets. At the moment that index includes between 6-9 days of Tweets." [@twitter_search]. Twitter sells access to historical Tweets through an API provided by its "enterprise API platform" GNIP [@twitter_full_archive]. This paper adapts a publicly available program written in Java which scrapes results from Twitter's online search page [@GetOldTweets]. 
+
+## Data Gathering 
+
+Due to the large amount of data we process, we ran the data gathering and cleaning in the background on a server using the prefix setsid.
+
+### Tweets
+We used a modified version of GetOldTweets [@GetOldTweets], a Java program that scrapes data from twitter search. The file getting_tweets/input.txt contains a list of search terms related to the Greek crisis in three periods, each comprising some weeks before and after the negotiation and signing of the memoranda. The search terms were collected using an adapted form of snowball sampling [@snowball], searching an initial list and recursively adding related terms found in the results. By running 
+```
+sudo setsid ./compile_run.sh ../getting_tweets/input.txt
+```
+from the GetOldTweets folder, we ran through each search term and each period, searched twitter, and saved the results as a txt file in the data folder. After an initial assessment of the results, we refined our search terms and ran GetOldTweets again with /getting_tweets/input2.txt. A third file (getting_tweets/input3.txt) aims to return a time-inpedependent list of tweets in order to control for the growth of Twitter over time.
+
+We end up with a long list of files in the data/GOToutput folder, which in the data cleaning process will be merged into one corpus file.
+
+### Users
+We found the unique users in our corpus of tweets and used the TwitteR package [@R-twitteR] to gather richer data about each user. TwitteR uses the twitter API and gives the opportunity to collect all information twitter has abou the user. Where a users's last tweet was geocoded, we took the latitude and longtitude. We end up with the file data/user_info.csv
+
+Many users do not geotag their tweets, instead stating their location, and we used APIs from MapQuest and Google to geocode user-reported location, giving us the file places.csv.
+
+## Merging & Cleaning  
+The txt files containing the tweets for each query and period are merged into a corpus file. This corpus file was merged with the user_info file, which in turn was merged with the places file. We end up with a large file containing tweets for our queries in each period with elaborete user information.
+
+Some of the queries we defined returned irrelevant data, due to their ambiguity. We identified these by selecting random tweets from the search queries, reading the tweets, and checking for relevance to the topic. For example, the query "bailout", although certainly relevant for our topic, was insufficiently precise and returned a lot of data about the banking bailouts, especially in the 2010 period. The following list summarizes the queries which we excluded.
+
+* athens
+* bailout
+* 2-pac
+* 3-pac
+
+## Translation
+
+In a next step we identified the language of every tweet [@R-textcat] and translated those tweets written in European languages other than English into English [@R-translateR]. Danish and Romanian were excluded from the list because these languages were not adequately identified by the program.
+
+## Final Dataset
+
+A dataframe 'merged_corpus' containing all of the above information was pulled together. We filtered all tweets from Europe. 
+
+# Methodology
+
+Volumes of topic-relevant Tweets were mapped across space and time, to analyse the distribution of topic-awareness and its relation to political developments in responses to the crisis. The distribution of hashtags that clearly represent an opinion on the response to the crisis (e.g. '#ThisIsaCoup', '#ThisIsNotaCoup' *inter alia*) were similarly mapped in order to approximate the distribution of opinion within and between countries over time. The paper attempts a sentiment analysis of Tweets expressing opinions about the agreed bailout deals using machine translation to translate all texts into English before performing sentiment analysis. Analysis was then carried out using unigrams to indicate polarity through comparison with a lexicon. Following Grimmer, we assumed "documents are a *bag of words*, where order does not inform our analyses" as "In practice, for common tasks like measuring sentiment, topic modeling, or search, *n-grams* (combinations of words rather than individual words) do little to enhance performance" [@grimmer2013, 6]. 
+
+Based on the results of sentiment analysis carried out and analysis of volumes of tweets and users using opinion-signifying keywords, the paper gives an indication of the scale of dialogue, consensus and disagreement across and within countries in the European Twittersphere.
+
+<!--- The twittersphere's validity in representing political opinion will be tested by comparing volumes of Tweets containing the hashtags '#ναί' and '#όχι' with the results of the referendum. -->
+
+# Analysis
+
+## Descriptive Statistics
+
+The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
+
+```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+minicorpus <- merged_corpus_europe[sample(nrow(merged_corpus_europe), 200), ]
+
+text_corpus <- Corpus(VectorSource(minicorpus$text))
+
+#clean up
+text_corpus <- tm_map(text_corpus,
+                              content_transformer(function(x) iconv(x, to='UTF-8', sub='byte')),
+                              mc.cores=1
+)
+text_corpus <- tm_map(text_corpus, content_transformer(tolower), mc.cores=1)
+text_corpus <- tm_map(text_corpus, removePunctuation, mc.cores=1)
+text_corpus <- tm_map(text_corpus, function(x)removeWords(x,stopwords()), mc.cores=1)
+wordcloud(text_corpus)
+```
+
+The following tables describe variation over space and time of the entire population of tweets. 
+
+### Variation Across Space
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_country <- merged_corpus_europe %>%
+  group_by(approx_country) %>%
+  summarise(
+    n = length(approx_country)
+  ) %>%
+  filter(n > 1000)
+
+ggplot(
+  by_country,
+  aes(approx_country,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Countries')
+
+
+```
+This bar chart shows the distribution of all tweets over countries filtering those with a significant amount of tweets. This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+
+### Variation Across Time
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_period <- merged_corpus_europe %>%
+  group_by(period) %>%
+  summarise(
+    n = length(period)
+  )
+
+ggplot(
+  by_period,
+  aes(period,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
+
+The results show that twitter coverage of the Greek bailouts has increased heavily over time. When looking at the development of different queries over time, an increase was found for all queries except for for imf+greece, which decreased in 2012 and increased in 2015 again. Since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. Further, some of our queries only became topical in the later periods or even the last periods. 
+
+### Variation Across Space and Time
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+
+by_period_country <- merged_corpus_europe %>%
+  group_by(period, approx_country) %>%
+  summarise(
+    n = length(period)
+  ) %>%
+  filter(n > 1000)
+
+ggplot(
+  by_period_country, 
+  aes(approx_country,n, fill=period)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
+
+## Queries
+
+The following table summarizes the collected data by queries. It shows absolute numbers and relative distributions of specific query returns.  
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6}
+
+sum_q_table <- merged_corpus_europe %>%
+  filter(query != 'timeless') %>%
+  group_by(query) %>%
+  summarise(
+    n = length(query),
+    percent = n/length(merged_corpus_europe$tweet_id)*100
+  )
+
+knitr::kable(sum_q_table, digits = 2)
+
+```
+
+The results that our queries returned differ substanially in size. While some queries (e.g. greek+crisis) return over 16000 tweets, others (e.g. economic+adjustment, rescue+packages) return only around 30 tweets in the specified time periods. We therefore think it is for analytical reasons useful to differentiate between high-return and low-return queries. The following charts report the developments over time for the high return rates as this group creates more intelligle results. 
+
+```{r warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+
+merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+
+corpus_index <- merged_corpus_europe %>%
+   group_by(query) %>%
+   summarise(total = length(query))
+ 
+corpus_index_large <- filter(corpus_index,total>4000)
+corpus_index_small <- filter(corpus_index,total<4000)
+ 
+ corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
+
+
+timegraph <- function(corpus,p) {
+  corpus_daily <- corpus %>%
+    filter(period==p) %>%
+  group_by(day,query,period) %>%
+  summarise(
+    n = length(day)
+  )
+  
+ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
+  labs(
+    x = "Time",
+    y = "Frequency"
+  )
+}
+
+#p1 <- timegraph(corpus_small,"2010") +
+#ggtitle("Less frequently used words, 2010")
+#p2 <- timegraph(corpus_small,"2012") +
+#ggtitle("Less frequently used words, 2012")
+#p3 <- timegraph(corpus_small,"2015") +
+#ggtitle("Less frequently used words, 2015")
+#multiplot(p1, p2, p3, cols = 3)
+p4 <- timegraph(corpus_large,"2010") +
+ggtitle("More frequently used words, 2010")
+p5 <- timegraph(corpus_large,"2012") +
+ggtitle("More frequently used words, 2012")
+p6 <- timegraph(corpus_large,"2015") +
+ggtitle("More frequently used words, 2015")
+#multiplot(p4, p5, p6, cols = 3)
+
+
+```
+
+ 
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p4
+```
+
+n the 2010 period, "greek+crisis" and "bailout+greece" are the most frequently used query. "Bailout" usage in tweets peaks around April 23rd when Greek prime minister Papandreo formally requested an international bailout for Greece. In the following day, "greek+crisis" is used at its highest level, with nearly 125 occurances on April 28th. However, the use of "greek+crisis" in tweets dropped dramatically for a short period of around 6 days, before it peaked again, however somewhat less pronounced. The drop in usage of "greek+crisis" was accompanied by an increase in usage of "greek+bailout", which peaked around May 2nd before it subsided. On May 2nd, the agreement on the First bailout package was reached [@reuter2010]. During this short phase, "greek+bailout" was the most prominently used word combination (from our sample). Only after "greeck+crisis" became most frequently used words. 
+
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p5
+```
+
+In the 2012 period, there was a discourse on the greek crisis weeks before the agreement. "greek+crisis" was used from the beginning of February until February 21st when the agreement between the Greek government and the Troika was reached [@economist2012] constantly in between around 40 to 75 tweets. The usage of "greek+crisis" peaked at the date when the agreement was reached (in contrast to 2010 when it dropped around this phase). However, just like in 2010, "bailout+greece" became the most frequently used phrase in all tweets (of our sample) at the time when agreement was reached. After that, twitter users tweeted less about "bailout+greece" and "greek+crisis". However, it took nearly a month for those words being used only ten times a day. Notably, "grexit" which had not been used in 2010 was used frequently in the negotiation phase. 
+
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+p6
+```
+
+In the 2015 period, "greek crisis" was still amongst the most commonly used words in the corpus of tweets we collected. While at its highest peaks in 2010 and 2012 it was used around 120 times daily, we found around 1500 occurances of "greek+crisis" in one day in the 2015 period. Equally popualar were "#ThisIsACoup" and "Varoufakis", and "Tsipras". The most freqquently used word in the 2015 period was "eurosummit" which was used a lot in the time running up to the summit and during the summit. During the summit, "greek+crisis" also peaked. In the aftermath of the announcement that an agreement had been reached, there is much less tweets. The Hashtag "This is a Coup" emerged on July 14th, peaked in July 15th - equally prominent as "greek+crisis". "Varoufakis" becomes frequently used in tweets in late July, which may have been caused by the release of an interview interview with revelations about a previously secret "plan B". [@nyt2015] "bailout+greece" peaked around the 14th of August, when the Greek parliament approved the third bailout package. Towards the end of the period, "varoufakis" and "tsipras" become frequently used. "varoufakis" has a second peak when he resigns (on August 20th).
+
+
+\newpage
+
+
+
+
+## Inferential Statistics: Sentiment Analysis
+
+For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. We calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
+
+We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
+
+However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
+
+```{r include=FALSE, eval=FALSE}
+by_country_by_year <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE)
+  ) %>%
+  mutate(query = gsub("\\+","_",query)) %>%
+  spread(query,sentiment)
+
+
+countries <- readShapeSpatial("../../data/geographic_data/CNTR_2014_60M_SH/Data/CNTR_RG_60M_2014.shp")
+
+#countries@data$id <- countries@data$CNTR_ID
+countries.points <- fortify(countries)
+countries.points <- left_join(
+  countries.points,
+  data.frame(
+    id = unique(countries.points$id),
+    CNTR_ID = unique(countries@data$CNTR_ID)
+  )
+)
+countries.df <- countries.points %>%
+  left_join(countries@data,by="CNTR_ID")
+
+countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
+
+countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
+countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
+
+countries.df <- countries.df %>%
+  left_join(
+    rename(
+      by_country_by_year,
+      CNTR_ID = approx_country
+      )
+  ) 
+
+sentiment_map <- function(df,p,q) {
+  ggplot(filter(df,period==p))+
+  aes_string("long","lat",group="group",fill=q) +
+  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
+  geom_polygon() +
+  #scale_fill_continuous(low="white",high="green",na.value="grey") +
+  geom_path(color="grey",size=0.1) +
+  #theme_bw() +
+  #theme_nothing() +
+  theme(
+    panel.background = element_rect(fill="#84C9F8"),
+    axis.text = element_blank(),
+    line = element_blank(),
+    axis.text = element_blank()
+  ) +
+  xlim(c(-12,35)) +
+  ylim(c(32,72)) +
+  labs(fill="Sentiment",x="",y="") + 
+  coord_equal()
+}
+
+sentiment_map(countries.df,"2010","austerity_greece")
+sentiment_map(countries.df,"2012","austerity_greece")
+sentiment_map(countries.df,"2015","austerity_greece")
+
+```
+
+
+
+We conclude from this that our current sentiment analysis does not return reasonable results. We will in the next stage of the project try to create a model that returns more accurate results. 
+
+\newpage
+
+# Caveats
+
+- Location
+- translation: danish, romanian, 
+- "normalizaion" of values not conducted for some, because of huge data amounts
+- SA: caution, however, about the utility of SA in predictive models [@grimmer2013, 4]. "For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6]
+- research design: case selection ambigious - for research on a common european sphere, choosing a case that by definition devides along national lines
+
+# Conclusions
+
+<!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
+
+
+# References
+
+```{r include=FALSE}
+pkgs <- c('twitteR')
+repmis::LoadandCite(pkgs, file = 'RpackageCitations.bib')
+```

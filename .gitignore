@@ -15,3 +15,5 @@ define_keys.R
 col_res_proj.Rproj
 >>>>>>> 0930d688f1a2f55a64f2da122fd95fa29ff54734
 .httr-oauth
+assignment3_files/
+assignment3_cache/
