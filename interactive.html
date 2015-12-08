@@ -9,22 +9,46 @@
 <title>
 	The European Hyperagora
 </title>
-Hello World
-
+<h1>A European Hyperagora</h1>
+<h4>
+  Average by country <span id="variableDisplay"></span> in
+<span id="yearDisplay">2015</span>
+  for tweets containing the query
+"<span id="queryDisplay">greece_crisis</span>"
+</h4>
 <div id="map">
 
 </div>
 
-<input id="yearSelect" type="range" min=0 max=2 step=1 onchange=changeYear(this.value)>
-<div id="yearDisplay"></div>
+<input id="yearSelector" type="range" min=0 max=2 step=1 onchange="changeYear(this.value)">
+<select id="querySelector" onchange="changeQuery(this.value)"></select>
+<select id="variableSelector" onchange="changeVariable(this.value)">
+  <option value="sentiment">Sentiment</option>
+  <option value="sentiment_variance">Variance</option>
+</select>
 
 <script type="text/javascript">
 d3.json("map/map_data.JSON", function(error, data) {
   srcdata = data
   drawgraph(srcdata,"2010","greece_crisis")
-  console.log("draw queries")
-  var queries = unique(srcdata.map(function(d){return d.query}))
-  console.log("draw queries")
+  console.log(data)
+  //console.log("draw queries")
+  //var queries = unique(srcdata.map(function(d){return d.query}))
+  //console.log("draw queries")
+
+  d3.select("#querySelector").selectAll("option")
+    .data(d3.map(srcdata, function(d){return d.query;}).keys())
+    .enter()
+    .append("option")
+    .text(function(d){return d;})
+    .attr("value",function(d){return d;});
+
+  document.getElementById("queryDisplay").innerHTML = "greece_crisis"
+  document.getElementById("querySelector").value = "greece_crisis"
+  document.getElementById("yearDisplay").innerHTML = "2015"
+  document.getElementById("yearSelector").value = 3
+  document.getElementById("variableDisplay").innerHTML = "sentiment"
+  document.getElementById("variableSelector").value = "sentiment"
 
 })
 
@@ -41,11 +65,29 @@ function changeYear(year) {
   console.log(year)
   var year = years[year]
   document.getElementById("yearDisplay").innerHTML = year
-  drawgraph(srcdata,year,"greece_crisis")
+  var query = document.getElementById("queryDisplay").innerHTML
+  var v = document.getElementById("variableDisplay").innerHTML
+  drawgraph(srcdata,year,query,v)
 }
 
-function drawgraph(srcdata,p,q) {
+function changeQuery(q) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var v = document.getElementById("variableDisplay").innerHTML
+  document.getElementById("queryDisplay").innerHTML = q
+  drawgraph(srcdata,year,q,v)
+}
 
+function changeVariable(v) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var q = document.getElementById("queryDisplay").innerHTML
+  document.getElementById("variableDisplay").innerHTML = v
+  drawgraph(srcdata,year,q,v)
+}
+
+
+function drawgraph(srcdata,p,q,variable) {
+
+console.log(variable)
 	d3.selectAll("svg").remove();
 
   w = 800;
@@ -53,8 +95,8 @@ function drawgraph(srcdata,p,q) {
 
   projection = d3.geo.mercator()
   	.translate([w/2, h/2])
-  	.center([0,30])
-  	.scale(130);
+  	.center([0,55])
+  	.scale(400);
 
   path = d3.geo.path()
   	.projection(projection);
@@ -91,23 +133,24 @@ function drawgraph(srcdata,p,q) {
           var data_id = convert_codes("ISO_ALPHA_2", data[j].approx_country, "ISO_NUM")
           //console.log(data_id)
           if (countries[i].id == data_id) {
+            if(variable=="sentiment") {
+              countries[i].value = parseFloat(data[j].sentiment)
+            } else {
+              countries[i].value = parseFloat(data[j].sentiment_variance)
+            }
             countries[i].sentiment = parseFloat(data[j].sentiment)
             countries[i].sentiment_variance = parseFloat(data[j].sentiment_variance)
           }
         }
       }
-      var max = d3.max(data, function(d) { return d.sentiment })
-      console.log(max)
       //console.log(countries)
       //console.log(data)
       colorscale = d3.scale.linear()
         .domain([-2,0,2])
-        .range(["red","white", "green"]);
-      draw()
-      key(max)
+        .range(["#f46d43","#ffffbf", "#74add1"]);
+      draw(variable)
+      key(variable)
       //table(data)
-      console.log(countries)
-      console.log(colorscale(1))
     })
   })
 
@@ -118,18 +161,18 @@ function drawgraph(srcdata,p,q) {
 
 
 
-function key(max) {
-	var key_parts = 10
+function key(variable) {
+	var key_parts = 5
 	for (i = 0; i < key_parts; i++) {
 		mapsvg.append("rect")
+    //var z = i - 2
 			.style("fill", function() {
-				var z = max / (key_parts-1)
-				var y = z * i
-				if (y == 0) {
-					return "rgb(255, 179, 179)";
-				} else {
-					return colorscale(y)
-				}
+        if (variable=="sentiment") {
+          var z = i - 2
+        } else {
+          var z = i
+        }
+				return colorscale(z)
 			})
 			.attr("height", "10px")
 			.attr("width", "35px")
@@ -144,18 +187,17 @@ function key(max) {
 			.attr("x", w*0.05 + 35*i + 18)
 			.attr("y", h*0.9 + 25)
 			.text(function() {
-				var x = (max/(key_parts-1))*i
-				if (max < 5) {
-					x = x.toFixed(1)
-				} else {
-					x = parseInt(x)
-				}
-				return x;
+        if (variable=="sentiment") {
+          var z = i - 2
+        } else {
+          var z = i
+        }
+				return z;
 			})
 	}
 }
 
-function draw() {
+function draw(variable) {
 
 	g.selectAll("path")
 		.data(countries.filter(function(d) {
@@ -172,14 +214,19 @@ function draw() {
 		.style("stroke-width", 0.2)
 		.style("fill", function(d) {
 			if (d.sentiment) {
-				return colorscale(d.sentiment);
+				return colorscale(d.value);
 			} else {
-				return "#D3D3D3"
+				return "rgb(245,245,245)"
 			}
 		})
 		.on("mouseover", function(d) {
 			if (d.name) {
-				var message = d.name + "<br>" + d.sentiment
+        if(d.value) {
+          var value = d.value.toFixed(2);
+        } else {
+          var value = "no data"
+        }
+				var message = d.name + "<br>" + variable + " = " + value
 				d3.select(this).transition().duration(300).style("opacity", 0.6);
     				div.transition().duration(300)
     					.style("opacity", 1)
