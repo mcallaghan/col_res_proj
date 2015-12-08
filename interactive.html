@@ -30,7 +30,7 @@
 <script type="text/javascript">
 d3.json("map/map_data.JSON", function(error, data) {
   srcdata = data
-  drawgraph(srcdata,"2010","greece_crisis")
+  drawgraph(srcdata,"2015","greece_crisis","sentiment")
   console.log(data)
   //console.log("draw queries")
   //var queries = unique(srcdata.map(function(d){return d.query}))
@@ -226,7 +226,11 @@ function draw(variable) {
         } else {
           var value = "no data"
         }
-				var message = d.name + "<br>" + variable + " = " + value
+        console.log(variable)
+        if(variable=="sentiment_variance") {
+          var v = "sentiment variance";
+        }
+				var message = d.name + "<br>" + v + " = " + value
 				d3.select(this).transition().duration(300).style("opacity", 0.6);
     				div.transition().duration(300)
     					.style("opacity", 1)
