@@ -1,6 +1,7 @@
 places <- read.csv("data/places.csv")
 
 source("getting_tweets/processing_functions.R")
+source("getting_tweets/define_keys.R")
 
 error_places <- places[grep("You have exceeded the number", as.character(places$approx_country)),]
 
