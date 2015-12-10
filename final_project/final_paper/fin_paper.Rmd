@@ -315,24 +315,6 @@ In the 2015 period, "greek crisis" was still amongst the most commonly used word
 
 We summarised sentiment over time and across countries. Figures 10-12 show total sentiment scores (across all queries) and sentiment variance for all of the European countries in our dataset in each of the three time periods. We can visually identify variation in the overall score and in the variance between countries and across the three time periods.
 
-To test whether the spatio-temporal distribution of sentiment in tweets is significant, we regress sentiment score on country and time dummies.
-
-```{r include=FALSE}
-
-reg <- lm(stotal~approx_country+period,data=merged_corpus_europe)
-lmp <- function (modelobject) {
-	if (class(modelobject) != "lm") stop("Not an object of class 'lm' ")
-	f <- summary(modelobject)$fstatistic
-	p <- pf(f[1],f[2],f[3],lower.tail=F)
-	attributes(p) <- NULL
-	return(p)
-}
-Fstat <- lmp(reg)
-
-```
-
-An F-test on the joint significance of country and time finds that we can reject at the 1% significance level (p = `r round(Fstat,4)`) the null hypothesis that time-period and country have no effect on sentiment. Interpreting the variation between countries and time periods at this aggregated level, as it is hard to make assumptions about how positive or negative sentiment expressed in tweets relates to opinions about political events or persons.
-
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
 
 greek_greece_debt <- merged_corpus_europe %>%
@@ -367,31 +349,6 @@ countries.df <- prepare_sentiment_map_data()
 
 ```
 
-We focus in this paper on some specific search queries, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate any queries during any of the periods.
-
-```{r}
-merged_corpus_daily <- merged_corpus_europe %>%
-  group_by(day,period,approx_country) %>%
-  summarise(
-    sentiment = mean(stotal,na.rm=TRUE),
-    sentiment_variance = var(stotal,na.rm=TRUE),
-    tweet_count = length(stotal)
-  )
-
-sentiment_time(merged_corpus_daily,"2015","memorandum_greece",clist=c("GR","DE"))
-
-```
-
-
-Here we can see differences between these countries in this period. For a more detailed picture, we show daily averages and variance for two countries.
-
-The two lines tend to follow each other. This may suggest that twitter users in both countries both respond to the evolution of events in the news cycle. We can identify correspondences between particular peaks and troughs and actual events. e.g. Further to the finding by [@LSEtwitter] that tweet volumes respond to political events, we find evidence to suggest that the sentiment of those tweets' content also responds to political events.
-
-Despite this, the countries' lines do sometimes diverge. This is particularly apparent here. This shows a difference in the average sentiment between the two countries at the same point in time. To establish that this difference is not due to random noise, we once again regress total sentiment score on country and time dummies, this time limiting the analysis to the two countries in question and to the selected query.
-
-We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
-
-
 ```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores and variance across all search queries (2010)"}
 
 s <- sentiment_map(countries.df,"2010")
@@ -414,6 +371,63 @@ v <- sentiment_map(countries.df,"2015",v="sentiment_variance")
 
 multiplot(s,v,cols=2)
 ```
+
+To test whether the spatio-temporal distribution of sentiment in tweets is significant, we regress sentiment score on country and time dummies.
+
+```{r include=FALSE}
+
+reg <- lm(stotal~approx_country+period,data=merged_corpus_europe)
+lmp <- function (modelobject) {
+	if (class(modelobject) != "lm") stop("Not an object of class 'lm' ")
+	f <- summary(modelobject)$fstatistic
+	p <- pf(f[1],f[2],f[3],lower.tail=F)
+	attributes(p) <- NULL
+	return(p)
+}
+Fstat <- lmp(reg)
+
+```
+
+An F-test on the joint significance of country and time finds that we can reject at the 1% significance level (p = `r round(Fstat,4)`) the null hypothesis that time-period and country have no effect on sentiment. Interpreting the variation between countries and time periods at this aggregated level, as it is hard to make assumptions about how positive or negative sentiment expressed in tweets relates to opinions about political events or persons.
+
+
+
+We focus in this paper on some specific search queries, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate any queries during any of the periods.
+
+```{r include=FALSE}
+merged_corpus_daily <- merged_corpus_europe %>%
+  group_by(day,period,approx_country,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  ) %>%
+  mutate(query = gsub("\\+","_",query))
+
+merged_corpus_daily_total <- merged_corpus_europe %>%
+  group_by(day,period,approx_country) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  ) 
+```
+
+```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores (line) and variance (band) for all queries in 2015"}
+sentiment_time(merged_corpus_daily_total,"2015",clist=c("GR","DE"))
+```
+
+
+Here we can see differences between these countries in this period. For a more detailed picture, we show daily averages and variance for two countries.
+
+The two lines tend to follow each other. This may suggest that twitter users in both countries both respond to the evolution of events in the news cycle. We can identify correspondences between particular peaks and troughs and actual events. e.g. Further to the finding by [@LSEtwitter] that tweet volumes respond to political events, we find evidence to suggest that the sentiment of those tweets' content also responds to political events.
+
+Despite this, the countries' lines do sometimes diverge. This is particularly apparent here. This shows a difference in the average sentiment between the two countries at the same point in time. To establish that this difference is not due to random noise, we once again regress total sentiment score on country and time dummies, this time limiting the analysis to the two countries in question and to the selected query.
+
+We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
+
+
+
 
 However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
 
