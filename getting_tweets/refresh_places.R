@@ -5,9 +5,11 @@ source("getting_tweets/define_keys.R")
 
 error_places <- places[grep("You have exceeded the number", as.character(places$approx_country)),]
 
-r_error_places <- rplaces <- places[sample(nrow(places), 2500), ]
+#error_places <- places[grep("Error", as.character(places$approx_country)),]
 
-old_places <- places[!(places$X %in% r_error_places$X),] 
+r_error_places <- error_places[sample(nrow(error_places), 2500), ]
+
+old_places <- places[!(places$location %in% r_error_places$location),] 
 
 new_places <- geocode_corpus(r_error_places,NULL,"google")
 

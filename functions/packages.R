@@ -17,6 +17,8 @@ pkgs <- c('twitteR',
           'nlme',
           'knitr')
 
-getwd()
+wd <- getwd()
 
-#repmis::LoadandCite(pkgs, file = 'bib/Rpackagecitations.bib')
+bibfile <- paste0(strsplit(wd,"col_res_proj")[[1]][1],"col_res_proj/bib/Rpackagecitations.bib")
+
+repmis::LoadandCite(pkgs, file = bibfile)

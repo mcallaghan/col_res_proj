@@ -296,8 +296,8 @@ countries.df <- countries.df %>%
       )
   ) 
 
-sentiment_map <- function(df,p,q,v=FALSE) {
-    if(v==FALSE){
+sentiment_map <- function(df,p,q,v="sentiment") {
+    if(v=="sentiment"){
       cscale <- scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2),na.value="grey")
       label <- "Sentiment"
     } else {
@@ -305,7 +305,7 @@ sentiment_map <- function(df,p,q,v=FALSE) {
       label <- "Sentiment \nVariance"
     }
   ggplot(filter(df,period==p))+
-  aes_string("long","lat",group="group",fill=q) +
+  aes_string("long","lat",group="group",fill="sentiment") +
   cscale +
   geom_polygon() +
   geom_path(color="grey",size=0.1) +
