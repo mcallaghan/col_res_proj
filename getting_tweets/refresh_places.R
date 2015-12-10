@@ -1,4 +1,5 @@
-places <- read.csv("data/places.csv")
+#places <- read.csv("data/places.csv")
+load("data/places.rda")
 
 source("getting_tweets/processing_functions.R")
 source("getting_tweets/define_keys.R")
@@ -15,7 +16,9 @@ new_places <- geocode_corpus(r_error_places,NULL,"google")
 
 places <- rbind(old_places,new_places)
 
-write.csv(places,"data/places.csv", row.names=FALSE)
+#write.csv(places,"data/places.csv", row.names=FALSE)
+
+save(places,file="data/places.rda")
 
 #new_places <- 
 
