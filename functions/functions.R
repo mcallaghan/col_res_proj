@@ -112,3 +112,27 @@ prepare_sentiment_map_data <- function() {
   countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
   return(countries.df)
 }
+
+sentiment_time <- function(df,p,q=NULL,clist=NULL) {
+  df <- filter(df,period==p)
+  if(!is.null(q)) {
+    df <- filter(df,query==q)
+  }
+  if(!is.null(clist)){
+    df <- filter(df,approx_country %in% clist)
+  }
+  ggplot(df) + 
+    geom_line(aes(day,sentiment,colour=approx_country)) +
+    geom_ribbon(aes(
+      day,
+      ymin=sentiment-(sqrt(sentiment_variance)/2),
+      ymax=sentiment+(sqrt(sentiment_variance)/2),
+      fill=approx_country),alpha=0.2) +
+    labs(
+      x = "Time",
+      y = "Sentiment",
+      legend = "Country",
+      colour = "Country",
+      fill = "Country"
+    )
+}

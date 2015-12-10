@@ -384,15 +384,16 @@ lmp <- function (modelobject) {
 	attributes(p) <- NULL
 	return(p)
 }
+
 Fstat <- lmp(reg)
 
 ```
 
-An F-test on the joint significance of country and time finds that we can reject at the 1% significance level (p = `r round(Fstat,4)`) the null hypothesis that time-period and country have no effect on sentiment. Interpreting the variation between countries and time periods at this aggregated level, as it is hard to make assumptions about how positive or negative sentiment expressed in tweets relates to opinions about political events or persons.
+An F-test on the joint significance of country and time finds that we can reject at the 1% significance level (p = `r round(Fstat,4)`) the null hypothesis that time-period and country have no effect on sentiment. 
 
+We focus our analysis in this paper on the whole corpus, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate specific queries during any of the periods.
 
-
-We focus in this paper on some specific search queries, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate any queries during any of the periods.
+To focus our analysis, we zoom in to a single time period (2015), and to two countries where we expect sentiment to diverge: Greece and Germany. Figure 13 plots shows daily sentiment averages, surrounded by a band the width of the square root of the variance. A first observation is that the paths of the lines are remarkably similar. Following on from this, we can see how sentiment in both countries reacts to actual political events. On the 13th of July, Greece and its creditors struck a deal to agree on terms for bailout funds in exchange for stringent cuts and reforms. [@LSEtwitter] identify the emergence of the "#thisisacoup" hashtag on the 13th. We can observe a clear drop in sentiment over the next two days in both countries. On the 14th of August the Greek parliament approved the package of reforms that formed part of the bailout deal. This time we see a spike in sentiment, once again in both countries, but more pronounced in Germany. Indeed, where each countries lines diverge, it is most often Greece which displays less positive sentiment 
 
 ```{r include=FALSE}
 merged_corpus_daily <- merged_corpus_europe %>%
@@ -417,10 +418,22 @@ merged_corpus_daily_total <- merged_corpus_europe %>%
 sentiment_time(merged_corpus_daily_total,"2015",clist=c("GR","DE"))
 ```
 
+We once again regress sentiment on country and time, this time limiting out results to 2015 period and the two countries here.
 
-Here we can see differences between these countries in this period. For a more detailed picture, we show daily averages and variance for two countries.
+```{r echo=FALSE,warning=FALSE,message=FALSE,results='asis'}
+merged_corpus_grde_2015 <- merged_corpus_europe %>%
+  filter(approx_country %in% c("DE","GR") & period=="2015")
+gr_de_reg <- lm(stotal~approx_country+as.factor(day),data=merged_corpus_grde_2015)
+stargazer(
+  gr_de_reg,
+  keep=c('Constant','approx_country'),
+  covariate.labels=c('Greece','Constant (Germany)'),
+  dep.var.labels = 'Tweet sentiment score',
+  title = 'The country effect on twitter sentiment (controlling for day) in Greece and Germany in 2015',
+  header=FALSE
+          )
 
-The two lines tend to follow each other. This may suggest that twitter users in both countries both respond to the evolution of events in the news cycle. We can identify correspondences between particular peaks and troughs and actual events. e.g. Further to the finding by [@LSEtwitter] that tweet volumes respond to political events, we find evidence to suggest that the sentiment of those tweets' content also responds to political events.
+```
 
 Despite this, the countries' lines do sometimes diverge. This is particularly apparent here. This shows a difference in the average sentiment between the two countries at the same point in time. To establish that this difference is not due to random noise, we once again regress total sentiment score on country and time dummies, this time limiting the analysis to the two countries in question and to the selected query.
 

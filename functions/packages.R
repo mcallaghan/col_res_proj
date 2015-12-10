@@ -15,7 +15,8 @@ pkgs <- c('twitteR',
           'maptools', 
           'rgeos', 
           'nlme',
-          'knitr')
+          'knitr',
+          'stargazer')
 
 wd <- getwd()
 
