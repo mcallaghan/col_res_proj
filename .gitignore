@@ -17,3 +17,4 @@ col_res_proj.Rproj
 .httr-oauth
 assignment3_files/
 assignment3_cache/
+*_cache/*

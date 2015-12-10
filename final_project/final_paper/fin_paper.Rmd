@@ -7,7 +7,6 @@ output:
   pdf_document:
     fig_caption: yes
     highlight: zenburn
-    keep_tex: yes
     latex_engine: xelatex
     toc: yes
   html_document:
