@@ -69,6 +69,8 @@ merged_corpus_europe$period <- factor(merged_corpus_europe$period,
                                   levels = c("2010-04-15-2010-05-15.txt", "2012-02-07-2012-03-31.txt", "2015-07-01-2015-08-25.txt"),
                                   labels = c("2010", "2012", "2015"))
 
+merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+
 save(merged_corpus_europe,file="data/merged_corpus_europe.rda")
 
 by_country_by_year_by_query <- merged_corpus_europe %>%
@@ -93,5 +95,20 @@ for (y in ys) {
 }
 x <- toJSON(unname(split(by_country_by_year_by_query, 1:nrow(by_country_by_year_by_query ))))
 write(x, file="map/map_data.JSON")
+
+merged_corpus_europe$day <- substr(as.character(merged_corpus_europe$date),1,10)
+
+merged_corpus_daily <- merged_corpus_europe %>%
+  group_by(day,period,approx_country,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  )
+
+merged_corpus_daily$date <- as.Date(merged_corpus_daily$day)
+
+x <- toJSON(unname(split(merged_corpus_daily, 1:nrow(merged_corpus_daily ))))
+write(x, file="time/time_data.JSON")
 
 

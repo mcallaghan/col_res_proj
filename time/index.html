@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+<title>
+	A European Hyperagora
+</title>
+<h1>A European Hyperagora</h1>
+<h4>
+  Average by country <span id="variableDisplay"></span> in
+<span id="yearDisplay">2015</span>
+  for tweets containing the query
+"<span id="queryDisplay">greece_crisis</span>"
+</h4>
+<div id="graph">
+
+</div>
+
+<input id="yearSelector" type="range" min=0 max=2 step=1 onchange="changeYear(this.value)">
+<select id="querySelector" onchange="changeQuery(this.value)"></select>
+<select id="variableSelector" onchange="changeVariable(this.value)">
+  <option value="sentiment">Sentiment</option>
+  <option value="sentiment_variance">Variance</option>
+</select>
+
+<script type="text/javascript">
+d3.json("time_data.JSON", function(error, data) {
+  srcdata = data
+  drawgraph(srcdata,"2015","greece_crisis","sentiment")
+  console.log(data)
+  //console.log("draw queries")
+  //var queries = unique(srcdata.map(function(d){return d.query}))
+  //console.log("draw queries")
+
+  d3.select("#querySelector").selectAll("option")
+    .data(d3.map(srcdata, function(d){return d.query;}).keys())
+    .enter()
+    .append("option")
+    .text(function(d){return d;})
+    .attr("value",function(d){return d;});
+
+  document.getElementById("queryDisplay").innerHTML = "greece_crisis"
+  document.getElementById("querySelector").value = "greece_crisis"
+  document.getElementById("yearDisplay").innerHTML = "2015"
+  document.getElementById("yearSelector").value = 3
+  document.getElementById("variableDisplay").innerHTML = "sentiment"
+  document.getElementById("variableSelector").value = "sentiment"
+
+})
+
+	div = d3.select("body").append("div")
+		.attr("class", "tooltip")
+		.style("opacity", 0);
+
+
+	w = 800;
+	h = 600;
+
+function changeYear(year) {
+  var years = ["2010","2012","2015"]
+  var year = years[year]
+  document.getElementById("yearDisplay").innerHTML = year
+  var query = document.getElementById("queryDisplay").innerHTML
+  var v = document.getElementById("variableDisplay").innerHTML
+  drawgraph(srcdata,year,query,v)
+}
+
+function changeQuery(q) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var v = document.getElementById("variableDisplay").innerHTML
+  document.getElementById("queryDisplay").innerHTML = q
+  drawgraph(srcdata,year,q,v)
+}
+
+function changeVariable(v) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var q = document.getElementById("queryDisplay").innerHTML
+  document.getElementById("variableDisplay").innerHTML = v
+  drawgraph(srcdata,year,q,v)
+}
+
+
+function drawgraph(srcdata,p,q,variable) {
+  data = srcdata.filter(function(d){
+    return(d.period==p && d.query==q)
+  })
+  console.log(data)
+}
+
+</script>
