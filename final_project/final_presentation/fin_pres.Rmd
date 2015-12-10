@@ -239,7 +239,7 @@ greek_greece_debt <- greek_greece_debt[!duplicated(greek_greece_debt$tweet_id),]
 
 merged_corpus_europe <- rbind(merged_corpus_europe,greek_greece_debt)
 
-merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+
 
 by_country_by_year_by_query <- merged_corpus_europe %>%
   group_by(approx_country,period,query) %>%
