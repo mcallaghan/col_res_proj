@@ -9,7 +9,7 @@ error_places <- places[grep("You have exceeded the number", as.character(places$
 error_places <- places[grep("Error", as.character(places$approx_country)),]
 
 r_error_places <- error_places
-r_error_places <- error_places[sample(nrow(error_places), 300), ]
+r_error_places <- error_places[sample(nrow(error_places), 2500), ]
 
 
 old_places <- places[!(places$location %in% r_error_places$location),] 
