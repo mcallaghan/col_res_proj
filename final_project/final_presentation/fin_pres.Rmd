@@ -392,7 +392,7 @@ sentiment_time <- function(df,p,q=NULL,clist=NULL) {
 }
 
 
-sentiment_time(merged_corpus_daily,"2015",clist=c("GR","DE"))
+sentiment_time(merged_corpus_daily,"2015",c("GR","DE"))
 
 ```
 
