@@ -36,7 +36,8 @@ rm(translated_corpus)
 
 load("data/user_info.rda")
 
-places <- read.csv("data/places.csv")
+#places <- read.csv("data/places.csv")
+load("data/places.rda")
 
 user_info <- user_info %>%
   select(-X,-X.1)
@@ -69,5 +70,28 @@ merged_corpus_europe$period <- factor(merged_corpus_europe$period,
                                   labels = c("2010", "2012", "2015"))
 
 save(merged_corpus_europe,file="data/merged_corpus_europe.rda")
+
+by_country_by_year_by_query <- merged_corpus_europe %>%
+  group_by(approx_country,period,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  ) %>%
+  mutate(query = gsub("\\+","_",query))
+
+library(rjson)
+ys <- split(by_country_by_year_by_query,by_country_by_year_by_query$period)
+for (y in ys) {
+  xs <- split(y,y$approx_country)
+  for (x in xs) {
+    z <- split(x,x$query)
+  }
+  x <- toJSON(unname(split(y,y$approx_country)))
+  #cat(x)
+  #print(unique(as.character(y$period))) 
+}
+x <- toJSON(unname(split(by_country_by_year_by_query, 1:nrow(by_country_by_year_by_query ))))
+write(x, file="map/map_data.JSON")
 
 
