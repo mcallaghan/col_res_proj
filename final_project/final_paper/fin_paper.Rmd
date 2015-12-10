@@ -8,6 +8,7 @@ output:
     fig_caption: yes
     highlight: zenburn
     latex_engine: xelatex
+    keep_tex: true
     toc: yes
   html_document:
     css: ../../style/style.css
@@ -17,7 +18,7 @@ output:
 documentclass: article
 bibliography:
 - ../../bibliography.bib
-- RpackageCitations4.bib
+- ../../bib/RpackageCitations.bib
 ---
 
 ```{r include=FALSE, echo=FALSE}
@@ -252,7 +253,7 @@ sum_q_table <- merged_corpus_europe %>%
     percent = n/length(merged_corpus_europe$tweet_id)*100
   )
 
-knitr::kable(sum_q_table, digits = 2)
+knitr::kable(sum_q_table, digits = 2,caption='Data distribution by query')
 
 ```
 
@@ -418,7 +419,7 @@ merged_corpus_daily_total <- merged_corpus_europe %>%
 sentiment_time(merged_corpus_daily_total,"2015",clist=c("GR","DE"))
 ```
 
-We once again regress sentiment on country and time, this time limiting out results to 2015 period and the two countries here.
+We once again regress sentiment on country and time, this time limiting out results to 2015 period and the two countries here. In this case, the time variable is a dummy for each day. This is intended as a control to capture the effects of political events, but it is omitted from the table as its interpretation is not relevant. The highly significant negative coefficient for Greece confirms our impression from the graph that sentiment in our corpus over this period was lower in Greece.
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE,results='asis'}
 merged_corpus_grde_2015 <- merged_corpus_europe %>%
@@ -435,28 +436,47 @@ stargazer(
 
 ```
 
-Despite this, the countries' lines do sometimes diverge. This is particularly apparent here. This shows a difference in the average sentiment between the two countries at the same point in time. To establish that this difference is not due to random noise, we once again regress total sentiment score on country and time dummies, this time limiting the analysis to the two countries in question and to the selected query.
 
-We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
+# Conclusion
+
+With respect to the first part of our research question, we receive a clear indication that discussion over Twitter of the public debt crisis in Greece has increased over the three time-periods we looked at. This could be in part driven by our selection of queries, which, because the issues and personalities associated with the most recent period are more easily recalled, may be biased towards the most recent period. However, the magnitude of the difference in numbers in each period suggests that this can not be more than part of the explanation. Indeed, a quick look at the number of tweets for what would seem to be a time-agnostic query in figure ?, "greek+crisis", still suggests an exponential increase in tweet numbers.
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap='Tweets matching the query "greek+crisis" by year'}
+
+by_period <- merged_corpus_europe %>%
+  filter(query=="greek+crisis") %>%
+  group_by(period) %>%
+  summarise(
+    n = length(period)
+  )
+
+ggplot(
+  by_period,
+  aes(period,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
+
+Assuming that discussion of the Greek crisis in the twittersphere has increased dramatically, we cannot suggest that Europeans are talking about European issues more. What we can say is that Europeans are talking about European issues more on Twitter. That in itself is significant. When Europeans communicate via the Twittersphere, all of Europe can read that communication, and all of Europe can reply. The same machine-translation technology that allows us to analyse a multilingual corpus of tweets is also provided to twitter users when browsing Twitter. Twitter therefore clearly has the potential to enable a European public sphere. That more Europeans use are using Twitter to talk about political issues, and that, as [@LSEtwitter] showed, tweets and replies are interconnected across countries <!-- Lets include the picture we included in the pres somewhere in the lit review --> can be seen as positive signs for the emergence of a European public sphere.
+
+We also showed how the content of tweets can be machine-processed at scale (the number of tweets in our European database was `r length(unique(merged_corpus_europe$tweet_id))` and the corpus contained `r sum(nchar(unique(merged_corpus_europe$text)))` characters). The results need further validation, and substantive interpretation is difficult, but we are able to detect significant variation in sentiment that makes intuitive sense. We were able, building on the work of [@LSEtwitter] to show how sentiment, as well as volume, of tweets reacted to political events. We saw predictable differences in sentiment between countries.
 
 
 
-
-However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
-
-We conclude from this that our current sentiment analysis does not return reasonable results. We will in the next stage of the project try to create a model that returns more accurate results. 
 
 \newpage
 
-# Caveats
+# Limitations
 
 - Location
 - translation: danish, romanian, 
 - "normalizaion" of values not conducted for some, because of huge data amounts
 - SA: caution, however, about the utility of SA in predictive models [@grimmer2013, 4]. "For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6]
 - research design: case selection ambigious - for research on a common european sphere, choosing a case that by definition devides along national lines
-
-# Conclusions
 
 <!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
 
