@@ -6,7 +6,7 @@ source("getting_tweets/define_keys.R")
 
 error_places <- places[grep("You have exceeded the number", as.character(places$approx_country)),]
 
-#error_places <- places[grep("Error", as.character(places$approx_country)),]
+error_places <- places[grep("Error", as.character(places$approx_country)),]
 
 r_error_places <- error_places
 r_error_places <- error_places[sample(nrow(error_places), 300), ]
