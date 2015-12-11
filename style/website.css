@@ -1,0 +1,14 @@
+html {
+  text-align: center;
+}
+
+body {
+	background-image: url('../img/marble.jpg');
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+div.main-container {
+  background-color: white;
+  border: 1px solid black;
+}
