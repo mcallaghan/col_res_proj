@@ -7,7 +7,7 @@ output:
   pdf_document:
     fig_caption: yes
     highlight: zenburn
-    latex_engine: xelatex
+    latex_engine: pdflatex
     keep_tex: true
     toc: yes
   html_document:
@@ -472,13 +472,14 @@ We also showed how the content of tweets can be machine-processed at scale (the 
 
 # Limitations
 
-- Location
-- translation: danish, romanian, 
-- "normalizaion" of values not conducted for some, because of huge data amounts
-- SA: caution, however, about the utility of SA in predictive models [@grimmer2013, 4]. "For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6]
-- research design: case selection ambigious - for research on a common european sphere, choosing a case that by definition devides along national lines
+This section discusses limitations of the project. It starts with limitations to the more general research design and then identifies limitations in data processing. 
 
-<!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
+Regarding our research design, one possible limitation is our case selection. We choose a case with a) high relevance to all European states which also, by definition, b) devides along national lines. By comparing Greece and Germany we did indeed find that twitter users in both countries react to the same real world events, but we also find, that there is a statistically significant difference in sentiment in between the countries. To which extent these results are only characteristical for our case or for the emergence of a common European public sphere, cannot be answered here. Drewski in his recent contribution notes that there is "some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics." He further assesses that "this is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality." [@Drewski2015]
+
+Regarding data processing, the limitations should be mentioned. Location plays a crucial role in our research design. For most of the location data we relied on the location provided by the user themselves. As mentioned earlier, Devin Gaffney already pointed out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1]. Also, we did not translate all tweets (namely, we did not translate Danish and Romanian tweets). This was because the error rate when identifying tweets written in those languages was very high. Hence, the results for those countries should be read carefully, as they mirror sentiment in those tweets written in English.
+
+
+
 
 
 # References
