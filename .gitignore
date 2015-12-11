@@ -18,3 +18,10 @@ col_res_proj.Rproj
 assignment3_files/
 assignment3_cache/
 *_cache/*
+_cache
+final_project/final_paper/fin_paper_cache/*
+final_project/final_paper/fin_paper_cache/latex/unnamed*
+final_project/final_paper/fin_paper_cache/
+.Rda
+.Rdx
+.Rdb
