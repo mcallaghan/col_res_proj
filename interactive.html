@@ -229,6 +229,8 @@ function draw(variable) {
         console.log(variable)
         if(variable=="sentiment_variance") {
           var v = "sentiment variance";
+        } else {
+          var v = "sentiment score";
         }
 				var message = d.name + "<br>" + v + " = " + value
 				d3.select(this).transition().duration(300).style("opacity", 0.6);
@@ -248,23 +250,6 @@ function draw(variable) {
   		});
 
 
-}
-
-function table(data) {
-	var t = "<th>Country</th><th>Views</th>"
-	data.sort(function(a, b) {
-		return b.views - a.views
-	})
-	for (i = 0; i < data.length; i++) {
-		var name = convert_codes("ISO_ALPHA_2", data[i].country, "name")
-		if (name == undefined || data[i].views == 0) {
-		} else {
-			t = t + "<tr>";
-			t = t + "<td>" + name + "</td>";
-			t = t + "<td>" + data[i].views + "</td>";
-		}
-	}
-	//document.getElementById("table").innerHTML = t
 }
 
 function zoomed() {

@@ -1,0 +1,50 @@
+html {
+	text-align: center;
+	font-family: "Times New Roman", sans-serif;
+}
+
+
+div {
+	margin: 0 auto;
+	display: block;
+}
+
+path {
+	stroke: rgb(144, 180, 210);
+	stroke-width: 1;
+	fill: none;
+}
+circle {
+	fill: rgb(144, 180, 210);
+
+}
+
+rect {
+	fill: rgb(144, 180, 210);
+
+}
+
+div.tooltip {
+	position: absolute;
+  	text-align: center;
+  	width: 100px;
+  	padding: 2px;
+  	font-size: 10px;
+  	background: #FFFFE0;
+  	border: 1px;
+  	border-radius: 2px;
+  	pointer-events: none;
+	font-size: 15px;
+}
+
+.button {
+	cursor: pointer;
+}
+
+svg {
+	margin: 15px auto;
+}
+
+.mapbox {
+	border: 1px solid black;
+}

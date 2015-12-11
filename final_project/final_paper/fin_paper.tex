@@ -24,6 +24,7 @@
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
 \usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -111,7 +112,7 @@ leading up to the signing of the three memorandums.
 
 \section{Research Question}\label{research-question}
 
-In our research project we will investigate the following questions:
+The following questions were investigated:
 
 What can twitter tell us about pan-European reactions to the European
 governance of the public-debt crisis in Greece?
@@ -127,9 +128,8 @@ governance of the public-debt crisis in Greece?
   between and within countries?
 \end{itemize}
 
-By investigating European public discourse on the Euro crisis the answer
-to these questions could potentially add to the literature on the
-emergence of a European public sphere.
+The answer to these questions could potentially add to the literature on
+the emergence of a European public sphere.
 
 \section{Literature Review}\label{literature-review}
 
@@ -258,10 +258,11 @@ July 2015 (source Haenska and Bauchowitz 2015)}
 
 \section{Data Sources}\label{data-sources}
 
-Two datasets were required for this project. The first was the corpus of
-Tweets relating to the Greek debt crisis and the measures taken to
-manage the crisis by European institutions. The second was information
-about the users whose Tweets form the body of that corpus.
+For our investigation in the European public discourse on the Euro
+crisis, two datasets were required. The first was the corpus of Tweets
+relating to the Greek debt crisis and the measures taken to manage the
+crisis by European institutions. The second was information about the
+users whose Tweets form the body of that corpus.
 
 Zimmer and Proferes identify the Library of Congress' decision to place
 every Tweet since Twitter's inception in 2006 into an archive as
@@ -274,7 +275,7 @@ restricted. Twitter's public search API ``is not complete index of all
 Tweets, but instead an index of recent Tweets. At the moment that index
 includes between 6-9 days of Tweets.'' (``The Search API'' 2015).
 Twitter sells access to historical Tweets through an API provided by its
-``enterprise API platform'' GNIP (Tornes 2015). This paper will adapt a
+``enterprise API platform'' GNIP (Tornes 2015). This paper adapts a
 publicly available program written in Java which scrapes results from
 Twitter's online search page (Henrique 2015).
 
@@ -322,7 +323,7 @@ Many users do not geotag their tweets, instead stating their location,
 and we used APIs from MapQuest and Google to geocode user-reported
 location, giving us the file places.csv.
 
-\subsection{Data Cleaning}\label{data-cleaning}
+\subsection{Merging \& Cleaning}\label{merging-cleaning}
 
 The txt files containing the tweets for each query and period are merged
 into a corpus file. This corpus file was merged with the user\_info
@@ -335,9 +336,8 @@ ambiguity. We identified these by selecting random tweets from the
 search queries, reading the tweets, and checking for relevance to the
 topic. For example, the query ``bailout'', although certainly relevant
 for our topic, was insufficiently precise and returned a lot of data
-about the banking bailouts, especially in the 2010 period.
-
-The following list summarizes the queries which we excluded.
+about the banking bailouts, especially in the 2010 period. The following
+list summarizes the queries which we excluded.
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
@@ -350,6 +350,19 @@ The following list summarizes the queries which we excluded.
 \item
   3-pac
 \end{itemize}
+
+\subsection{Translation}\label{translation}
+
+In a next step we identified the language of every tweet (Hornik et al.
+2015) and translated those tweets written in European languages other
+than English into English (Lucas and Tingley 2014). Danish and Romanian
+were excluded from the list because these languages were not adequately
+identified by the program.
+
+\subsection{Final Dataset}\label{final-dataset}
+
+A dataframe `merged\_corpus' containing all of the above information was
+pulled together. We filtered all tweets from Europe.
 
 \section{Methodology}\label{methodology}
 
@@ -370,13 +383,433 @@ tasks like measuring sentiment, topic modeling, or search,
 \emph{n-grams} (combinations of words rather than individual words) do
 little to enhance performance'' (Grimmer and Stewart 2013, 6).
 
+To carry out the sentiment analysis process, we use the R package
+tm.plugin.sentiment (Annau 2014) to compare the words in our translated
+corpus of tweets with the General Enquirer lecixon (Theussl, Hofmarcher,
+and Hornik 2015). Each tweets is given a positive score and a negative
+score according to the number of positive and negative words found in
+the tweet. We calculate an overall sentiment score by subtracting the
+negative score from the positive score. Low scores therefore indicate
+negative sentiment; high scores indicate positive sentiment.
+
 Based on the results of sentiment analysis carried out and analysis of
 volumes of tweets and users using opinion-signifying keywords, the paper
 gives an indication of the scale of dialogue, consensus and disagreement
 across and within countries in the European Twittersphere.
 
+\section{Analysis}\label{analysis}
+
+\subsection{Descriptive Statistics}\label{descriptive-statistics}
+
+The word cloud gives us an overall picture of the words used in the
+collected tweets connected to the European public-debt crisis.\footnote{to
+  a certain degree in this case a word cloud is redundant, because it
+  mainly returns our query turns. However, it also indicates the
+  prevalence of specific terms, and further, which other terms are
+  mentioned regularly in those tweets.}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fin_paper_files/figure-latex/unnamed-chunk-2-1.pdf}
+\caption{Word Cloud of a random sample of 200 tweets in our corpus}
+\end{figure}
+
+The following tables describe variation over space and time of the
+entire population of tweets.
+
+\subsubsection{Variation Across Space}\label{variation-across-space}
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-3-1} 
+
+}
+
+\caption{Geographical Distribution of Tweets}\label{fig:unnamed-chunk-3}
+\end{figure}
+
+This bar chart shows the distribution of all tweets over countries
+filtering those with a significant amount of tweets. This group seems to
+be a mix of high twitter user numbers and
+affectedness/involvement/relation to the events in Greece. Most probably
+reflecting high user numbers in the US, the US seems to be the origin of
+most tweets regarding the European sovereign-debt crisis. However, when
+controlling for period, the US resembles an atypical case. While for
+most other countries, tweet number on the topic increase over the years,
+they decrease substantially in the US.
+
+\subsubsection{Variation Across Time}\label{variation-across-time}
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-4-1} 
+
+}
+
+\caption{Tweets matching our queries by year}\label{fig:unnamed-chunk-4}
+\end{figure}
+
+The results show that twitter coverage of the Greek bailouts has
+increased heavily over time. When looking at the development of
+different queries over time, an increase was found for all queries
+except for for imf+greece, which decreased in 2012 and increased in 2015
+again. Since the shown results are not normalized, it is difficult to
+say how much of the growth of the population of tweets can be attributed
+to an increase in twitter usage or to an increase of interest in the
+topic. Further, some of our queries only became topical in the later
+periods or even the last periods.
+
+\subsubsection{Variation Across Space and
+Time}\label{variation-across-space-and-time}
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-5-1} 
+
+}
+
+\caption{Spatio-Temporal distribution of total tweets in corpus}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+\subsection{Queries}\label{queries}
+
+The following table summarizes the collected data by queries. It shows
+absolute numbers and relative distributions of specific query returns.
+
+\begin{longtable}[c]{@{}lrr@{}}
+\caption{Data distribution by query}\tabularnewline
+\toprule
+query & n & percent\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+query & n & percent\tabularnewline
+\midrule
+\endhead
+\#aGreekment & 3045 & 2.15\tabularnewline
+athens+berlin & 478 & 0.34\tabularnewline
+austerity+greece & 2833 & 2.00\tabularnewline
+economic+adjustment & 55 & 0.04\tabularnewline
+eucrisis & 117 & 0.08\tabularnewline
+eurocrisis & 2582 & 1.82\tabularnewline
+eurogroup & 1421 & 1.00\tabularnewline
+eurogroup+agreement & 312 & 0.22\tabularnewline
+eurosummit & 8969 & 6.33\tabularnewline
+euro+summit & 10211 & 7.20\tabularnewline
+germany+greece & 3861 & 2.72\tabularnewline
+greece+crisis & 3591 & 2.53\tabularnewline
+greece+reforms & 4297 & 3.03\tabularnewline
+grexit & 5515 & 3.89\tabularnewline
+imf+greece & 2451 & 1.73\tabularnewline
+memorandum+greece & 493 & 0.35\tabularnewline
+merkel+greece & 5443 & 3.84\tabularnewline
+mou+greece & 451 & 0.32\tabularnewline
+\#nai & 4055 & 2.86\tabularnewline
+\#nai+greece & 144 & 0.10\tabularnewline
+notmyeurope & 255 & 0.18\tabularnewline
+\#oxi & 1756 & 1.24\tabularnewline
+rescue packages & 41 & 0.03\tabularnewline
+schäuble+greece & 2465 & 1.74\tabularnewline
+syriza & 2873 & 2.03\tabularnewline
+tax+evasion+greece & 298 & 0.21\tabularnewline
+\#thisisacoup & 6802 & 4.80\tabularnewline
+\#thisisnotacoup & 303 & 0.21\tabularnewline
+tsipras & 6522 & 4.60\tabularnewline
+varoufakis & 13642 & 9.62\tabularnewline
+bailout+eurozone & 4482 & 3.16\tabularnewline
+bailout+greece & 6342 & 4.47\tabularnewline
+bailout+greek & 1747 & 1.23\tabularnewline
+efsm+greece & 390 & 0.28\tabularnewline
+efsm+greek & 74 & 0.05\tabularnewline
+ems+greece & 14 & 0.01\tabularnewline
+esm+greek & 340 & 0.24\tabularnewline
+greece+debt & 4905 & 3.46\tabularnewline
+greek+crisis & 20573 & 14.51\tabularnewline
+greek+debt & 4676 & 3.30\tabularnewline
+greek+reforms & 2774 & 1.96\tabularnewline
+memorandum+greek & 170 & 0.12\tabularnewline
+six-pack+greece & 2 & 0.00\tabularnewline
+six-pack+greek & 3 & 0.00\tabularnewline
+\bottomrule
+\end{longtable}
+
+The results that our queries returned differ substanially in size. While
+some queries (e.g.~greek+crisis) return over 16000 tweets, others
+(e.g.~economic+adjustment, rescue+packages) return only around 30 tweets
+in the specified time periods. We therefore think it is for analytical
+reasons useful to differentiate between high-return and low-return
+queries. The following charts report the developments over time for the
+high return rates as this group creates more intelligle results.
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-8-1} 
+
+}
+
+\caption{Most common search queries, 2010}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+n the 2010 period, ``greek+crisis'' and ``bailout+greece'' are the most
+frequently used query. ``Bailout'' usage in tweets peaks around April
+23rd when Greek prime minister Papandreo formally requested an
+international bailout for Greece. In the following day, ``greek+crisis''
+is used at its highest level, with nearly 125 occurances on April 28th.
+However, the use of ``greek+crisis'' in tweets dropped dramatically for
+a short period of around 6 days, before it peaked again, however
+somewhat less pronounced. The drop in usage of ``greek+crisis'' was
+accompanied by an increase in usage of ``greek+bailout'', which peaked
+around May 2nd before it subsided. On May 2nd, the agreement on the
+First bailout package was reached (Goncalves 2015). During this short
+phase, ``greek+bailout'' was the most prominently used word combination
+(from our sample). Only after ``greeck+crisis'' became most frequently
+used words.
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-9-1} 
+
+}
+
+\caption{Most common search queries, 2010}\label{fig:unnamed-chunk-9}
+\end{figure}
+
+In the 2012 period, there was a discourse on the greek crisis weeks
+before the agreement. ``greek+crisis'' was used from the beginning of
+February until February 21st when the agreement between the Greek
+government and the Troika was reached (Economist 2015) constantly in
+between around 40 to 75 tweets. The usage of ``greek+crisis'' peaked at
+the date when the agreement was reached (in contrast to 2010 when it
+dropped around this phase). However, just like in 2010,
+``bailout+greece'' became the most frequently used phrase in all tweets
+(of our sample) at the time when agreement was reached. After that,
+twitter users tweeted less about ``bailout+greece'' and
+``greek+crisis''. However, it took nearly a month for those words being
+used only ten times a day. Notably, ``grexit'' which had not been used
+in 2010 was used frequently in the negotiation phase.
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-10-1} 
+
+}
+
+\caption{Most common search queries, 2010}\label{fig:unnamed-chunk-10}
+\end{figure}
+
+In the 2015 period, ``greek crisis'' was still amongst the most commonly
+used words in the corpus of tweets we collected. While at its highest
+peaks in 2010 and 2012 it was used around 120 times daily, we found
+around 1500 occurances of ``greek+crisis'' in one day in the 2015
+period. Equally popualar were ``\#ThisIsACoup'' and ``Varoufakis'', and
+``Tsipras''. The most freqquently used word in the 2015 period was
+``eurosummit'' which was used a lot in the time running up to the summit
+and during the summit. During the summit, ``greek+crisis'' also peaked.
+In the aftermath of the announcement that an agreement had been reached,
+there is much less tweets. The Hashtag ``This is a Coup'' emerged on
+July 14th, peaked in July 15th - equally prominent as ``greek+crisis''.
+``Varoufakis'' becomes frequently used in tweets in late July, which may
+have been caused by the release of an interview interview with
+revelations about a previously secret ``plan B''. (Kitsantonis 2015)
+``bailout+greece'' peaked around the 14th of August, when the Greek
+parliament approved the third bailout package. Towards the end of the
+period, ``varoufakis'' and ``tsipras'' become frequently used.
+``varoufakis'' has a second peak when he resigns (on August 20th).
+
+\newpage
+
+\subsection{Inferential Statistics: Sentiment
+Analysis}\label{inferential-statistics-sentiment-analysis}
+
+We summarised sentiment over time and across countries. Figures 10-12
+show total sentiment scores (across all queries) and sentiment variance
+for all of the European countries in our dataset in each of the three
+time periods. We can visually identify variation in the overall score
+and in the variance between countries and across the three time periods.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fin_paper_files/figure-latex/unnamed-chunk-12-1.pdf}
+\caption{Sentiment scores and variance across all search queries (2010)}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fin_paper_files/figure-latex/unnamed-chunk-13-1.pdf}
+\caption{Sentiment scores and variance across all search queries (2012)}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fin_paper_files/figure-latex/unnamed-chunk-14-1.pdf}
+\caption{Sentiment scores and variance across all search queries (2015)}
+\end{figure}
+
+To test whether the spatio-temporal distribution of sentiment in tweets
+is significant, we regress sentiment score on country and time dummies.
+
+An F-test on the joint significance of country and time finds that we
+can reject at the 1\% significance level (p = 0) the null hypothesis
+that time-period and country have no effect on sentiment.
+
+We focus our analysis in this paper on the whole corpus, though we also
+release our dataset aggregated at the country level in
+\href{http://mcallaghan.github.io/col_res_proj/}{interactive form},
+where users can investigate specific queries during any of the periods.
+
+To focus our analysis, we zoom in to a single time period (2015), and to
+two countries where we expect sentiment to diverge: Greece and Germany.
+Figure 13 plots shows daily sentiment averages, surrounded by a band the
+width of the square root of the variance. A first observation is that
+the paths of the lines are remarkably similar. Following on from this,
+we can see how sentiment in both countries reacts to actual political
+events. On the 13th of July, Greece and its creditors struck a deal to
+agree on terms for bailout funds in exchange for stringent cuts and
+reforms. (Haenska and Bauchowitz 2015) identify the emergence of the
+``\#thisisacoup'' hashtag on the 13th. We can observe a clear drop in
+sentiment over the next two days in both countries. On the 14th of
+August the Greek parliament approved the package of reforms that formed
+part of the bailout deal. This time we see a spike in sentiment, once
+again in both countries, but more pronounced in Germany. Indeed, where
+each countries lines diverge, it is most often Greece which displays
+less positive sentiment
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fin_paper_files/figure-latex/unnamed-chunk-17-1.pdf}
+\caption{Sentiment scores (line) and variance (band) for all queries in
+2015}
+\end{figure}
+
+We once again regress sentiment on country and time, this time limiting
+out results to 2015 period and the two countries here. In this case, the
+time variable is a dummy for each day. This is intended as a control to
+capture the effects of political events, but it is omitted from the
+table as its interpretation is not relevant. The highly significant
+negative coefficient for Greece confirms our impression from the graph
+that sentiment in our corpus over this period was lower in Greece.
+
+\begin{table}[!htbp] \centering 
+  \caption{The country effect on twitter sentiment (controlling for day) in Greece and Germany in 2015} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Tweet sentiment score \\ 
+\hline \\[-1.8ex] 
+ Greece & $-$0.038$^{***}$ \\ 
+  & (0.012) \\ 
+  & \\ 
+ Constant (Germany) & $-$0.010 \\ 
+  & (0.064) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 31,893 \\ 
+R$^{2}$ & 0.020 \\ 
+Adjusted R$^{2}$ & 0.019 \\ 
+Residual Std. Error & 0.983 (df = 31836) \\ 
+F Statistic & 11.808$^{***}$ (df = 56; 31836) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table}
+
+\section{Conclusion}\label{conclusion}
+
+With respect to the first part of our research question, we receive a
+clear indication that discussion over Twitter of the public debt crisis
+in Greece has increased over the three time-periods we looked at. This
+could be in part driven by our selection of queries, which, because the
+issues and personalities associated with the most recent period are more
+easily recalled, may be biased towards the most recent period. However,
+the magnitude of the difference in numbers in each period suggests that
+this can not be more than part of the explanation. Indeed, a quick look
+at the number of tweets for what would seem to be a time-agnostic query
+in figure ?, ``greek+crisis'', still suggests an exponential increase in
+tweet numbers.
+
+\begin{figure}
+
+{\centering \includegraphics{fin_paper_files/figure-latex/unnamed-chunk-19-1} 
+
+}
+
+\caption{Tweets matching the query "greek+crisis" by year}\label{fig:unnamed-chunk-19}
+\end{figure}
+
+Assuming that discussion of the Greek crisis in the twittersphere has
+increased dramatically, we cannot suggest that Europeans are talking
+about European issues more. What we can say is that Europeans are
+talking about European issues more on Twitter. That in itself is
+significant. When Europeans communicate via the Twittersphere, all of
+Europe can read that communication, and all of Europe can reply. The
+same machine-translation technology that allows us to analyse a
+multilingual corpus of tweets is also provided to twitter users when
+browsing Twitter. Twitter therefore clearly has the potential to enable
+a European public sphere. That more Europeans use are using Twitter to
+talk about political issues, and that, as (Haenska and Bauchowitz 2015)
+showed, tweets and replies are interconnected across countries can be
+seen as positive signs for the emergence of a European public sphere.
+
+We also showed how the content of tweets can be machine-processed at
+scale (the number of tweets in our European database was 119821 and the
+corpus contained 9916744 characters). The results need further
+validation, and substantive interpretation is difficult, but we are able
+to detect significant variation in sentiment that makes intuitive sense.
+We were able, building on the work of (Haenska and Bauchowitz 2015) to
+show how sentiment, as well as volume, of tweets reacted to political
+events. We saw predictable differences in sentiment between countries.
+
+\newpage
+
+\section{Limitations}\label{limitations}
+
+This section discusses limitations of the project. It starts with
+limitations to the more general research design and then identifies
+limitations in data processing.
+
+Regarding our research design, one possible limitation is our case
+selection. We choose a case with a) high relevance to all European
+states which also, by definition, b) devides along national lines. By
+comparing Greece and Germany we did indeed find that twitter users in
+both countries react to the same real world events, but we also find,
+that there is a statistically significant difference in sentiment in
+between the countries. To which extent these results are only
+characteristical for our case or for the emergence of a common European
+public sphere, cannot be answered here. Drewski in his recent
+contribution notes that there is ``some evidence that Europeans have
+reacted to the crisis not by banding together, but by rallying around
+national values and interests. For example, the German center‐left was
+not ready to side with the Spanish center‐left to fight the neoliberal
+response to the crisis. Instead, they preferred to stick to their German
+compatriots from the center‐right in supporting austerity politics.'' He
+further assesses that ``this is no good news for the idealists' vision
+of a European demos engendered by the Euro crisis. A post‐national
+European democracy, giving voice to transnational political coalitions,
+is still far from becoming reality.'' (Drewski, Gerhards, and others
+2015)
+
+Regarding data processing, the limitations should be mentioned. Location
+plays a crucial role in our research design. For most of the location
+data we relied on the location provided by the user themselves. As
+mentioned earlier, Devin Gaffney already pointed out methodological
+problems with using the given location of twitter users - ``in many
+cases user-entered profile locations differ from the physical locations
+users are actually Tweeting from'' (Graham, Hale, and Gaffney，Devin
+2014, 1). Also, we did not translate all tweets (namely, we did not
+translate Danish and Romanian tweets). This was because the error rate
+when identifying tweets written in those languages was very high. Hence,
+the results for those countries should be read carefully, as they mirror
+sentiment in those tweets written in English.
+
 \section*{References}\label{references}
 \addcontentsline{toc}{section}{References}
+
+Annau, Mario. 2014. \emph{Tm.plugin.sentiment: Text Corpus Sentiment
+Analysis}. \url{http://R-Forge.R-project.org/projects/sentiment/}.
 
 Balahur, Alexandra, and Marco Turchi. 2012. ``Multilingual Sentiment
 Analysis Using Machine Translation?'' \emph{Proceedings of the 3rd
@@ -391,8 +824,16 @@ and Techniques of Chain Referral Sampling.'' \emph{Sociological Methods
 Drewski, Daniel, J{ü}rgen Gerhards, and others. 2015. ``Has There Been a
 European Public Discourse on the Euro Crisis?''
 
+Economist, The. 2015. ``Greece's Return to the Markets.'' Accessed
+December 3.
+\url{http://www.economist.com/news/finance-and-economics/21600727-bond-issue-milestone-there-still-long-way-go-prodigal-son}.
+
 Gentry, Jeff. 2015. \emph{TwitteR: R Based Twitter Client}.
 \url{http://CRAN.R-project.org/package=twitteR}.
+
+Goncalves, Sergio. 2015. ``Markets Calm Amid New Austerity for
+Portugal.'' Accessed December 3.
+\url{http://www.reuters.com/article/2010/05/14/us-eurozone-idUSTRE6400PJ20100514}.
 
 Graham, Mark, Scott a. Hale, and Gaffney，Devin. 2014. ``Where in the
 world are you ? Geolocation and language identification in Twitter.''
@@ -410,6 +851,10 @@ Online.'' Accessed October 23. \url{http://perma.cc/6ZVZ-X5GT}.
 Henrique, Jefferson. 2015. ``Get Old Tweets Programmatically.'' Accessed
 October 21. \url{https://github.com/Jefferson-Henrique/GetOldTweets}.
 
+Hornik, Kurt, Johannes Rauch, Christian Buchta, and Ingo Feinerer. 2015.
+\emph{Textcat: N-Gram Based Text Categorization}.
+\url{http://CRAN.R-project.org/package=textcat}.
+
 Hughes, Amanda Lee, and Leysia Palen. 2009. ``Twitter adoption and use
 in mass convergence and emergency events.'' \emph{International Journal
 of Emergency Management} 6 (May): 248.
@@ -421,6 +866,14 @@ Predictions: A Response to Tumasjan, a., Sprenger, tO, Sander, PG, \&
 Welpe, IM `Predicting Elections with Twitter: What 140 Characters Reveal
 About Political Sentiment'.'' \emph{Social Science Computer Review} 30
 (2). SAGE Publications: 229--34.
+
+Kitsantonis, Jack Ewing; Niki. 2015. ``Greece Made Preparations to Exit
+Euro.'' Accessed December 3.
+\url{http://www.nytimes.com/2015/07/28/business/greece-debt-varoufakis-recording.html?_r=1}.
+
+Lucas, Christopher, and Dustin Tingley. 2014. \emph{TranslateR: Bindings
+for the Google and Microsoft Translation APIs}.
+\url{http://CRAN.R-project.org/package=translateR}.
 
 Metz, Cade. 2015. ``Twitter Now Lets You Search for Any Tweet Ever
 Sent.'' Accessed October 21.
@@ -450,6 +903,9 @@ Scola, Nancy. 2015. ``Library of Congress' Twitter Archive Is a Huge
 
 ``The Search API.'' 2015. https://dev.twitter.com/rest/public/search.
 Accessed October 21.
+
+Theussl, Stefan, Paul Hofmarcher, and Kurt Hornik. 2015.
+\emph{Tm.lexicon.GeneralInquirer: General Inquirer Categories}.
 
 Tornes, Adam. 2015. ``Instant and Complete Access to Every Historical
 Public Tweet.''

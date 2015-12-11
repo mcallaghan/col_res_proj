@@ -1,9 +1,20 @@
 ---
-title: "A European Hyperagora"
-author: "M Callaghan and V Nieberg"
-date: "November 20, 2015"
+title: "A European Hyperagora?"
 output: html_document
+css: style/website.css
 ---
 
-# Sentiment Analysis
-See an interactive map of our results [here](interactive.html)
+```{r echo=FALSE}
+load("data/merged_corpus_europe.rda")
+```
+
+
+We collected `r length(unique(merged_corpus_europe$tweet_id))` tweets from Europe containing keywords relating to the Greek debt crisis over three periods surrounding the agreement of three bailout deals. Each tweet was machine-translated into English, and compared to a lexicon of positive and negative words to give it a sentiment score. We present the results of the analysis below in interactive form so that users can explore the data.
+
+In the map below, users can specify the period and the query for which they want to see results. Average sentiment scores or the variance in sentiment can then be displayed for the selected period and search term.
+
+<iframe src="map/index.html" width="850px" height="650px"/>
+
+In the graph below, users can select a country, a period and a search query and explore daily sentiment ascores. The points indicate the average sentiment scores for each day, and the lines are drawn $\frac{\sigma}{2}$ units each side of the point
+
+<iframe src="time/index.html" width="850px" height="650px"/>

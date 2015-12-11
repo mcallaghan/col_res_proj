@@ -4,65 +4,29 @@ title: 'Twitter and the European Hyperagora: What can the Twittersphere Tell us 
 author: "M. Callaghan and V. Niberg"
 date: "December 11, 2015"
 output:
+  pdf_document:
+    fig_caption: yes
+    highlight: zenburn
+    latex_engine: pdflatex
+    keep_tex: true
+    toc: yes
   html_document:
     css: ../../style/style.css
     fig_caption: yes
     toc: yes
-  pdf_document:
-    fig_caption: yes
-    highlight: zenburn
-    keep_tex: yes
-    latex_engine: xelatex
-    toc: yes
+
 documentclass: article
 bibliography:
 - ../../bibliography.bib
-- RpackageCitations4.bib
+- ../../bib/RpackageCitations.bib
 ---
 
 ```{r include=FALSE, echo=FALSE}
-pkgs <- c('twitteR', 'tm.lexicon.GeneralInquirer', 'tm.plugin.sentiment', 'dplyr', 'ggplot2', 'stringr', 'wordcloud', 'tm', 'rworldmap', 'ggmap', 'textcat', 'translateR', 'tidyr', 'lfe', 'maptools', 'rgeos', 'nlme')
-
-repmis::LoadandCite(pkgs, file = 'RpackageCitations4.bib')
+source("../../functions/packages.R")
 
 load('../../data/merged_corpus_europe.rda')
 
-#the following is a code copied from someone else which puts plots into grids
-multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
-  library(grid)
-  
-  # Make a list from the ... arguments and plotlist
-  plots <- c(list(...), plotlist)
-
-  numPlots = length(plots)
-
-  # If layout is NULL, then use 'cols' to determine layout
-  if (is.null(layout)) {
-    # Make the panel
-    # ncol: Number of columns of plots
-    # nrow: Number of rows needed, calculated from # of cols
-    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
-                    ncol = cols, nrow = ceiling(numPlots/cols))
-  }
-
- if (numPlots==1) {
-    print(plots[[1]])
-
-  } else {
-    # Set up the page
-    grid.newpage()
-    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
-
-    # Make each plot, in the correct location
-    for (i in 1:numPlots) {
-      # Get the i,j matrix positions of the regions that contain this subplot
-      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
-
-      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
-                                      layout.pos.col = matchidx$col))
-    }
-  }
-}
+source("../../functions/functions.R")
 ```
 
 \newpage
@@ -177,6 +141,8 @@ A dataframe 'merged_corpus' containing all of the above information was pulled t
 
 Volumes of topic-relevant Tweets were mapped across space and time, to analyse the distribution of topic-awareness and its relation to political developments in responses to the crisis. The distribution of hashtags that clearly represent an opinion on the response to the crisis (e.g. '#ThisIsaCoup', '#ThisIsNotaCoup' *inter alia*) were similarly mapped in order to approximate the distribution of opinion within and between countries over time. The paper attempts a sentiment analysis of Tweets expressing opinions about the agreed bailout deals using machine translation to translate all texts into English before performing sentiment analysis. Analysis was then carried out using unigrams to indicate polarity through comparison with a lexicon. Following Grimmer, we assumed "documents are a *bag of words*, where order does not inform our analyses" as "In practice, for common tasks like measuring sentiment, topic modeling, or search, *n-grams* (combinations of words rather than individual words) do little to enhance performance" [@grimmer2013, 6]. 
 
+To carry out the sentiment analysis process, we use the R package tm.plugin.sentiment [@R-tm.plugin.sentiment] to compare the words in our translated corpus of tweets with the General Enquirer lecixon  [@R-tm.lexicon.GeneralInquirer]. Each tweets is given a positive score and a negative score according to the number of positive and negative words found in the tweet. We calculate an overall sentiment score by subtracting the negative score from the positive score. Low scores therefore indicate negative sentiment; high scores indicate positive sentiment.
+
 Based on the results of sentiment analysis carried out and analysis of volumes of tweets and users using opinion-signifying keywords, the paper gives an indication of the scale of dialogue, consensus and disagreement across and within countries in the European Twittersphere.
 
 <!--- The twittersphere's validity in representing political opinion will be tested by comparing volumes of Tweets containing the hashtags '#ναί' and '#όχι' with the results of the referendum. -->
@@ -187,7 +153,7 @@ Based on the results of sentiment analysis carried out and analysis of volumes o
 
 The word cloud gives us an overall picture of the words used in the collected tweets connected to the European public-debt crisis. ^[to a certain degree in this case a word cloud is redundant, because it mainly returns our query turns. However, it also indicates the prevalence of specific terms, and further, which other terms are mentioned regularly in those tweets.]
 
-```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE}
+```{r echo=FALSE, warning=FALSE, message=FALSE, cache=TRUE, fig.cap="Word Cloud of a random sample of 200 tweets in our corpus"}
 minicorpus <- merged_corpus_europe[sample(nrow(merged_corpus_europe), 200), ]
 
 text_corpus <- Corpus(VectorSource(minicorpus$text))
@@ -207,7 +173,7 @@ The following tables describe variation over space and time of the entire popula
 
 ### Variation Across Space
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center",fig.cap="Geographical Distribution of Tweets"}
 
 by_country <- merged_corpus_europe %>%
   group_by(approx_country) %>%
@@ -230,7 +196,7 @@ This bar chart shows the distribution of all tweets over countries filtering tho
 
 ### Variation Across Time
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap="Tweets matching our queries by year"}
 
 by_period <- merged_corpus_europe %>%
   group_by(period) %>%
@@ -253,7 +219,7 @@ The results show that twitter coverage of the Greek bailouts has increased heavi
 
 ### Variation Across Space and Time
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap="Spatio-Temporal distribution of total tweets in corpus"}
 
 by_period_country <- merged_corpus_europe %>%
   group_by(period, approx_country) %>%
@@ -287,7 +253,7 @@ sum_q_table <- merged_corpus_europe %>%
     percent = n/length(merged_corpus_europe$tweet_id)*100
   )
 
-knitr::kable(sum_q_table, digits = 2)
+knitr::kable(sum_q_table, digits = 2,caption='Data distribution by query')
 
 ```
 
@@ -304,31 +270,9 @@ corpus_index <- merged_corpus_europe %>%
 corpus_index_large <- filter(corpus_index,total>4000)
 corpus_index_small <- filter(corpus_index,total<4000)
  
- corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
+corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
 
 
-timegraph <- function(corpus,p) {
-  corpus_daily <- corpus %>%
-    filter(period==p) %>%
-  group_by(day,query,period) %>%
-  summarise(
-    n = length(day)
-  )
-  
-ggplot(filter(corpus_daily), aes(day,n,colour=query)) + geom_line() +
-  labs(
-    x = "Time",
-    y = "Frequency"
-  )
-}
-
-#p1 <- timegraph(corpus_small,"2010") +
-#ggtitle("Less frequently used words, 2010")
-#p2 <- timegraph(corpus_small,"2012") +
-#ggtitle("Less frequently used words, 2012")
-#p3 <- timegraph(corpus_small,"2015") +
-#ggtitle("Less frequently used words, 2015")
-#multiplot(p1, p2, p3, cols = 3)
 p4 <- timegraph(corpus_large,"2010") +
 ggtitle("More frequently used words, 2010")
 p5 <- timegraph(corpus_large,"2012") +
@@ -341,7 +285,7 @@ ggtitle("More frequently used words, 2015")
 ```
 
  
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2010"}
 p4
 ```
 
@@ -349,14 +293,14 @@ n the 2010 period, "greek+crisis" and "bailout+greece" are the most frequently u
 
 
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2010"}
 p5
 ```
 
 In the 2012 period, there was a discourse on the greek crisis weeks before the agreement. "greek+crisis" was used from the beginning of February until February 21st when the agreement between the Greek government and the Troika was reached [@economist2012] constantly in between around 40 to 75 tweets. The usage of "greek+crisis" peaked at the date when the agreement was reached (in contrast to 2010 when it dropped around this phase). However, just like in 2010, "bailout+greece" became the most frequently used phrase in all tweets (of our sample) at the time when agreement was reached. After that, twitter users tweeted less about "bailout+greece" and "greek+crisis". However, it took nearly a month for those words being used only ten times a day. Notably, "grexit" which had not been used in 2010 was used frequently in the negotiation phase. 
 
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2010"}
 p6
 ```
 
@@ -370,98 +314,172 @@ In the 2015 period, "greek crisis" was still amongst the most commonly used word
 
 ## Inferential Statistics: Sentiment Analysis
 
-For sentiment analysis, we used the R packages tm.lexicon.GeneralInquirer [@R-tm.lexicon.GeneralInquirer] and tm.plugin.sentiment [@R-tm.plugin.sentiment]. We calculated the sentiment from the text corpora based on simple word counts. The package already includes a sentiment dictionary. The sentiment analysis returned a number in between -3 and 3 for all tweets. Low scores indicate negative sentiment, high scores indicate positive sentiment.
+We summarised sentiment over time and across countries. Figures 10-12 show total sentiment scores (across all queries) and sentiment variance for all of the European countries in our dataset in each of the three time periods. We can visually identify variation in the overall score and in the variance between countries and across the three time periods.
 
-We looked at individual tweets and compared the results to our perception of sentiment of the tweet. While there seemed to be some problems, the sentiment analysis scores did seem reasonable. 
+```{r echo=FALSE,warning=FALSE,message=FALSE}
 
-However, when calculating the sentiments for queries, the returned results did not match our expectations. Below we report the resulted for the query "merkel+greece". We report the sum of the positive scores divided by the number of tweets. The figures indicate that the sentiments were very positive in most of the European countries and very similar.
+greek_greece_debt <- merged_corpus_europe %>%
+    filter(query %in% c("greek+debt","greece+debt")) %>%
+    mutate(query="greek_greece_debt") 
+  
+  greek_greece_debt <- greek_greece_debt[!duplicated(greek_greece_debt$tweet_id),]
+  
+  merged_corpus_europe <- rbind(merged_corpus_europe,greek_greece_debt)
+  
+  merged_corpus_europe$day <- as.Date(substr(as.character(merged_corpus_europe$date),1,10))
+  
+  by_country_by_year_by_query <- merged_corpus_europe %>%
+    group_by(approx_country,period,query) %>%
+    summarise(
+      sentiment = mean(stotal,na.rm=TRUE),
+      sentiment_variance = var(stotal,na.rm=TRUE),
+      tweet_count = length(stotal)
+    ) %>%
+    mutate(query = gsub("\\+","_",query))
+  
+  total_summary <- merged_corpus_europe %>%
+    group_by(approx_country,period) %>%
+    summarise(
+      sentiment = mean(stotal,na.rm=TRUE),
+      sentiment_variance = var(stotal,na.rm=TRUE),
+      tweet_count = length(stotal)   
+    )
 
-```{r include=FALSE, eval=FALSE}
-by_country_by_year <- merged_corpus_europe %>%
-  group_by(approx_country,period,query) %>%
-  summarise(
-    sentiment = mean(stotal,na.rm=TRUE)
-  ) %>%
-  mutate(query = gsub("\\+","_",query)) %>%
-  spread(query,sentiment)
+countries.df <- prepare_sentiment_map_data() 
 
 
-countries <- readShapeSpatial("../../data/geographic_data/CNTR_2014_60M_SH/Data/CNTR_RG_60M_2014.shp")
+```
 
-#countries@data$id <- countries@data$CNTR_ID
-countries.points <- fortify(countries)
-countries.points <- left_join(
-  countries.points,
-  data.frame(
-    id = unique(countries.points$id),
-    CNTR_ID = unique(countries@data$CNTR_ID)
-  )
-)
-countries.df <- countries.points %>%
-  left_join(countries@data,by="CNTR_ID")
+```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores and variance across all search queries (2010)"}
 
-countries.df$CNTR_ID <- as.character(countries.df$CNTR_ID)
+s <- sentiment_map(countries.df,"2010")
+v <- sentiment_map(countries.df,"2010",v="sentiment_variance")
 
-countries.df[countries.df$CNTR_ID=="UK","CNTR_ID"] <- "GB"
-countries.df[countries.df$CNTR_ID=="EL","CNTR_ID"] <- "GR"
+multiplot(s,v,cols=2)
+```
 
-countries.df <- countries.df %>%
-  left_join(
-    rename(
-      by_country_by_year,
-      CNTR_ID = approx_country
-      )
-  ) 
 
-sentiment_map <- function(df,p,q) {
-  ggplot(filter(df,period==p))+
-  aes_string("long","lat",group="group",fill=q) +
-  scale_fill_gradientn(colours=c("red","white","green"),limits=c(-2,2)) +
-  geom_polygon() +
-  #scale_fill_continuous(low="white",high="green",na.value="grey") +
-  geom_path(color="grey",size=0.1) +
-  #theme_bw() +
-  #theme_nothing() +
-  theme(
-    panel.background = element_rect(fill="#84C9F8"),
-    axis.text = element_blank(),
-    line = element_blank(),
-    axis.text = element_blank()
-  ) +
-  xlim(c(-12,35)) +
-  ylim(c(32,72)) +
-  labs(fill="Sentiment",x="",y="") + 
-  coord_equal()
+```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores and variance across all search queries (2012)"}
+s <- sentiment_map(countries.df,"2012")
+v <- sentiment_map(countries.df,"2012",v="sentiment_variance")
+
+multiplot(s,v,cols=2)
+```
+
+```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores and variance across all search queries (2015)"}
+s <- sentiment_map(countries.df,"2015")
+v <- sentiment_map(countries.df,"2015",v="sentiment_variance")
+
+multiplot(s,v,cols=2)
+```
+
+To test whether the spatio-temporal distribution of sentiment in tweets is significant, we regress sentiment score on country and time dummies.
+
+```{r include=FALSE}
+
+reg <- lm(stotal~approx_country+period,data=merged_corpus_europe)
+lmp <- function (modelobject) {
+	if (class(modelobject) != "lm") stop("Not an object of class 'lm' ")
+	f <- summary(modelobject)$fstatistic
+	p <- pf(f[1],f[2],f[3],lower.tail=F)
+	attributes(p) <- NULL
+	return(p)
 }
 
-sentiment_map(countries.df,"2010","austerity_greece")
-sentiment_map(countries.df,"2012","austerity_greece")
-sentiment_map(countries.df,"2015","austerity_greece")
+Fstat <- lmp(reg)
+
+```
+
+An F-test on the joint significance of country and time finds that we can reject at the 1% significance level (p = `r round(Fstat,4)`) the null hypothesis that time-period and country have no effect on sentiment. 
+
+We focus our analysis in this paper on the whole corpus, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate specific queries during any of the periods.
+
+To focus our analysis, we zoom in to a single time period (2015), and to two countries where we expect sentiment to diverge: Greece and Germany. Figure 13 plots shows daily sentiment averages, surrounded by a band the width of the square root of the variance. A first observation is that the paths of the lines are remarkably similar. Following on from this, we can see how sentiment in both countries reacts to actual political events. On the 13th of July, Greece and its creditors struck a deal to agree on terms for bailout funds in exchange for stringent cuts and reforms. [@LSEtwitter] identify the emergence of the "#thisisacoup" hashtag on the 13th. We can observe a clear drop in sentiment over the next two days in both countries. On the 14th of August the Greek parliament approved the package of reforms that formed part of the bailout deal. This time we see a spike in sentiment, once again in both countries, but more pronounced in Germany. Indeed, where each countries lines diverge, it is most often Greece which displays less positive sentiment 
+
+```{r include=FALSE}
+merged_corpus_daily <- merged_corpus_europe %>%
+  group_by(day,period,approx_country,query) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  ) %>%
+  mutate(query = gsub("\\+","_",query))
+
+merged_corpus_daily_total <- merged_corpus_europe %>%
+  group_by(day,period,approx_country) %>%
+  summarise(
+    sentiment = mean(stotal,na.rm=TRUE),
+    sentiment_variance = var(stotal,na.rm=TRUE),
+    tweet_count = length(stotal)
+  ) 
+```
+
+```{r echo=FALSE,warning=FALSE,message=FALSE, fig.cap="Sentiment scores (line) and variance (band) for all queries in 2015"}
+sentiment_time(merged_corpus_daily_total,"2015",clist=c("GR","DE"))
+```
+
+We once again regress sentiment on country and time, this time limiting out results to 2015 period and the two countries here. In this case, the time variable is a dummy for each day. This is intended as a control to capture the effects of political events, but it is omitted from the table as its interpretation is not relevant. The highly significant negative coefficient for Greece confirms our impression from the graph that sentiment in our corpus over this period was lower in Greece.
+
+```{r echo=FALSE,warning=FALSE,message=FALSE,results='asis'}
+merged_corpus_grde_2015 <- merged_corpus_europe %>%
+  filter(approx_country %in% c("DE","GR") & period=="2015")
+gr_de_reg <- lm(stotal~approx_country+as.factor(day),data=merged_corpus_grde_2015)
+stargazer(
+  gr_de_reg,
+  keep=c('Constant','approx_country'),
+  covariate.labels=c('Greece','Constant (Germany)'),
+  dep.var.labels = 'Tweet sentiment score',
+  title = 'The country effect on twitter sentiment (controlling for day) in Greece and Germany in 2015',
+  header=FALSE
+          )
 
 ```
 
 
+# Conclusion
 
-We conclude from this that our current sentiment analysis does not return reasonable results. We will in the next stage of the project try to create a model that returns more accurate results. 
+With respect to the first part of our research question, we receive a clear indication that discussion over Twitter of the public debt crisis in Greece has increased over the three time-periods we looked at. This could be in part driven by our selection of queries, which, because the issues and personalities associated with the most recent period are more easily recalled, may be biased towards the most recent period. However, the magnitude of the difference in numbers in each period suggests that this can not be more than part of the explanation. Indeed, a quick look at the number of tweets for what would seem to be a time-agnostic query in figure ?, "greek+crisis", still suggests an exponential increase in tweet numbers.
+
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap='Tweets matching the query "greek+crisis" by year'}
+
+by_period <- merged_corpus_europe %>%
+  filter(query=="greek+crisis") %>%
+  group_by(period) %>%
+  summarise(
+    n = length(period)
+  )
+
+ggplot(
+  by_period,
+  aes(period,n)) + 
+  geom_bar(stat="identity") +
+  theme_bw() +
+  ylab('n of Tweets') +
+  xlab('Period')
+
+
+```
+
+Assuming that discussion of the Greek crisis in the twittersphere has increased dramatically, we cannot suggest that Europeans are talking about European issues more. What we can say is that Europeans are talking about European issues more on Twitter. That in itself is significant. When Europeans communicate via the Twittersphere, all of Europe can read that communication, and all of Europe can reply. The same machine-translation technology that allows us to analyse a multilingual corpus of tweets is also provided to twitter users when browsing Twitter. Twitter therefore clearly has the potential to enable a European public sphere. That more Europeans use are using Twitter to talk about political issues, and that, as [@LSEtwitter] showed, tweets and replies are interconnected across countries <!-- Lets include the picture we included in the pres somewhere in the lit review --> can be seen as positive signs for the emergence of a European public sphere.
+
+We also showed how the content of tweets can be machine-processed at scale (the number of tweets in our European database was `r length(unique(merged_corpus_europe$tweet_id))` and the corpus contained `r sum(nchar(unique(merged_corpus_europe$text)))` characters). The results need further validation, and substantive interpretation is difficult, but we are able to detect significant variation in sentiment that makes intuitive sense. We were able, building on the work of [@LSEtwitter] to show how sentiment, as well as volume, of tweets reacted to political events. We saw predictable differences in sentiment between countries.
+
+
+
 
 \newpage
 
-# Caveats
+# Limitations
 
-- Location
-- translation: danish, romanian, 
-- "normalizaion" of values not conducted for some, because of huge data amounts
-- SA: caution, however, about the utility of SA in predictive models [@grimmer2013, 4]. "For shorter texts, accompanying information (or an extremely large volume of texts) is often necessary for classifcation or scaling methods to perform reliably" [@grimmer2013, 6]
-- research design: case selection ambigious - for research on a common european sphere, choosing a case that by definition devides along national lines
+This section discusses limitations of the project. It starts with limitations to the more general research design and then identifies limitations in data processing. 
 
-# Conclusions
+Regarding our research design, one possible limitation is our case selection. We choose a case with a) high relevance to all European states which also, by definition, b) devides along national lines. By comparing Greece and Germany we did indeed find that twitter users in both countries react to the same real world events, but we also find, that there is a statistically significant difference in sentiment in between the countries. To which extent these results are only characteristical for our case or for the emergence of a common European public sphere, cannot be answered here. Drewski in his recent contribution notes that there is "some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics." He further assesses that "this is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality." [@Drewski2015]
 
-<!-- Qoute from Drewski, maybe for the final paper? There is some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics. This is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality -->
+Regarding data processing, the limitations should be mentioned. Location plays a crucial role in our research design. For most of the location data we relied on the location provided by the user themselves. As mentioned earlier, Devin Gaffney already pointed out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1]. Also, we did not translate all tweets (namely, we did not translate Danish and Romanian tweets). This was because the error rate when identifying tweets written in those languages was very high. Hence, the results for those countries should be read carefully, as they mirror sentiment in those tweets written in English.
+
+
+
 
 
 # References
-
-```{r include=FALSE}
-pkgs <- c('twitteR')
-repmis::LoadandCite(pkgs, file = 'RpackageCitations.bib')
-```
