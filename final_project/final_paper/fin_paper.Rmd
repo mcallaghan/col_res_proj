@@ -7,7 +7,7 @@ output:
   pdf_document:
     fig_caption: yes
     highlight: zenburn
-    latex_engine: pdflatex
+    latex_engine: xelatex
     keep_tex: true
     toc: yes
   html_document:
@@ -80,14 +80,20 @@ Finally, some studies discuss ethical aspects of twitter research. For example, 
 
 Academic research on the emergence of a European public sphere is not a recent phenomenon [@risse2003emerging, 1]. Hitherto, however, research has been characterized as rather normative, as the "research community has been [...] interested in producing policy recommendations for public sphere-building" [@Trenz2015, 234]. Recent studies, on the other hand, seem to put emphasis on an empirical grounding of the debate [@Trenz2015; @Drewski2015]. This development is being mirrored in research on the public debate across Europe on the euro crisis. It has been suggested that “there  is  an  emerging  demos  in  the European  polity  and  it  has  been  strengthened during the euro crisis” [@risse2014, 1213]. When testing this hypothesis empirically, though, by looking at newspaper editorials in Spain and Germany, Drewski found that there were significant differences  along  national  instead  of  ideological  lines  in  the discussion  of  the  Euro  crisis [@Drewski2015, 5].
 
-Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, Tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe.
+Max Hänska and Stefan Bauchowitz in a recent LSE blog entry track twitter activity during the negotiations leading up to the third Greek bailout agreement. [@LSEtwitter] According to their findings, Tweets synchronised around key mini-events throughout the negotiations, with peaks and troughs mirrored across national twitter-spheres. These results suggest that popular engagement with the issue converges across Europe (see figure 1).
 
 ![Tweet volumes by country on 12-13 July 2015 in European countries [source @LSEtwitter]](../../img/Greece-twitter-1.jpg)
 
 
-They further looked at instances of Tweets containing #ThisIsACoup, representing a particular opinion on the agreement. They then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines.
+They further looked at instances of Tweets containing #ThisIsACoup, representing a particular opinion on the agreement. They then showed that the spread of #ThisIsACoup was not reflected in the studied countries equally. This indicated a divergence of public opinion along national lines (see figure 2).
 
 ![Number of Tweets containing the #thisisacoup hashtag on 12-13 July 2015 [source @LSEtwitter]](../../img/Greece-twitter-2.png)
+
+However, figure 3 shows how tweets across Europe were connected.
+
+![A network map of European tweets [source @LSEtwitter]](../../img/Greece-twitter-3.jpg)
+
+
 
 # Data Sources
 
@@ -192,7 +198,7 @@ ggplot(
 
 
 ```
-This bar chart shows the distribution of all tweets over countries filtering those with a significant amount of tweets. This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
+Figure 5 shows the distribution of all tweets over countries filtering those with a significant amount of tweets. This group seems to be a mix of high twitter user numbers and affectedness/involvement/relation to the events in Greece. Most probably reflecting high user numbers in the US, the US seems to be the origin of most tweets regarding the European sovereign-debt crisis. However, when controlling for period, the US resembles an atypical case. While for most other countries, tweet number on the topic increase over the years, they decrease substantially in the US.
 
 ### Variation Across Time
 
@@ -215,9 +221,10 @@ ggplot(
 
 ```
 
-The results show that twitter coverage of the Greek bailouts has increased heavily over time. When looking at the development of different queries over time, an increase was found for all queries except for for imf+greece, which decreased in 2012 and increased in 2015 again. Since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. Further, some of our queries only became topical in the later periods or even the last periods. 
+Figure 6 shows that twitter coverage of the Greek bailouts has increased heavily over time. When looking at the development of different queries over time, an increase was found for all queries except for for "imf+greece", which decreased in 2012 and increased in 2015 again. Since the shown results are not normalized, it is difficult to say how much of the growth of the population of tweets can be attributed to an increase in twitter usage or to an increase of interest in the topic. Further, some of our queries only became topical in the later periods or even the last periods. 
 
 ### Variation Across Space and Time
+Figure 7 Shows us that tweets in earlier periods are concentrated in very few countries. Only in 2015 do we see a wider distribution across all European countries.
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap="Spatio-Temporal distribution of total tweets in corpus"}
 
@@ -241,7 +248,7 @@ ggplot(
 
 ## Queries
 
-The following table summarizes the collected data by queries. It shows absolute numbers and relative distributions of specific query returns.  
+Table 1 summarizes the collected data by queries. It shows absolute numbers and relative distributions of specific query returns.  
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6}
 
@@ -273,12 +280,9 @@ corpus_index_small <- filter(corpus_index,total<4000)
 corpus_large <- filter(merged_corpus_europe,query %in% corpus_index_large$query)
 
 
-p4 <- timegraph(corpus_large,"2010") +
-ggtitle("More frequently used words, 2010")
-p5 <- timegraph(corpus_large,"2012") +
-ggtitle("More frequently used words, 2012")
-p6 <- timegraph(corpus_large,"2015") +
-ggtitle("More frequently used words, 2015")
+p4 <- timegraph(corpus_large,"2010") 
+p5 <- timegraph(corpus_large,"2012") 
+p6 <- timegraph(corpus_large,"2015") 
 #multiplot(p4, p5, p6, cols = 3)
 
 
@@ -289,18 +293,18 @@ ggtitle("More frequently used words, 2015")
 p4
 ```
 
-n the 2010 period, "greek+crisis" and "bailout+greece" are the most frequently used query. "Bailout" usage in tweets peaks around April 23rd when Greek prime minister Papandreo formally requested an international bailout for Greece. In the following day, "greek+crisis" is used at its highest level, with nearly 125 occurances on April 28th. However, the use of "greek+crisis" in tweets dropped dramatically for a short period of around 6 days, before it peaked again, however somewhat less pronounced. The drop in usage of "greek+crisis" was accompanied by an increase in usage of "greek+bailout", which peaked around May 2nd before it subsided. On May 2nd, the agreement on the First bailout package was reached [@reuter2010]. During this short phase, "greek+bailout" was the most prominently used word combination (from our sample). Only after "greeck+crisis" became most frequently used words. 
+In the 2010 period, "greek+crisis" and "bailout+greece" are the most frequently used query. "Bailout" usage in tweets peaks around April 23rd when Greek prime minister Papandreo formally requested an international bailout for Greece. In the following day, "greek+crisis" is used at its highest level, with nearly 125 occurances on April 28th. However, the use of "greek+crisis" in tweets dropped dramatically for a short period of around 6 days, before it peaked again, however somewhat less pronounced. The drop in usage of "greek+crisis" was accompanied by an increase in usage of "greek+bailout", which peaked around May 2nd before it subsided. On May 2nd, the agreement on the First bailout package was reached [@reuter2010]. During this short phase, "greek+bailout" was the most prominently used word combination (from our sample). Only after "greeck+crisis" became most frequently used words. 
 
 
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2010"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2012"}
 p5
 ```
 
 In the 2012 period, there was a discourse on the greek crisis weeks before the agreement. "greek+crisis" was used from the beginning of February until February 21st when the agreement between the Greek government and the Troika was reached [@economist2012] constantly in between around 40 to 75 tweets. The usage of "greek+crisis" peaked at the date when the agreement was reached (in contrast to 2010 when it dropped around this phase). However, just like in 2010, "bailout+greece" became the most frequently used phrase in all tweets (of our sample) at the time when agreement was reached. After that, twitter users tweeted less about "bailout+greece" and "greek+crisis". However, it took nearly a month for those words being used only ten times a day. Notably, "grexit" which had not been used in 2010 was used frequently in the negotiation phase. 
 
 
-```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2010"}
+```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6,fig.align="center",fig.cap="Most common search queries, 2015"}
 p6
 ```
 
@@ -314,7 +318,7 @@ In the 2015 period, "greek crisis" was still amongst the most commonly used word
 
 ## Inferential Statistics: Sentiment Analysis
 
-We summarised sentiment over time and across countries. Figures 10-12 show total sentiment scores (across all queries) and sentiment variance for all of the European countries in our dataset in each of the three time periods. We can visually identify variation in the overall score and in the variance between countries and across the three time periods.
+We summarised sentiment over time and across countries. Figures 11-13 show total sentiment scores (across all queries) and sentiment variance for all of the European countries in our dataset in each of the three time periods. We can visually identify variation in the overall score and in the variance between countries and across the three time periods.
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
 
@@ -394,7 +398,7 @@ An F-test on the joint significance of country and time finds that we can reject
 
 We focus our analysis in this paper on the whole corpus, though we also release our dataset aggregated at the country level in [interactive form](http://mcallaghan.github.io/col_res_proj/), where users can investigate specific queries during any of the periods.
 
-To focus our analysis, we zoom in to a single time period (2015), and to two countries where we expect sentiment to diverge: Greece and Germany. Figure 13 plots shows daily sentiment averages, surrounded by a band the width of the square root of the variance. A first observation is that the paths of the lines are remarkably similar. Following on from this, we can see how sentiment in both countries reacts to actual political events. On the 13th of July, Greece and its creditors struck a deal to agree on terms for bailout funds in exchange for stringent cuts and reforms. [@LSEtwitter] identify the emergence of the "#thisisacoup" hashtag on the 13th. We can observe a clear drop in sentiment over the next two days in both countries. On the 14th of August the Greek parliament approved the package of reforms that formed part of the bailout deal. This time we see a spike in sentiment, once again in both countries, but more pronounced in Germany. Indeed, where each countries lines diverge, it is most often Greece which displays less positive sentiment 
+To focus our analysis, we zoom in to a single time period (2015), and to two countries where we expect sentiment to diverge: Greece and Germany. Figure 14 plots daily sentiment averages, surrounded by a band the width of the square root of the variance. A first observation is that the paths of the lines are remarkably similar. Following on from this, we can see how sentiment in both countries reacts to actual political events. On the 13th of July, Greece and its creditors struck a deal to agree on terms for bailout funds in exchange for stringent cuts and reforms. [@LSEtwitter] identify the emergence of the "#thisisacoup" hashtag on the 13th. We can observe a clear drop in sentiment over the next two days in both countries. On the 14th of August the Greek parliament approved the package of reforms that formed part of the bailout deal. This time we see a spike in sentiment, once again in both countries, but more pronounced in Germany. Indeed, where each countries lines diverge, it is most often Greece which displays less positive sentiment.
 
 ```{r include=FALSE}
 merged_corpus_daily <- merged_corpus_europe %>%
@@ -439,7 +443,7 @@ stargazer(
 
 # Conclusion
 
-With respect to the first part of our research question, we receive a clear indication that discussion over Twitter of the public debt crisis in Greece has increased over the three time-periods we looked at. This could be in part driven by our selection of queries, which, because the issues and personalities associated with the most recent period are more easily recalled, may be biased towards the most recent period. However, the magnitude of the difference in numbers in each period suggests that this can not be more than part of the explanation. Indeed, a quick look at the number of tweets for what would seem to be a time-agnostic query in figure ?, "greek+crisis", still suggests an exponential increase in tweet numbers.
+With respect to the first part of our research question, we receive a clear indication that discussion over Twitter of the public debt crisis in Greece has increased over the three time-periods we looked at. This could be in part driven by our selection of queries, which, because the issues and personalities associated with the most recent period are more easily recalled, may be biased towards the most recent period. However, the magnitude of the difference in numbers in each period suggests that this can not be more than part of the explanation. Indeed, a quick look at the number of tweets for what would seem to be a time-agnostic query in figure 15, "greek+crisis", still suggests an exponential increase in tweet numbers.
 
 ```{r cache=TRUE, warning=FALSE, echo=FALSE, fig.width=6, fig.align="center", fig.cap='Tweets matching the query "greek+crisis" by year'}
 
@@ -463,7 +467,7 @@ ggplot(
 
 Assuming that discussion of the Greek crisis in the twittersphere has increased dramatically, we cannot suggest that Europeans are talking about European issues more. What we can say is that Europeans are talking about European issues more on Twitter. That in itself is significant. When Europeans communicate via the Twittersphere, all of Europe can read that communication, and all of Europe can reply. The same machine-translation technology that allows us to analyse a multilingual corpus of tweets is also provided to twitter users when browsing Twitter. Twitter therefore clearly has the potential to enable a European public sphere. That more Europeans use are using Twitter to talk about political issues, and that, as [@LSEtwitter] showed, tweets and replies are interconnected across countries <!-- Lets include the picture we included in the pres somewhere in the lit review --> can be seen as positive signs for the emergence of a European public sphere.
 
-We also showed how the content of tweets can be machine-processed at scale (the number of tweets in our European database was `r length(unique(merged_corpus_europe$tweet_id))` and the corpus contained `r sum(nchar(unique(merged_corpus_europe$text)))` characters). The results need further validation, and substantive interpretation is difficult, but we are able to detect significant variation in sentiment that makes intuitive sense. We were able, building on the work of [@LSEtwitter] to show how sentiment, as well as volume, of tweets reacted to political events. We saw predictable differences in sentiment between countries.
+We also showed how the content of tweets can be machine-processed at scale (the number of tweets in our European database was `r length(unique(merged_corpus_europe$tweet_id))` and the corpus contained `r sum(nchar(unique(merged_corpus_europe$text)))` characters). The results need further validation, and substantive interpretation is difficult, but we are able to detect significant variation in sentiment that makes intuitive sense. We were able, building on the work of [@LSEtwitter] to show how sentiment, as well as volume, of tweets reacted to political events. We saw predictable differences in sentiment between countries. The possibilities of large-scale sentiment analysis of tweets are demonstrated. The methods developed in this paper could have significant and varied applications.
 
 
 
@@ -472,11 +476,11 @@ We also showed how the content of tweets can be machine-processed at scale (the 
 
 # Limitations
 
-This section discusses limitations of the project. It starts with limitations to the more general research design and then identifies limitations in data processing. 
+Some limitations to our project should be noted.
 
-Regarding our research design, one possible limitation is our case selection. We choose a case with a) high relevance to all European states which also, by definition, b) devides along national lines. By comparing Greece and Germany we did indeed find that twitter users in both countries react to the same real world events, but we also find, that there is a statistically significant difference in sentiment in between the countries. To which extent these results are only characteristical for our case or for the emergence of a common European public sphere, cannot be answered here. Drewski in his recent contribution notes that there is "some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics." He further assesses that "this is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality." [@Drewski2015]
+Regarding our research design, one possible limitation is our case selection. We chose a case with a) high relevance to all European states which also, by definition, b) divides along national lines. By comparing Greece and Germany we did indeed find that twitter users in both countries react to the same real world events, but we also find, that there is a statistically significant difference in sentiment in between the countries. To which extent these results are only characteristic for our case or for the emergence of a common European public sphere, cannot be answered here. Drewski in his recent contribution notes that there is "some evidence that Europeans have reacted to the crisis not by banding together,  but  by  rallying  around  national  values  and  interests.  For  example,  the  German center‐left was not ready to side with the Spanish center‐left to fight the neoliberal response to the crisis. Instead, they preferred to stick to their German compatriots from the center‐right in supporting austerity politics." He further assesses that "this is no good news for the idealists’ vision of a European demos engendered by the Euro crisis. A post‐national European  democracy,  giving  voice  to  transnational  political  coalitions,  is  still  far from  becoming  reality." [@Drewski2015]
 
-Regarding data processing, the limitations should be mentioned. Location plays a crucial role in our research design. For most of the location data we relied on the location provided by the user themselves. As mentioned earlier, Devin Gaffney already pointed out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1]. Also, we did not translate all tweets (namely, we did not translate Danish and Romanian tweets). This was because the error rate when identifying tweets written in those languages was very high. Hence, the results for those countries should be read carefully, as they mirror sentiment in those tweets written in English.
+Regarding data processing, the limitations should be mentioned. Location plays a crucial role in our research design. For most of the location data we relied on the location provided by the user themselves. As mentioned earlier, Devin Gaffney already pointed out methodological problems with using the given location of twitter users - "in many cases user-entered profile locations differ from the physical locations users are actually Tweeting from" [@Graham2014, 1]. Additionally, we did not translate all tweets (namely, we did not translate Danish and Romanian tweets). This was because the error rate when identifying tweets written in those languages was very high. Hence, the results for those countries should be read carefully, as they mirror sentiment in those tweets written in English.
 
 
 

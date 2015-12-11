@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+<title>
+	A European Hyperagora
+</title>
+<h4>
+  Average sentiment in <span id="countryDisplay"></span> in
+<span id="yearDisplay">2015</span>
+  for tweets containing the query
+"<span id="queryDisplay"></span>"
+</h4>
+<div id="graph">
+
+</div>
+
+<input id="yearSelector" type="range" min=0 max=2 step=1 onchange="changeYear(this.value)">
+<select id="querySelector" onchange="changeQuery(this.value)"></select>
+<select id="countrySelector" onchange="changeCountry(this.value)"></select>
+
+<script type="text/javascript">
+d3.json("time_data.JSON", function(error, data) {
+  srcdata = data
+
+  d3.select("#querySelector").selectAll("option")
+    .data(d3.map(srcdata, function(d){return d.query;}).keys())
+    .enter()
+    .append("option")
+    .text(function(d){return d;})
+    .attr("value",function(d){return d;});
+
+  d3.select("#countrySelector").selectAll("option")
+    .data(d3.map(srcdata, function(d){return d.approx_country;}).keys())
+    .enter()
+    .append("option")
+    .text(function(d){return d;})
+    .attr("value",function(d){return d;});
+
+  document.getElementById("queryDisplay").innerHTML = "greek_crisis"
+  document.getElementById("querySelector").value = "greek_crisis"
+  document.getElementById("yearDisplay").innerHTML = "2015"
+  document.getElementById("yearSelector").value = 3
+  document.getElementById("countryDisplay").innerHTML = "GB"
+  document.getElementById("countrySelector").value = "GB"
+
+  drawgraph(srcdata,"2015","greek_crisis","GB")
+  console.log(srcdata)
+
+})
+
+	div = d3.select("body").append("div")
+		.attr("class", "tooltip")
+		.style("opacity", 0);
+
+
+	w = 800;
+	h = 500;
+
+function changeYear(year) {
+  var years = ["2010","2012","2015"]
+  var year = years[year]
+  document.getElementById("yearDisplay").innerHTML = year
+  var query = document.getElementById("queryDisplay").innerHTML
+  var country = document.getElementById("countryDisplay").innerHTML
+  drawgraph(srcdata,year,query,country)
+}
+
+function changeQuery(q) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var country = document.getElementById("countryDisplay").innerHTML
+  document.getElementById("queryDisplay").innerHTML = q
+  drawgraph(srcdata,year,q,country)
+}
+
+function changeCountry(country) {
+  var year = document.getElementById("yearDisplay").innerHTML
+  var q = document.getElementById("queryDisplay").innerHTML
+  document.getElementById("countryDisplay").innerHTML = country
+  drawgraph(srcdata,year,q,country)
+}
+
+
+function drawgraph(srcdata,p,q,country) {
+  console.log(p)
+  console.log(q)
+  console.log(country)
+  data = srcdata.filter(function(d){
+    return(d.period==p && d.query==q && d.approx_country==country)
+  })
+  console.log(data)
+
+  d3.select("svg").remove();
+
+  var graph = d3.select("#graph")
+    .append("svg")
+    .attr("width", w)
+    .attr("height", h)
+
+    graph.append("rect")
+  		.attr("width", w)
+  		.attr("height", h)
+  		.style("fill", "white")
+  		.style("stroke", "black")
+  		.style("stroke-width", 2)
+
+  	/*graph.append("line")
+  		.attr("class", "axis")
+  		.attr("x1", w*0.1)
+  		.attr("x2", w* 0.9)
+  		.attr("y1", h*0.5)
+  		.attr("y2", h*0.5)
+  		.attr("stroke-width", 1)
+  		.attr("stroke", "black");
+    */
+
+  	graph.append("line")
+  		.attr("class", "axis")
+  		.attr("x1", w*0.1)
+  		.attr("x2", w* 0.1)
+  		.attr("y1", h*0.9)
+  		.attr("y2", h*0.1)
+  		.attr("stroke-width", 1)
+  		.attr("stroke", "black");
+
+    var start = d3.min(data, function(d) { return d.date; });
+    var end = d3.max(data, function(d) { return d.date; });
+    console.log(start)
+    console.log(end)
+    length = end - start
+    n = Math.round(length / 5)
+    console.log(n)
+
+    /*
+    startDate = Date.parse(data[0].day)
+    dates = [{}]
+
+
+    for (i = 0; i < n;i++) {
+      if(i==0){
+        var d = startDate
+        var dd = start
+      } else {
+        var d = d + n * 86400000
+        var date = new Date();
+        date.setTime(d)
+        var strdate = date.toDateString();
+        var dd = dd + n
+      }
+      console.log(dd)
+      console.log(d)
+      console.log(strdate)
+    }
+
+    console.log(dates)
+    */
+
+  	gyscale = d3.scale.linear()
+  		.domain([-4, 4])
+  		.range([h*0.90, h*0.1]);
+
+  	gxscale = d3.scale.linear()
+  		.domain([start, end])
+  		.range([w*0.15, w*0.85]);
+
+    ts = [-4,-3,-2,-1,0,1,2,3,4]
+
+    tl = graph.append("g").selectAll("line")
+        .data(ts)
+        .enter()
+        .append("line")
+        .attr("x1", w*0.1)
+        .attr("x2", w* 0.9)
+        .attr("y1", function(d) { return gyscale(d) })
+        .attr("y2", function(d) { return gyscale(d) })
+        .attr("stroke-width", 0.5)
+        .attr("stroke", "grey");
+
+    yax = graph.selectAll("text")
+      .data(ts)
+      .enter()
+      .append("text")
+      .attr("text-anchor", "middle")
+      .style("fill", 'black')
+      .style("font-size", w/50 + "px")
+      .attr("y", function(d) { return gyscale(d)})
+      .attr("x", w*0.05)
+      .text(function(d) { return d});
+
+    xax = graph.append("g").selectAll("text")
+  		.data(data.filter(function(d){
+        if ((d.date - start) % n == 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }))
+  		.enter()
+  		.append("text")
+  		.attr("text-anchor", "middle")
+  		.style("fill", 'black')
+  		.style("font-size", w/50 + "px")
+  		.attr("x", function(d) { return gxscale(d.date)})
+  		.attr("y", h*0.95)
+  		.text(function(d) { return d.day});
+
+    graph.selectAll("circle")
+  		.data(data)
+  		.enter()
+  		.append("circle")
+  		.attr("cx", function(d) { return gxscale(d.date)})
+  		.attr("cy", function(d) { return gyscale(d.sentiment)})
+  		.attr("r", 3)
+  		.on("mouseover", function(d) {
+  			d3.select(this).style("fill", "steelblue")
+  			div.transition().duration(300).style("opacity",1)
+  			div.html(d.day + " - sentiment average: " + d.sentiment.toFixed(2))
+    				.style("left", (d3.event.pageX + 10) + "px")
+      				.style("top", (d3.event.pageY -30) + "px");
+  		})
+  	.on("mouseout",function(d) {
+  		div.transition().duration(300).style("opacity", 0)
+  		d3.select(this).style("fill", "rgb(144, 180, 210)")
+  	});
+
+    variancelines = graph.append("g").selectAll("line")
+        .data(data)
+        .enter()
+        .append("line")
+        .attr("x1", function(d) { return gxscale(d.date)})
+        .attr("x2", function(d) { return gxscale(d.date)})
+        .attr("y1", function(d) { return gyscale(
+          d.sentiment - Math.sqrt(d.sentiment_variance)/2
+        )})
+        .attr("y2", function(d) { return gyscale(
+          d.sentiment + Math.sqrt(d.sentiment_variance)/2
+        )})
+        .attr("stroke-width", 0.5)
+        .attr("stroke", "grey");
+
+    var line = d3.svg.line()
+  		.x(function(d) {
+  			return gxscale(d.date);
+  		})
+  		.y(function(d) {
+  			return gyscale(d.sentiment);
+  		})
+
+  	graph.append("svg:path").attr("d", line(data));
+}
+
+</script>
