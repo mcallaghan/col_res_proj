@@ -8,8 +8,7 @@ css: style/website.css
 load("data/merged_corpus_europe.rda")
 ```
 
-
-We collected `r length(unique(merged_corpus_europe$tweet_id))` tweets from Europe containing keywords relating to the Greek debt crisis over three periods surrounding the agreement of three bailout deals. Each tweet was machine-translated into English, and compared to a lexicon of positive and negative words to give it a sentiment score. We present the results of the analysis below in interactive form so that users can explore the data.
+Is there such a thing as a European Hyperagora? We collected `r length(unique(merged_corpus_europe$tweet_id))` tweets from Europe containing keywords relating to the Greek debt crisis over three periods surrounding the agreement of three bailout deals. Each tweet was machine-translated into English, and compared to a lexicon of positive and negative words to give it a sentiment score. We present the results of the analysis below in interactive form so that users can explore the data. The full paper is available [here](https://github.com/mcallaghan/col_res_proj/blob/master/final_project/final_paper/fin_paper.pdf)
 
 In the map below, users can specify the period and the query for which they want to see results. Average sentiment scores or the variance in sentiment can then be displayed for the selected period and search term.
 
